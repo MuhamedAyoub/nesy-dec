@@ -1,0 +1,17 @@
+{
+  "app": "plantsbywebsphere",
+  "triplets": 674,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "shared_entity": 134,
+    "must_link": 337,
+    "cocite": 203
+  },
+  "neg_sources": {
+    "same_role": 404,
+    "random": 270
+  },
+  "distinct_anchors": 28,
+  "active_classes": 35
+}

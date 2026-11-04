@@ -1,0 +1,622 @@
+[
+  {
+    "episode": 0,
+    "stage": "warmstart",
+    "decode_score": 0.2228,
+    "decode_raw_u": 0.0796,
+    "decode_sizes": [
+      11,
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "episode": 64,
+    "mean_reward": 1.5940598249435425,
+    "mean_delta_eq5": -0.45476730594972153,
+    "mean_terminal_eq5": 0.22279040220736362,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.0001392018748447299,
+    "value_loss": 0.47883422300219536,
+    "entropy": 0.0013448618337861262,
+    "elapsed_sec": 0.6,
+    "decode_score": 0.2228,
+    "decode_raw_u": 0.0796,
+    "decode_sizes": [
+      11,
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "episode": 128,
+    "mean_reward": 1.5940598249435425,
+    "mean_delta_eq5": -0.45476730594972153,
+    "mean_terminal_eq5": 0.22279040220736362,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.0005970971348385016,
+    "value_loss": 0.5305680471162001,
+    "entropy": 0.0038353279038953283,
+    "elapsed_sec": 1.0,
+    "decode_score": 0.2228,
+    "decode_raw_u": 0.0796,
+    "decode_sizes": [
+      11,
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "episode": 192,
+    "mean_reward": 1.618800401687622,
+    "mean_delta_eq5": -0.44815804171550366,
+    "mean_terminal_eq5": 0.2277077890860651,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.019675059864918392,
+    "value_loss": 0.5394117658336958,
+    "entropy": 0.061939597323847316,
+    "elapsed_sec": 1.4,
+    "decode_score": 0.0439,
+    "decode_raw_u": 0.0129,
+    "decode_sizes": [
+      13,
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "episode": 256,
+    "mean_reward": 0.8960482478141785,
+    "mean_delta_eq5": -1.4085049421182483,
+    "mean_terminal_eq5": -0.619982835734179,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.030683696541624766,
+    "value_loss": 0.3904867234329383,
+    "entropy": 0.06361417938023806,
+    "elapsed_sec": 1.8,
+    "decode_score": 0.1133,
+    "decode_raw_u": 0.0393,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 320,
+    "mean_reward": 1.4541151523590088,
+    "mean_delta_eq5": -0.7854519132072593,
+    "mean_terminal_eq5": -0.053389575647533515,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.019365013771069545,
+    "value_loss": 0.4531910866498947,
+    "entropy": 0.06932069268077612,
+    "elapsed_sec": 2.3,
+    "decode_score": 0.4183,
+    "decode_raw_u": 0.1879,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 384,
+    "mean_reward": 1.711655616760254,
+    "mean_delta_eq5": -0.2773358620512114,
+    "mean_terminal_eq5": 0.31407241596004776,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.007666404902314146,
+    "value_loss": 0.5086121732989947,
+    "entropy": 0.06520170764997602,
+    "elapsed_sec": 2.7,
+    "decode_score": 0.3158,
+    "decode_raw_u": 0.1307,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 448,
+    "mean_reward": 1.5406115055084229,
+    "mean_delta_eq5": -0.48715206751927115,
+    "mean_terminal_eq5": 0.1697328739026075,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.01343653469424074,
+    "value_loss": 0.5143660480777422,
+    "entropy": 0.06571266117195289,
+    "elapsed_sec": 3.2,
+    "decode_score": 0.4183,
+    "decode_raw_u": 0.1879,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 512,
+    "mean_reward": 1.6204919815063477,
+    "mean_delta_eq5": -0.33100871061126125,
+    "mean_terminal_eq5": 0.27179794545057795,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.005914310672475646,
+    "value_loss": 0.5400158613920212,
+    "entropy": 0.06772370807205637,
+    "elapsed_sec": 3.6,
+    "decode_score": 0.4183,
+    "decode_raw_u": 0.1879,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 576,
+    "mean_reward": 1.6385440826416016,
+    "mean_delta_eq5": -0.39308236770380856,
+    "mean_terminal_eq5": 0.22537494409258882,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.010571852015952269,
+    "value_loss": 0.5056660113235315,
+    "entropy": 0.08933650112400453,
+    "elapsed_sec": 4.0,
+    "decode_score": 0.4808,
+    "decode_raw_u": 0.2013,
+    "decode_sizes": [
+      13,
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "episode": 640,
+    "mean_reward": 1.4237748384475708,
+    "mean_delta_eq5": -0.8298163262156018,
+    "mean_terminal_eq5": -0.09826722621900082,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.006223031979364653,
+    "value_loss": 0.46349118525783223,
+    "entropy": 0.08840850709627072,
+    "elapsed_sec": 4.4,
+    "decode_score": 0.2275,
+    "decode_raw_u": 0.0803,
+    "decode_sizes": [
+      12,
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 704,
+    "mean_reward": 1.4880696535110474,
+    "mean_delta_eq5": -0.6901817775671848,
+    "mean_terminal_eq5": 0.020184806417897085,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.02058596070855856,
+    "value_loss": 0.48094268639882404,
+    "entropy": 0.08550675570343931,
+    "elapsed_sec": 4.9,
+    "decode_score": 0.256,
+    "decode_raw_u": 0.0927,
+    "decode_sizes": [
+      12,
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "episode": 768,
+    "mean_reward": 1.555285930633545,
+    "mean_delta_eq5": -0.66560669106113,
+    "mean_terminal_eq5": 0.047507559345136105,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.014968142961151898,
+    "value_loss": 0.502395840982596,
+    "entropy": 0.07551496693243583,
+    "elapsed_sec": 5.3,
+    "decode_score": 0.256,
+    "decode_raw_u": 0.0927,
+    "decode_sizes": [
+      12,
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "episode": 832,
+    "mean_reward": 1.5963678359985352,
+    "mean_delta_eq5": -0.6113919679423137,
+    "mean_terminal_eq5": 0.08774175046552513,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.025775691960006952,
+    "value_loss": 0.5271603353321552,
+    "entropy": 0.06726851562658946,
+    "elapsed_sec": 5.7,
+    "decode_score": 0.1819,
+    "decode_raw_u": 0.0684,
+    "decode_sizes": [
+      12,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "episode": 896,
+    "mean_reward": 1.492509365081787,
+    "mean_delta_eq5": -0.5890765385368787,
+    "mean_terminal_eq5": 0.10597822523714215,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.00034036627039313316,
+    "value_loss": 0.5161240349213282,
+    "entropy": 0.06024583848193288,
+    "elapsed_sec": 6.2,
+    "decode_score": 0.2228,
+    "decode_raw_u": 0.0796,
+    "decode_sizes": [
+      11,
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "episode": 960,
+    "mean_reward": 1.5373886823654175,
+    "mean_delta_eq5": -0.5440772410588024,
+    "mean_terminal_eq5": 0.14716258661913922,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.0024777164217084646,
+    "value_loss": 0.5138190761208534,
+    "entropy": 0.08216773221890132,
+    "elapsed_sec": 6.6,
+    "decode_score": -0.423,
+    "decode_raw_u": -0.1473,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 1024,
+    "mean_reward": 1.751848816871643,
+    "mean_delta_eq5": -0.44455145397709034,
+    "mean_terminal_eq5": 0.20469846634016703,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.02251164293071876,
+    "value_loss": 0.5343196218212446,
+    "entropy": 0.06910726862649123,
+    "elapsed_sec": 7.0,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 1088,
+    "mean_reward": 1.8597055673599243,
+    "mean_delta_eq5": -0.2676884568798414,
+    "mean_terminal_eq5": 0.33198118856769276,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.011536923314755162,
+    "value_loss": 0.5733241687218348,
+    "entropy": 0.04351282135273019,
+    "elapsed_sec": 7.4,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 1152,
+    "mean_reward": 1.8989193439483643,
+    "mean_delta_eq5": -0.27387543658164293,
+    "mean_terminal_eq5": 0.33247695125165644,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.0009365460524956385,
+    "value_loss": 0.6175970782836279,
+    "entropy": 0.051075507421046495,
+    "elapsed_sec": 7.9,
+    "decode_score": 0.256,
+    "decode_raw_u": 0.0927,
+    "decode_sizes": [
+      12,
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "episode": 1216,
+    "mean_reward": 1.7155120372772217,
+    "mean_delta_eq5": -0.5113171969201211,
+    "mean_terminal_eq5": 0.15812078925407563,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.009675857688610753,
+    "value_loss": 0.5853400304913521,
+    "entropy": 0.054927066434174776,
+    "elapsed_sec": 8.3,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 1280,
+    "mean_reward": 2.0106825828552246,
+    "mean_delta_eq5": -0.1452149190838709,
+    "mean_terminal_eq5": 0.41240584635759636,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 7.663737051188946e-05,
+    "value_loss": 0.5779490644733111,
+    "entropy": 0.05054083024151623,
+    "elapsed_sec": 8.7,
+    "decode_score": 0.4808,
+    "decode_raw_u": 0.2013,
+    "decode_sizes": [
+      13,
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "episode": 1344,
+    "mean_reward": 1.9224841594696045,
+    "mean_delta_eq5": -0.13882127341449757,
+    "mean_terminal_eq5": 0.4144418719612535,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -4.5920993822316326e-05,
+    "value_loss": 0.5711725192765394,
+    "entropy": 0.03579868252078692,
+    "elapsed_sec": 9.2,
+    "decode_score": 0.4808,
+    "decode_raw_u": 0.2013,
+    "decode_sizes": [
+      13,
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "episode": 1408,
+    "mean_reward": 1.9826208353042603,
+    "mean_delta_eq5": -0.07725466484916779,
+    "mean_terminal_eq5": 0.45670946451005917,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": -0.002996077799859146,
+    "value_loss": 0.5645729737977186,
+    "entropy": 0.04392252047546208,
+    "elapsed_sec": 9.6,
+    "decode_score": 0.4808,
+    "decode_raw_u": 0.2013,
+    "decode_sizes": [
+      13,
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "episode": 1472,
+    "mean_reward": 1.8987386226654053,
+    "mean_delta_eq5": -0.2695200229386981,
+    "mean_terminal_eq5": 0.3069240654906384,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.003483794202717642,
+    "value_loss": 0.5735633261501789,
+    "entropy": 0.07597642190133531,
+    "elapsed_sec": 10.0,
+    "decode_score": 0.4183,
+    "decode_raw_u": 0.1879,
+    "decode_sizes": [
+      13,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "episode": 1536,
+    "mean_reward": 1.3492193222045898,
+    "mean_delta_eq5": -0.867866477440858,
+    "mean_terminal_eq5": -0.143146941908038,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.009821167526145777,
+    "value_loss": 0.44300053889552754,
+    "entropy": 0.08458365282664697,
+    "elapsed_sec": 10.5,
+    "decode_score": -0.4925,
+    "decode_raw_u": -0.1993,
+    "decode_sizes": [
+      13,
+      5,
+      5,
+      1
+    ]
+  },
+  {
+    "episode": 1600,
+    "mean_reward": 1.6996403932571411,
+    "mean_delta_eq5": -0.36859222904370403,
+    "mean_terminal_eq5": 0.22950912586351913,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.032156426537161074,
+    "value_loss": 0.5145773664116859,
+    "entropy": 0.07217662548646331,
+    "elapsed_sec": 10.9,
+    "decode_score": 0.2922,
+    "decode_raw_u": 0.1023,
+    "decode_sizes": [
+      11,
+      6,
+      5,
+      2
+    ]
+  },
+  {
+    "episode": 1664,
+    "mean_reward": 1.7434842586517334,
+    "mean_delta_eq5": -0.38893341871124687,
+    "mean_terminal_eq5": 0.26106890722212633,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.038013428003372006,
+    "value_loss": 0.5758672617375851,
+    "entropy": 0.05367196351289749,
+    "elapsed_sec": 11.3,
+    "decode_score": 0.2623,
+    "decode_raw_u": 0.0904,
+    "decode_sizes": [
+      11,
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "episode": 1728,
+    "mean_reward": 1.8354398012161255,
+    "mean_delta_eq5": -0.37304273432764157,
+    "mean_terminal_eq5": 0.2736398224810818,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.012042366705524424,
+    "value_loss": 0.5834154660503069,
+    "entropy": 0.06184376605475942,
+    "elapsed_sec": 11.8,
+    "decode_score": 0.0164,
+    "decode_raw_u": 0.0021,
+    "decode_sizes": [
+      12,
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "episode": 1792,
+    "mean_reward": 1.6953554153442383,
+    "mean_delta_eq5": -0.5436460237946575,
+    "mean_terminal_eq5": 0.13598769986502907,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.018933978707840044,
+    "value_loss": 0.5629597579439481,
+    "entropy": 0.06926227531706293,
+    "elapsed_sec": 12.2,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 1856,
+    "mean_reward": 1.9709100723266602,
+    "mean_delta_eq5": -0.20427186953262044,
+    "mean_terminal_eq5": 0.37484030717217764,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.010579683429871997,
+    "value_loss": 0.6017695789535841,
+    "entropy": 0.04154588623593251,
+    "elapsed_sec": 12.6,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 1920,
+    "mean_reward": 2.041644811630249,
+    "mean_delta_eq5": -0.10786092776571259,
+    "mean_terminal_eq5": 0.43678312044304607,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.007773798735191424,
+    "value_loss": 0.5921368127067884,
+    "entropy": 0.04511967767030001,
+    "elapsed_sec": 13.0,
+    "decode_score": 0.2922,
+    "decode_raw_u": 0.1023,
+    "decode_sizes": [
+      11,
+      6,
+      5,
+      2
+    ]
+  },
+  {
+    "episode": 1984,
+    "mean_reward": 1.8886637687683105,
+    "mean_delta_eq5": -0.31963329912002725,
+    "mean_terminal_eq5": 0.30384134351329584,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.000824160447033743,
+    "value_loss": 0.6130177254478136,
+    "entropy": 0.05938438745215535,
+    "elapsed_sec": 13.5,
+    "decode_score": 0.4987,
+    "decode_raw_u": 0.2141,
+    "decode_sizes": [
+      13,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "episode": 2048,
+    "mean_reward": 1.7628968954086304,
+    "mean_delta_eq5": -0.27179616790536687,
+    "mean_terminal_eq5": 0.3163126736241674,
+    "baseline_eq5": 0.07959974317666046,
+    "policy_loss": 0.0073076106297473116,
+    "value_loss": 0.596382441620032,
+    "entropy": 0.07384648593142629,
+    "elapsed_sec": 13.9,
+    "decode_score": -0.4925,
+    "decode_raw_u": -0.1993,
+    "decode_sizes": [
+      13,
+      5,
+      5,
+      1
+    ]
+  }
+]

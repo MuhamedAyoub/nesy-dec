@@ -1,0 +1,15 @@
+
+==============================================================================
+# check
+==============================================================================
+  torch 2.14.1+cu130, cuda available: True (NVIDIA GeForce RTX 4090)
+  jpetstore-6        N=  24 teacher K=  4 triplets=  239 must_link(active pairs)= 12 cannot_link(active pairs)=   0 | env N=24 E=110 feat=786 ML=12 CL=0
+  acmeair            N=  70 teacher K= 11 triplets= 1312 must_link(active pairs)= 13 cannot_link(active pairs)= 169 | env N=70 E=528 feat=786 ML=13 CL=169
+  daytrader7         N= 104 teacher K= 11 triplets= 1500 must_link(active pairs)= 41 cannot_link(active pairs)= 684 | env N=104 E=598 feat=786 ML=41 CL=684
+  plantsbywebsphere  N=  35 teacher K=  3 triplets=  674 must_link(active pairs)= 38 cannot_link(active pairs)=   0 | env N=35 E=202 feat=786 ML=38 CL=0
+  lit-jpetstore      N=  71 teacher K=  8 triplets= 1500 must_link(active pairs)= 44 cannot_link(active pairs)= 352 | env N=71 E=438 feat=786 ML=44 CL=352
+  lit-pbw            N=  36 teacher K=  4 triplets=  750 must_link(active pairs)= 37 cannot_link(active pairs)=   0 | env N=36 E=200 feat=786 ML=37 CL=0
+
+[check] OK
+
+[run_gpu] stages ['check'] done in 0m01s

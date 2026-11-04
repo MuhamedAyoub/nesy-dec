@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="fx.mapper.CustomerMapper">
+  <select id="getCustomer" parameterType="int" resultType="customer">
+    SELECT * FROM customer WHERE id = #{id}
+  </select>
+</mapper>

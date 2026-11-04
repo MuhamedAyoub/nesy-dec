@@ -1,0 +1,73 @@
+{
+  "app": "jpetstore-6",
+  "class_nodes": 24,
+  "entities": [
+    "org.mybatis.jpetstore.domain.Account",
+    "org.mybatis.jpetstore.domain.Category",
+    "org.mybatis.jpetstore.domain.Item",
+    "org.mybatis.jpetstore.domain.LineItem",
+    "org.mybatis.jpetstore.domain.Order",
+    "org.mybatis.jpetstore.domain.Product",
+    "org.mybatis.jpetstore.domain.Sequence"
+  ],
+  "call_sites": 250,
+  "site_resolution": {
+    "external": 85,
+    "J-L0": 143,
+    "self": 22
+  },
+  "refused_by_reason": {},
+  "sites_by_rule": {
+    "call_declared": 106,
+    "call_abstraction": 27,
+    "call_inherited": 10
+  },
+  "creation_and_ref_sites": {
+    "creation": 10,
+    "method_ref": 2
+  },
+  "non_call_reference_sites": {
+    "field_ref": 14,
+    "class_literal": 5,
+    "inheritance": 4
+  },
+  "fact_pairs_by_rule": {
+    "mybatis_mapper": 7,
+    "type_use": 42
+  },
+  "weight_by_layer": {
+    "J-L0": 178.0,
+    "J-L3": 7.0,
+    "J-T": 42.0
+  },
+  "weight_share_by_layer": {
+    "J-L0": 0.7841,
+    "J-L3": 0.0308,
+    "J-T": 0.185
+  },
+  "weight_by_rule": {
+    "call_declared": 106.0,
+    "call_abstraction": 27.0,
+    "call_inherited": 10.0,
+    "creation": 10.0,
+    "method_ref": 2.0,
+    "field_ref": 14.0,
+    "class_literal": 5.0,
+    "inheritance": 4.0,
+    "mybatis_mapper": 7.0,
+    "type_use": 42.0
+  },
+  "pairs_by_layer": {
+    "J-L0": 41,
+    "J-L3": 7,
+    "J-T": 42
+  },
+  "edges": 55,
+  "call_edges": 40,
+  "isolated": [],
+  "isolated_calls_graph": [
+    "org.mybatis.jpetstore.domain.Category"
+  ],
+  "data_map_classes": 7,
+  "fanout_cap": 5
+}

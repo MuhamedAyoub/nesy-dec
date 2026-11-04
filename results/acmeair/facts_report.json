@@ -1,0 +1,106 @@
+{
+  "app": "acmeair",
+  "nodes": 72,
+  "active_nodes": 70,
+  "must_link": {
+    "raw": 13,
+    "matched": 13,
+    "dropped": {},
+    "both_endpoints_active": 13,
+    "unique_after_dedup": 13,
+    "by_reason": {
+      "di:inject": 7,
+      "jpa:entity_lookup": 6
+    },
+    "unique_pairs": 13
+  },
+  "soft_affinity": {
+    "raw": 347,
+    "matched": 347,
+    "dropped": {},
+    "both_endpoints_active": 343,
+    "unique_pairs": 307,
+    "by_source": {
+      "role": 129,
+      "package": 218
+    }
+  },
+  "inferred_coupling": {
+    "raw": 66,
+    "matched": 66,
+    "dropped": {},
+    "both_endpoints_active": 66
+  },
+  "cannot_link": {
+    "raw": 169,
+    "matched": 169,
+    "dropped": {},
+    "both_endpoints_active": 169,
+    "unique_pairs": 169,
+    "rule": "CL-SIBLING",
+    "package_pairs": [
+      {
+        "a": "com.acmeair.morphia",
+        "b": "com.acmeair.wxs",
+        "classes": [
+          13,
+          13
+        ],
+        "layer": [
+          "data",
+          "business"
+        ],
+        "shared_interfaces": [
+          "AirportCodeMapping",
+          "Booking",
+          "BookingService",
+          "Customer",
+          "CustomerAddress",
+          "CustomerSession",
+          "Flight",
+          "FlightSegment"
+        ]
+      }
+    ]
+  },
+  "framework_noise": {
+    "count": 2,
+    "by_rule": {
+      "N2": 2
+    },
+    "classes": {
+      "com.acmeair.morphia.MorphiaConstants": "N2 constants holder",
+      "com.acmeair.wxs.WXSConstants": "N2 constants holder"
+    }
+  },
+  "roles": {
+    "entity": 6,
+    "repository": 0,
+    "service": 13,
+    "ejb_session": 0,
+    "message_driven": 0,
+    "servlet": 1,
+    "web_controller": 6,
+    "websocket": 0,
+    "ui_bean": 0,
+    "form": 0,
+    "exception": 0,
+    "config": 7,
+    "util": 0,
+    "interface": 9,
+    "other": 30,
+    "unknown": 0
+  },
+  "role_rules": {
+    "configuration annotation, supertype or name": 7,
+    "controller annotation, supertype or name": 6,
+    "no rule matched": 30,
+    "interface with no other role": 9,
+    "annotation or SQL-mapped domain type": 6,
+    "service annotation or name": 13,
+    "servlet annotation or supertype": 1
+  },
+  "pages_with_two_or_more_classes": 0,
+  "must_link_cannot_link_conflicts": 0,
+  "must_link_pairs_on_framework_noise": 0
+}

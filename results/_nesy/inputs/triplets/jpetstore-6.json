@@ -1,0 +1,1675 @@
+[
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.Item",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Account",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Cart",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.CartItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.Item",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Category",
+    "positive": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Item",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.LineItem",
+    "positive": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.domain.Item",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.domain.Item",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Order",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.Cart",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Product",
+    "positive": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Category",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Item",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.domain.Sequence",
+    "positive": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.domain.Cart",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.CartItem",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.domain.CartItem",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "positive": "org.mybatis.jpetstore.domain.Product",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.CategoryMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "positive": "org.mybatis.jpetstore.domain.Sequence",
+    "negative": "org.mybatis.jpetstore.mapper.ProductMapper",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.domain.Product",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.domain.LineItem",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.domain.Cart",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.AccountService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "negative": "org.mybatis.jpetstore.domain.CartItem",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.CatalogService",
+    "positive": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.domain.LineItem",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.mapper.OrderMapper",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "negative": "org.mybatis.jpetstore.service.AccountService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.service.OrderService",
+    "positive": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "negative": "org.mybatis.jpetstore.service.CatalogService",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "positive": "org.mybatis.jpetstore.service.AccountService",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "positive": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Cart",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Cart",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.domain.CartItem",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.domain.Account",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Item",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.mapper.ItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.mapper.SequenceMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.service.OrderService",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.AccountActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Category",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.domain.CartItem",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.domain.Order",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.CartActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "positive": "org.mybatis.jpetstore.service.CatalogService",
+    "negative": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.mapper.LineItemMapper",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Account",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.domain.Order",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "cocite",
+    "neg_source": "same_role"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.service.OrderService",
+    "negative": "org.mybatis.jpetstore.domain.Cart",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.service.OrderService",
+    "negative": "org.mybatis.jpetstore.domain.Sequence",
+    "pos_source": "cocite",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.service.OrderService",
+    "negative": "org.mybatis.jpetstore.mapper.AccountMapper",
+    "pos_source": "must_link",
+    "neg_source": "random"
+  },
+  {
+    "anchor": "org.mybatis.jpetstore.web.actions.OrderActionBean",
+    "positive": "org.mybatis.jpetstore.service.OrderService",
+    "negative": "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+    "pos_source": "must_link",
+    "neg_source": "same_role"
+  }
+]

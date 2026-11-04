@@ -1,0 +1,130 @@
+[
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:115",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBean",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:116",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBeanRemote",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:215",
+    "method": "lookup",
+    "name": "java:comp/UserTransaction",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:302",
+    "method": "lookup",
+    "name": "java:comp/UserTransaction",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:394",
+    "method": "lookup",
+    "name": "java:comp/DefaultManagedThreadFactory",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2037",
+    "method": "lookup",
+    "name": "java:comp/env/jms/QueueConnectionFactory",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2044",
+    "method": "lookup",
+    "name": "java:comp/env/jms/TradeBrokerQueue",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2047",
+    "method": "lookup",
+    "name": "jms/TradeBrokerQueue",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2055",
+    "method": "lookup",
+    "name": "java:comp/env/jms/TopicConnectionFactory",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2062",
+    "method": "lookup",
+    "name": "java:comp/env/jms/TradeStreamerTopic",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:2065",
+    "method": "lookup",
+    "name": "jms/TradeStreamerTopic",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/util/CompleteOrderThread.java:48",
+    "method": "lookup",
+    "name": "java:comp/UserTransaction",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/util/CompleteOrderThread.java:53",
+    "method": "lookup",
+    "name": "java:module/TradeSLSBBean",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingCDIBean.java:40",
+    "method": "lookup",
+    "name": "java:comp/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingWebSocketJson.java:58",
+    "method": "lookup",
+    "name": "java:comp/DefaultManagedThreadFactory",
+    "bound_to": []
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/ejb3/PingServlet2Session2Entity.java:115",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBean",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/ejb3/PingServlet2Session2Entity2JSP.java:107",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBean",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/ejb3/PingServlet2SessionLocal.java:122",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBean",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  },
+  {
+    "where": "sample.daytrader7/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/ejb3/PingServlet2SessionRemote.java:121",
+    "method": "lookup",
+    "name": "java:comp/env/ejb/TradeSLSBBeanRemote",
+    "bound_to": [
+      "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+    ]
+  }
+]

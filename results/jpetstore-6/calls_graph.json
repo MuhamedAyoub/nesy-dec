@@ -1,0 +1,103 @@
+{
+  "parameters": {
+    "resolver": "java-layered",
+    "layers": [
+      "J-L0",
+      "J-L1",
+      "J-L2"
+    ],
+    "rules": [
+      "call_declared",
+      "call_inherited",
+      "call_abstraction",
+      "creation",
+      "anon_impl",
+      "method_ref",
+      "cha",
+      "spring_xml_property",
+      "jndi_ejb",
+      "spring_getbean"
+    ]
+  },
+  "dependency_graph": {
+    "org.mybatis.jpetstore.domain.Account": {},
+    "org.mybatis.jpetstore.domain.Cart": {
+      "org.mybatis.jpetstore.domain.CartItem": 10.0,
+      "org.mybatis.jpetstore.domain.Item": 3.0
+    },
+    "org.mybatis.jpetstore.domain.CartItem": {
+      "org.mybatis.jpetstore.domain.Item": 1.0
+    },
+    "org.mybatis.jpetstore.domain.Category": {},
+    "org.mybatis.jpetstore.domain.Item": {
+      "org.mybatis.jpetstore.domain.Product": 1.0
+    },
+    "org.mybatis.jpetstore.domain.LineItem": {
+      "org.mybatis.jpetstore.domain.CartItem": 4.0,
+      "org.mybatis.jpetstore.domain.Item": 3.0
+    },
+    "org.mybatis.jpetstore.domain.Order": {
+      "org.mybatis.jpetstore.domain.Account": 17.0,
+      "org.mybatis.jpetstore.domain.Cart": 2.0,
+      "org.mybatis.jpetstore.domain.LineItem": 1.0
+    },
+    "org.mybatis.jpetstore.domain.Product": {},
+    "org.mybatis.jpetstore.domain.Sequence": {},
+    "org.mybatis.jpetstore.mapper.AccountMapper": {},
+    "org.mybatis.jpetstore.mapper.CategoryMapper": {},
+    "org.mybatis.jpetstore.mapper.ItemMapper": {},
+    "org.mybatis.jpetstore.mapper.LineItemMapper": {},
+    "org.mybatis.jpetstore.mapper.OrderMapper": {},
+    "org.mybatis.jpetstore.mapper.ProductMapper": {},
+    "org.mybatis.jpetstore.mapper.SequenceMapper": {},
+    "org.mybatis.jpetstore.service.AccountService": {
+      "org.mybatis.jpetstore.domain.Account": 1.0,
+      "org.mybatis.jpetstore.mapper.AccountMapper": 8.0
+    },
+    "org.mybatis.jpetstore.service.CatalogService": {
+      "org.mybatis.jpetstore.mapper.CategoryMapper": 2.0,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 3.0,
+      "org.mybatis.jpetstore.mapper.ProductMapper": 3.0
+    },
+    "org.mybatis.jpetstore.service.OrderService": {
+      "org.mybatis.jpetstore.domain.Item": 1.0,
+      "org.mybatis.jpetstore.domain.LineItem": 6.0,
+      "org.mybatis.jpetstore.domain.Order": 6.0,
+      "org.mybatis.jpetstore.domain.Sequence": 4.0,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 3.0,
+      "org.mybatis.jpetstore.mapper.LineItemMapper": 2.0,
+      "org.mybatis.jpetstore.mapper.OrderMapper": 4.0,
+      "org.mybatis.jpetstore.mapper.SequenceMapper": 2.0
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean": {},
+    "org.mybatis.jpetstore.web.actions.AccountActionBean": {
+      "org.mybatis.jpetstore.domain.Account": 13.0,
+      "org.mybatis.jpetstore.service.AccountService": 5.0,
+      "org.mybatis.jpetstore.service.CatalogService": 3.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 1.0
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean": {
+      "org.mybatis.jpetstore.domain.Cart": 8.0,
+      "org.mybatis.jpetstore.domain.CartItem": 1.0,
+      "org.mybatis.jpetstore.domain.Item": 1.0,
+      "org.mybatis.jpetstore.service.CatalogService": 2.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 3.0
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean": {
+      "org.mybatis.jpetstore.domain.Item": 1.0,
+      "org.mybatis.jpetstore.service.CatalogService": 6.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 1.0
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean": {
+      "org.mybatis.jpetstore.domain.Account": 2.0,
+      "org.mybatis.jpetstore.domain.Order": 7.0,
+      "org.mybatis.jpetstore.service.OrderService": 3.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 5.0,
+      "org.mybatis.jpetstore.web.actions.AccountActionBean": 4.0,
+      "org.mybatis.jpetstore.web.actions.CartActionBean": 2.0
+    }
+  },
+  "isolated_classes": [
+    "org.mybatis.jpetstore.domain.Category"
+  ]
+}

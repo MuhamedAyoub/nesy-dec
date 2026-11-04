@@ -1,0 +1,43 @@
+{
+  "method": "rldec_best",
+  "app": "jpetstore-6",
+  "seed": 42,
+  "source": "decomp-rldec@4518754",
+  "selection": "max best_score over training episodes (RLDec's own reward)",
+  "episode": 545,
+  "episodes": 833,
+  "rldec_score": 0.41668766271940866,
+  "partitions": [
+    [
+      "org.mybatis.jpetstore.domain.Sequence"
+    ],
+    [
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper",
+      "org.mybatis.jpetstore.service.AccountService",
+      "org.mybatis.jpetstore.service.CatalogService"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Account",
+      "org.mybatis.jpetstore.domain.Cart",
+      "org.mybatis.jpetstore.domain.CartItem",
+      "org.mybatis.jpetstore.domain.Category",
+      "org.mybatis.jpetstore.domain.Item",
+      "org.mybatis.jpetstore.domain.LineItem",
+      "org.mybatis.jpetstore.domain.Order",
+      "org.mybatis.jpetstore.domain.Product",
+      "org.mybatis.jpetstore.service.OrderService",
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+      "org.mybatis.jpetstore.web.actions.AccountActionBean",
+      "org.mybatis.jpetstore.web.actions.CartActionBean",
+      "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+      "org.mybatis.jpetstore.web.actions.OrderActionBean"
+    ]
+  ],
+  "outliers": []
+}

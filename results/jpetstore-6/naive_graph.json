@@ -1,0 +1,94 @@
+{
+  "parameters": {
+    "resolver": "java-naive",
+    "rule": "declared static receiver type"
+  },
+  "summary": {
+    "total_classes_original": 24,
+    "naive_edges": 38
+  },
+  "resolver_report": {
+    "external": 85,
+    "edge_concrete": 106,
+    "self": 22,
+    "J4_no_impl": 27,
+    "inherited": 10
+  },
+  "dependency_graph": {
+    "org.mybatis.jpetstore.domain.Account": {},
+    "org.mybatis.jpetstore.domain.Cart": {
+      "org.mybatis.jpetstore.domain.Item": 3,
+      "org.mybatis.jpetstore.domain.CartItem": 9
+    },
+    "org.mybatis.jpetstore.domain.CartItem": {},
+    "org.mybatis.jpetstore.domain.Category": {},
+    "org.mybatis.jpetstore.domain.Item": {
+      "org.mybatis.jpetstore.domain.Product": 1
+    },
+    "org.mybatis.jpetstore.domain.LineItem": {
+      "org.mybatis.jpetstore.domain.CartItem": 4,
+      "org.mybatis.jpetstore.domain.Item": 2
+    },
+    "org.mybatis.jpetstore.domain.Order": {
+      "org.mybatis.jpetstore.domain.Account": 17,
+      "org.mybatis.jpetstore.domain.Cart": 2
+    },
+    "org.mybatis.jpetstore.domain.Product": {},
+    "org.mybatis.jpetstore.domain.Sequence": {},
+    "org.mybatis.jpetstore.mapper.AccountMapper": {},
+    "org.mybatis.jpetstore.mapper.CategoryMapper": {},
+    "org.mybatis.jpetstore.mapper.ItemMapper": {},
+    "org.mybatis.jpetstore.mapper.LineItemMapper": {},
+    "org.mybatis.jpetstore.mapper.OrderMapper": {},
+    "org.mybatis.jpetstore.mapper.ProductMapper": {},
+    "org.mybatis.jpetstore.mapper.SequenceMapper": {},
+    "org.mybatis.jpetstore.service.AccountService": {
+      "org.mybatis.jpetstore.mapper.AccountMapper": 8,
+      "org.mybatis.jpetstore.domain.Account": 1
+    },
+    "org.mybatis.jpetstore.service.CatalogService": {
+      "org.mybatis.jpetstore.mapper.CategoryMapper": 2,
+      "org.mybatis.jpetstore.mapper.ProductMapper": 3,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 3
+    },
+    "org.mybatis.jpetstore.service.OrderService": {
+      "org.mybatis.jpetstore.domain.Order": 6,
+      "org.mybatis.jpetstore.domain.LineItem": 6,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 3,
+      "org.mybatis.jpetstore.mapper.OrderMapper": 4,
+      "org.mybatis.jpetstore.mapper.LineItemMapper": 2,
+      "org.mybatis.jpetstore.domain.Item": 1,
+      "org.mybatis.jpetstore.mapper.SequenceMapper": 2,
+      "org.mybatis.jpetstore.domain.Sequence": 2
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean": {},
+    "org.mybatis.jpetstore.web.actions.AccountActionBean": {
+      "org.mybatis.jpetstore.domain.Account": 11,
+      "org.mybatis.jpetstore.service.AccountService": 5,
+      "org.mybatis.jpetstore.service.CatalogService": 3,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 1
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean": {
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 3,
+      "org.mybatis.jpetstore.domain.Cart": 6,
+      "org.mybatis.jpetstore.service.CatalogService": 2,
+      "org.mybatis.jpetstore.domain.Item": 1,
+      "org.mybatis.jpetstore.domain.CartItem": 1
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean": {
+      "org.mybatis.jpetstore.service.CatalogService": 6,
+      "org.mybatis.jpetstore.domain.Item": 1,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 1
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean": {
+      "org.mybatis.jpetstore.domain.Order": 5,
+      "org.mybatis.jpetstore.service.OrderService": 3,
+      "org.mybatis.jpetstore.domain.Account": 2,
+      "org.mybatis.jpetstore.web.actions.AccountActionBean": 4,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 5,
+      "org.mybatis.jpetstore.web.actions.CartActionBean": 2
+    }
+  },
+  "data_associations": {},
+  "clusters": []
+}

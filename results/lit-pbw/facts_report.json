@@ -1,0 +1,85 @@
+{
+  "app": "lit-pbw",
+  "nodes": 39,
+  "active_nodes": 36,
+  "must_link": {
+    "raw": 40,
+    "matched": 40,
+    "dropped": {},
+    "both_endpoints_active": 40,
+    "unique_after_dedup": 37,
+    "by_reason": {
+      "di:inject": 20,
+      "jpa:entity_lookup": 13,
+      "jpa:assoc:OneToOne": 1,
+      "jpa:assoc:ManyToOne": 3
+    },
+    "unique_pairs": 37
+  },
+  "soft_affinity": {
+    "raw": 253,
+    "matched": 253,
+    "dropped": {},
+    "both_endpoints_active": 232,
+    "unique_pairs": 198,
+    "by_source": {
+      "role": 53,
+      "package": 190,
+      "page": 10
+    }
+  },
+  "inferred_coupling": {
+    "raw": 40,
+    "matched": 40,
+    "dropped": {},
+    "both_endpoints_active": 40
+  },
+  "cannot_link": {
+    "raw": 0,
+    "matched": 0,
+    "dropped": {},
+    "both_endpoints_active": 0,
+    "unique_pairs": 0,
+    "rule": "CL-SIBLING",
+    "package_pairs": []
+  },
+  "framework_noise": {
+    "count": 1,
+    "by_rule": {
+      "N3": 1
+    },
+    "classes": {
+      "com.ibm.websphere.samples.pbw.utils.Util": "N3 ubiquitous util (referenced by 63% of active classes)"
+    }
+  },
+  "roles": {
+    "entity": 7,
+    "repository": 0,
+    "service": 0,
+    "ejb_session": 7,
+    "message_driven": 0,
+    "servlet": 4,
+    "web_controller": 0,
+    "websocket": 0,
+    "ui_bean": 3,
+    "form": 0,
+    "exception": 2,
+    "config": 0,
+    "util": 2,
+    "interface": 0,
+    "other": 14,
+    "unknown": 0
+  },
+  "role_rules": {
+    "session-bean annotation": 7,
+    "no rule matched": 14,
+    "Throwable supertype or name": 2,
+    "annotation or SQL-mapped domain type": 7,
+    "servlet annotation or supertype": 4,
+    "static-only members or Util/Helper name": 2,
+    "@Named/@ManagedBean": 3
+  },
+  "pages_with_two_or_more_classes": 6,
+  "must_link_cannot_link_conflicts": 0,
+  "must_link_pairs_on_framework_noise": 0
+}

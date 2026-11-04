@@ -1,0 +1,36 @@
+{
+  "app": "jpetstore-6",
+  "files": {
+    "facts/inventory.json": "identical",
+    "facts/callsites.jsonl": "identical",
+    "facts/creations.jsonl": "identical",
+    "facts/methodrefs.jsonl": "identical",
+    "facts/fieldrefs.jsonl": "identical",
+    "facts/run.json": "identical",
+    "audit/audit.json": "identical",
+    "naive_graph.json": "identical",
+    "graph.json": "identical",
+    "calls_graph.json": "identical",
+    "resolver/edges.jsonl": "identical",
+    "resolver/provenance.json": "identical",
+    "resolver/lookups.json": "identical",
+    "exp_a0.9_b0.1_n8_java.json": "identical",
+    "exp_a0.5_b0.5_n8_java.json": "identical",
+    "facts_nesy.json": "identical",
+    "facts_report.json": "identical",
+    "code_index.json": "identical",
+    "triplets.json": "same multiset, order differs",
+    "triplets_report.json": "identical",
+    "sellami/hierdec/structural_data/class_calls.npy": "identical",
+    "sellami/hierdec/semantic_data/class_tfidf.npy": "identical",
+    "sellami/rldec/jpetstore-6/class_interactions.csv": "identical",
+    "sellami/rldec/jpetstore-6/class_word_count.csv": "identical",
+    "baselines/hierdec.json": "identical"
+  },
+  "all_identical": true,
+  "normalisations": [
+    "wall-time fields dropped",
+    "exp_*: parameters.graph (input path) dropped",
+    "triplets.json: compared as a multiset when the byte order differs"
+  ]
+}

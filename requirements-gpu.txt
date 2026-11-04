@@ -1,0 +1,14 @@
+# Level 3 (retraining on a GPU), main environment. Install the CUDA torch build
+# matched to the driver first; the reported runs used the server image's
+# torch 2.14.1+cu130 (results/gpu_logs/setup.log). Then:
+#   pip install "torch==<the installed version>" -r requirements-gpu.txt
+# java_pipeline/setup_gpu.sh does this and also builds the RLDec / HierDec
+# environment (Python 3.10, ray[rllib] 2.9.2, torch 2.1.2), with the pins of
+# decomp-rldec/requirements.txt.
+transformers==4.45.2
+peft==0.13.2
+scikit-learn==1.9.1
+numpy
+nltk
+pandas
+matplotlib

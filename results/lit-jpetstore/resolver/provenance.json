@@ -1,0 +1,95 @@
+{
+  "app": "lit-jpetstore",
+  "class_nodes": 73,
+  "entities": [
+    "org.springframework.samples.jpetstore.dao.ibatis.Sequence",
+    "org.springframework.samples.jpetstore.domain.Account",
+    "org.springframework.samples.jpetstore.domain.Category",
+    "org.springframework.samples.jpetstore.domain.Item",
+    "org.springframework.samples.jpetstore.domain.LineItem",
+    "org.springframework.samples.jpetstore.domain.Order",
+    "org.springframework.samples.jpetstore.domain.Product"
+  ],
+  "call_sites": 913,
+  "site_resolution": {
+    "external": 514,
+    "J-L0": 316,
+    "self": 18,
+    "J-L2": 39,
+    "J-L1": 26
+  },
+  "refused_by_reason": {},
+  "sites_by_rule": {
+    "call_declared": 266,
+    "spring_xml_property": 37,
+    "cha_n1": 24,
+    "spring_getbean": 2,
+    "cha_n2": 2,
+    "call_inherited": 50
+  },
+  "creation_and_ref_sites": {
+    "creation": 19
+  },
+  "non_call_reference_sites": {
+    "class_literal": 7,
+    "field_ref": 2,
+    "inheritance": 32
+  },
+  "fact_pairs_by_rule": {
+    "ibatis_sqlmap": 10,
+    "struts_form_bean": 17,
+    "type_use": 60
+  },
+  "weight_by_layer": {
+    "J-L0": 439.0,
+    "J-L2": 39.0,
+    "J-L1": 25.5,
+    "J-L3": 27.0,
+    "J-T": 60.0
+  },
+  "weight_share_by_layer": {
+    "J-L0": 0.7434,
+    "J-L2": 0.066,
+    "J-L1": 0.0432,
+    "J-L3": 0.0457,
+    "J-T": 0.1016
+  },
+  "weight_by_rule": {
+    "call_declared": 266.0,
+    "call_abstraction": 63.0,
+    "spring_xml_property": 37.0,
+    "cha": 25.5,
+    "spring_getbean": 2.0,
+    "call_inherited": 50.0,
+    "creation": 19.0,
+    "class_literal": 7.0,
+    "field_ref": 2.0,
+    "inheritance": 32.0,
+    "ibatis_sqlmap": 10.0,
+    "struts_form_bean": 17.0,
+    "type_use": 60.0
+  },
+  "pairs_by_layer": {
+    "J-L0": 157,
+    "J-L2": 17,
+    "J-L1": 18,
+    "J-L3": 27,
+    "J-T": 60
+  },
+  "edges": 219,
+  "call_edges": 168,
+  "isolated": [
+    "org.springframework.samples.jpetstore.web.spring.SignoffController",
+    "org.springframework.samples.jpetstore.web.spring.SignonInterceptor"
+  ],
+  "isolated_calls_graph": [
+    "org.springframework.samples.jpetstore.domain.Category",
+    "org.springframework.samples.jpetstore.domain.Product",
+    "org.springframework.samples.jpetstore.domain.logic.AccountValidator",
+    "org.springframework.samples.jpetstore.web.spring.SignoffController",
+    "org.springframework.samples.jpetstore.web.spring.SignonInterceptor",
+    "org.springframework.samples.jpetstore.web.struts.DoNothingAction"
+  ],
+  "data_map_classes": 8,
+  "fanout_cap": 5
+}

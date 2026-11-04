@@ -1,0 +1,81 @@
+{
+  "app": "jpetstore-6",
+  "nodes": 24,
+  "active_nodes": 24,
+  "must_link": {
+    "raw": 12,
+    "matched": 12,
+    "dropped": {},
+    "both_endpoints_active": 12,
+    "unique_after_dedup": 12,
+    "by_reason": {
+      "mybatis:mapper": 7,
+      "di:inject": 5
+    },
+    "unique_pairs": 12
+  },
+  "soft_affinity": {
+    "raw": 136,
+    "matched": 136,
+    "dropped": {},
+    "both_endpoints_active": 136,
+    "unique_pairs": 70,
+    "by_source": {
+      "package": 70,
+      "role": 55,
+      "page": 11
+    }
+  },
+  "inferred_coupling": {
+    "raw": 15,
+    "matched": 15,
+    "dropped": {},
+    "both_endpoints_active": 15
+  },
+  "cannot_link": {
+    "raw": 0,
+    "matched": 0,
+    "dropped": {},
+    "both_endpoints_active": 0,
+    "unique_pairs": 0,
+    "rule": "CL-SIBLING",
+    "package_pairs": []
+  },
+  "framework_noise": {
+    "count": 1,
+    "by_rule": {
+      "N1": 1
+    },
+    "classes": {
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": "N1 generic base (4 concrete subclasses)"
+    }
+  },
+  "roles": {
+    "entity": 7,
+    "repository": 7,
+    "service": 3,
+    "ejb_session": 0,
+    "message_driven": 0,
+    "servlet": 0,
+    "web_controller": 5,
+    "websocket": 0,
+    "ui_bean": 0,
+    "form": 0,
+    "exception": 0,
+    "config": 0,
+    "util": 0,
+    "interface": 0,
+    "other": 2,
+    "unknown": 0
+  },
+  "role_rules": {
+    "annotation or SQL-mapped domain type": 7,
+    "no rule matched": 2,
+    "annotation, SQL-mapping binder, or Dao/Repository/Mapper name or supertype": 7,
+    "service annotation or name": 3,
+    "controller annotation, supertype or name": 5
+  },
+  "pages_with_two_or_more_classes": 7,
+  "must_link_cannot_link_conflicts": 0,
+  "must_link_pairs_on_framework_noise": 0
+}

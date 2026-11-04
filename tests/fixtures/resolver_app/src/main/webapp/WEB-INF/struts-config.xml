@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+  <form-beans>
+    <form-bean name="orderForm" type="fx.web.OrderForm"/>
+  </form-beans>
+  <action-mappings>
+    <action path="/order" type="fx.web.OrderAction" name="orderForm"/>
+  </action-mappings>
+</struts-config>

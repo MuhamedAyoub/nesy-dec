@@ -1,0 +1,30 @@
+{
+  "analyzer_version": "0.2.0",
+  "javaparser_version": "3.26.2",
+  "config": {
+    "app": "plantsbywebsphere",
+    "sourceRoots": [
+      "<subjects>/sample.plantsbywebsphere/src/main/java"
+    ],
+    "classpath": [
+      "~/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar",
+      "~/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar",
+      "~/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar",
+      "~/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar",
+      "~/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar",
+      "~/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar",
+      "~/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"
+    ],
+    "languageLevel": "JAVA_17"
+  },
+  "java_files": 36,
+  "parse_failures": [],
+  "jars_loaded": 7,
+  "jars_skipped": [],
+  "class_nodes": 37,
+  "call_sites": 1178,
+  "object_creations": 86,
+  "method_references": 0,
+  "field_and_class_literal_refs": 793,
+  "seconds": 1.924
+}

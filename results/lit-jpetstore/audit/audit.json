@@ -1,0 +1,170 @@
+{
+  "app": "lit-jpetstore",
+  "class_nodes": 73,
+  "kinds": {
+    "interface": 7,
+    "class": 66
+  },
+  "call_sites": 913,
+  "categories": {
+    "external": 514,
+    "edge_concrete": 266,
+    "self": 18,
+    "J1_dispatch": 63,
+    "J3_reflective": 2,
+    "inherited": 50
+  },
+  "naive_edges": 128,
+  "isolated_nodes": 9,
+  "J1": {
+    "abstractions": 9,
+    "with_0_impl": 0,
+    "with_1_impl": 5,
+    "with_2plus_impl": 4,
+    "call_sites": 63,
+    "call_sites_by_impl_count": {
+      "1": 58,
+      ">=2": 5
+    },
+    "lost_owner_impl_pairs": 34,
+    "multi_impl_abstractions": {
+      "org.springframework.samples.jpetstore.dao.OrderDao": [
+        "org.springframework.samples.jpetstore.dao.ibatis.MsSqlOrderDao",
+        "org.springframework.samples.jpetstore.dao.ibatis.SqlMapOrderDao"
+      ],
+      "org.springframework.samples.jpetstore.domain.logic.OrderService": [
+        "org.springframework.samples.jpetstore.domain.logic.PetStoreImpl",
+        "org.springframework.samples.jpetstore.service.JaxRpcOrderService"
+      ],
+      "org.springframework.samples.jpetstore.web.struts.BaseAction": [
+        "org.springframework.samples.jpetstore.web.struts.AddItemToCartAction",
+        "org.springframework.samples.jpetstore.web.struts.DoNothingAction",
+        "org.springframework.samples.jpetstore.web.struts.EditAccountAction",
+        "org.springframework.samples.jpetstore.web.struts.EditAccountFormAction",
+        "org.springframework.samples.jpetstore.web.struts.ListOrdersAction",
+        "org.springframework.samples.jpetstore.web.struts.NewAccountAction",
+        "org.springframework.samples.jpetstore.web.struts.NewAccountFormAction",
+        "org.springframework.samples.jpetstore.web.struts.NewOrderAction",
+        "org.springframework.samples.jpetstore.web.struts.NewOrderFormAction",
+        "org.springframework.samples.jpetstore.web.struts.RemoveItemFromCartAction",
+        "org.springframework.samples.jpetstore.web.struts.SearchProductsAction",
+        "org.springframework.samples.jpetstore.web.struts.SignonAction",
+        "org.springframework.samples.jpetstore.web.struts.UpdateCartQuantitiesAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewCartAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewCategoryAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewItemAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewOrderAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewProductAction"
+      ],
+      "org.springframework.samples.jpetstore.web.struts.SecureBaseAction": [
+        "org.springframework.samples.jpetstore.web.struts.EditAccountAction",
+        "org.springframework.samples.jpetstore.web.struts.EditAccountFormAction",
+        "org.springframework.samples.jpetstore.web.struts.ListOrdersAction",
+        "org.springframework.samples.jpetstore.web.struts.NewOrderAction",
+        "org.springframework.samples.jpetstore.web.struts.NewOrderFormAction",
+        "org.springframework.samples.jpetstore.web.struts.ViewOrderAction"
+      ]
+    },
+    "examples": [
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java:96  return this.accountDao.getAccount(username);   [owner=PetStoreImpl, target=AccountDao]",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java:100  return this.accountDao.getAccount(username, password);   [owner=PetStoreImpl, target=AccountDao]",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/domain/logic/PetStoreImpl.java:104  this.accountDao.insertAccount(account);   [owner=PetStoreImpl, target=AccountDao]"
+    ]
+  },
+  "J2": {
+    "annotated_injection_points": 0,
+    "by_annotation": {},
+    "by_declared_type": {},
+    "spring_xml_injections": 29,
+    "spring_xml_injections_involving_app_classes": 25,
+    "call_sites_through_injected_fields": 0,
+    "those_call_sites_by_category": {},
+    "examples": [
+      "KimJongSung__jPetStore/src/main/webapp/WEB-INF/applicationContext.xml:54  bean org.springframework.samples.jpetstore.domain.logic.PetStoreImpl property accountDao -> accountDao (None)",
+      "KimJongSung__jPetStore/src/main/webapp/WEB-INF/dataAccessContext-jta.xml:48  bean org.springframework.samples.jpetstore.dao.ibatis.SqlMapAccountDao property dataSource -> dataSource (None)",
+      "KimJongSung__jPetStore/src/main/webapp/WEB-INF/dataAccessContext-jta.xml:53  bean org.springframework.samples.jpetstore.dao.ibatis.SqlMapCategoryDao property dataSource -> dataSource (None)"
+    ]
+  },
+  "J3": {
+    "call_sites": 2,
+    "by_method_and_argument": {
+      "getBean/literal": 2
+    },
+    "jndi_literal_names": [
+      "petStore"
+    ],
+    "examples": [
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/service/JaxRpcOrderService.java:44  this.orderService = (OrderService) getWebApplicationContext().getBean(\"petStore\");   [owner=JaxRpcOrderService, target=WebApplicationContext]",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/web/struts/BaseAction.java:38  this.petStore = (PetStoreFacade) wac.getBean(\"petStore\");   [owner=BaseAction, target=WebApplicationContext]"
+    ]
+  },
+  "J4": {
+    "interfaces_without_java_impl": [],
+    "of_which_bound_by_mapper_xml": [],
+    "call_sites_on_interfaces_without_impl": 0,
+    "sql_xml_files": 8,
+    "alias_packages": [],
+    "ibatis_dao_sqlmap_links": 10,
+    "binder_to_mapped_type_pairs": 10,
+    "binder_to_mapped_type_pairs_missing_in_naive_graph": 2,
+    "missing_pairs": [
+      "SqlMapCategoryDao -> Category (ibatis, KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Category.xml)",
+      "SqlMapProductDao -> Product (ibatis, KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Product.xml)"
+    ],
+    "class_literal_sites_on_external_receivers": 1,
+    "class_literal_receiver_types": {
+      "ListableBeanFactory": 1
+    },
+    "class_literal_owner_target_pairs": 1,
+    "class_literal_pairs_missing_in_naive_graph": 0,
+    "class_literal_examples": [
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/service/client/OrderServiceClient.java:42  Map orderServices = this.beanFactory.getBeansOfType(OrderService.class);   [owner=OrderServiceClient, target=ListableBeanFactory]"
+    ],
+    "jpa_associations": 0,
+    "jpa_association_pairs_missing_in_naive_graph": 0,
+    "examples": []
+  },
+  "J5": {
+    "classes_named_outside_java": {
+      "ibatis-sqlmap-xml": 7,
+      "spring-xml": 9,
+      "spring-dispatcher-xml": 16,
+      "struts-config.xml": 22
+    },
+    "entry_point_sources": [
+      "struts-config.xml",
+      "spring-dispatcher-xml"
+    ],
+    "entry_point_classes": 37,
+    "entry_points_without_inbound_naive_edge": 33,
+    "el_reference_counts": {},
+    "examples": [
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Account.xml:6  org.springframework.samples.jpetstore.domain.Account",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Category.xml:11  org.springframework.samples.jpetstore.domain.Category",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Item.xml:17  org.springframework.samples.jpetstore.domain.Item",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ibatis/maps/Item.xml:35  org.springframework.samples.jpetstore.domain.Item"
+    ]
+  },
+  "J6": {
+    "call_sites": 0,
+    "share_of_call_sites": 0.0,
+    "by_error": {},
+    "top_unsolved_symbols": {},
+    "by_module": {},
+    "unresolved_supertype_refs": 0,
+    "unresolved_field_types": 0,
+    "jars_loaded": 52,
+    "examples": []
+  },
+  "J7": {
+    "type_use_pairs": 60,
+    "type_use_pairs_without_call_edge": 29,
+    "examples": [
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/AccountDao.java:10  AccountDao declares type Account",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/CategoryDao.java:12  CategoryDao declares type Category",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ItemDao.java:17  ItemDao declares type Item",
+      "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/dao/ItemDao.java:11  ItemDao declares type Order"
+    ]
+  },
+  "object_creations_of_app_classes": 20
+}

@@ -1,0 +1,46 @@
+property service exists and has a value of morphia 
+Including mongoDB morphia service 
+:acmeair-common:compileJava UP-TO-DATE
+:acmeair-common:processResources UP-TO-DATE
+:acmeair-common:classes UP-TO-DATE
+:acmeair-common:jar UP-TO-DATE
+:acmeair-common:assemble UP-TO-DATE
+:acmeair-common:check
+:acmeair-common:build
+:acmeair-services:compileJava UP-TO-DATE
+:acmeair-services:processResources UP-TO-DATE
+:acmeair-services:classes UP-TO-DATE
+:acmeair-services:jar UP-TO-DATE
+:acmeair-loader:compileJava UP-TO-DATE
+:acmeair-loader:processResources UP-TO-DATE
+:acmeair-loader:classes UP-TO-DATE
+:acmeair-loader:jar UP-TO-DATE
+:acmeair-loader:assemble UP-TO-DATE
+:acmeair-loader:check
+:acmeair-loader:build
+:acmeair-services:assemble UP-TO-DATE
+:acmeair-services:check
+:acmeair-services:build
+:acmeair-services-morphia:compileJava UP-TO-DATE
+:acmeair-services-morphia:processResources UP-TO-DATE
+:acmeair-services-morphia:classes UP-TO-DATE
+:acmeair-services-morphia:jar UP-TO-DATE
+:acmeair-services-morphia:assemble UP-TO-DATE
+:acmeair-services-morphia:check
+:acmeair-services-morphia:build
+:acmeair-webapp:compileJava
+:acmeair-webapp:processResources UP-TO-DATE
+:acmeair-webapp:classes
+:acmeair-webapp:war
+:acmeair-webapp:assemble
+:acmeair-webapp:check
+:acmeair-webapp:build
+:acmeair-common:writeClasspath
+:acmeair-loader:writeClasspath
+:acmeair-services:writeClasspath
+:acmeair-services-morphia:writeClasspath
+:acmeair-webapp:writeClasspath
+
+BUILD SUCCESSFUL
+
+Total time: 3.484 secs

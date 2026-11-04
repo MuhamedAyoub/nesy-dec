@@ -1,0 +1,4 @@
+lit-jpetstore  graph density 0.043  mean service size 8.9  mean intra-service density 0.191  binarized SM 0.17 -> 0.20 with self-calls (11 classes)
+daytrader7     graph density 0.028  mean service size 9.5  mean intra-service density 0.218  binarized SM 0.21 -> 0.30 with self-calls (64 classes)
+acmeair        graph density 0.054  mean service size 6.4  mean intra-service density 0.251  binarized SM 0.21 -> 0.23 with self-calls (10 classes)
+lit-pbw        graph density 0.077  mean service size 9.0  mean intra-service density 0.196  binarized SM 0.16 -> 0.30 with self-calls (25 classes)

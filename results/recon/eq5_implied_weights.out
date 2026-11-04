@@ -1,0 +1,19 @@
+== std=pop
+benchmark	sum_published_score	implied_6b(SM,IFN,ICP,NED)	max_resid
+DayTrader	+0.01	[2.42, -0.81, -0.81, -0.82]	0.004
+Plants	+0.01	[2.41, -0.81, -0.81, -0.8]	0.003
+JPetStore	-0.01	[2.39, -0.8, -0.8, -0.79]	0.004
+AcmeAir	-0.01	[2.43, -0.79, -0.82, -0.8]	0.006
+== std=sample
+benchmark	sum_published_score	implied_6b(SM,IFN,ICP,NED)	max_resid
+DayTrader	+0.01	[2.57, -0.85, -0.86, -0.87]	0.004
+Plants	+0.01	[2.56, -0.86, -0.86, -0.85]	0.003
+JPetStore	-0.01	[2.56, -0.86, -0.85, -0.84]	0.004
+AcmeAir	-0.01	[2.58, -0.84, -0.87, -0.85]	0.006
+
+== exact reproduction at 2 decimals: W=(3,-1,-1,-1), z with sample std
+divisor	reproduced	total	max_abs_diff
+6	0	35	0.163
+6.5	0	35	0.076
+7	35	35	0.005
+7.5	3	35	0.064

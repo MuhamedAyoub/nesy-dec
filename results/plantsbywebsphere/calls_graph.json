@@ -1,0 +1,180 @@
+{
+  "parameters": {
+    "resolver": "java-layered",
+    "layers": [
+      "J-L0",
+      "J-L1",
+      "J-L2"
+    ],
+    "rules": [
+      "call_declared",
+      "call_inherited",
+      "call_abstraction",
+      "creation",
+      "anon_impl",
+      "method_ref",
+      "cha",
+      "spring_xml_property",
+      "jndi_ejb",
+      "spring_getbean"
+    ]
+  },
+  "dependency_graph": {
+    "com.ibm.websphere.samples.pbw.bean.BackOrderMgr": {
+      "com.ibm.websphere.samples.pbw.jpa.BackOrder": 9.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 11.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.CatalogMgr": {
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 4.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 2.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.CustomerMgr": {
+      "com.ibm.websphere.samples.pbw.jpa.Customer": 10.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 2.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.EMailMessage": {},
+    "com.ibm.websphere.samples.pbw.bean.MailerAppException": {},
+    "com.ibm.websphere.samples.pbw.bean.MailerBean": {
+      "com.ibm.websphere.samples.pbw.bean.EMailMessage": 10.0,
+      "com.ibm.websphere.samples.pbw.bean.MailerAppException": 1.0,
+      "com.ibm.websphere.samples.pbw.jpa.Customer": 1.0,
+      "com.ibm.websphere.samples.pbw.jpa.Order": 6.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 6.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.NoSupplierException": {},
+    "com.ibm.websphere.samples.pbw.bean.PopulateDBBean": {
+      "com.ibm.websphere.samples.pbw.bean.ResetDBBean": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.ResetDBBean": {
+      "com.ibm.websphere.samples.pbw.bean.BackOrderMgr": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 2.0,
+      "com.ibm.websphere.samples.pbw.bean.CustomerMgr": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.SuppliersBean": 1.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 91.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean": {
+      "com.ibm.websphere.samples.pbw.jpa.BackOrder": 3.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 25.0,
+      "com.ibm.websphere.samples.pbw.jpa.Order": 1.0,
+      "com.ibm.websphere.samples.pbw.jpa.OrderItem": 4.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 3.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.ShoppingCartContent": {
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 5.0
+    },
+    "com.ibm.websphere.samples.pbw.bean.SuppliersBean": {
+      "com.ibm.websphere.samples.pbw.jpa.Supplier": 8.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 10.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.BackOrder": {
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.Customer": {},
+    "com.ibm.websphere.samples.pbw.jpa.Inventory": {
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.Order": {
+      "com.ibm.websphere.samples.pbw.jpa.OrderItem": 4.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.OrderItem": {
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 9.0,
+      "com.ibm.websphere.samples.pbw.jpa.Order": 3.0,
+      "com.ibm.websphere.samples.pbw.jpa.OrderItem.PK": 2.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 2.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.OrderItem.PK": {
+      "com.ibm.websphere.samples.pbw.utils.Util": 5.0
+    },
+    "com.ibm.websphere.samples.pbw.jpa.OrderKey": {},
+    "com.ibm.websphere.samples.pbw.jpa.Supplier": {},
+    "com.ibm.websphere.samples.pbw.utils.ListProperties": {
+      "com.ibm.websphere.samples.pbw.utils.Util": 7.0
+    },
+    "com.ibm.websphere.samples.pbw.utils.Util": {
+      "com.ibm.websphere.samples.pbw.utils.ListProperties": 4.0
+    },
+    "com.ibm.websphere.samples.pbw.war.AccountBean": {
+      "com.ibm.websphere.samples.pbw.bean.CustomerMgr": 4.0,
+      "com.ibm.websphere.samples.pbw.bean.MailerAppException": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.MailerBean": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean": 3.0,
+      "com.ibm.websphere.samples.pbw.jpa.Customer": 27.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 2.0,
+      "com.ibm.websphere.samples.pbw.war.LoginInfo": 13.0,
+      "com.ibm.websphere.samples.pbw.war.OrderInfo": 25.0,
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.AccountServlet": {
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 3.0,
+      "com.ibm.websphere.samples.pbw.bean.CustomerMgr": 4.0,
+      "com.ibm.websphere.samples.pbw.jpa.Customer": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 18.0
+    },
+    "com.ibm.websphere.samples.pbw.war.AdminServlet": {
+      "com.ibm.websphere.samples.pbw.bean.BackOrderMgr": 6.0,
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 2.0,
+      "com.ibm.websphere.samples.pbw.bean.SuppliersBean": 2.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 4.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 29.0,
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem": 11.0,
+      "com.ibm.websphere.samples.pbw.war.Populate": 2.0
+    },
+    "com.ibm.websphere.samples.pbw.war.BackOrderItem": {
+      "com.ibm.websphere.samples.pbw.jpa.BackOrder": 7.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.HelpBean": {
+      "com.ibm.websphere.samples.pbw.bean.ResetDBBean": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 2.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ImageServlet": {
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.LoginInfo": {},
+    "com.ibm.websphere.samples.pbw.war.MailAction": {
+      "com.ibm.websphere.samples.pbw.bean.MailerBean": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.OrderInfo": {
+      "com.ibm.websphere.samples.pbw.jpa.Order": 16.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 3.0
+    },
+    "com.ibm.websphere.samples.pbw.war.Populate": {
+      "com.ibm.websphere.samples.pbw.bean.BackOrderMgr": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 2.0,
+      "com.ibm.websphere.samples.pbw.bean.CustomerMgr": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.ResetDBBean": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean": 1.0,
+      "com.ibm.websphere.samples.pbw.bean.SuppliersBean": 1.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 1.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 90.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ProductBean": {
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 2.0,
+      "com.ibm.websphere.samples.pbw.utils.Util": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ShoppingBean": {
+      "com.ibm.websphere.samples.pbw.bean.CatalogMgr": 2.0,
+      "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean": 5.0,
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 3.0,
+      "com.ibm.websphere.samples.pbw.war.ProductBean": 4.0,
+      "com.ibm.websphere.samples.pbw.war.ShoppingItem": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ShoppingItem": {
+      "com.ibm.websphere.samples.pbw.jpa.Inventory": 40.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ValidatePasswords": {
+      "com.ibm.websphere.samples.pbw.war.ValidatorUtils": 1.0
+    },
+    "com.ibm.websphere.samples.pbw.war.ValidatorUtils": {}
+  },
+  "isolated_classes": [
+    "com.ibm.websphere.samples.pbw.bean.NoSupplierException",
+    "com.ibm.websphere.samples.pbw.jpa.OrderKey"
+  ]
+}

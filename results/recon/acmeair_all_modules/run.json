@@ -1,0 +1,40 @@
+{
+  "analyzer_version": "0.1.0",
+  "javaparser_version": "3.26.2",
+  "config": {
+    "app": "acmeair",
+    "sourceRoots": [
+      "<subjects>/acmeair/acmeair-common/src/main/java",
+      "<subjects>/acmeair/acmeair-services/src/main/java",
+      "<subjects>/acmeair/acmeair-services-wxs/src/main/java",
+      "<subjects>/acmeair/acmeair-services-morphia/src/main/java",
+      "<subjects>/acmeair/acmeair-loader/src/main/java",
+      "<subjects>/acmeair/acmeair-webapp/src/main/java",
+      "<subjects>/acmeair/acmeair-reporter/src/main/java"
+    ],
+    "classpath": [
+      "~/.gradle/caches/modules-2/files-2.1/javax/javaee-web-api/7.0/b1fce45ba94108ebf7e1cace6427ec8761cabec1/javaee-web-api-7.0.jar",
+      "<subjects>/acmeair/acmeair-common/build/libs/acmeair-common-2.0.0-SNAPSHOT.jar",
+      "~/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar",
+      "~/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar",
+      "~/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar",
+      "<subjects>/acmeair/acmeair-services/build/libs/acmeair-services-2.0.0-SNAPSHOT.jar",
+      "~/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/2.13.0/6b19c1276871001fa85684475db7e4c538046b52/mongo-java-driver-2.13.0.jar",
+      "~/.gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia/0.110/dad7bb1d4ef09541b3b633e90ff2b93a8df73f1e/morphia-0.110.jar",
+      "~/.gradle/caches/modules-2/files-2.1/org.mongodb.morphia/morphia-util/0.110/bd3b8ef6c2e530e24b50a6a33f5e37550d17d1d2/morphia-util-0.110.jar",
+      "~/.gradle/caches/modules-2/files-2.1/com.thoughtworks.proxytoys/proxytoys/1.0/d22baee6d1b98dc38a6a428f774fd9e5b2ccf4af/proxytoys-1.0.jar",
+      "<subjects>/acmeair/acmeair-loader/build/libs/acmeair-loader-2.0.0-SNAPSHOT.jar",
+      "<subjects>/acmeair/acmeair-services-morphia/build/libs/acmeair-services-morphia-2.0.0-SNAPSHOT.jar"
+    ],
+    "languageLevel": "JAVA_17"
+  },
+  "java_files": 81,
+  "parse_failures": [],
+  "jars_loaded": 12,
+  "jars_skipped": [],
+  "class_nodes": 84,
+  "call_sites": 1651,
+  "object_creations": 245,
+  "method_references": 0,
+  "seconds": 2.182
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <bean id="orderService" class="fx.service.OrderServiceImpl"/>
+  <!-- an alternative kept in a comment must not count:
+  <bean id="orderService" class="fx.service.LegacyOrderService"/>
+  -->
+  <bean id="orderAction" class="fx.web.OrderAction">
+    <property name="orderService" ref="orderService"/>
+  </bean>
+  <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="typeAliasesPackage" value="fx.domain"/>
+  </bean>
+</beans>

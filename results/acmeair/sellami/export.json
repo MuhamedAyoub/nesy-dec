@@ -1,0 +1,8 @@
+{
+  "app": "acmeair",
+  "classes": 70,
+  "vocabulary": 1269,
+  "edges": 264,
+  "weight": 629.0,
+  "rare_terms_for_word_intersection": 1258
+}

@@ -1,0 +1,39 @@
+jpetstore-6        ablation:kl0_ep2000:full           evaluate +0.520 vs paper +0.291
+jpetstore-6        ablation:kl0_ep2000:full           weerasinghe +0.433 vs paper +0.312
+jpetstore-6        ablation:kl0_ep2000:full           rldec    +0.316 vs paper +0.178
+jpetstore-6        ablation:kl0_ep2000:structural     evaluate +0.568 vs paper +0.288
+jpetstore-6        ablation:kl0_ep2000:structural     weerasinghe +0.501 vs paper +0.302
+jpetstore-6        ablation:kl0_ep2000:structural     rldec    +0.383 vs paper +0.168
+jpetstore-6        ablation:nobc_ep2000:full          evaluate +0.149 vs paper +0.387
+jpetstore-6        ablation:nobc_ep2000:full          weerasinghe +0.061 vs paper +0.384
+jpetstore-6        ablation:nobc_ep2000:full          rldec    -0.077 vs paper +0.238
+jpetstore-6        ablation:nobc_ep2000:structural    evaluate +0.149 vs paper +0.387
+jpetstore-6        ablation:nobc_ep2000:structural    weerasinghe +0.061 vs paper +0.384
+jpetstore-6        ablation:nobc_ep2000:structural    rldec    -0.077 vs paper +0.238
+plantsbywebsphere  ablation:kl0_ep2000:full           evaluate +1.012 vs paper +0.740
+plantsbywebsphere  ablation:kl0_ep2000:full           weerasinghe +1.067 vs paper +0.788
+plantsbywebsphere  ablation:kl0_ep2000:full           rldec    +0.578 vs paper +0.475
+plantsbywebsphere  ablation:kl0_ep2000:structural     evaluate +1.007 vs paper +0.731
+plantsbywebsphere  ablation:kl0_ep2000:structural     weerasinghe +1.068 vs paper +0.769
+plantsbywebsphere  ablation:kl0_ep2000:structural     rldec    +0.575 vs paper +0.474
+plantsbywebsphere  ablation:nobc_ep2000:full          evaluate +0.349 vs paper +1.027
+plantsbywebsphere  ablation:nobc_ep2000:full          weerasinghe +0.348 vs paper +1.139
+plantsbywebsphere  ablation:nobc_ep2000:full          rldec    -0.260 vs paper +0.550
+plantsbywebsphere  ablation:nobc_ep2000:structural    evaluate +0.349 vs paper +1.027
+plantsbywebsphere  ablation:nobc_ep2000:structural    weerasinghe +0.348 vs paper +1.139
+plantsbywebsphere  ablation:nobc_ep2000:structural    rldec    -0.260 vs paper +0.550
+lit-pbw            ablation:kl0_ep2000:full           evaluate +0.836 vs paper +0.784
+lit-pbw            ablation:kl0_ep2000:full           weerasinghe +0.902 vs paper +0.820
+lit-pbw            ablation:kl0_ep2000:full           rldec    +0.302 vs paper +0.777
+lit-pbw            ablation:kl0_ep2000:structural     evaluate +0.775 vs paper +0.832
+lit-pbw            ablation:kl0_ep2000:structural     weerasinghe +0.829 vs paper +0.886
+lit-pbw            ablation:kl0_ep2000:structural     rldec    +0.514 vs paper +0.728
+lit-pbw            ablation:nobc_ep2000:full          evaluate +0.367 vs paper +0.999
+lit-pbw            ablation:nobc_ep2000:full          weerasinghe +0.381 vs paper +1.090
+lit-pbw            ablation:nobc_ep2000:full          rldec    -0.183 vs paper +0.801
+lit-pbw            ablation:nobc_ep2000:structural    evaluate +0.367 vs paper +0.999
+lit-pbw            ablation:nobc_ep2000:structural    weerasinghe +0.381 vs paper +1.090
+lit-pbw            ablation:nobc_ep2000:structural    rldec    -0.183 vs paper +0.801
+kl0_ep2000: above the paper setting in 14 of 18 cells
+nobc_ep2000: above the paper setting in 0 of 18 cells
+selected: kl0_ep2000

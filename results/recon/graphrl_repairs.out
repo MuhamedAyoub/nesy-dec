@@ -1,0 +1,30 @@
+=== acmeair: 70 classes; teacher violates 2 of 169 cannot-link pairs, keeps 7 of 13 must-link pairs
+  full_s1: moved 2, of them in a violated cannot-link pair 2; cannot-link violations 0; must-link kept 7 of 13
+    moved: ['AirportCodeMappingImpl', 'CustomerAddressImpl']
+    must-link pairs lost: []
+  full_s42: moved 2, of them in a violated cannot-link pair 2; cannot-link violations 0; must-link kept 7 of 13
+    moved: ['AirportCodeMappingImpl', 'CustomerAddressImpl']
+    must-link pairs lost: []
+  full_s7: moved 2, of them in a violated cannot-link pair 2; cannot-link violations 0; must-link kept 7 of 13
+    moved: ['AirportCodeMappingImpl', 'CustomerAddressImpl']
+    must-link pairs lost: []
+=== daytrader7: 104 classes; teacher violates 118 of 684 cannot-link pairs, keeps 30 of 41 must-link pairs
+  full_s1: moved 21, of them in a violated cannot-link pair 15; cannot-link violations 0; must-link kept 24 of 41
+    moved: ['DTBroker3MDB', 'DTStreamer3MDB', 'TradeSLSBLocal', 'MDBStats', 'TimerStat', 'WebSocketJMSMessage', 'TradeActionProducer', 'PingInterceptor', 'PingInterceptorBinding', 'PingJDBCRead', 'PingJDBCRead2JSP', 'PingJDBCWrite', 'PingManagedThread', 'PingServlet2Include', 'PingServlet2JNDI', 'PingServlet2Servlet', 'PingSession3Object', 'PingServlet2MDBQueue', 'PingServlet2Session2CMROne2Many', 'PingServlet2Session2CMROne2One', 'PingServlet2SessionLocal']
+    must-link pairs lost: [('QuoteDataBean', 'PingServlet2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity2JSP'), ('TradeSLSBBean', 'PingServlet2Session2EntityCollection'), ('TradeSLSBBean', 'PingServlet2SessionRemote'), ('TradeSLSBBean', 'PingServlet2TwoPhase')]
+  full_s42: moved 21, of them in a violated cannot-link pair 15; cannot-link violations 0; must-link kept 24 of 41
+    moved: ['DTBroker3MDB', 'DTStreamer3MDB', 'TradeSLSBLocal', 'MDBStats', 'TimerStat', 'WebSocketJMSMessage', 'TradeActionProducer', 'PingInterceptor', 'PingInterceptorBinding', 'PingJDBCRead', 'PingJDBCRead2JSP', 'PingJDBCWrite', 'PingManagedThread', 'PingServlet2Include', 'PingServlet2JNDI', 'PingServlet2Servlet', 'PingSession3Object', 'PingServlet2MDBQueue', 'PingServlet2Session2CMROne2Many', 'PingServlet2Session2CMROne2One', 'PingServlet2SessionLocal']
+    must-link pairs lost: [('QuoteDataBean', 'PingServlet2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity2JSP'), ('TradeSLSBBean', 'PingServlet2Session2EntityCollection'), ('TradeSLSBBean', 'PingServlet2SessionRemote'), ('TradeSLSBBean', 'PingServlet2TwoPhase')]
+  full_s7: moved 21, of them in a violated cannot-link pair 15; cannot-link violations 0; must-link kept 24 of 41
+    moved: ['DTBroker3MDB', 'DTStreamer3MDB', 'TradeSLSBLocal', 'MDBStats', 'TimerStat', 'WebSocketJMSMessage', 'TradeActionProducer', 'PingInterceptor', 'PingInterceptorBinding', 'PingJDBCRead', 'PingJDBCRead2JSP', 'PingJDBCWrite', 'PingManagedThread', 'PingServlet2Include', 'PingServlet2JNDI', 'PingServlet2Servlet', 'PingSession3Object', 'PingServlet2MDBQueue', 'PingServlet2Session2CMROne2Many', 'PingServlet2Session2CMROne2One', 'PingServlet2SessionLocal']
+    must-link pairs lost: [('QuoteDataBean', 'PingServlet2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity'), ('TradeSLSBBean', 'PingServlet2Session2Entity2JSP'), ('TradeSLSBBean', 'PingServlet2Session2EntityCollection'), ('TradeSLSBBean', 'PingServlet2SessionRemote'), ('TradeSLSBBean', 'PingServlet2TwoPhase')]
+=== lit-jpetstore: 71 classes; teacher violates 10 of 352 cannot-link pairs, keeps 25 of 44 must-link pairs
+  full_s1: moved 5, of them in a violated cannot-link pair 5; cannot-link violations 0; must-link kept 25 of 44
+    moved: ['RemoveItemFromCartController', 'UpdateCartQuantitiesController', 'ViewCartController', 'ViewItemController', 'ViewOrderController']
+    must-link pairs lost: []
+  full_s42: moved 5, of them in a violated cannot-link pair 5; cannot-link violations 0; must-link kept 25 of 44
+    moved: ['RemoveItemFromCartController', 'UpdateCartQuantitiesController', 'ViewCartController', 'ViewItemController', 'ViewOrderController']
+    must-link pairs lost: []
+  full_s7: moved 5, of them in a violated cannot-link pair 5; cannot-link violations 0; must-link kept 25 of 44
+    moved: ['RemoveItemFromCartController', 'UpdateCartQuantitiesController', 'ViewCartController', 'ViewItemController', 'ViewOrderController']
+    must-link pairs lost: []

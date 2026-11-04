@@ -1,0 +1,25 @@
+{
+  "apps": [
+    "jpetstore-6",
+    "acmeair",
+    "daytrader7",
+    "plantsbywebsphere",
+    "lit-jpetstore",
+    "lit-pbw"
+  ],
+  "config": {
+    "epochs": 3,
+    "batch_size": 16,
+    "lr": 5e-05,
+    "max_length": 512,
+    "use_lora": true,
+    "seed": 42,
+    "triplet_margin": 0.3,
+    "constraint_margin": 0.5,
+    "lambda_must_link": 0.0,
+    "lambda_cannot_link": 0.3
+  },
+  "smoke": false,
+  "config_hash": "d2677ae0aed9",
+  "seconds": 621.0
+}

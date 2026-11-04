@@ -1,0 +1,27 @@
+# caches and build outputs
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv*/
+venv*/
+java_analyzer/target/
+logs/
+
+# fetched subjects and third-party baselines (scripts/fetch_*.sh)
+datasets_java/
+decomp-*/
+
+# checkpoints: shipped separately, see ARTIFACTS.md
+*.pt
+*.pth
+*.pkl
+*.safetensors
+results/_nesy/encoder/train/adapter/
+# ...except the twelve embedding banks the level-1 tables read (2.4 MB)
+!results/_nesy/encoder/train/embeddings/*.pt
+!results/_nesy/b0_pretrained/embeddings/*.pt
+
+# bundles
+*.tar.gz
+*.zip

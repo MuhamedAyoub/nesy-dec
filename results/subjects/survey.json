@@ -1,0 +1,517 @@
+{
+  "jpetstore-6": {
+    "modules": {
+      "jpetstore": {
+        "role": "app",
+        "source": {
+          "java_files": 24,
+          "packages": {
+            "org.mybatis.jpetstore.domain": 9,
+            "org.mybatis.jpetstore.mapper": 7,
+            "org.mybatis.jpetstore.service": 3,
+            "org.mybatis.jpetstore.web.actions": 5
+          },
+          "framework_import_files": {
+            "MyBatis": 14,
+            "Stripes": 6,
+            "Spring": 3,
+            "Servlet": 3
+          },
+          "wiring_annotation_files": {
+            "Spring stereotype": 3,
+            "Stripes ActionBean": 5
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 24,
+          "total": 24
+        }
+      }
+    },
+    "xml_configs": {
+      "beans.xml": 1,
+      "applicationContext.xml": 1,
+      "web.xml": 1,
+      "(mybatis/ibatis mapper xml)": 7
+    }
+  },
+  "acmeair": {
+    "modules": {
+      "acmeair-common": {
+        "role": "app",
+        "source": {
+          "java_files": 8,
+          "packages": {
+            "com.acmeair": 1,
+            "com.acmeair.entities": 7
+          },
+          "framework_import_files": {},
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 8,
+          "named_nested": 2,
+          "total": 10
+        }
+      },
+      "acmeair-services": {
+        "role": "app",
+        "source": {
+          "java_files": 7,
+          "packages": {
+            "com.acmeair.service": 7
+          },
+          "framework_import_files": {
+            "CDI": 3,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 2,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 7,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 7,
+          "anonymous_or_local": 2,
+          "total": 9
+        }
+      },
+      "acmeair-services-morphia": {
+        "role": "app",
+        "source": {
+          "java_files": 15,
+          "packages": {
+            "com.acmeair.morphia": 4,
+            "com.acmeair.morphia.entities": 7,
+            "com.acmeair.morphia.services": 3,
+            "com.acmeair.morphia.services.util": 1
+          },
+          "framework_import_files": {
+            "Morphia/Mongo": 13,
+            "CDI": 2,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {
+            "@Entity": 6
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 2,
+            "@EJB": 0,
+            "@Resource": 1,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 4,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 15,
+          "total": 15
+        }
+      },
+      "acmeair-loader": {
+        "role": "app",
+        "source": {
+          "java_files": 3,
+          "packages": {
+            "com.acmeair.loader": 3
+          },
+          "framework_import_files": {},
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 3,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 3,
+          "total": 3
+        }
+      },
+      "acmeair-webapp": {
+        "role": "app",
+        "source": {
+          "java_files": 19,
+          "packages": {
+            "com.acmeair.config": 2,
+            "com.acmeair.web": 7,
+            "com.acmeair.web.dto": 10
+          },
+          "framework_import_files": {
+            "JAX-RS": 8,
+            "Servlet": 2,
+            "CDI": 3,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {
+            "@Path/@ApplicationPath": 8
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 3,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 2,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 19,
+          "named_nested": 1,
+          "total": 20
+        }
+      },
+      "acmeair-services-wxs": {
+        "role": "alt",
+        "source": {
+          "java_files": 17,
+          "packages": {
+            "com.acmeair.entities": 2,
+            "com.acmeair.wxs": 1,
+            "com.acmeair.wxs.entities": 9,
+            "com.acmeair.wxs.service": 3,
+            "com.acmeair.wxs.utils": 2
+          },
+          "framework_import_files": {
+            "WXS(objectgrid)": 7,
+            "CDI": 3,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 3,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 4,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": null
+      },
+      "acmeair-reporter": {
+        "role": "tool",
+        "source": {
+          "java_files": 12,
+          "packages": {
+            "com.acmeair.reporter": 1,
+            "com.acmeair.reporter.parser": 5,
+            "com.acmeair.reporter.parser.component": 4,
+            "com.acmeair.reporter.util": 2
+          },
+          "framework_import_files": {},
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": null
+      }
+    },
+    "xml_configs": {
+      "beans.xml": 5,
+      "web.xml": 1
+    }
+  },
+  "daytrader7": {
+    "modules": {
+      "daytrader-ee7-ejb": {
+        "role": "app",
+        "source": {
+          "java_files": 25,
+          "packages": {
+            "com.ibm.websphere.samples.daytrader": 2,
+            "com.ibm.websphere.samples.daytrader.beans": 2,
+            "com.ibm.websphere.samples.daytrader.direct": 2,
+            "com.ibm.websphere.samples.daytrader.ejb3": 6,
+            "com.ibm.websphere.samples.daytrader.entities": 5,
+            "com.ibm.websphere.samples.daytrader.util": 8
+          },
+          "framework_import_files": {
+            "JNDI": 3,
+            "JPA": 7,
+            "EJB": 8,
+            "CDI": 4,
+            "JMS": 4
+          },
+          "wiring_annotation_files": {
+            "@Entity": 5,
+            "@Stateless/@Stateful/@Singleton": 2,
+            "@MessageDriven": 2
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 1,
+            "@EJB": 2,
+            "@Resource": 12,
+            "@Autowired": 0,
+            "@PersistenceContext": 2,
+            "JNDI lookup(": 15,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 25,
+          "named_nested": 2,
+          "total": 27
+        }
+      },
+      "daytrader-ee7-web": {
+        "role": "app",
+        "source": {
+          "java_files": 83,
+          "packages": {
+            "com.ibm.websphere.samples.daytrader.web": 8,
+            "com.ibm.websphere.samples.daytrader.web.jsf": 14,
+            "com.ibm.websphere.samples.daytrader.web.prims": 43,
+            "com.ibm.websphere.samples.daytrader.web.prims.ejb3": 11,
+            "com.ibm.websphere.samples.daytrader.web.websocket": 7
+          },
+          "framework_import_files": {
+            "Servlet": 55,
+            "WebSocket": 8,
+            "CDI": 20,
+            "JNDI": 6,
+            "EJB": 10,
+            "JSF": 8,
+            "JMS": 4,
+            "JPA": 1
+          },
+          "wiring_annotation_files": {
+            "@WebServlet/@WebFilter/@WebListener": 47,
+            "@ServerEndpoint": 5,
+            "@Stateless/@Stateful/@Singleton": 1,
+            "@Named/@ManagedBean": 9
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 16,
+            "@EJB": 9,
+            "@Resource": 7,
+            "@Autowired": 0,
+            "@PersistenceContext": 1,
+            "JNDI lookup(": 6,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 83,
+          "anonymous_or_local": 6,
+          "named_nested": 5,
+          "total": 94
+        }
+      }
+    },
+    "xml_configs": {
+      "persistence.xml": 3,
+      "beans.xml": 1,
+      "web.xml": 1,
+      "faces-config.xml": 1,
+      "ejb-jar.xml": 1,
+      "server.xml": 1
+    }
+  },
+  "plantsbywebsphere": {
+    "modules": {
+      "pbw": {
+        "role": "app",
+        "source": {
+          "java_files": 36,
+          "packages": {
+            "com.ibm.websphere.samples.pbw.bean": 12,
+            "com.ibm.websphere.samples.pbw.jpa": 7,
+            "com.ibm.websphere.samples.pbw.utils": 2,
+            "com.ibm.websphere.samples.pbw.war": 15
+          },
+          "framework_import_files": {
+            "JPA": 13,
+            "CDI": 15,
+            "EJB": 1,
+            "JSF": 5,
+            "Servlet": 3,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {
+            "@Stateless/@Stateful/@Singleton": 1,
+            "@Named/@ManagedBean": 9,
+            "@WebServlet/@WebFilter/@WebListener": 3,
+            "@Entity": 6
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 21,
+            "@EJB": 0,
+            "@Resource": 2,
+            "@Autowired": 0,
+            "@PersistenceContext": 7,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": {
+          "top_level": 36,
+          "named_nested": 1,
+          "total": 37
+        }
+      }
+    },
+    "xml_configs": {
+      "server.xml": 1,
+      "beans.xml": 1,
+      "web.xml": 1,
+      "faces-config.xml": 1,
+      "persistence.xml": 1
+    }
+  },
+  "lit:KimJongSung/jPetStore": {
+    "modules": {
+      "jpetstore": {
+        "role": "app",
+        "source": {
+          "java_files": 72,
+          "packages": {
+            "org.springframework.samples.jpetstore.dao": 5,
+            "org.springframework.samples.jpetstore.dao.ibatis": 9,
+            "org.springframework.samples.jpetstore.domain": 8,
+            "org.springframework.samples.jpetstore.domain.logic": 6,
+            "org.springframework.samples.jpetstore.service": 1,
+            "org.springframework.samples.jpetstore.service.client": 1,
+            "org.springframework.samples.jpetstore.web.spring": 18,
+            "org.springframework.samples.jpetstore.web.struts": 24
+          },
+          "framework_import_files": {
+            "Spring": 58,
+            "Servlet": 39,
+            "Struts": 24
+          },
+          "wiring_annotation_files": {
+            "Struts Action": 20
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": null
+      }
+    },
+    "xml_configs": {
+      "(mybatis/ibatis mapper xml)": 8,
+      "applicationContext.xml": 1,
+      "web.xml": 1,
+      "struts-config.xml": 1,
+      "remoting-servlet.xml": 1,
+      "petstore-servlet.xml": 1
+    }
+  },
+  "lit:pbw-monolith@e6f2a6a": {
+    "modules": {
+      "PlantsByWebSphere": {
+        "role": "app",
+        "source": {
+          "java_files": 36,
+          "packages": {
+            "com.ibm.websphere.samples.pbw.ejb": 11,
+            "com.ibm.websphere.samples.pbw.jpa": 7,
+            "com.ibm.websphere.samples.pbw.migration": 1,
+            "com.ibm.websphere.samples.pbw.war": 15,
+            "pagecode": 2
+          },
+          "framework_import_files": {
+            "JSF": 6,
+            "EJB": 14,
+            "CDI": 4,
+            "Servlet": 4,
+            "JPA": 13,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {
+            "@Named/@ManagedBean": 4,
+            "@WebServlet/@WebFilter/@WebListener": 4,
+            "@Stateless/@Stateful/@Singleton": 7,
+            "@Entity": 6
+          },
+          "injection_and_lookup_sites": {
+            "@Inject": 2,
+            "@EJB": 18,
+            "@Resource": 1,
+            "@Autowired": 0,
+            "@PersistenceContext": 7,
+            "JNDI lookup(": 1,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": null
+      },
+      "pbw-lib": {
+        "role": "app",
+        "source": {
+          "java_files": 2,
+          "packages": {
+            "com.ibm.websphere.samples.pbw.utils": 2
+          },
+          "framework_import_files": {
+            "JSF": 1,
+            "JNDI": 1
+          },
+          "wiring_annotation_files": {},
+          "injection_and_lookup_sites": {
+            "@Inject": 0,
+            "@EJB": 0,
+            "@Resource": 0,
+            "@Autowired": 0,
+            "@PersistenceContext": 0,
+            "JNDI lookup(": 0,
+            "Class.forName(": 0
+          }
+        },
+        "compiled": null
+      }
+    },
+    "xml_configs": {
+      "persistence.xml": 2,
+      "beans.xml": 1,
+      "web.xml": 1,
+      "faces-config.xml": 1
+    }
+  }
+}

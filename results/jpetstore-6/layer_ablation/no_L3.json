@@ -1,0 +1,290 @@
+{
+  "parameters": {
+    "alpha": 0.9,
+    "beta": 0.1,
+    "n_top": 8,
+    "min_cluster_size": 3,
+    "gamma": 0.1,
+    "mode": "hierarchical",
+    "resolver": "java-layered",
+    "graph": "<repo>/results_java/jpetstore-6/layer_ablation/no_L3_graph.json"
+  },
+  "summary": {
+    "total_classes_original": 24,
+    "total_classes_active": 24,
+    "isolated_classes": 0,
+    "total_data_entities": 0,
+    "num_microservices": 4
+  },
+  "resolver_report": null,
+  "dependency_graph": {
+    "org.mybatis.jpetstore.domain.Account": {
+    },
+    "org.mybatis.jpetstore.domain.Cart": {
+      "org.mybatis.jpetstore.domain.Item": 4.0,
+      "org.mybatis.jpetstore.domain.CartItem": 11.0
+    },
+    "org.mybatis.jpetstore.domain.CartItem": {
+      "org.mybatis.jpetstore.domain.Item": 2.0
+    },
+    "org.mybatis.jpetstore.domain.Category": {
+    },
+    "org.mybatis.jpetstore.domain.Item": {
+      "org.mybatis.jpetstore.domain.Product": 2.0
+    },
+    "org.mybatis.jpetstore.domain.LineItem": {
+      "org.mybatis.jpetstore.domain.CartItem": 5.0,
+      "org.mybatis.jpetstore.domain.Item": 4.0
+    },
+    "org.mybatis.jpetstore.domain.Order": {
+      "org.mybatis.jpetstore.domain.Account": 18.0,
+      "org.mybatis.jpetstore.domain.Cart": 3.0,
+      "org.mybatis.jpetstore.domain.LineItem": 2.0,
+      "org.mybatis.jpetstore.domain.CartItem": 1.0
+    },
+    "org.mybatis.jpetstore.domain.Product": {
+    },
+    "org.mybatis.jpetstore.domain.Sequence": {
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper": {
+      "org.mybatis.jpetstore.domain.Account": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.CategoryMapper": {
+      "org.mybatis.jpetstore.domain.Category": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper": {
+      "org.mybatis.jpetstore.domain.Item": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.LineItemMapper": {
+      "org.mybatis.jpetstore.domain.LineItem": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper": {
+      "org.mybatis.jpetstore.domain.Order": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.ProductMapper": {
+      "org.mybatis.jpetstore.domain.Product": 1.0
+    },
+    "org.mybatis.jpetstore.mapper.SequenceMapper": {
+      "org.mybatis.jpetstore.domain.Sequence": 1.0
+    },
+    "org.mybatis.jpetstore.service.AccountService": {
+      "org.mybatis.jpetstore.mapper.AccountMapper": 9.0,
+      "org.mybatis.jpetstore.domain.Account": 2.0
+    },
+    "org.mybatis.jpetstore.service.CatalogService": {
+      "org.mybatis.jpetstore.mapper.CategoryMapper": 3.0,
+      "org.mybatis.jpetstore.mapper.ProductMapper": 4.0,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 4.0,
+      "org.mybatis.jpetstore.domain.Category": 1.0,
+      "org.mybatis.jpetstore.domain.Product": 1.0,
+      "org.mybatis.jpetstore.domain.Item": 1.0
+    },
+    "org.mybatis.jpetstore.service.OrderService": {
+      "org.mybatis.jpetstore.domain.Order": 7.0,
+      "org.mybatis.jpetstore.domain.LineItem": 6.0,
+      "org.mybatis.jpetstore.mapper.ItemMapper": 4.0,
+      "org.mybatis.jpetstore.mapper.OrderMapper": 5.0,
+      "org.mybatis.jpetstore.mapper.LineItemMapper": 3.0,
+      "org.mybatis.jpetstore.domain.Item": 1.0,
+      "org.mybatis.jpetstore.mapper.SequenceMapper": 3.0,
+      "org.mybatis.jpetstore.domain.Sequence": 4.0
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean": {
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean": {
+      "org.mybatis.jpetstore.domain.Account": 14.0,
+      "org.mybatis.jpetstore.service.AccountService": 6.0,
+      "org.mybatis.jpetstore.service.CatalogService": 4.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 4.0,
+      "org.mybatis.jpetstore.web.actions.CatalogActionBean": 4.0,
+      "org.mybatis.jpetstore.domain.Product": 1.0
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean": {
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 8.0,
+      "org.mybatis.jpetstore.domain.Cart": 9.0,
+      "org.mybatis.jpetstore.service.CatalogService": 3.0,
+      "org.mybatis.jpetstore.domain.Item": 1.0,
+      "org.mybatis.jpetstore.domain.CartItem": 1.0
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean": {
+      "org.mybatis.jpetstore.service.CatalogService": 7.0,
+      "org.mybatis.jpetstore.domain.Item": 2.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 3.0,
+      "org.mybatis.jpetstore.domain.Category": 1.0,
+      "org.mybatis.jpetstore.domain.Product": 1.0
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean": {
+      "org.mybatis.jpetstore.domain.Order": 8.0,
+      "org.mybatis.jpetstore.service.OrderService": 4.0,
+      "org.mybatis.jpetstore.domain.Account": 2.0,
+      "org.mybatis.jpetstore.web.actions.AccountActionBean": 5.0,
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": 13.0,
+      "org.mybatis.jpetstore.web.actions.CartActionBean": 2.0
+    }
+  },
+  "data_associations": {
+    "org.mybatis.jpetstore.domain.Account": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Cart": [
+
+    ],
+    "org.mybatis.jpetstore.domain.CartItem": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Category": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Item": [
+
+    ],
+    "org.mybatis.jpetstore.domain.LineItem": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Order": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Product": [
+
+    ],
+    "org.mybatis.jpetstore.domain.Sequence": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.AccountMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.CategoryMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.ItemMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.LineItemMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.OrderMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.ProductMapper": [
+
+    ],
+    "org.mybatis.jpetstore.mapper.SequenceMapper": [
+
+    ],
+    "org.mybatis.jpetstore.service.AccountService": [
+
+    ],
+    "org.mybatis.jpetstore.service.CatalogService": [
+
+    ],
+    "org.mybatis.jpetstore.service.OrderService": [
+
+    ],
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean": [
+
+    ],
+    "org.mybatis.jpetstore.web.actions.AccountActionBean": [
+
+    ],
+    "org.mybatis.jpetstore.web.actions.CartActionBean": [
+
+    ],
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean": [
+
+    ],
+    "org.mybatis.jpetstore.web.actions.OrderActionBean": [
+
+    ]
+  },
+  "clusters": [
+    {
+      "id": 1,
+      "name": "Cluster42",
+      "classes": [
+        "org.mybatis.jpetstore.mapper.CategoryMapper",
+        "org.mybatis.jpetstore.domain.Category",
+        "org.mybatis.jpetstore.web.actions.CartActionBean",
+        "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+        "org.mybatis.jpetstore.web.actions.OrderActionBean"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cluster38",
+      "classes": [
+        "org.mybatis.jpetstore.domain.Product",
+        "org.mybatis.jpetstore.domain.Item",
+        "org.mybatis.jpetstore.domain.Cart",
+        "org.mybatis.jpetstore.domain.CartItem"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cluster41",
+      "classes": [
+        "org.mybatis.jpetstore.mapper.ProductMapper",
+        "org.mybatis.jpetstore.mapper.ItemMapper",
+        "org.mybatis.jpetstore.service.CatalogService",
+        "org.mybatis.jpetstore.web.actions.CatalogActionBean"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cluster43",
+      "classes": [
+        "org.mybatis.jpetstore.mapper.SequenceMapper",
+        "org.mybatis.jpetstore.mapper.LineItemMapper",
+        "org.mybatis.jpetstore.mapper.OrderMapper",
+        "org.mybatis.jpetstore.domain.LineItem",
+        "org.mybatis.jpetstore.service.OrderService",
+        "org.mybatis.jpetstore.web.actions.AccountActionBean",
+        "org.mybatis.jpetstore.domain.Account",
+        "org.mybatis.jpetstore.domain.Order",
+        "org.mybatis.jpetstore.domain.Sequence",
+        "org.mybatis.jpetstore.mapper.AccountMapper",
+        "org.mybatis.jpetstore.service.AccountService"
+      ]
+    }
+  ],
+  "cluster_metrics": [
+    {
+      "cluster_id": 1,
+      "num_classes": 5,
+      "intra_dependencies": 24.0,
+      "inter_dependencies": 33.0,
+      "f_struct": 0.421053,
+      "f_data": 0.0,
+      "f_quality": 0.378947
+    },
+    {
+      "cluster_id": 2,
+      "num_classes": 4,
+      "intra_dependencies": 19.0,
+      "inter_dependencies": 0,
+      "f_struct": 1.0,
+      "f_data": 0.0,
+      "f_quality": 0.9
+    },
+    {
+      "cluster_id": 3,
+      "num_classes": 4,
+      "intra_dependencies": 15.0,
+      "inter_dependencies": 15.0,
+      "f_struct": 0.5,
+      "f_data": 0.0,
+      "f_quality": 0.45
+    },
+    {
+      "cluster_id": 4,
+      "num_classes": 11,
+      "intra_dependencies": 83.0,
+      "inter_dependencies": 31.0,
+      "f_struct": 0.72807,
+      "f_data": 0.0,
+      "f_quality": 0.655263
+    }
+  ],
+  "isolated_classes": [
+
+  ]
+}

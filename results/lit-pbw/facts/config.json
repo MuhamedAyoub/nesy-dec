@@ -1,0 +1,11 @@
+{
+  "app": "lit-pbw",
+  "sourceRoots": [
+    "<subjects>/SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java",
+    "<subjects>/SteeleDesmond__sample.mono-to-ms.pbw-monolith/pbw-lib/src/main/java"
+  ],
+  "classpath": [
+    "~/.m2/repository/javax/javaee-api/6.0/javaee-api-6.0.jar"
+  ],
+  "languageLevel": "JAVA_17"
+}

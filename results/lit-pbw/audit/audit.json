@@ -1,0 +1,135 @@
+{
+  "app": "lit-pbw",
+  "class_nodes": 39,
+  "kinds": {
+    "class": 39
+  },
+  "call_sites": 1264,
+  "categories": {
+    "edge_concrete": 584,
+    "external": 479,
+    "self": 197,
+    "J3_reflective": 1,
+    "inherited": 3
+  },
+  "naive_edges": 80,
+  "isolated_nodes": 3,
+  "J1": {
+    "abstractions": 1,
+    "with_0_impl": 0,
+    "with_1_impl": 1,
+    "with_2plus_impl": 0,
+    "call_sites": 0,
+    "call_sites_by_impl_count": {},
+    "lost_owner_impl_pairs": 0,
+    "multi_impl_abstractions": {},
+    "examples": []
+  },
+  "J2": {
+    "annotated_injection_points": 28,
+    "by_annotation": {
+      "PersistenceContext": 7,
+      "Resource": 1,
+      "EJB": 18,
+      "Inject": 2
+    },
+    "by_declared_type": {
+      "external": 8,
+      "app-concrete": 20
+    },
+    "spring_xml_injections": 0,
+    "spring_xml_injections_involving_app_classes": 0,
+    "call_sites_through_injected_fields": 92,
+    "those_call_sites_by_category": {
+      "external": 50,
+      "edge_concrete": 42
+    },
+    "examples": [
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/BackOrderMgr.java:42  @PersistenceContext javax.persistence.EntityManager em",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/CatalogMgr.java:42  @PersistenceContext javax.persistence.EntityManager em",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/CustomerMgr.java:37  @PersistenceContext javax.persistence.EntityManager em"
+    ]
+  },
+  "J3": {
+    "call_sites": 1,
+    "by_method_and_argument": {
+      "lookup/literal": 1
+    },
+    "jndi_literal_names": [
+      "java:comp/env/services/images"
+    ],
+    "examples": [
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/migration/RedirectionFilter.java:80  IMAGE_SERVICE = ctx.lookup(\"java:comp/env/services/images\").toString();   [owner=RedirectionFilter, target=InitialContext]"
+    ]
+  },
+  "J4": {
+    "interfaces_without_java_impl": [],
+    "of_which_bound_by_mapper_xml": [],
+    "call_sites_on_interfaces_without_impl": 0,
+    "sql_xml_files": 0,
+    "alias_packages": [],
+    "ibatis_dao_sqlmap_links": 0,
+    "binder_to_mapped_type_pairs": 0,
+    "binder_to_mapped_type_pairs_missing_in_naive_graph": 0,
+    "missing_pairs": [],
+    "class_literal_sites_on_external_receivers": 20,
+    "class_literal_receiver_types": {
+      "EntityManager": 20
+    },
+    "class_literal_owner_target_pairs": 9,
+    "class_literal_pairs_missing_in_naive_graph": 1,
+    "class_literal_examples": [
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/BackOrderMgr.java:78  Inventory inv = em.find(Inventory.class, inventoryID);   [owner=BackOrderMgr, target=EntityManager]",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/BackOrderMgr.java:108  BackOrder backOrder = em.find(BackOrder.class, backOrderID);   [owner=BackOrderMgr, target=EntityManager]",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/BackOrderMgr.java:189  BackOrder backOrder = em.find(BackOrder.class, backOrderID);   [owner=BackOrderMgr, target=EntityManager]"
+    ],
+    "jpa_associations": 4,
+    "jpa_association_pairs_missing_in_naive_graph": 1,
+    "examples": [
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java:65  @OneToOne inventory -> com.ibm.websphere.samples.pbw.jpa.Inventory",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java:83  @ManyToOne customer -> com.ibm.websphere.samples.pbw.jpa.Customer"
+    ]
+  },
+  "J5": {
+    "classes_named_outside_java": {
+      "pages(fqcn)": 4,
+      "pages(EL)": 3,
+      "annotation-entry-point": 4
+    },
+    "entry_point_sources": [
+      "pages(fqcn)",
+      "pages(EL)",
+      "annotation-entry-point"
+    ],
+    "entry_point_classes": 11,
+    "entry_points_without_inbound_naive_edge": 6,
+    "el_reference_counts": {
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean": 52,
+      "com.ibm.websphere.samples.pbw.war.AccountBean": 73,
+      "com.ibm.websphere.samples.pbw.war.HelpBean": 4
+    },
+    "examples": []
+  },
+  "J6": {
+    "call_sites": 0,
+    "share_of_call_sites": 0.0,
+    "by_error": {},
+    "top_unsolved_symbols": {},
+    "by_module": {},
+    "unresolved_supertype_refs": 0,
+    "unresolved_field_types": 0,
+    "jars_loaded": 1,
+    "examples": []
+  },
+  "J7": {
+    "type_use_pairs": 56,
+    "type_use_pairs_without_call_edge": 10,
+    "examples": [
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/ejb/ShoppingCartBean.java:269  ShoppingCartBean declares type Order",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java:83  Order declares type Customer",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java:91  OrderItem declares type PK",
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java:54  AdminServlet declares type CustomerMgr"
+    ]
+  },
+  "object_creations_of_app_classes": 27
+}

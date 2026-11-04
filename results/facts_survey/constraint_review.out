@@ -1,0 +1,138 @@
+
+=== jpetstore-6: 4 packages
+  org.mybatis.jpetstore.domain: 9
+  org.mybatis.jpetstore.mapper: 7
+  org.mybatis.jpetstore.service: 3
+  org.mybatis.jpetstore.web.actions: 5
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    domain (9) x mapper (7) under org.mybatis.jpetstore: direct 7, J-L1 0, J-T 7
+    domain (9) x service (3) under org.mybatis.jpetstore: direct 18, J-L1 0, J-T 5
+    domain (9) x web (5) under org.mybatis.jpetstore: direct 33, J-L1 0, J-T 7
+    mapper (7) x service (3) under org.mybatis.jpetstore: direct 27, J-L1 0, J-T 8
+    mapper (7) x web (5) under org.mybatis.jpetstore: direct 0, J-L1 0, J-T 0
+    service (3) x web (5) under org.mybatis.jpetstore: direct 19, J-L1 0, J-T 5
+
+=== acmeair: 15 packages
+  com.acmeair: 1
+  com.acmeair.config: 3
+  com.acmeair.entities: 11
+  com.acmeair.loader: 3
+  com.acmeair.morphia: 4
+  com.acmeair.morphia.entities: 7
+  com.acmeair.morphia.services: 3
+  com.acmeair.morphia.services.util: 1
+  com.acmeair.service: 7
+  com.acmeair.web: 7
+  com.acmeair.web.dto: 10
+  com.acmeair.wxs: 1
+  com.acmeair.wxs.entities: 9
+  com.acmeair.wxs.service: 3
+  com.acmeair.wxs.utils: 2
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    config (3) x entities (11) under com.acmeair: direct 0, J-L1 0, J-T 0
+    config (3) x loader (3) under com.acmeair: direct 2, J-L1 0, J-T 1
+    config (3) x morphia (15) under com.acmeair: direct 0, J-L1 6, J-T 0
+    config (3) x service (7) under com.acmeair: direct 19, J-L1 0, J-T 3
+    config (3) x web (17) under com.acmeair: direct 2, J-L1 0, J-T 0
+    config (3) x wxs (15) under com.acmeair: direct 0, J-L1 6, J-T 0
+    entities (11) x loader (3) under com.acmeair: direct 3, J-L1 0, J-T 1
+    entities (11) x morphia (15) under com.acmeair: direct 19, J-L1 0, J-T 15
+    entities (11) x service (7) under com.acmeair: direct 6, J-L1 0, J-T 9
+    entities (11) x web (17) under com.acmeair: direct 48, J-L1 0, J-T 6
+    entities (11) x wxs (15) under com.acmeair: direct 27, J-L1 0, J-T 15
+    loader (3) x morphia (15) under com.acmeair: direct 0, J-L1 10, J-T 0
+    loader (3) x service (7) under com.acmeair: direct 13, J-L1 0, J-T 2
+    loader (3) x web (17) under com.acmeair: direct 0, J-L1 0, J-T 0
+    loader (3) x wxs (15) under com.acmeair: direct 0, J-L1 10, J-T 0
+    morphia (15) x service (7) under com.acmeair: direct 13, J-L1 6, J-T 7
+    morphia (15) x web (17) under com.acmeair: direct 0, J-L1 61, J-T 0
+    morphia (15) x wxs (15) under com.acmeair: direct 0, J-L1 31, J-T 0
+    service (7) x web (17) under com.acmeair: direct 35, J-L1 0, J-T 6
+    service (7) x wxs (15) under com.acmeair: direct 17, J-L1 6, J-T 9
+    web (17) x wxs (15) under com.acmeair: direct 0, J-L1 62, J-T 0
+    entities (7) x services (4) under com.acmeair.morphia: direct 31, J-L1 5, J-T 0
+    entities (9) x service (3) under com.acmeair.wxs: direct 18, J-L1 12, J-T 2
+    entities (9) x utils (2) under com.acmeair.wxs: direct 0, J-L1 0, J-T 0
+    service (3) x utils (2) under com.acmeair.wxs: direct 18, J-L1 0, J-T 0
+
+=== daytrader7: 11 packages
+  com.ibm.websphere.samples.daytrader: 2
+  com.ibm.websphere.samples.daytrader.beans: 2
+  com.ibm.websphere.samples.daytrader.direct: 2
+  com.ibm.websphere.samples.daytrader.ejb3: 7
+  com.ibm.websphere.samples.daytrader.entities: 5
+  com.ibm.websphere.samples.daytrader.util: 9
+  com.ibm.websphere.samples.daytrader.web: 8
+  com.ibm.websphere.samples.daytrader.web.jsf: 14
+  com.ibm.websphere.samples.daytrader.web.prims: 48
+  com.ibm.websphere.samples.daytrader.web.prims.ejb3: 11
+  com.ibm.websphere.samples.daytrader.web.websocket: 7
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    beans (2) x direct (2) under com.ibm.websphere.samples.daytrader: direct 14, J-L1 0, J-T 2
+    beans (2) x ejb3 (7) under com.ibm.websphere.samples.daytrader: direct 1, J-L1 0, J-T 3
+    beans (2) x entities (5) under com.ibm.websphere.samples.daytrader: direct 12, J-L1 0, J-T 1
+    beans (2) x util (9) under com.ibm.websphere.samples.daytrader: direct 2, J-L1 0, J-T 0
+    beans (2) x web (88) under com.ibm.websphere.samples.daytrader: direct 9, J-L1 0, J-T 0
+    direct (2) x ejb3 (7) under com.ibm.websphere.samples.daytrader: direct 3, J-L1 1, J-T 0
+    direct (2) x entities (5) under com.ibm.websphere.samples.daytrader: direct 66, J-L1 0, J-T 5
+    direct (2) x util (9) under com.ibm.websphere.samples.daytrader: direct 11, J-L1 1, J-T 0
+    direct (2) x web (88) under com.ibm.websphere.samples.daytrader: direct 19, J-L1 14, J-T 0
+    ejb3 (7) x entities (5) under com.ibm.websphere.samples.daytrader: direct 119, J-L1 0, J-T 7
+    ejb3 (7) x util (9) under com.ibm.websphere.samples.daytrader: direct 34, J-L1 1, J-T 3
+    ejb3 (7) x web (88) under com.ibm.websphere.samples.daytrader: direct 12, J-L1 16, J-T 8
+    entities (5) x util (9) under com.ibm.websphere.samples.daytrader: direct 2, J-L1 0, J-T 0
+    entities (5) x web (88) under com.ibm.websphere.samples.daytrader: direct 98, J-L1 0, J-T 1
+    util (9) x web (88) under com.ibm.websphere.samples.daytrader: direct 13, J-L1 0, J-T 0
+    jsf (14) x prims (59) under com.ibm.websphere.samples.daytrader.web: direct 0, J-L1 0, J-T 0
+    jsf (14) x websocket (7) under com.ibm.websphere.samples.daytrader.web: direct 0, J-L1 0, J-T 0
+    prims (59) x websocket (7) under com.ibm.websphere.samples.daytrader.web: direct 8, J-L1 0, J-T 1
+
+=== plantsbywebsphere: 4 packages
+  com.ibm.websphere.samples.pbw.bean: 12
+  com.ibm.websphere.samples.pbw.jpa: 8
+  com.ibm.websphere.samples.pbw.utils: 2
+  com.ibm.websphere.samples.pbw.war: 15
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    bean (12) x jpa (8) under com.ibm.websphere.samples.pbw: direct 114, J-L1 0, J-T 8
+    bean (12) x utils (2) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    bean (12) x war (15) under com.ibm.websphere.samples.pbw: direct 43, J-L1 0, J-T 21
+    jpa (8) x utils (2) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    jpa (8) x war (15) under com.ibm.websphere.samples.pbw: direct 101, J-L1 0, J-T 10
+    utils (2) x war (15) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+
+=== lit-jpetstore: 8 packages
+  org.springframework.samples.jpetstore.dao: 5
+  org.springframework.samples.jpetstore.dao.ibatis: 10
+  org.springframework.samples.jpetstore.domain: 8
+  org.springframework.samples.jpetstore.domain.logic: 6
+  org.springframework.samples.jpetstore.service: 1
+  org.springframework.samples.jpetstore.service.client: 1
+  org.springframework.samples.jpetstore.web.spring: 18
+  org.springframework.samples.jpetstore.web.struts: 24
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    dao (15) x domain (14) under org.springframework.samples.jpetstore: direct 64, J-L1 0, J-T 18
+    dao (15) x service (2) under org.springframework.samples.jpetstore: direct 0, J-L1 0, J-T 0
+    dao (15) x web (42) under org.springframework.samples.jpetstore: direct 0, J-L1 0, J-T 0
+    domain (14) x service (2) under org.springframework.samples.jpetstore: direct 12, J-L1 2, J-T 3
+    domain (14) x web (42) under org.springframework.samples.jpetstore: direct 181, J-L1 23, J-T 16
+    service (2) x web (42) under org.springframework.samples.jpetstore: direct 0, J-L1 0, J-T 0
+    spring (18) x struts (24) under org.springframework.samples.jpetstore.web: direct 0, J-L1 0, J-T 0
+
+=== lit-pbw: 6 packages
+  com.ibm.websphere.samples.pbw.ejb: 11
+  com.ibm.websphere.samples.pbw.jpa: 8
+  com.ibm.websphere.samples.pbw.migration: 1
+  com.ibm.websphere.samples.pbw.utils: 2
+  com.ibm.websphere.samples.pbw.war: 15
+  pagecode: 2
+  sibling pairs (subtrees) with cross evidence [direct / J-L1 / J-T, excluding noise]:
+    ejb (11) x jpa (8) under com.ibm.websphere.samples.pbw: direct 113, J-L1 0, J-T 8
+    ejb (11) x migration (1) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    ejb (11) x utils (2) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    ejb (11) x war (15) under com.ibm.websphere.samples.pbw: direct 45, J-L1 0, J-T 21
+    jpa (8) x migration (1) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    jpa (8) x utils (2) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    jpa (8) x war (15) under com.ibm.websphere.samples.pbw: direct 102, J-L1 0, J-T 10
+    migration (1) x utils (2) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    migration (1) x war (15) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0
+    utils (2) x war (15) under com.ibm.websphere.samples.pbw: direct 0, J-L1 0, J-T 0

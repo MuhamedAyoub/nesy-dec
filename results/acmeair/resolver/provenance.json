@@ -1,0 +1,94 @@
+{
+  "app": "acmeair",
+  "class_nodes": 72,
+  "entities": [
+    "com.acmeair.morphia.entities.AirportCodeMappingImpl",
+    "com.acmeair.morphia.entities.BookingImpl",
+    "com.acmeair.morphia.entities.CustomerImpl",
+    "com.acmeair.morphia.entities.CustomerSessionImpl",
+    "com.acmeair.morphia.entities.FlightImpl",
+    "com.acmeair.morphia.entities.FlightSegmentImpl"
+  ],
+  "call_sites": 1142,
+  "site_resolution": {
+    "self": 50,
+    "J-L1": 115,
+    "external": 695,
+    "J-L0": 141,
+    "refused": 141
+  },
+  "refused_by_reason": {
+    "lookup_nonliteral": 9,
+    "unresolved": 132
+  },
+  "sites_by_rule": {
+    "cha_n2": 114,
+    "call_declared": 141,
+    "lookup_resource": 8,
+    "cha_n1": 1,
+    "entity_class_literal": 17
+  },
+  "creation_and_ref_sites": {
+    "creation": 43
+  },
+  "non_call_reference_sites": {
+    "class_literal": 47,
+    "field_ref": 35,
+    "inheritance": 32
+  },
+  "fact_pairs_by_rule": {
+    "entity_class_literal": 6,
+    "type_use": 88,
+    "annotation_use": 7
+  },
+  "weight_by_layer": {
+    "J-L0": 413.0,
+    "J-L1": 115.0,
+    "J-L3": 6.0,
+    "J-T": 95.0
+  },
+  "weight_share_by_layer": {
+    "J-L0": 0.6566,
+    "J-L1": 0.1828,
+    "J-L3": 0.0095,
+    "J-T": 0.151
+  },
+  "weight_by_rule": {
+    "call_abstraction": 115.0,
+    "cha": 115.0,
+    "call_declared": 141.0,
+    "creation": 43.0,
+    "class_literal": 47.0,
+    "field_ref": 35.0,
+    "inheritance": 32.0,
+    "entity_class_literal": 6.0,
+    "type_use": 88.0,
+    "annotation_use": 7.0
+  },
+  "pairs_by_layer": {
+    "J-L0": 152,
+    "J-L1": 89,
+    "J-L3": 6,
+    "J-T": 95
+  },
+  "edges": 264,
+  "call_edges": 185,
+  "isolated": [
+    "com.acmeair.morphia.BigIntegerConverter",
+    "com.acmeair.wxs.utils.MapPutAllAgent"
+  ],
+  "isolated_calls_graph": [
+    "com.acmeair.AcmeAirConstants",
+    "com.acmeair.entities.BookingPK",
+    "com.acmeair.entities.FlightPK",
+    "com.acmeair.morphia.BigIntegerConverter",
+    "com.acmeair.morphia.DatastoreFactory",
+    "com.acmeair.morphia.MorphiaConstants",
+    "com.acmeair.web.AcmeAirApp",
+    "com.acmeair.web.AppConfig",
+    "com.acmeair.wxs.WXSConstants",
+    "com.acmeair.wxs.utils.MapPutAllAgent"
+  ],
+  "data_map_classes": 3,
+  "fanout_cap": 5
+}

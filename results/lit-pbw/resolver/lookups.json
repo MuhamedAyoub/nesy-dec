@@ -1,0 +1,8 @@
+[
+  {
+    "where": "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere/src/main/java/com/ibm/websphere/samples/pbw/migration/RedirectionFilter.java:80",
+    "method": "lookup",
+    "name": "java:comp/env/services/images",
+    "bound_to": []
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "app": "jpetstore-6",
+  "triplets": 239,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "must_link": 133,
+    "cocite": 106
+  },
+  "neg_sources": {
+    "same_role": 128,
+    "random": 111
+  },
+  "distinct_anchors": 23,
+  "active_classes": 24
+}

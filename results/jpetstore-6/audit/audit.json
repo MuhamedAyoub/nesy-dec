@@ -1,0 +1,154 @@
+{
+  "app": "jpetstore-6",
+  "class_nodes": 24,
+  "kinds": {
+    "class": 17,
+    "interface": 7
+  },
+  "call_sites": 250,
+  "categories": {
+    "external": 85,
+    "edge_concrete": 106,
+    "self": 22,
+    "J4_no_impl": 27,
+    "inherited": 10
+  },
+  "naive_edges": 38,
+  "isolated_nodes": 1,
+  "J1": {
+    "abstractions": 8,
+    "with_0_impl": 7,
+    "with_1_impl": 0,
+    "with_2plus_impl": 1,
+    "call_sites": 0,
+    "call_sites_by_impl_count": {},
+    "lost_owner_impl_pairs": 0,
+    "multi_impl_abstractions": {
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean": [
+        "org.mybatis.jpetstore.web.actions.AccountActionBean",
+        "org.mybatis.jpetstore.web.actions.CartActionBean",
+        "org.mybatis.jpetstore.web.actions.CatalogActionBean",
+        "org.mybatis.jpetstore.web.actions.OrderActionBean"
+      ]
+    },
+    "examples": []
+  },
+  "J2": {
+    "annotated_injection_points": 13,
+    "by_annotation": {
+      "ctor-implicit": 8,
+      "SpringBean": 5
+    },
+    "by_declared_type": {
+      "app-abstraction": 8,
+      "app-concrete": 5
+    },
+    "spring_xml_injections": 2,
+    "spring_xml_injections_involving_app_classes": 0,
+    "call_sites_through_injected_fields": 46,
+    "those_call_sites_by_category": {
+      "J4_no_impl": 27,
+      "edge_concrete": 19
+    },
+    "examples": [
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/AccountService.java:35  @ctor-implicit org.mybatis.jpetstore.mapper.AccountMapper accountMapper",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/CatalogService.java:41  @ctor-implicit org.mybatis.jpetstore.mapper.CategoryMapper categoryMapper",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/CatalogService.java:41  @ctor-implicit org.mybatis.jpetstore.mapper.ItemMapper itemMapper"
+    ]
+  },
+  "J3": {
+    "call_sites": 0,
+    "by_method_and_argument": {},
+    "jndi_literal_names": [],
+    "examples": []
+  },
+  "J4": {
+    "interfaces_without_java_impl": [
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper"
+    ],
+    "of_which_bound_by_mapper_xml": [
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper"
+    ],
+    "call_sites_on_interfaces_without_impl": 27,
+    "sql_xml_files": 7,
+    "alias_packages": [
+      "org.mybatis.jpetstore.domain"
+    ],
+    "ibatis_dao_sqlmap_links": 0,
+    "binder_to_mapped_type_pairs": 7,
+    "binder_to_mapped_type_pairs_missing_in_naive_graph": 7,
+    "missing_pairs": [
+      "AccountMapper -> Account (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/AccountMapper.xml)",
+      "CategoryMapper -> Category (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/CategoryMapper.xml)",
+      "ItemMapper -> Item (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/ItemMapper.xml)",
+      "LineItemMapper -> LineItem (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/LineItemMapper.xml)",
+      "OrderMapper -> Order (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/OrderMapper.xml)",
+      "ProductMapper -> Product (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/ProductMapper.xml)",
+      "SequenceMapper -> Sequence (mybatis, jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/SequenceMapper.xml)"
+    ],
+    "class_literal_sites_on_external_receivers": 0,
+    "class_literal_receiver_types": {},
+    "class_literal_owner_target_pairs": 0,
+    "class_literal_pairs_missing_in_naive_graph": 0,
+    "class_literal_examples": [],
+    "jpa_associations": 0,
+    "jpa_association_pairs_missing_in_naive_graph": 0,
+    "examples": [
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/AccountService.java:40  return accountMapper.getAccountByUsername(username);   [owner=AccountService, target=AccountMapper]",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/AccountService.java:44  return accountMapper.getAccountByUsernameAndPassword(username, password);   [owner=AccountService, target=AccountMapper]",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/service/AccountService.java:55  accountMapper.insertAccount(account);   [owner=AccountService, target=AccountMapper]"
+    ]
+  },
+  "J5": {
+    "classes_named_outside_java": {
+      "mybatis-mapper-xml": 7,
+      "pages(fqcn)": 4
+    },
+    "entry_point_sources": [
+      "pages(fqcn)"
+    ],
+    "entry_point_classes": 4,
+    "entry_points_without_inbound_naive_edge": 2,
+    "el_reference_counts": {},
+    "examples": [
+      "jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/AccountMapper.xml:22  org.mybatis.jpetstore.mapper.AccountMapper",
+      "jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/CategoryMapper.xml:22  org.mybatis.jpetstore.mapper.CategoryMapper",
+      "jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/ItemMapper.xml:22  org.mybatis.jpetstore.mapper.ItemMapper",
+      "jpetstore-6/src/main/resources/org/mybatis/jpetstore/mapper/LineItemMapper.xml:22  org.mybatis.jpetstore.mapper.LineItemMapper"
+    ]
+  },
+  "J6": {
+    "call_sites": 0,
+    "share_of_call_sites": 0.0,
+    "by_error": {},
+    "top_unsolved_symbols": {},
+    "by_module": {},
+    "unresolved_supertype_refs": 0,
+    "unresolved_field_types": 0,
+    "jars_loaded": 92,
+    "examples": []
+  },
+  "J7": {
+    "type_use_pairs": 42,
+    "type_use_pairs_without_call_edge": 16,
+    "examples": [
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/domain/CartItem.java:31  CartItem declares type Item",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/domain/Order.java:326  Order declares type CartItem",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/domain/Order.java:60  Order declares type LineItem",
+      "jpetstore-6/src/main/java/org/mybatis/jpetstore/mapper/AccountMapper.java:27  AccountMapper declares type Account"
+    ]
+  },
+  "object_creations_of_app_classes": 10
+}

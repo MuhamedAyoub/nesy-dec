@@ -1,0 +1,28 @@
+[run_server] 2026-11-03T13:02:36+00:00 seeds: 42 1 7, RLDec jobs: 6
+name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 4090, 24564 MiB, 580.142
+main env: 2.14.1+cu130 cuda True 4.45.2 0.13.2 1.9.1
+unixcoder-base cached
+overlay         150G  894M  150G   1% /
+setup OK (main environment only, RLDEC=0)
+
+==============================================================================
+# check
+==============================================================================
+  torch 2.14.1+cu130, cuda available: True (NVIDIA GeForce RTX 4090)
+  jpetstore-6        N=  24 teacher K=  4 triplets=  239 must_link(active pairs)= 12 cannot_link(active pairs)=   0 | env N=24 E=110 feat=786 ML=12 CL=0
+  acmeair            N=  70 teacher K= 11 triplets= 1312 must_link(active pairs)= 13 cannot_link(active pairs)= 169 | env N=70 E=528 feat=786 ML=13 CL=169
+  daytrader7         N= 104 teacher K= 11 triplets= 1500 must_link(active pairs)= 41 cannot_link(active pairs)= 684 | env N=104 E=598 feat=786 ML=41 CL=684
+  plantsbywebsphere  N=  35 teacher K=  3 triplets=  674 must_link(active pairs)= 38 cannot_link(active pairs)=   0 | env N=35 E=202 feat=786 ML=38 CL=0
+  lit-jpetstore      N=  71 teacher K=  8 triplets= 1500 must_link(active pairs)= 44 cannot_link(active pairs)= 352 | env N=71 E=438 feat=786 ML=44 CL=352
+  lit-pbw            N=  36 teacher K=  4 triplets=  750 must_link(active pairs)= 37 cannot_link(active pairs)=   0 | env N=36 E=200 feat=786 ML=37 CL=0
+
+[check] OK
+
+[run_gpu] stages ['check'] done in 0m01s
+[run_server] RLDEC=0: RLDec skipped
+[run_server] main pipeline finished with rc=0 (logs/main.log)
+[run_server] 2026-11-03T13:59:43+00:00 ablation kl0_ep2000 started (logs/ablation_kl0_ep2000.log)
+[run_server] 2026-11-03T13:59:43+00:00 ablation nobc_ep2000 started (logs/ablation_nobc_ep2000.log)
+[run_server] 2026-11-03T14:18:36+00:00 ablation nobc_ep2000 finished with rc=0
+[run_server] 2026-11-03T14:23:34+00:00 ablation kl0_ep2000 finished with rc=0

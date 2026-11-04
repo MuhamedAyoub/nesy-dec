@@ -1,0 +1,17 @@
+{
+  "app": "lit-pbw",
+  "triplets": 750,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "shared_entity": 150,
+    "must_link": 374,
+    "cocite": 226
+  },
+  "neg_sources": {
+    "same_role": 450,
+    "random": 300
+  },
+  "distinct_anchors": 28,
+  "active_classes": 36
+}

@@ -1,0 +1,2492 @@
+
+==============================================================================
+# rl: GraphRL-Dec ablation kl0_ep2000
+==============================================================================
+
+########################################################################
+# [1/36] jpetstore-6 | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3871  match=0.250  size_L1_to_teacher=12
+[bc   20] loss=1.2075  match=0.500  size_L1_to_teacher=22
+[bc   40] loss=0.6278  match=0.792  size_L1_to_teacher=2
+[bc   60] loss=0.3415  match=0.875  size_L1_to_teacher=0
+[bc   80] loss=0.2015  match=0.917  size_L1_to_teacher=0
+[bc  100] loss=0.1586  match=0.958  size_L1_to_teacher=2
+[bc  120] loss=0.1445  match=0.917  size_L1_to_teacher=2
+[bc  140] loss=0.1083  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0895  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0538  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0324  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0131  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0185  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0170  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0038  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0041  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0037  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0017  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+0.834  Δeq5=-1.136  eq5=-0.330  H=0.06  pl=+0.043  vl=0.368  t=1.7s
+[ep   512] R=+0.919  Δeq5=-1.014  eq5=-0.226  H=0.07  pl=+0.017  vl=0.342  t=3.0s
+[ep   768] R=+1.288  Δeq5=-0.669  eq5=+0.052  H=0.07  pl=+0.017  vl=0.360  t=4.6s
+[ep  1024] R=+1.377  Δeq5=-0.615  eq5=+0.098  H=0.06  pl=+0.008  vl=0.360  t=6.1s
+[ep  1280] R=+1.445  Δeq5=-0.406  eq5=+0.258  H=0.04  pl=+0.013  vl=0.326  t=7.6s
+[ep  1536] R=+1.425  Δeq5=-0.583  eq5=+0.134  H=0.05  pl=+0.003  vl=0.352  t=9.1s
+[ep  1792] R=+1.437  Δeq5=-0.527  eq5=+0.172  H=0.05  pl=+0.004  vl=0.346  t=10.7s
+[ep  2048] R=+1.555  Δeq5=-0.265  eq5=+0.347  H=0.06  pl=+0.012  vl=0.370  t=12.2s
+[train] best (decode Score or Δ) = +0.664
+  -> Score +0.2446 sizes [11, 6, 5, 2] [0m21s]
+
+########################################################################
+# [2/36] jpetstore-6 | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6100  match=0.208  size_L1_to_teacher=6
+[bc   20] loss=1.4557  match=0.458  size_L1_to_teacher=22
+[bc   40] loss=1.1433  match=0.625  size_L1_to_teacher=10
+[bc   60] loss=0.5565  match=0.875  size_L1_to_teacher=2
+[bc   80] loss=0.1729  match=0.958  size_L1_to_teacher=0
+[bc  100] loss=0.1055  match=0.958  size_L1_to_teacher=2
+[bc  120] loss=0.0700  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0502  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0171  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0173  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+3.355  Δeq5=-0.305  eq5=+0.308  H=0.06  pl=+0.019  vl=1.142  t=1.5s
+[ep   512] R=+3.457  Δeq5=-0.435  eq5=+0.235  H=0.04  pl=+0.005  vl=1.384  t=3.1s
+[ep   768] R=+3.928  Δeq5=+0.017  eq5=+0.535  H=0.04  pl=-0.001  vl=1.253  t=4.7s
+[ep  1024] R=+3.805  Δeq5=-0.156  eq5=+0.423  H=0.04  pl=+0.020  vl=1.300  t=6.3s
+[ep  1280] R=+3.988  Δeq5=+0.117  eq5=+0.593  H=0.03  pl=+0.001  vl=1.281  t=7.9s
+[ep  1536] R=+4.002  Δeq5=+0.079  eq5=+0.573  H=0.02  pl=+0.002  vl=1.242  t=9.5s
+[ep  1792] R=+3.398  Δeq5=-0.479  eq5=+0.204  H=0.04  pl=-0.002  vl=1.238  t=11.1s
+[ep  2048] R=+3.750  Δeq5=-0.237  eq5=+0.365  H=0.04  pl=+0.020  vl=1.232  t=12.6s
+[train] best (decode Score or Δ) = +0.679
+  -> Score +0.3186 sizes [11, 7, 3, 3] [0m19s]
+
+########################################################################
+# [3/36] acmeair | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2684  match=0.100  size_L1_to_teacher=28
+[bc   20] loss=2.1657  match=0.271  size_L1_to_teacher=48
+[bc   40] loss=1.8814  match=0.314  size_L1_to_teacher=16
+[bc   60] loss=1.4761  match=0.500  size_L1_to_teacher=16
+[bc   80] loss=1.2920  match=0.557  size_L1_to_teacher=24
+[bc  100] loss=1.0095  match=0.643  size_L1_to_teacher=14
+[bc  120] loss=0.9059  match=0.771  size_L1_to_teacher=16
+[bc  140] loss=0.5972  match=0.771  size_L1_to_teacher=2
+[bc  160] loss=0.4490  match=0.857  size_L1_to_teacher=4
+[bc  180] loss=0.5015  match=0.829  size_L1_to_teacher=4
+[bc  200] loss=0.2566  match=0.929  size_L1_to_teacher=4
+[bc  220] loss=0.2600  match=0.914  size_L1_to_teacher=6
+[bc  240] loss=0.2640  match=0.929  size_L1_to_teacher=4
+[bc  260] loss=0.1825  match=0.929  size_L1_to_teacher=4
+[bc  280] loss=0.1198  match=0.957  size_L1_to_teacher=6
+[bc  300] loss=0.1192  match=0.986  size_L1_to_teacher=2
+[bc  320] loss=0.1068  match=0.971  size_L1_to_teacher=2
+[bc  340] loss=0.0517  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0364  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0827  match=0.986  size_L1_to_teacher=2
+[bc  400] loss=0.0456  match=0.986  size_L1_to_teacher=2
+[bc  420] loss=0.0472  match=0.986  size_L1_to_teacher=2
+[bc  440] loss=0.0137  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0444  match=0.986  size_L1_to_teacher=2
+[bc  480] loss=0.0080  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0152  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0114  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0053  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0184  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0077  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0163  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0093  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0101  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0048  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0218  match=0.986  size_L1_to_teacher=2
+[bc  700] loss=0.0084  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0051  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+0.320  Δeq5=-0.771  eq5=+0.009  H=0.19  pl=+0.038  vl=0.098  t=4.7s
+[ep   512] R=+0.683  Δeq5=-0.449  eq5=+0.261  H=0.23  pl=+0.028  vl=0.104  t=9.6s
+[ep   768] R=+0.701  Δeq5=-0.447  eq5=+0.262  H=0.27  pl=+0.034  vl=0.114  t=14.5s
+[ep  1024] R=+0.742  Δeq5=-0.463  eq5=+0.249  H=0.43  pl=+0.035  vl=0.108  t=19.5s
+[ep  1280] R=+0.685  Δeq5=-0.528  eq5=+0.198  H=0.55  pl=+0.019  vl=0.111  t=24.5s
+[ep  1536] R=+0.667  Δeq5=-0.590  eq5=+0.151  H=0.72  pl=+0.016  vl=0.108  t=29.5s
+[ep  1792] R=+0.639  Δeq5=-0.601  eq5=+0.141  H=0.81  pl=+0.018  vl=0.105  t=34.6s
+[ep  2048] R=+0.620  Δeq5=-0.638  eq5=+0.113  H=0.93  pl=+0.013  vl=0.107  t=39.5s
+[train] best (decode Score or Δ) = +0.610
+  -> Score +0.1363 sizes [11, 10, 8, 7, 6, 6, 6, 5, 4, 4] [0m47s]
+
+########################################################################
+# [4/36] acmeair | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.3689  match=0.071  size_L1_to_teacher=40
+[bc   20] loss=2.3013  match=0.214  size_L1_to_teacher=62
+[bc   40] loss=2.0269  match=0.300  size_L1_to_teacher=22
+[bc   60] loss=1.7616  match=0.329  size_L1_to_teacher=32
+[bc   80] loss=1.3287  match=0.457  size_L1_to_teacher=26
+[bc  100] loss=1.1096  match=0.557  size_L1_to_teacher=10
+[bc  120] loss=1.0068  match=0.600  size_L1_to_teacher=18
+[bc  140] loss=0.7177  match=0.757  size_L1_to_teacher=6
+[bc  160] loss=0.5625  match=0.757  size_L1_to_teacher=6
+[bc  180] loss=0.3214  match=0.886  size_L1_to_teacher=6
+[bc  200] loss=0.2976  match=0.900  size_L1_to_teacher=4
+[bc  220] loss=0.2050  match=0.943  size_L1_to_teacher=6
+[bc  240] loss=0.1059  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0593  match=0.986  size_L1_to_teacher=2
+[bc  280] loss=0.0401  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0690  match=0.971  size_L1_to_teacher=4
+[bc  320] loss=0.0584  match=0.986  size_L1_to_teacher=2
+[bc  340] loss=0.0213  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0112  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0308  match=0.986  size_L1_to_teacher=2
+[bc  400] loss=0.0218  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0116  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0092  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0155  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0171  match=0.986  size_L1_to_teacher=2
+[bc  500] loss=0.0230  match=0.986  size_L1_to_teacher=2
+[bc  520] loss=0.0070  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0067  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0051  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0037  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0078  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0315  match=0.986  size_L1_to_teacher=2
+[bc  799] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+2.772  Δeq5=-0.310  eq5=+0.366  H=0.17  pl=+0.047  vl=0.291  t=5.0s
+[ep   512] R=+2.766  Δeq5=-0.195  eq5=+0.451  H=0.17  pl=+0.037  vl=0.362  t=10.2s
+[ep   768] R=+2.638  Δeq5=-0.306  eq5=+0.368  H=0.30  pl=+0.057  vl=0.357  t=15.4s
+[ep  1024] R=+2.815  Δeq5=-0.321  eq5=+0.357  H=0.32  pl=+0.041  vl=0.375  t=20.7s
+[ep  1280] R=+2.890  Δeq5=-0.385  eq5=+0.311  H=0.39  pl=+0.026  vl=0.385  t=26.1s
+[ep  1536] R=+2.780  Δeq5=-0.476  eq5=+0.241  H=0.62  pl=+0.039  vl=0.355  t=31.3s
+[ep  1792] R=+2.649  Δeq5=-0.559  eq5=+0.176  H=0.76  pl=+0.024  vl=0.346  t=36.6s
+[ep  2048] R=+2.532  Δeq5=-0.593  eq5=+0.149  H=0.84  pl=+0.020  vl=0.324  t=41.9s
+[train] best (decode Score or Δ) = +0.610
+  -> Score +0.1363 sizes [11, 10, 8, 7, 6, 6, 6, 5, 4, 4] [0m50s]
+
+########################################################################
+# [5/36] daytrader7 | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.1765  match=0.115  size_L1_to_teacher=36
+[bc   20] loss=1.7813  match=0.490  size_L1_to_teacher=62
+[bc   40] loss=1.4401  match=0.567  size_L1_to_teacher=34
+[bc   60] loss=0.9764  match=0.673  size_L1_to_teacher=22
+[bc   80] loss=0.7179  match=0.750  size_L1_to_teacher=24
+[bc  100] loss=0.5624  match=0.798  size_L1_to_teacher=28
+[bc  120] loss=0.4543  match=0.856  size_L1_to_teacher=24
+[bc  140] loss=0.3235  match=0.885  size_L1_to_teacher=16
+[bc  160] loss=0.2251  match=0.942  size_L1_to_teacher=6
+[bc  180] loss=0.2108  match=0.923  size_L1_to_teacher=8
+[bc  200] loss=0.2588  match=0.913  size_L1_to_teacher=12
+[bc  220] loss=0.1513  match=0.981  size_L1_to_teacher=2
+[bc  240] loss=0.1136  match=0.981  size_L1_to_teacher=0
+[bc  260] loss=0.0926  match=0.962  size_L1_to_teacher=8
+[bc  280] loss=0.0793  match=0.971  size_L1_to_teacher=2
+[bc  300] loss=0.0926  match=0.971  size_L1_to_teacher=6
+[bc  320] loss=0.0715  match=0.971  size_L1_to_teacher=2
+[bc  340] loss=0.1448  match=0.971  size_L1_to_teacher=4
+[bc  360] loss=0.0638  match=0.981  size_L1_to_teacher=4
+[bc  380] loss=0.0353  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0339  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0427  match=0.990  size_L1_to_teacher=2
+[bc  440] loss=0.0225  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0185  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0325  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0263  match=0.981  size_L1_to_teacher=2
+[bc  520] loss=0.0502  match=0.990  size_L1_to_teacher=2
+[bc  540] loss=0.0217  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0146  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0204  match=0.990  size_L1_to_teacher=2
+[bc  600] loss=0.0253  match=0.990  size_L1_to_teacher=2
+[bc  620] loss=0.0175  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0114  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0096  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0095  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0448  match=0.990  size_L1_to_teacher=2
+[bc  720] loss=0.0208  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0132  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0508  match=0.990  size_L1_to_teacher=2
+[bc  780] loss=0.0064  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0054  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.1710  rawU=+0.0071  max|m|=42
+[ep   256] R=+1.582  Δeq5=-0.690  eq5=-0.065  H=0.17  pl=+0.003  vl=0.416  t=7.3s
+[ep   512] R=+1.814  Δeq5=-0.300  eq5=+0.220  H=0.22  pl=+0.006  vl=0.388  t=14.7s
+[ep   768] R=+1.765  Δeq5=-0.649  eq5=-0.036  H=0.29  pl=+0.014  vl=0.396  t=22.0s
+[ep  1024] R=+1.895  Δeq5=-0.236  eq5=+0.248  H=0.29  pl=+0.007  vl=0.386  t=29.5s
+[ep  1280] R=+2.052  Δeq5=-0.353  eq5=+0.186  H=0.32  pl=+0.011  vl=0.385  t=36.7s
+[ep  1536] R=+2.054  Δeq5=-0.289  eq5=+0.229  H=0.37  pl=+0.017  vl=0.383  t=44.1s
+[ep  1792] R=+2.167  Δeq5=-0.317  eq5=+0.211  H=0.42  pl=+0.013  vl=0.364  t=51.6s
+[ep  2048] R=+2.098  Δeq5=-0.505  eq5=+0.070  H=0.51  pl=+0.019  vl=0.388  t=59.1s
+[train] best (decode Score or Δ) = +0.699
+  -> Score +0.2374 sizes [33, 26, 21, 8, 7, 3, 2, 2, 2] [1m08s]
+
+########################################################################
+# [6/36] daytrader7 | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2863  match=0.163  size_L1_to_teacher=38
+[bc   20] loss=1.8601  match=0.452  size_L1_to_teacher=64
+[bc   40] loss=1.5613  match=0.519  size_L1_to_teacher=26
+[bc   60] loss=1.0976  match=0.654  size_L1_to_teacher=24
+[bc   80] loss=0.7314  match=0.798  size_L1_to_teacher=24
+[bc  100] loss=0.4589  match=0.856  size_L1_to_teacher=22
+[bc  120] loss=0.4060  match=0.856  size_L1_to_teacher=16
+[bc  140] loss=0.2873  match=0.885  size_L1_to_teacher=18
+[bc  160] loss=0.2836  match=0.904  size_L1_to_teacher=8
+[bc  180] loss=0.1528  match=0.981  size_L1_to_teacher=4
+[bc  200] loss=0.1536  match=0.942  size_L1_to_teacher=8
+[bc  220] loss=0.0850  match=0.990  size_L1_to_teacher=0
+[bc  240] loss=0.1476  match=0.962  size_L1_to_teacher=6
+[bc  260] loss=0.0652  match=0.990  size_L1_to_teacher=2
+[bc  280] loss=0.0526  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0255  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0371  match=0.990  size_L1_to_teacher=2
+[bc  340] loss=0.0171  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0171  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0130  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0132  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0088  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0363  match=0.990  size_L1_to_teacher=2
+[bc  460] loss=0.0203  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0064  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0090  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0097  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0063  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0081  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0079  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0052  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0156  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.6021  rawU=+0.1505  max|m|=40
+[ep   256] R=+29.415  Δeq5=-0.228  eq5=+0.271  H=0.09  pl=+0.011  vl=4.150  t=7.6s
+[ep   512] R=+32.652  Δeq5=+0.040  eq5=+0.438  H=0.10  pl=+0.022  vl=6.745  t=15.4s
+[ep   768] R=+30.977  Δeq5=+0.188  eq5=+0.548  H=0.10  pl=+0.008  vl=7.931  t=23.0s
+[ep  1024] R=+33.644  Δeq5=+0.349  eq5=+0.640  H=0.08  pl=+0.006  vl=7.899  t=30.8s
+[ep  1280] R=+33.060  Δeq5=-0.017  eq5=+0.407  H=0.12  pl=+0.009  vl=9.405  t=38.5s
+[ep  1536] R=+36.815  Δeq5=+0.233  eq5=+0.555  H=0.11  pl=+0.010  vl=9.867  t=46.3s
+[ep  1792] R=+35.330  Δeq5=+0.231  eq5=+0.561  H=0.11  pl=+0.006  vl=10.605  t=54.1s
+[ep  2048] R=+36.015  Δeq5=+0.323  eq5=+0.599  H=0.12  pl=+0.006  vl=11.563  t=61.9s
+[train] best (decode Score or Δ) = +0.743
+  -> Score +0.3642 sizes [41, 40, 6, 5, 5, 3, 2, 2] [1m13s]
+
+########################################################################
+# [7/36] plantsbywebsphere | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.0981  match=0.400  size_L1_to_teacher=4
+[bc   20] loss=1.0502  match=0.486  size_L1_to_teacher=34
+[bc   40] loss=0.7848  match=0.686  size_L1_to_teacher=8
+[bc   60] loss=0.4425  match=0.743  size_L1_to_teacher=2
+[bc   80] loss=0.1505  match=0.943  size_L1_to_teacher=2
+[bc  100] loss=0.0118  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+3.088  Δeq5=+0.000  eq5=+0.946  H=0.00  pl=-0.000  vl=0.811  t=2.2s
+[ep   512] R=+2.965  Δeq5=-0.091  eq5=+0.873  H=0.06  pl=+0.015  vl=0.842  t=4.5s
+[ep   768] R=+3.158  Δeq5=+0.182  eq5=+1.028  H=0.09  pl=+0.017  vl=0.770  t=6.8s
+[ep  1024] R=+3.208  Δeq5=+0.239  eq5=+1.066  H=0.06  pl=+0.015  vl=0.805  t=9.1s
+[ep  1280] R=+3.122  Δeq5=+0.087  eq5=+0.983  H=0.07  pl=+0.020  vl=0.810  t=11.4s
+[ep  1536] R=+3.180  Δeq5=+0.195  eq5=+1.041  H=0.07  pl=+0.021  vl=0.810  t=13.7s
+[ep  1792] R=+3.122  Δeq5=+0.140  eq5=+0.993  H=0.09  pl=+0.007  vl=0.817  t=16.0s
+[ep  2048] R=+3.085  Δeq5=+0.114  eq5=+0.984  H=0.11  pl=+0.016  vl=0.814  t=18.3s
+[train] best (decode Score or Δ) = +1.132
+  -> Score +0.5935 sizes [18, 12, 5] [0m25s]
+
+########################################################################
+# [8/36] plantsbywebsphere | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.3875  match=0.086  size_L1_to_teacher=20
+[bc   20] loss=1.1674  match=0.571  size_L1_to_teacher=20
+[bc   40] loss=1.1402  match=0.514  size_L1_to_teacher=24
+[bc   60] loss=0.9099  match=0.543  size_L1_to_teacher=30
+[bc   80] loss=0.3472  match=0.886  size_L1_to_teacher=6
+[bc  100] loss=0.1315  match=0.943  size_L1_to_teacher=2
+[bc  120] loss=0.0651  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0144  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0119  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0036  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0095  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0121  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0069  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+6.028  Δeq5=+0.092  eq5=+0.996  H=0.04  pl=+0.013  vl=1.994  t=2.3s
+[ep   512] R=+5.839  Δeq5=-0.041  eq5=+0.918  H=0.09  pl=+0.028  vl=2.148  t=4.7s
+[ep   768] R=+6.033  Δeq5=+0.004  eq5=+0.946  H=0.07  pl=+0.025  vl=2.254  t=7.1s
+[ep  1024] R=+5.885  Δeq5=-0.044  eq5=+0.917  H=0.10  pl=+0.019  vl=2.238  t=9.5s
+[ep  1280] R=+5.791  Δeq5=-0.104  eq5=+0.881  H=0.11  pl=+0.028  vl=2.210  t=11.9s
+[ep  1536] R=+5.851  Δeq5=-0.111  eq5=+0.858  H=0.09  pl=+0.021  vl=2.205  t=14.3s
+[ep  1792] R=+5.799  Δeq5=-0.023  eq5=+0.909  H=0.10  pl=+0.049  vl=2.142  t=16.7s
+[ep  2048] R=+5.991  Δeq5=+0.120  eq5=+1.006  H=0.11  pl=+0.027  vl=2.203  t=19.0s
+[train] best (decode Score or Δ) = +1.132
+  -> Score +0.4934 sizes [14, 12, 6] [0m26s]
+
+########################################################################
+# [9/36] lit-jpetstore | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=1.8467  match=0.254  size_L1_to_teacher=20
+[bc   20] loss=1.7344  match=0.366  size_L1_to_teacher=66
+[bc   40] loss=1.2932  match=0.437  size_L1_to_teacher=30
+[bc   60] loss=0.7713  match=0.690  size_L1_to_teacher=10
+[bc   80] loss=0.3936  match=0.873  size_L1_to_teacher=8
+[bc  100] loss=0.2321  match=0.901  size_L1_to_teacher=6
+[bc  120] loss=0.1085  match=0.986  size_L1_to_teacher=2
+[bc  140] loss=0.2011  match=0.958  size_L1_to_teacher=4
+[bc  160] loss=0.0455  match=0.986  size_L1_to_teacher=2
+[bc  180] loss=0.0325  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0304  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0131  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0116  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0153  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0079  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0277  match=0.986  size_L1_to_teacher=2
+[bc  340] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0405  match=0.986  size_L1_to_teacher=0
+[bc  400] loss=0.0041  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0129  match=0.986  size_L1_to_teacher=2
+[bc  440] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0017  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0017  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.7422  rawU=+0.0660  max|m|=15
+[ep   256] R=+2.088  Δeq5=-0.326  eq5=+0.486  H=0.10  pl=+0.033  vl=0.336  t=4.8s
+[ep   512] R=+2.704  Δeq5=+0.062  eq5=+0.734  H=0.09  pl=+0.017  vl=0.400  t=9.8s
+[ep   768] R=+3.151  Δeq5=-0.035  eq5=+0.672  H=0.15  pl=+0.028  vl=0.497  t=14.7s
+[ep  1024] R=+3.082  Δeq5=-0.179  eq5=+0.575  H=0.18  pl=+0.020  vl=0.505  t=19.6s
+[ep  1280] R=+3.083  Δeq5=-0.160  eq5=+0.584  H=0.20  pl=+0.033  vl=0.527  t=24.6s
+[ep  1536] R=+2.975  Δeq5=-0.232  eq5=+0.543  H=0.20  pl=+0.023  vl=0.494  t=29.5s
+[ep  1792] R=+2.895  Δeq5=-0.191  eq5=+0.580  H=0.24  pl=+0.021  vl=0.472  t=34.3s
+[ep  2048] R=+2.904  Δeq5=-0.253  eq5=+0.538  H=0.29  pl=+0.013  vl=0.469  t=39.2s
+[train] best (decode Score or Δ) = +0.855
+  -> Score +0.1343 sizes [21, 15, 13, 7, 5, 4, 3, 3] [0m47s]
+
+########################################################################
+# [10/36] lit-jpetstore | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=2.0016  match=0.070  size_L1_to_teacher=38
+[bc   20] loss=1.8680  match=0.366  size_L1_to_teacher=74
+[bc   40] loss=1.6462  match=0.423  size_L1_to_teacher=34
+[bc   60] loss=1.0506  match=0.549  size_L1_to_teacher=20
+[bc   80] loss=0.5559  match=0.761  size_L1_to_teacher=6
+[bc  100] loss=0.3658  match=0.873  size_L1_to_teacher=6
+[bc  120] loss=0.1809  match=0.944  size_L1_to_teacher=0
+[bc  140] loss=0.0976  match=0.972  size_L1_to_teacher=2
+[bc  160] loss=0.0431  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0338  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0235  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0251  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0154  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0093  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0132  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0159  match=0.986  size_L1_to_teacher=2
+[bc  320] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0097  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0041  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0144  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0039  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0033  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.7422  rawU=+0.0660  max|m|=15
+[ep   256] R=+11.981  Δeq5=+0.082  eq5=+0.743  H=0.04  pl=+0.021  vl=2.234  t=5.1s
+[ep   512] R=+11.141  Δeq5=-0.079  eq5=+0.644  H=0.04  pl=+0.028  vl=3.306  t=10.2s
+[ep   768] R=+10.945  Δeq5=-0.021  eq5=+0.695  H=0.04  pl=+0.020  vl=3.554  t=15.5s
+[ep  1024] R=+11.056  Δeq5=+0.011  eq5=+0.716  H=0.05  pl=+0.018  vl=3.881  t=20.8s
+[ep  1280] R=+11.183  Δeq5=+0.038  eq5=+0.732  H=0.05  pl=-0.010  vl=3.255  t=26.0s
+[ep  1536] R=+10.913  Δeq5=+0.009  eq5=+0.724  H=0.07  pl=+0.022  vl=3.333  t=31.3s
+[ep  1792] R=+11.152  Δeq5=+0.026  eq5=+0.726  H=0.09  pl=+0.036  vl=3.320  t=36.6s
+[ep  2048] R=+11.287  Δeq5=-0.031  eq5=+0.685  H=0.12  pl=+0.036  vl=3.060  t=41.7s
+[train] best (decode Score or Δ) = +0.803
+  -> Score +0.0646 sizes [16, 14, 13, 11, 5, 4, 4, 4] [0m50s]
+
+########################################################################
+# [11/36] lit-pbw | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3870  match=0.167  size_L1_to_teacher=6
+[bc   20] loss=1.2672  match=0.472  size_L1_to_teacher=24
+[bc   40] loss=1.0084  match=0.611  size_L1_to_teacher=16
+[bc   60] loss=0.7033  match=0.667  size_L1_to_teacher=8
+[bc   80] loss=0.4151  match=0.861  size_L1_to_teacher=10
+[bc  100] loss=0.3922  match=0.833  size_L1_to_teacher=6
+[bc  120] loss=0.1636  match=0.944  size_L1_to_teacher=4
+[bc  140] loss=0.0828  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0820  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0325  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0246  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0946  match=0.972  size_L1_to_teacher=2
+[bc  240] loss=0.0216  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0108  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0133  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0054  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0064  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0026  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0078  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0017  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0072  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s42/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+2.316  Δeq5=-0.212  eq5=+0.565  H=0.06  pl=+0.038  vl=0.526  t=2.3s
+[ep   512] R=+2.363  Δeq5=-0.127  eq5=+0.616  H=0.06  pl=+0.020  vl=0.579  t=4.5s
+[ep   768] R=+2.297  Δeq5=-0.173  eq5=+0.593  H=0.08  pl=+0.045  vl=0.599  t=6.9s
+[ep  1024] R=+2.313  Δeq5=-0.068  eq5=+0.665  H=0.09  pl=+0.030  vl=0.595  t=9.3s
+[ep  1280] R=+2.323  Δeq5=-0.043  eq5=+0.680  H=0.10  pl=+0.017  vl=0.579  t=11.6s
+[ep  1536] R=+2.173  Δeq5=-0.332  eq5=+0.489  H=0.13  pl=+0.035  vl=0.586  t=13.9s
+[ep  1792] R=+2.291  Δeq5=-0.121  eq5=+0.629  H=0.17  pl=+0.027  vl=0.572  t=16.2s
+[ep  2048] R=+2.305  Δeq5=-0.128  eq5=+0.627  H=0.16  pl=+0.024  vl=0.573  t=18.6s
+[train] best (decode Score or Δ) = +0.807
+  -> Score +0.5186 sizes [18, 10, 6, 2] [0m26s]
+
+########################################################################
+# [12/36] lit-pbw | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6081  match=0.306  size_L1_to_teacher=6
+[bc   20] loss=1.3744  match=0.528  size_L1_to_teacher=30
+[bc   40] loss=1.1492  match=0.500  size_L1_to_teacher=16
+[bc   60] loss=0.6597  match=0.750  size_L1_to_teacher=2
+[bc   80] loss=0.3592  match=0.861  size_L1_to_teacher=4
+[bc  100] loss=0.1592  match=0.944  size_L1_to_teacher=4
+[bc  120] loss=0.0331  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0370  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0244  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0137  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0027  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0087  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s42/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+5.877  Δeq5=+0.026  eq5=+0.707  H=0.02  pl=+0.012  vl=2.033  t=2.3s
+[ep   512] R=+5.839  Δeq5=+0.082  eq5=+0.750  H=0.03  pl=+0.005  vl=2.177  t=4.7s
+[ep   768] R=+6.036  Δeq5=+0.172  eq5=+0.803  H=0.05  pl=+0.017  vl=2.313  t=7.2s
+[ep  1024] R=+6.095  Δeq5=+0.216  eq5=+0.840  H=0.04  pl=+0.004  vl=2.227  t=9.6s
+[ep  1280] R=+6.054  Δeq5=+0.225  eq5=+0.850  H=0.04  pl=+0.011  vl=2.244  t=12.0s
+[ep  1536] R=+5.967  Δeq5=+0.103  eq5=+0.765  H=0.03  pl=+0.008  vl=2.311  t=14.5s
+[ep  1792] R=+6.193  Δeq5=+0.240  eq5=+0.851  H=0.05  pl=+0.012  vl=2.317  t=16.9s
+[ep  2048] R=+6.131  Δeq5=+0.271  eq5=+0.872  H=0.05  pl=+0.017  vl=2.330  t=19.3s
+[train] best (decode Score or Δ) = +0.973
+  -> Score +0.6084 sizes [20, 11, 5] [0m27s]
+
+########################################################################
+# [13/36] jpetstore-6 | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3853  match=0.375  size_L1_to_teacher=8
+[bc   20] loss=1.2184  match=0.500  size_L1_to_teacher=22
+[bc   40] loss=0.6760  match=0.750  size_L1_to_teacher=0
+[bc   60] loss=0.2904  match=0.917  size_L1_to_teacher=0
+[bc   80] loss=0.1785  match=0.917  size_L1_to_teacher=2
+[bc  100] loss=0.0927  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.2302  match=0.917  size_L1_to_teacher=2
+[bc  140] loss=0.0663  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0910  match=0.958  size_L1_to_teacher=0
+[bc  180] loss=0.0750  match=0.958  size_L1_to_teacher=2
+[bc  200] loss=0.0212  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0188  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0148  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0126  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0053  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0105  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0082  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+1.031  Δeq5=-0.803  eq5=-0.056  H=0.08  pl=+0.047  vl=0.335  t=1.4s
+[ep   512] R=+0.997  Δeq5=-0.907  eq5=-0.140  H=0.07  pl=+0.045  vl=0.369  t=2.9s
+[ep   768] R=+1.208  Δeq5=-0.688  eq5=+0.042  H=0.08  pl=+0.024  vl=0.390  t=4.4s
+[ep  1024] R=+1.415  Δeq5=-0.391  eq5=+0.272  H=0.04  pl=+0.013  vl=0.385  t=6.0s
+[ep  1280] R=+1.261  Δeq5=-0.485  eq5=+0.200  H=0.06  pl=+0.029  vl=0.368  t=7.5s
+[ep  1536] R=+1.232  Δeq5=-0.625  eq5=+0.089  H=0.08  pl=+0.054  vl=0.380  t=8.8s
+[ep  1792] R=+1.062  Δeq5=-0.850  eq5=-0.088  H=0.10  pl=+0.027  vl=0.360  t=10.3s
+[ep  2048] R=+1.244  Δeq5=-0.695  eq5=+0.035  H=0.10  pl=+0.038  vl=0.361  t=11.8s
+[train] best (decode Score or Δ) = +0.292
+  -> Score +0.0904 sizes [11, 5, 5, 3] [0m18s]
+
+########################################################################
+# [14/36] jpetstore-6 | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6091  match=0.250  size_L1_to_teacher=8
+[bc   20] loss=1.4450  match=0.458  size_L1_to_teacher=14
+[bc   40] loss=1.1410  match=0.542  size_L1_to_teacher=12
+[bc   60] loss=0.4816  match=0.917  size_L1_to_teacher=2
+[bc   80] loss=0.1758  match=0.958  size_L1_to_teacher=2
+[bc  100] loss=0.1048  match=0.958  size_L1_to_teacher=2
+[bc  120] loss=0.0557  match=0.958  size_L1_to_teacher=2
+[bc  140] loss=0.0268  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0158  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0296  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0062  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0082  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0042  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+3.236  Δeq5=-0.808  eq5=-0.108  H=0.08  pl=+0.017  vl=0.999  t=1.5s
+[ep   512] R=+3.452  Δeq5=-0.395  eq5=+0.257  H=0.05  pl=+0.002  vl=1.175  t=3.1s
+[ep   768] R=+3.481  Δeq5=-0.408  eq5=+0.253  H=0.04  pl=+0.010  vl=1.156  t=4.7s
+[ep  1024] R=+3.597  Δeq5=-0.460  eq5=+0.217  H=0.07  pl=-0.006  vl=1.186  t=6.2s
+[ep  1280] R=+3.939  Δeq5=-0.252  eq5=+0.322  H=0.07  pl=+0.009  vl=1.209  t=7.8s
+[ep  1536] R=+3.905  Δeq5=-0.286  eq5=+0.303  H=0.09  pl=+0.028  vl=1.173  t=9.4s
+[ep  1792] R=+3.924  Δeq5=-0.226  eq5=+0.339  H=0.05  pl=+0.016  vl=1.181  t=11.0s
+[ep  2048] R=+3.798  Δeq5=-0.316  eq5=+0.294  H=0.06  pl=+0.000  vl=1.178  t=12.5s
+[train] best (decode Score or Δ) = +0.524
+  -> Score +0.1048 sizes [13, 4, 4, 2] [0m19s]
+
+########################################################################
+# [15/36] acmeair | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2687  match=0.129  size_L1_to_teacher=26
+[bc   20] loss=2.1836  match=0.243  size_L1_to_teacher=62
+[bc   40] loss=1.8618  match=0.343  size_L1_to_teacher=20
+[bc   60] loss=1.6333  match=0.343  size_L1_to_teacher=36
+[bc   80] loss=1.3466  match=0.486  size_L1_to_teacher=24
+[bc  100] loss=1.0153  match=0.629  size_L1_to_teacher=6
+[bc  120] loss=0.7489  match=0.671  size_L1_to_teacher=12
+[bc  140] loss=0.5760  match=0.771  size_L1_to_teacher=10
+[bc  160] loss=0.5376  match=0.786  size_L1_to_teacher=4
+[bc  180] loss=0.3600  match=0.857  size_L1_to_teacher=2
+[bc  200] loss=0.2613  match=0.943  size_L1_to_teacher=6
+[bc  220] loss=0.2821  match=0.914  size_L1_to_teacher=4
+[bc  240] loss=0.1962  match=0.943  size_L1_to_teacher=4
+[bc  260] loss=0.1640  match=0.929  size_L1_to_teacher=2
+[bc  280] loss=0.1893  match=0.943  size_L1_to_teacher=2
+[bc  300] loss=0.1081  match=0.971  size_L1_to_teacher=4
+[bc  320] loss=0.0825  match=0.971  size_L1_to_teacher=4
+[bc  340] loss=0.1993  match=0.929  size_L1_to_teacher=6
+[bc  360] loss=0.0542  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0558  match=0.986  size_L1_to_teacher=2
+[bc  400] loss=0.1119  match=0.957  size_L1_to_teacher=2
+[bc  420] loss=0.0494  match=0.971  size_L1_to_teacher=2
+[bc  440] loss=0.0503  match=0.971  size_L1_to_teacher=4
+[bc  460] loss=0.0255  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0376  match=0.986  size_L1_to_teacher=0
+[bc  500] loss=0.0083  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0321  match=0.986  size_L1_to_teacher=2
+[bc  540] loss=0.0207  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0204  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0188  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0436  match=0.986  size_L1_to_teacher=0
+[bc  680] loss=0.0089  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0171  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0154  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0067  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+0.687  Δeq5=-0.424  eq5=+0.280  H=0.30  pl=+0.020  vl=0.122  t=4.8s
+[ep   512] R=+0.634  Δeq5=-0.515  eq5=+0.207  H=0.53  pl=+0.024  vl=0.098  t=9.8s
+[ep   768] R=+0.584  Δeq5=-0.567  eq5=+0.167  H=0.70  pl=+0.023  vl=0.082  t=14.7s
+[ep  1024] R=+0.452  Δeq5=-0.712  eq5=+0.052  H=0.89  pl=+0.015  vl=0.079  t=19.7s
+[ep  1280] R=+0.490  Δeq5=-0.770  eq5=+0.005  H=1.00  pl=+0.017  vl=0.072  t=24.6s
+[ep  1536] R=+0.435  Δeq5=-0.796  eq5=-0.017  H=1.05  pl=+0.009  vl=0.072  t=29.6s
+[ep  1792] R=+0.405  Δeq5=-0.809  eq5=-0.027  H=1.16  pl=+0.008  vl=0.082  t=34.6s
+[ep  2048] R=+0.460  Δeq5=-0.780  eq5=-0.005  H=1.21  pl=+0.009  vl=0.077  t=39.7s
+[train] best (decode Score or Δ) = +0.610
+  -> Score +0.1363 sizes [11, 10, 8, 7, 6, 6, 6, 5, 4, 4] [0m47s]
+
+########################################################################
+# [16/36] acmeair | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.3706  match=0.000  size_L1_to_teacher=98
+[bc   20] loss=2.3009  match=0.229  size_L1_to_teacher=66
+[bc   40] loss=2.0958  match=0.300  size_L1_to_teacher=24
+[bc   60] loss=1.4355  match=0.457  size_L1_to_teacher=6
+[bc   80] loss=0.9881  match=0.657  size_L1_to_teacher=8
+[bc  100] loss=0.7092  match=0.700  size_L1_to_teacher=10
+[bc  120] loss=0.5045  match=0.829  size_L1_to_teacher=8
+[bc  140] loss=0.4669  match=0.814  size_L1_to_teacher=10
+[bc  160] loss=0.2563  match=0.900  size_L1_to_teacher=4
+[bc  180] loss=0.2805  match=0.914  size_L1_to_teacher=6
+[bc  200] loss=0.1978  match=0.957  size_L1_to_teacher=2
+[bc  220] loss=0.1427  match=0.957  size_L1_to_teacher=4
+[bc  240] loss=0.1815  match=0.929  size_L1_to_teacher=2
+[bc  260] loss=0.1664  match=0.943  size_L1_to_teacher=6
+[bc  280] loss=0.0631  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0563  match=0.986  size_L1_to_teacher=2
+[bc  320] loss=0.0438  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0486  match=0.986  size_L1_to_teacher=2
+[bc  360] loss=0.0365  match=0.986  size_L1_to_teacher=2
+[bc  380] loss=0.0294  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0161  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0106  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0077  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0179  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0065  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0070  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0037  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0052  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0027  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0073  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0035  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+2.902  Δeq5=-0.119  eq5=+0.500  H=0.18  pl=+0.032  vl=0.331  t=4.9s
+[ep   512] R=+2.840  Δeq5=-0.144  eq5=+0.486  H=0.22  pl=+0.036  vl=0.405  t=10.2s
+[ep   768] R=+2.781  Δeq5=-0.186  eq5=+0.452  H=0.30  pl=+0.029  vl=0.352  t=15.5s
+[ep  1024] R=+2.752  Δeq5=-0.404  eq5=+0.294  H=0.48  pl=+0.035  vl=0.368  t=20.8s
+[ep  1280] R=+2.639  Δeq5=-0.530  eq5=+0.198  H=0.64  pl=+0.022  vl=0.337  t=26.1s
+[ep  1536] R=+2.598  Δeq5=-0.562  eq5=+0.173  H=0.79  pl=+0.022  vl=0.307  t=31.4s
+[ep  1792] R=+2.537  Δeq5=-0.608  eq5=+0.136  H=0.84  pl=+0.016  vl=0.330  t=36.7s
+[ep  2048] R=+2.456  Δeq5=-0.626  eq5=+0.122  H=0.95  pl=+0.015  vl=0.312  t=42.0s
+[train] best (decode Score or Δ) = +0.648
+  -> Score +0.1682 sizes [13, 10, 9, 7, 7, 6, 6, 4, 3, 3] [0m50s]
+
+########################################################################
+# [17/36] daytrader7 | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.1758  match=0.173  size_L1_to_teacher=34
+[bc   20] loss=1.7778  match=0.471  size_L1_to_teacher=62
+[bc   40] loss=1.4150  match=0.567  size_L1_to_teacher=38
+[bc   60] loss=0.9887  match=0.683  size_L1_to_teacher=16
+[bc   80] loss=0.7342  match=0.712  size_L1_to_teacher=18
+[bc  100] loss=0.5497  match=0.817  size_L1_to_teacher=24
+[bc  120] loss=0.3738  match=0.846  size_L1_to_teacher=18
+[bc  140] loss=0.3275  match=0.885  size_L1_to_teacher=16
+[bc  160] loss=0.2718  match=0.904  size_L1_to_teacher=12
+[bc  180] loss=0.1739  match=0.942  size_L1_to_teacher=8
+[bc  200] loss=0.1323  match=0.971  size_L1_to_teacher=6
+[bc  220] loss=0.1441  match=0.971  size_L1_to_teacher=6
+[bc  240] loss=0.0735  match=0.990  size_L1_to_teacher=2
+[bc  260] loss=0.0702  match=0.981  size_L1_to_teacher=4
+[bc  280] loss=0.0944  match=0.990  size_L1_to_teacher=2
+[bc  300] loss=0.0310  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0635  match=0.990  size_L1_to_teacher=2
+[bc  340] loss=0.0208  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0166  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0481  match=0.990  size_L1_to_teacher=2
+[bc  400] loss=0.1122  match=0.981  size_L1_to_teacher=2
+[bc  420] loss=0.0120  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0153  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0080  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0318  match=0.990  size_L1_to_teacher=2
+[bc  500] loss=0.0147  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0091  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0072  match=0.990  size_L1_to_teacher=2
+[bc  560] loss=0.0039  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0110  match=0.990  size_L1_to_teacher=2
+[bc  600] loss=0.0087  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0068  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0064  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0650  match=0.990  size_L1_to_teacher=0
+[bc  760] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0068  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.6021  rawU=+0.1505  max|m|=40
+[ep   256] R=+2.081  Δeq5=-0.339  eq5=+0.195  H=0.16  pl=+0.006  vl=0.366  t=6.8s
+[ep   512] R=+1.964  Δeq5=-0.333  eq5=+0.183  H=0.32  pl=+0.013  vl=0.374  t=14.1s
+[ep   768] R=+2.008  Δeq5=-0.318  eq5=+0.186  H=0.39  pl=+0.009  vl=0.371  t=21.4s
+[ep  1024] R=+2.085  Δeq5=-0.218  eq5=+0.269  H=0.45  pl=+0.011  vl=0.375  t=28.8s
+[ep  1280] R=+2.150  Δeq5=-0.445  eq5=+0.111  H=0.55  pl=+0.040  vl=0.339  t=36.1s
+[ep  1536] R=+2.349  Δeq5=-0.326  eq5=+0.206  H=0.92  pl=+0.020  vl=0.338  t=43.6s
+[ep  1792] R=+2.402  Δeq5=-0.256  eq5=+0.259  H=0.99  pl=+0.018  vl=0.352  t=51.0s
+[ep  2048] R=+2.406  Δeq5=-0.379  eq5=+0.172  H=1.05  pl=+0.010  vl=0.353  t=58.5s
+[train] best (decode Score or Δ) = +0.717
+  -> Score +0.2116 sizes [34, 32, 7, 6, 5, 5, 5, 4, 3, 2] [1m08s]
+
+########################################################################
+# [18/36] daytrader7 | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2917  match=0.019  size_L1_to_teacher=68
+[bc   20] loss=1.8642  match=0.462  size_L1_to_teacher=62
+[bc   40] loss=1.5824  match=0.519  size_L1_to_teacher=40
+[bc   60] loss=1.1144  match=0.644  size_L1_to_teacher=18
+[bc   80] loss=0.7899  match=0.740  size_L1_to_teacher=24
+[bc  100] loss=0.5484  match=0.779  size_L1_to_teacher=22
+[bc  120] loss=0.4368  match=0.856  size_L1_to_teacher=20
+[bc  140] loss=0.3405  match=0.875  size_L1_to_teacher=14
+[bc  160] loss=0.2464  match=0.923  size_L1_to_teacher=14
+[bc  180] loss=0.1984  match=0.962  size_L1_to_teacher=6
+[bc  200] loss=0.1619  match=0.962  size_L1_to_teacher=2
+[bc  220] loss=0.1107  match=0.971  size_L1_to_teacher=6
+[bc  240] loss=0.1161  match=0.962  size_L1_to_teacher=8
+[bc  260] loss=0.0746  match=0.990  size_L1_to_teacher=0
+[bc  280] loss=0.0512  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0420  match=0.990  size_L1_to_teacher=2
+[bc  320] loss=0.0374  match=0.981  size_L1_to_teacher=4
+[bc  340] loss=0.0207  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0166  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0401  match=0.990  size_L1_to_teacher=2
+[bc  400] loss=0.0172  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0151  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0108  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0068  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0102  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0082  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0369  match=0.990  size_L1_to_teacher=2
+[bc  540] loss=0.0057  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0061  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0047  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0037  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0039  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.6021  rawU=+0.1505  max|m|=40
+[ep   256] R=+30.642  Δeq5=-0.240  eq5=+0.267  H=0.08  pl=+0.006  vl=4.339  t=7.6s
+[ep   512] R=+29.232  Δeq5=-0.249  eq5=+0.262  H=0.09  pl=+0.013  vl=7.435  t=15.4s
+[ep   768] R=+29.130  Δeq5=-0.048  eq5=+0.395  H=0.08  pl=+0.008  vl=6.982  t=23.3s
+[ep  1024] R=+26.572  Δeq5=-0.008  eq5=+0.414  H=0.11  pl=+0.043  vl=9.747  t=31.2s
+[ep  1280] R=+33.066  Δeq5=-0.018  eq5=+0.414  H=0.12  pl=+0.008  vl=7.182  t=39.1s
+[ep  1536] R=+33.395  Δeq5=-0.228  eq5=+0.268  H=0.12  pl=+0.010  vl=10.393  t=46.9s
+[ep  1792] R=+31.445  Δeq5=-0.304  eq5=+0.223  H=0.17  pl=+0.015  vl=11.985  t=54.6s
+[ep  2048] R=+35.234  Δeq5=-0.115  eq5=+0.350  H=0.14  pl=+0.004  vl=10.543  t=62.3s
+[train] best (decode Score or Δ) = +0.602
+  -> Score +0.1505 sizes [40, 21, 11, 6, 6, 5, 5, 3, 3, 2] [1m13s]
+
+########################################################################
+# [19/36] plantsbywebsphere | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.0988  match=0.457  size_L1_to_teacher=10
+[bc   20] loss=1.0438  match=0.514  size_L1_to_teacher=32
+[bc   40] loss=0.7152  match=0.600  size_L1_to_teacher=8
+[bc   60] loss=0.4472  match=0.771  size_L1_to_teacher=0
+[bc   80] loss=0.0809  match=0.971  size_L1_to_teacher=2
+[bc  100] loss=0.0197  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0044  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0027  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0000  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0000  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+3.260  Δeq5=+0.340  eq5=+1.121  H=0.02  pl=-0.000  vl=0.751  t=2.2s
+[ep   512] R=+3.076  Δeq5=-0.022  eq5=+0.930  H=0.01  pl=-0.001  vl=0.824  t=4.4s
+[ep   768] R=+3.078  Δeq5=+0.001  eq5=+0.947  H=0.01  pl=+0.002  vl=0.817  t=6.7s
+[ep  1024] R=+3.037  Δeq5=+0.006  eq5=+0.949  H=0.02  pl=+0.001  vl=0.846  t=9.0s
+[ep  1280] R=+2.992  Δeq5=-0.041  eq5=+0.920  H=0.04  pl=+0.001  vl=0.823  t=11.2s
+[ep  1536] R=+3.028  Δeq5=-0.044  eq5=+0.918  H=0.04  pl=+0.006  vl=0.821  t=13.4s
+[ep  1792] R=+2.980  Δeq5=-0.077  eq5=+0.895  H=0.05  pl=+0.008  vl=0.800  t=15.7s
+[ep  2048] R=+3.042  Δeq5=-0.001  eq5=+0.941  H=0.06  pl=+0.013  vl=0.815  t=17.9s
+[train] best (decode Score or Δ) = +1.132
+  -> Score +0.6317 sizes [17, 13, 5] [0m25s]
+
+########################################################################
+# [20/36] plantsbywebsphere | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.3872  match=0.114  size_L1_to_teacher=10
+[bc   20] loss=1.1813  match=0.571  size_L1_to_teacher=28
+[bc   40] loss=1.1347  match=0.571  size_L1_to_teacher=10
+[bc   60] loss=0.8363  match=0.629  size_L1_to_teacher=16
+[bc   80] loss=0.3366  match=0.800  size_L1_to_teacher=8
+[bc  100] loss=0.1129  match=0.971  size_L1_to_teacher=2
+[bc  120] loss=0.0452  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0283  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0105  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0030  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+6.096  Δeq5=-0.040  eq5=+0.917  H=0.00  pl=+0.004  vl=2.144  t=2.3s
+[ep   512] R=+6.105  Δeq5=+0.006  eq5=+0.949  H=0.00  pl=+0.003  vl=2.451  t=4.7s
+[ep   768] R=+6.092  Δeq5=-0.001  eq5=+0.945  H=0.00  pl=+0.000  vl=2.357  t=7.1s
+[ep  1024] R=+6.286  Δeq5=+0.228  eq5=+1.067  H=0.02  pl=+0.014  vl=2.317  t=9.5s
+[ep  1280] R=+6.205  Δeq5=+0.109  eq5=+1.004  H=0.04  pl=+0.009  vl=2.323  t=12.0s
+[ep  1536] R=+6.278  Δeq5=+0.164  eq5=+0.891  H=0.04  pl=+0.016  vl=2.085  t=14.4s
+[ep  1792] R=+6.324  Δeq5=+0.049  eq5=+0.810  H=0.04  pl=+0.015  vl=1.987  t=16.8s
+[ep  2048] R=+6.264  Δeq5=+0.231  eq5=+0.960  H=0.03  pl=+0.004  vl=2.082  t=19.2s
+[train] best (decode Score or Δ) = +1.171
+  -> Score +0.6704 sizes [17, 12, 5] [0m27s]
+
+########################################################################
+# [21/36] lit-jpetstore | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=1.8476  match=0.085  size_L1_to_teacher=46
+[bc   20] loss=1.7389  match=0.352  size_L1_to_teacher=68
+[bc   40] loss=1.3916  match=0.423  size_L1_to_teacher=28
+[bc   60] loss=0.8085  match=0.634  size_L1_to_teacher=6
+[bc   80] loss=0.5059  match=0.803  size_L1_to_teacher=6
+[bc  100] loss=0.2889  match=0.944  size_L1_to_teacher=4
+[bc  120] loss=0.1733  match=0.930  size_L1_to_teacher=2
+[bc  140] loss=0.1208  match=0.986  size_L1_to_teacher=2
+[bc  160] loss=0.0312  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0222  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0137  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0087  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0194  match=0.986  size_L1_to_teacher=2
+[bc  260] loss=0.0100  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0094  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0047  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0062  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0055  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0098  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0027  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0127  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0126  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0032  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0123  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0038  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0057  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0047  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.7422  rawU=+0.0660  max|m|=15
+[ep   256] R=+2.466  Δeq5=-0.074  eq5=+0.654  H=0.07  pl=+0.005  vl=0.367  t=4.6s
+[ep   512] R=+3.080  Δeq5=-0.017  eq5=+0.683  H=0.10  pl=+0.017  vl=0.400  t=9.5s
+[ep   768] R=+3.139  Δeq5=-0.026  eq5=+0.683  H=0.14  pl=+0.040  vl=0.473  t=14.4s
+[ep  1024] R=+3.078  Δeq5=-0.145  eq5=+0.606  H=0.14  pl=+0.026  vl=0.495  t=19.2s
+[ep  1280] R=+2.869  Δeq5=-0.269  eq5=+0.528  H=0.20  pl=+0.029  vl=0.473  t=24.1s
+[ep  1536] R=+2.736  Δeq5=-0.371  eq5=+0.458  H=0.23  pl=+0.012  vl=0.465  t=29.0s
+[ep  1792] R=+2.794  Δeq5=-0.245  eq5=+0.547  H=0.26  pl=+0.024  vl=0.459  t=33.9s
+[ep  2048] R=+2.582  Δeq5=-0.331  eq5=+0.486  H=0.30  pl=+0.022  vl=0.458  t=38.8s
+[train] best (decode Score or Δ) = +0.803
+  -> Score +0.0498 sizes [20, 16, 14, 6, 4, 4, 4, 3] [0m46s]
+
+########################################################################
+# [22/36] lit-jpetstore | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=1.9999  match=0.127  size_L1_to_teacher=14
+[bc   20] loss=1.8575  match=0.366  size_L1_to_teacher=74
+[bc   40] loss=1.5279  match=0.535  size_L1_to_teacher=18
+[bc   60] loss=0.9220  match=0.620  size_L1_to_teacher=16
+[bc   80] loss=0.5343  match=0.803  size_L1_to_teacher=8
+[bc  100] loss=0.2892  match=0.901  size_L1_to_teacher=6
+[bc  120] loss=0.1051  match=0.972  size_L1_to_teacher=0
+[bc  140] loss=0.0591  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0434  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0306  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0926  match=0.986  size_L1_to_teacher=2
+[bc  220] loss=0.0191  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0095  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0110  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0121  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0217  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0060  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0026  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0041  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0057  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0161  match=0.986  size_L1_to_teacher=2
+[bc  799] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.7407  rawU=+0.0656  max|m|=16
+[ep   256] R=+11.532  Δeq5=-0.074  eq5=+0.652  H=0.06  pl=+0.004  vl=2.004  t=5.1s
+[ep   512] R=+11.681  Δeq5=+0.222  eq5=+0.839  H=0.06  pl=+0.032  vl=2.838  t=10.4s
+[ep   768] R=+11.074  Δeq5=+0.126  eq5=+0.792  H=0.04  pl=+0.050  vl=3.398  t=15.7s
+[ep  1024] R=+11.126  Δeq5=+0.002  eq5=+0.711  H=0.03  pl=+0.048  vl=3.493  t=20.9s
+[ep  1280] R=+10.674  Δeq5=+0.191  eq5=+0.824  H=0.05  pl=+0.020  vl=3.465  t=26.2s
+[ep  1536] R=+11.133  Δeq5=+0.104  eq5=+0.767  H=0.07  pl=-0.002  vl=3.446  t=31.5s
+[ep  1792] R=+10.618  Δeq5=-0.090  eq5=+0.650  H=0.10  pl=+0.022  vl=3.430  t=36.8s
+[ep  2048] R=+11.084  Δeq5=+0.094  eq5=+0.770  H=0.12  pl=+0.064  vl=3.428  t=42.1s
+[train] best (decode Score or Δ) = +0.854
+  -> Score +0.0995 sizes [15, 15, 12, 11, 6, 4, 3, 3] [0m50s]
+
+########################################################################
+# [23/36] lit-pbw | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3864  match=0.250  size_L1_to_teacher=6
+[bc   20] loss=1.2715  match=0.472  size_L1_to_teacher=24
+[bc   40] loss=1.0200  match=0.639  size_L1_to_teacher=14
+[bc   60] loss=0.7239  match=0.611  size_L1_to_teacher=4
+[bc   80] loss=0.5452  match=0.750  size_L1_to_teacher=8
+[bc  100] loss=0.3709  match=0.833  size_L1_to_teacher=10
+[bc  120] loss=0.2473  match=0.889  size_L1_to_teacher=8
+[bc  140] loss=0.1435  match=0.944  size_L1_to_teacher=4
+[bc  160] loss=0.1599  match=0.917  size_L1_to_teacher=4
+[bc  180] loss=0.0435  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0266  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0110  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0113  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0142  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0072  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0072  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0017  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0050  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0148  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s1/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+2.253  Δeq5=-0.070  eq5=+0.653  H=0.04  pl=+0.017  vl=0.554  t=2.2s
+[ep   512] R=+1.487  Δeq5=-0.852  eq5=+0.152  H=0.10  pl=+0.025  vl=0.450  t=4.6s
+[ep   768] R=+1.348  Δeq5=-1.062  eq5=-0.027  H=0.10  pl=+0.055  vl=0.315  t=7.0s
+[ep  1024] R=+1.664  Δeq5=-0.816  eq5=+0.177  H=0.11  pl=+0.030  vl=0.445  t=9.4s
+[ep  1280] R=+1.835  Δeq5=-0.753  eq5=+0.220  H=0.10  pl=+0.062  vl=0.461  t=11.7s
+[ep  1536] R=+1.921  Δeq5=-0.791  eq5=+0.196  H=0.11  pl=+0.050  vl=0.520  t=14.0s
+[ep  1792] R=+1.841  Δeq5=-0.750  eq5=+0.222  H=0.11  pl=+0.031  vl=0.513  t=16.3s
+[ep  2048] R=+2.016  Δeq5=-0.666  eq5=+0.277  H=0.10  pl=+0.037  vl=0.491  t=18.7s
+[train] best (decode Score or Δ) = +0.694
+  -> Score +0.5148 sizes [19, 8, 7, 2] [0m26s]
+
+########################################################################
+# [24/36] lit-pbw | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6109  match=0.167  size_L1_to_teacher=10
+[bc   20] loss=1.3877  match=0.556  size_L1_to_teacher=32
+[bc   40] loss=1.2036  match=0.500  size_L1_to_teacher=22
+[bc   60] loss=0.7610  match=0.694  size_L1_to_teacher=8
+[bc   80] loss=0.3869  match=0.833  size_L1_to_teacher=8
+[bc  100] loss=0.1350  match=0.972  size_L1_to_teacher=2
+[bc  120] loss=0.0810  match=0.972  size_L1_to_teacher=2
+[bc  140] loss=0.0246  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0294  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0122  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0067  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0012  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0181  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s1/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+5.989  Δeq5=-0.036  eq5=+0.670  H=0.03  pl=-0.000  vl=2.105  t=2.3s
+[ep   512] R=+5.904  Δeq5=+0.002  eq5=+0.694  H=0.02  pl=+0.004  vl=2.181  t=4.8s
+[ep   768] R=+5.964  Δeq5=+0.000  eq5=+0.690  H=0.03  pl=+0.007  vl=2.145  t=7.2s
+[ep  1024] R=+5.892  Δeq5=-0.042  eq5=+0.669  H=0.06  pl=+0.012  vl=2.197  t=9.6s
+[ep  1280] R=+5.785  Δeq5=+0.000  eq5=+0.702  H=0.09  pl=+0.009  vl=2.330  t=12.1s
+[ep  1536] R=+5.693  Δeq5=+0.024  eq5=+0.720  H=0.11  pl=+0.038  vl=2.153  t=14.5s
+[ep  1792] R=+5.746  Δeq5=-0.085  eq5=+0.645  H=0.11  pl=+0.011  vl=2.194  t=17.0s
+[ep  2048] R=+5.396  Δeq5=-0.184  eq5=+0.584  H=0.19  pl=+0.018  vl=2.014  t=19.4s
+[train] best (decode Score or Δ) = +0.742
+  -> Score +0.5764 sizes [20, 8, 6, 2] [0m27s]
+
+########################################################################
+# [25/36] jpetstore-6 | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3856  match=0.333  size_L1_to_teacher=6
+[bc   20] loss=1.1942  match=0.500  size_L1_to_teacher=22
+[bc   40] loss=0.6000  match=0.833  size_L1_to_teacher=0
+[bc   60] loss=0.2774  match=0.917  size_L1_to_teacher=2
+[bc   80] loss=0.2638  match=0.917  size_L1_to_teacher=2
+[bc  100] loss=0.1311  match=0.917  size_L1_to_teacher=0
+[bc  120] loss=0.0893  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0987  match=0.917  size_L1_to_teacher=2
+[bc  160] loss=0.0977  match=0.958  size_L1_to_teacher=2
+[bc  180] loss=0.0510  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0765  match=0.958  size_L1_to_teacher=2
+[bc  220] loss=0.0294  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0104  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0180  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0191  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0048  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0038  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0079  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0111  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0044  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0056  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+1.444  Δeq5=-0.172  eq5=+0.391  H=0.07  pl=+0.058  vl=0.365  t=1.5s
+[ep   512] R=+1.209  Δeq5=-0.562  eq5=+0.094  H=0.10  pl=+0.035  vl=0.353  t=3.0s
+[ep   768] R=+1.569  Δeq5=-0.148  eq5=+0.412  H=0.06  pl=+0.002  vl=0.396  t=4.5s
+[ep  1024] R=+1.477  Δeq5=-0.344  eq5=+0.259  H=0.05  pl=+0.011  vl=0.402  t=6.0s
+[ep  1280] R=+1.317  Δeq5=-0.589  eq5=+0.065  H=0.07  pl=+0.042  vl=0.372  t=7.6s
+[ep  1536] R=+1.534  Δeq5=-0.289  eq5=+0.305  H=0.06  pl=-0.001  vl=0.388  t=9.1s
+[ep  1792] R=+1.366  Δeq5=-0.511  eq5=+0.130  H=0.09  pl=+0.009  vl=0.389  t=10.6s
+[ep  2048] R=+1.666  Δeq5=-0.080  eq5=+0.465  H=0.05  pl=+0.001  vl=0.414  t=12.1s
+[train] best (decode Score or Δ) = +0.593
+  -> Score +0.2371 sizes [11, 5, 5, 3] [0m19s]
+
+########################################################################
+# [26/36] jpetstore-6 | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6102  match=0.083  size_L1_to_teacher=10
+[bc   20] loss=1.4501  match=0.458  size_L1_to_teacher=20
+[bc   40] loss=1.0884  match=0.583  size_L1_to_teacher=8
+[bc   60] loss=0.6079  match=0.750  size_L1_to_teacher=4
+[bc   80] loss=0.2094  match=0.917  size_L1_to_teacher=4
+[bc  100] loss=0.0694  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.0403  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0235  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0248  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0320  match=0.958  size_L1_to_teacher=2
+[bc  200] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0033  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0033  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0053  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0497  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.2228  rawU=+0.0796  max|m|=11
+[ep   256] R=+3.034  Δeq5=-0.826  eq5=-0.084  H=0.12  pl=+0.017  vl=0.951  t=1.5s
+[ep   512] R=+3.810  Δeq5=-0.273  eq5=+0.344  H=0.05  pl=+0.011  vl=1.321  t=3.1s
+[ep   768] R=+3.930  Δeq5=-0.096  eq5=+0.468  H=0.07  pl=+0.004  vl=1.460  t=4.7s
+[ep  1024] R=+3.784  Δeq5=-0.189  eq5=+0.394  H=0.07  pl=+0.007  vl=1.557  t=6.3s
+[ep  1280] R=+3.812  Δeq5=+0.006  eq5=+0.530  H=0.07  pl=+0.021  vl=1.496  t=7.9s
+[ep  1536] R=+3.790  Δeq5=-0.276  eq5=+0.332  H=0.10  pl=-0.000  vl=1.440  t=9.5s
+[ep  1792] R=+3.878  Δeq5=-0.140  eq5=+0.427  H=0.11  pl=+0.027  vl=1.506  t=11.1s
+[ep  2048] R=+3.856  Δeq5=-0.184  eq5=+0.398  H=0.09  pl=+0.030  vl=1.555  t=12.7s
+[train] best (decode Score or Δ) = +0.683
+  -> Score +0.1153 sizes [10, 5, 5, 4] [0m19s]
+
+########################################################################
+# [27/36] acmeair | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2691  match=0.057  size_L1_to_teacher=38
+[bc   20] loss=2.1814  match=0.229  size_L1_to_teacher=58
+[bc   40] loss=1.8639  match=0.343  size_L1_to_teacher=20
+[bc   60] loss=1.2680  match=0.543  size_L1_to_teacher=4
+[bc   80] loss=0.8403  match=0.743  size_L1_to_teacher=4
+[bc  100] loss=0.6027  match=0.757  size_L1_to_teacher=6
+[bc  120] loss=0.4641  match=0.900  size_L1_to_teacher=6
+[bc  140] loss=0.3981  match=0.843  size_L1_to_teacher=10
+[bc  160] loss=0.3672  match=0.857  size_L1_to_teacher=4
+[bc  180] loss=0.1962  match=0.971  size_L1_to_teacher=4
+[bc  200] loss=0.1692  match=0.914  size_L1_to_teacher=4
+[bc  220] loss=0.0999  match=0.971  size_L1_to_teacher=2
+[bc  240] loss=0.0827  match=0.971  size_L1_to_teacher=0
+[bc  260] loss=0.0628  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.1060  match=0.986  size_L1_to_teacher=2
+[bc  300] loss=0.0359  match=0.986  size_L1_to_teacher=2
+[bc  320] loss=0.0243  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0262  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0189  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0153  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0085  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0215  match=0.986  size_L1_to_teacher=2
+[bc  440] loss=0.0252  match=0.986  size_L1_to_teacher=2
+[bc  460] loss=0.0177  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0288  match=0.986  size_L1_to_teacher=2
+[bc  500] loss=0.0252  match=0.986  size_L1_to_teacher=2
+[bc  520] loss=0.0133  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0212  match=0.986  size_L1_to_teacher=2
+[bc  560] loss=0.0193  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0075  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0070  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0114  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0055  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0220  match=0.986  size_L1_to_teacher=2
+[bc  740] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0092  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+0.782  Δeq5=-0.408  eq5=+0.292  H=0.22  pl=+0.023  vl=0.117  t=4.8s
+[ep   512] R=+0.869  Δeq5=-0.342  eq5=+0.341  H=0.29  pl=+0.027  vl=0.103  t=9.8s
+[ep   768] R=+0.923  Δeq5=-0.282  eq5=+0.386  H=0.35  pl=+0.021  vl=0.115  t=14.7s
+[ep  1024] R=+0.859  Δeq5=-0.302  eq5=+0.370  H=0.46  pl=+0.020  vl=0.114  t=19.6s
+[ep  1280] R=+0.752  Δeq5=-0.423  eq5=+0.279  H=0.58  pl=+0.018  vl=0.116  t=24.5s
+[ep  1536] R=+0.782  Δeq5=-0.416  eq5=+0.284  H=0.65  pl=+0.017  vl=0.104  t=29.4s
+[ep  1792] R=+0.680  Δeq5=-0.488  eq5=+0.229  H=0.77  pl=+0.016  vl=0.103  t=34.3s
+[ep  2048] R=+0.649  Δeq5=-0.617  eq5=+0.129  H=0.86  pl=+0.013  vl=0.099  t=39.0s
+[train] best (decode Score or Δ) = +0.615
+  -> Score +0.0856 sizes [10, 10, 8, 8, 6, 6, 5, 5, 5, 4] [0m46s]
+
+########################################################################
+# [28/36] acmeair | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.3681  match=0.114  size_L1_to_teacher=36
+[bc   20] loss=2.2976  match=0.214  size_L1_to_teacher=64
+[bc   40] loss=2.0773  match=0.329  size_L1_to_teacher=20
+[bc   60] loss=1.6863  match=0.371  size_L1_to_teacher=14
+[bc   80] loss=1.5513  match=0.429  size_L1_to_teacher=28
+[bc  100] loss=1.2110  match=0.557  size_L1_to_teacher=16
+[bc  120] loss=1.0429  match=0.657  size_L1_to_teacher=10
+[bc  140] loss=0.7644  match=0.729  size_L1_to_teacher=14
+[bc  160] loss=0.6486  match=0.700  size_L1_to_teacher=6
+[bc  180] loss=0.4859  match=0.857  size_L1_to_teacher=8
+[bc  200] loss=0.2849  match=0.914  size_L1_to_teacher=6
+[bc  220] loss=0.2606  match=0.914  size_L1_to_teacher=6
+[bc  240] loss=0.1826  match=0.943  size_L1_to_teacher=4
+[bc  260] loss=0.0930  match=0.986  size_L1_to_teacher=2
+[bc  280] loss=0.0722  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0819  match=0.971  size_L1_to_teacher=4
+[bc  320] loss=0.0205  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0681  match=0.957  size_L1_to_teacher=2
+[bc  360] loss=0.0180  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0190  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0122  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0176  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0081  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0048  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0146  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0072  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0666  match=0.986  size_L1_to_teacher=2
+[bc  540] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0137  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0076  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0105  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0093  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0031  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0034  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/acmeair/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.6097  rawU=+0.1363  max|m|=11
+[ep   256] R=+2.786  Δeq5=-0.377  eq5=+0.313  H=0.15  pl=+0.027  vl=0.250  t=5.1s
+[ep   512] R=+2.827  Δeq5=-0.060  eq5=+0.544  H=0.19  pl=+0.045  vl=0.346  t=10.3s
+[ep   768] R=+2.859  Δeq5=-0.128  eq5=+0.496  H=0.25  pl=+0.098  vl=0.386  t=15.4s
+[ep  1024] R=+2.642  Δeq5=-0.252  eq5=+0.407  H=0.35  pl=+0.039  vl=0.379  t=20.6s
+[ep  1280] R=+2.529  Δeq5=-0.332  eq5=+0.348  H=0.50  pl=+0.042  vl=0.332  t=25.7s
+[ep  1536] R=+2.541  Δeq5=-0.356  eq5=+0.330  H=0.62  pl=+0.030  vl=0.317  t=31.0s
+[ep  1792] R=+2.532  Δeq5=-0.470  eq5=+0.242  H=0.83  pl=+0.030  vl=0.322  t=36.3s
+[ep  2048] R=+2.362  Δeq5=-0.469  eq5=+0.245  H=0.89  pl=+0.018  vl=0.315  t=41.6s
+[train] best (decode Score or Δ) = +0.642
+  -> Score +0.0710 sizes [12, 9, 8, 8, 7, 5, 5, 5, 4, 4] [0m50s]
+
+########################################################################
+# [29/36] daytrader7 | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.1759  match=0.144  size_L1_to_teacher=58
+[bc   20] loss=1.7642  match=0.500  size_L1_to_teacher=60
+[bc   40] loss=1.3587  match=0.587  size_L1_to_teacher=38
+[bc   60] loss=1.0032  match=0.625  size_L1_to_teacher=12
+[bc   80] loss=0.7685  match=0.712  size_L1_to_teacher=20
+[bc  100] loss=0.5693  match=0.788  size_L1_to_teacher=22
+[bc  120] loss=0.3905  match=0.817  size_L1_to_teacher=16
+[bc  140] loss=0.4085  match=0.856  size_L1_to_teacher=20
+[bc  160] loss=0.2845  match=0.885  size_L1_to_teacher=20
+[bc  180] loss=0.2207  match=0.933  size_L1_to_teacher=8
+[bc  200] loss=0.2000  match=0.933  size_L1_to_teacher=12
+[bc  220] loss=0.1581  match=0.952  size_L1_to_teacher=6
+[bc  240] loss=0.1282  match=0.952  size_L1_to_teacher=4
+[bc  260] loss=0.0956  match=0.971  size_L1_to_teacher=4
+[bc  280] loss=0.0602  match=0.990  size_L1_to_teacher=2
+[bc  300] loss=0.0382  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0343  match=0.981  size_L1_to_teacher=4
+[bc  340] loss=0.0287  match=0.990  size_L1_to_teacher=2
+[bc  360] loss=0.0335  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0201  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0273  match=0.990  size_L1_to_teacher=2
+[bc  420] loss=0.0204  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0095  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0124  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0062  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0076  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0032  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0053  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0081  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0131  match=0.990  size_L1_to_teacher=2
+[bc  660] loss=0.0071  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0033  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0032  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0029  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0172  match=0.981  size_L1_to_teacher=4
+[bc  780] loss=0.0032  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.6214  rawU=+0.1607  max|m|=41
+[ep   256] R=+2.251  Δeq5=-0.136  eq5=+0.345  H=0.17  pl=+0.019  vl=0.387  t=7.1s
+[ep   512] R=+2.379  Δeq5=+0.002  eq5=+0.441  H=0.25  pl=+0.012  vl=0.378  t=14.3s
+[ep   768] R=+2.041  Δeq5=-0.366  eq5=+0.177  H=0.31  pl=+0.012  vl=0.391  t=21.2s
+[ep  1024] R=+2.172  Δeq5=-0.150  eq5=+0.329  H=0.40  pl=+0.011  vl=0.388  t=28.1s
+[ep  1280] R=+2.133  Δeq5=-0.284  eq5=+0.231  H=0.51  pl=+0.011  vl=0.388  t=35.1s
+[ep  1536] R=+2.236  Δeq5=-0.384  eq5=+0.170  H=0.65  pl=+0.016  vl=0.384  t=42.0s
+[ep  1792] R=+2.265  Δeq5=-0.358  eq5=+0.192  H=0.83  pl=+0.022  vl=0.373  t=48.9s
+[ep  2048] R=+2.453  Δeq5=+0.015  eq5=+0.445  H=1.01  pl=+0.015  vl=0.370  t=55.7s
+[train] best (decode Score or Δ) = +0.658
+  -> Score +0.1848 sizes [33, 23, 12, 11, 9, 6, 3, 2, 2, 2] [1m04s]
+
+########################################################################
+# [30/36] daytrader7 | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (11 clusters -> K=11)
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[train] behavior cloning 800 epochs (teacher heads used: 11/11)
+[bc    0] loss=2.2837  match=0.288  size_L1_to_teacher=34
+[bc   20] loss=1.8632  match=0.500  size_L1_to_teacher=58
+[bc   40] loss=1.5519  match=0.567  size_L1_to_teacher=48
+[bc   60] loss=1.1253  match=0.577  size_L1_to_teacher=12
+[bc   80] loss=0.8056  match=0.721  size_L1_to_teacher=26
+[bc  100] loss=0.6082  match=0.788  size_L1_to_teacher=24
+[bc  120] loss=0.4578  match=0.817  size_L1_to_teacher=24
+[bc  140] loss=0.3327  match=0.875  size_L1_to_teacher=14
+[bc  160] loss=0.2325  match=0.923  size_L1_to_teacher=8
+[bc  180] loss=0.2144  match=0.952  size_L1_to_teacher=8
+[bc  200] loss=0.1510  match=0.971  size_L1_to_teacher=4
+[bc  220] loss=0.1196  match=0.981  size_L1_to_teacher=2
+[bc  240] loss=0.1068  match=0.981  size_L1_to_teacher=4
+[bc  260] loss=0.0740  match=0.981  size_L1_to_teacher=4
+[bc  280] loss=0.0721  match=0.981  size_L1_to_teacher=4
+[bc  300] loss=0.0524  match=0.990  size_L1_to_teacher=2
+[bc  320] loss=0.0684  match=0.990  size_L1_to_teacher=2
+[bc  340] loss=0.0329  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0182  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0169  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0347  match=0.990  size_L1_to_teacher=2
+[bc  420] loss=0.0107  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0182  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0162  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0124  match=0.990  size_L1_to_teacher=2
+[bc  500] loss=0.0160  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0553  match=0.971  size_L1_to_teacher=6
+[bc  540] loss=0.0068  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0036  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0063  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0081  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0080  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0049  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0267  match=0.990  size_L1_to_teacher=2
+[bc  680] loss=0.0160  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0070  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0169  match=0.990  size_L1_to_teacher=2
+[bc  740] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0019  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0030  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/daytrader7/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.6021  rawU=+0.1505  max|m|=40
+[ep   256] R=+28.902  Δeq5=+0.130  eq5=+0.508  H=0.09  pl=+0.014  vl=3.501  t=7.2s
+[ep   512] R=+30.395  Δeq5=+0.208  eq5=+0.564  H=0.06  pl=+0.006  vl=6.556  t=14.6s
+[ep   768] R=+31.832  Δeq5=+0.290  eq5=+0.607  H=0.08  pl=+0.008  vl=7.509  t=21.8s
+[ep  1024] R=+31.804  Δeq5=-0.016  eq5=+0.419  H=0.07  pl=+0.006  vl=8.437  t=29.2s
+[ep  1280] R=+32.043  Δeq5=+0.400  eq5=+0.676  H=0.07  pl=+0.005  vl=8.671  t=36.3s
+[ep  1536] R=+32.244  Δeq5=+0.334  eq5=+0.643  H=0.08  pl=+0.004  vl=9.031  t=43.4s
+[ep  1792] R=+32.701  Δeq5=+0.345  eq5=+0.648  H=0.10  pl=+0.005  vl=8.606  t=50.8s
+[ep  2048] R=+33.927  Δeq5=+0.340  eq5=+0.640  H=0.11  pl=+0.004  vl=9.345  t=58.0s
+[train] best (decode Score or Δ) = +0.762
+  -> Score +0.2491 sizes [41, 31, 10, 6, 5, 3, 2, 2, 2, 2] [1m08s]
+
+########################################################################
+# [31/36] plantsbywebsphere | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.0994  match=0.229  size_L1_to_teacher=10
+[bc   20] loss=1.0594  match=0.486  size_L1_to_teacher=36
+[bc   40] loss=0.8568  match=0.657  size_L1_to_teacher=14
+[bc   60] loss=0.4721  match=0.714  size_L1_to_teacher=6
+[bc   80] loss=0.1527  match=0.943  size_L1_to_teacher=0
+[bc  100] loss=0.0098  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.0035  match=1.000  size_L1_to_teacher=0
+[bc  140] loss=0.0036  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0054  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0000  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0000  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0000  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+3.088  Δeq5=+0.000  eq5=+0.946  H=0.00  pl=+0.000  vl=0.809  t=2.1s
+[ep   512] R=+3.262  Δeq5=+0.352  eq5=+1.128  H=0.05  pl=-0.006  vl=0.774  t=4.3s
+[ep   768] R=+2.943  Δeq5=-0.100  eq5=+0.854  H=0.05  pl=+0.013  vl=0.740  t=6.5s
+[ep  1024] R=+3.137  Δeq5=+0.099  eq5=+0.998  H=0.04  pl=+0.010  vl=0.802  t=8.6s
+[ep  1280] R=+3.106  Δeq5=+0.034  eq5=+0.964  H=0.03  pl=+0.011  vl=0.850  t=10.8s
+[ep  1536] R=+3.024  Δeq5=+0.011  eq5=+0.948  H=0.06  pl=+0.016  vl=0.836  t=12.9s
+[ep  1792] R=+3.118  Δeq5=+0.068  eq5=+0.982  H=0.06  pl=+0.010  vl=0.816  t=15.1s
+[ep  2048] R=+3.076  Δeq5=+0.052  eq5=+0.954  H=0.07  pl=+0.007  vl=0.776  t=17.2s
+[train] best (decode Score or Δ) = +1.132
+  -> Score +0.6317 sizes [17, 13, 5] [0m24s]
+
+########################################################################
+# [32/36] plantsbywebsphere | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (3 clusters -> K=3)
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[train] behavior cloning 800 epochs (teacher heads used: 3/3)
+[bc    0] loss=1.3846  match=0.171  size_L1_to_teacher=4
+[bc   20] loss=1.2010  match=0.486  size_L1_to_teacher=34
+[bc   40] loss=1.1320  match=0.457  size_L1_to_teacher=10
+[bc   60] loss=0.9357  match=0.571  size_L1_to_teacher=28
+[bc   80] loss=0.4897  match=0.800  size_L1_to_teacher=10
+[bc  100] loss=0.1945  match=0.943  size_L1_to_teacher=2
+[bc  120] loss=0.0929  match=0.943  size_L1_to_teacher=2
+[bc  140] loss=0.0466  match=0.971  size_L1_to_teacher=2
+[bc  160] loss=0.0308  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0107  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0293  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0048  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0067  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/plantsbywebsphere/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.9458  rawU=+0.4112  max|m|=17
+[ep   256] R=+6.313  Δeq5=+0.352  eq5=+1.128  H=0.03  pl=+0.021  vl=2.032  t=2.2s
+[ep   512] R=+6.290  Δeq5=+0.365  eq5=+1.128  H=0.06  pl=+0.015  vl=2.377  t=4.4s
+[ep   768] R=+6.174  Δeq5=+0.396  eq5=+1.148  H=0.05  pl=+0.002  vl=2.471  t=6.6s
+[ep  1024] R=+6.169  Δeq5=+0.074  eq5=+0.985  H=0.05  pl=+0.065  vl=2.353  t=8.9s
+[ep  1280] R=+6.508  Δeq5=+0.301  eq5=+1.087  H=0.08  pl=+0.026  vl=2.452  t=11.2s
+[ep  1536] R=+6.411  Δeq5=+0.113  eq5=+0.988  H=0.09  pl=+0.028  vl=2.527  t=13.4s
+[ep  1792] R=+6.274  Δeq5=+0.152  eq5=+1.024  H=0.09  pl=+0.031  vl=2.483  t=15.6s
+[ep  2048] R=+6.488  Δeq5=-0.009  eq5=+0.896  H=0.10  pl=+0.034  vl=2.479  t=17.8s
+[train] best (decode Score or Δ) = +1.186
+  -> Score +0.6958 sizes [17, 11, 5] [0m25s]
+
+########################################################################
+# [33/36] lit-jpetstore | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=1.8483  match=0.070  size_L1_to_teacher=18
+[bc   20] loss=1.7359  match=0.366  size_L1_to_teacher=66
+[bc   40] loss=1.3208  match=0.451  size_L1_to_teacher=22
+[bc   60] loss=0.7072  match=0.746  size_L1_to_teacher=12
+[bc   80] loss=0.5284  match=0.831  size_L1_to_teacher=8
+[bc  100] loss=0.3005  match=0.901  size_L1_to_teacher=6
+[bc  120] loss=0.2272  match=0.930  size_L1_to_teacher=8
+[bc  140] loss=0.1826  match=0.944  size_L1_to_teacher=4
+[bc  160] loss=0.0772  match=0.986  size_L1_to_teacher=2
+[bc  180] loss=0.0665  match=0.986  size_L1_to_teacher=2
+[bc  200] loss=0.0410  match=0.986  size_L1_to_teacher=2
+[bc  220] loss=0.0468  match=0.986  size_L1_to_teacher=2
+[bc  240] loss=0.0149  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0123  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0196  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0103  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0046  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0047  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0032  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0023  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0038  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0030  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0099  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0056  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0153  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0037  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0027  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0067  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.7422  rawU=+0.0660  max|m|=15
+[ep   256] R=+3.110  Δeq5=-0.025  eq5=+0.676  H=0.10  pl=+0.022  vl=0.378  t=4.5s
+[ep   512] R=+3.131  Δeq5=-0.100  eq5=+0.637  H=0.14  pl=+0.028  vl=0.498  t=9.0s
+[ep   768] R=+2.913  Δeq5=-0.219  eq5=+0.561  H=0.20  pl=+0.016  vl=0.530  t=13.7s
+[ep  1024] R=+3.112  Δeq5=-0.138  eq5=+0.611  H=0.22  pl=+0.020  vl=0.509  t=18.3s
+[ep  1280] R=+3.455  Δeq5=-0.018  eq5=+0.687  H=0.22  pl=+0.027  vl=0.551  t=23.0s
+[ep  1536] R=+3.237  Δeq5=-0.087  eq5=+0.647  H=0.27  pl=+0.017  vl=0.547  t=27.6s
+[ep  1792] R=+3.073  Δeq5=-0.231  eq5=+0.554  H=0.33  pl=+0.025  vl=0.525  t=32.3s
+[ep  2048] R=+2.806  Δeq5=-0.347  eq5=+0.475  H=0.38  pl=+0.016  vl=0.517  t=37.0s
+[train] best (decode Score or Δ) = +0.911
+  -> Score +0.1156 sizes [20, 15, 14, 5, 5, 5, 4, 3] [0m44s]
+
+########################################################################
+# [34/36] lit-jpetstore | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (8 clusters -> K=8)
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[train] behavior cloning 800 epochs (teacher heads used: 8/8)
+[bc    0] loss=2.0002  match=0.127  size_L1_to_teacher=10
+[bc   20] loss=1.8573  match=0.380  size_L1_to_teacher=74
+[bc   40] loss=1.4744  match=0.451  size_L1_to_teacher=10
+[bc   60] loss=0.9153  match=0.648  size_L1_to_teacher=16
+[bc   80] loss=0.5655  match=0.803  size_L1_to_teacher=4
+[bc  100] loss=0.2838  match=0.901  size_L1_to_teacher=2
+[bc  120] loss=0.2620  match=0.915  size_L1_to_teacher=4
+[bc  140] loss=0.0988  match=0.958  size_L1_to_teacher=2
+[bc  160] loss=0.0511  match=0.986  size_L1_to_teacher=2
+[bc  180] loss=0.0345  match=0.986  size_L1_to_teacher=2
+[bc  200] loss=0.0140  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0489  match=0.986  size_L1_to_teacher=2
+[bc  240] loss=0.0122  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0084  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0059  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0068  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0098  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0038  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0043  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0294  match=0.986  size_L1_to_teacher=2
+[bc  400] loss=0.0066  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0020  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0015  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0014  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0061  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-jpetstore/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.7422  rawU=+0.0660  max|m|=15
+[ep   256] R=+11.549  Δeq5=+0.168  eq5=+0.814  H=0.04  pl=+0.003  vl=2.473  t=4.8s
+[ep   512] R=+11.552  Δeq5=+0.111  eq5=+0.772  H=0.04  pl=-0.000  vl=3.211  t=9.8s
+[ep   768] R=+11.340  Δeq5=+0.114  eq5=+0.777  H=0.05  pl=+0.057  vl=3.314  t=14.7s
+[ep  1024] R=+11.525  Δeq5=+0.217  eq5=+0.837  H=0.07  pl=+0.022  vl=3.360  t=19.6s
+[ep  1280] R=+11.457  Δeq5=-0.014  eq5=+0.696  H=0.09  pl=+0.028  vl=3.454  t=24.6s
+[ep  1536] R=+11.795  Δeq5=+0.049  eq5=+0.733  H=0.09  pl=+0.012  vl=3.204  t=29.5s
+[ep  1792] R=+11.051  Δeq5=-0.067  eq5=+0.655  H=0.14  pl=+0.038  vl=3.356  t=34.4s
+[ep  2048] R=+11.184  Δeq5=+0.046  eq5=+0.732  H=0.19  pl=+0.058  vl=3.394  t=39.3s
+[train] best (decode Score or Δ) = +0.882
+  -> Score +0.1074 sizes [15, 14, 13, 11, 5, 4, 4, 3] [0m47s]
+
+########################################################################
+# [35/36] lit-pbw | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.3872  match=0.111  size_L1_to_teacher=14
+[bc   20] loss=1.2814  match=0.472  size_L1_to_teacher=24
+[bc   40] loss=1.0135  match=0.694  size_L1_to_teacher=8
+[bc   60] loss=0.6899  match=0.667  size_L1_to_teacher=4
+[bc   80] loss=0.5199  match=0.750  size_L1_to_teacher=8
+[bc  100] loss=0.3394  match=0.889  size_L1_to_teacher=4
+[bc  120] loss=0.1995  match=0.889  size_L1_to_teacher=8
+[bc  140] loss=0.0655  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0722  match=0.944  size_L1_to_teacher=4
+[bc  180] loss=0.0114  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0352  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0159  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0024  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0025  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0021  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0013  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0041  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0040  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0022  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0016  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0006  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/structural_s7/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+2.474  Δeq5=-0.069  eq5=+0.654  H=0.06  pl=+0.002  vl=0.654  t=2.0s
+[ep   512] R=+2.464  Δeq5=-0.062  eq5=+0.660  H=0.10  pl=+0.014  vl=0.641  t=4.2s
+[ep   768] R=+2.468  Δeq5=-0.083  eq5=+0.656  H=0.13  pl=+0.024  vl=0.672  t=6.4s
+[ep  1024] R=+2.455  Δeq5=-0.112  eq5=+0.630  H=0.12  pl=+0.050  vl=0.672  t=8.6s
+[ep  1280] R=+2.457  Δeq5=-0.090  eq5=+0.653  H=0.13  pl=+0.031  vl=0.702  t=10.8s
+[ep  1536] R=+2.553  Δeq5=-0.006  eq5=+0.712  H=0.14  pl=+0.016  vl=0.647  t=13.0s
+[ep  1792] R=+2.460  Δeq5=-0.044  eq5=+0.688  H=0.20  pl=+0.024  vl=0.671  t=15.2s
+[ep  2048] R=+2.387  Δeq5=-0.101  eq5=+0.648  H=0.24  pl=+0.021  vl=0.653  t=17.3s
+[train] best (decode Score or Δ) = +0.855
+  -> Score +0.3316 sizes [17, 10, 9] [0m24s]
+
+########################################################################
+# [36/36] lit-pbw | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] warm-start teacher: exp_a0.9_b0.1_n8_java.json (4 clusters -> K=4)
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[train] behavior cloning 800 epochs (teacher heads used: 4/4)
+[bc    0] loss=1.6103  match=0.111  size_L1_to_teacher=12
+[bc   20] loss=1.3844  match=0.500  size_L1_to_teacher=32
+[bc   40] loss=1.2160  match=0.556  size_L1_to_teacher=26
+[bc   60] loss=0.6780  match=0.722  size_L1_to_teacher=8
+[bc   80] loss=0.3080  match=0.917  size_L1_to_teacher=0
+[bc  100] loss=0.0570  match=1.000  size_L1_to_teacher=0
+[bc  120] loss=0.0480  match=0.972  size_L1_to_teacher=2
+[bc  140] loss=0.0055  match=1.000  size_L1_to_teacher=0
+[bc  160] loss=0.0045  match=1.000  size_L1_to_teacher=0
+[bc  180] loss=0.0030  match=1.000  size_L1_to_teacher=0
+[bc  200] loss=0.0028  match=1.000  size_L1_to_teacher=0
+[bc  220] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  240] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  260] loss=0.0011  match=1.000  size_L1_to_teacher=0
+[bc  280] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  300] loss=0.0030  match=1.000  size_L1_to_teacher=0
+[bc  320] loss=0.0009  match=1.000  size_L1_to_teacher=0
+[bc  340] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  360] loss=0.0008  match=1.000  size_L1_to_teacher=0
+[bc  380] loss=0.0005  match=1.000  size_L1_to_teacher=0
+[bc  400] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  420] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  440] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  460] loss=0.0007  match=1.000  size_L1_to_teacher=0
+[bc  480] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  500] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  520] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  540] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  560] loss=0.0003  match=1.000  size_L1_to_teacher=0
+[bc  580] loss=0.0106  match=1.000  size_L1_to_teacher=0
+[bc  600] loss=0.0004  match=1.000  size_L1_to_teacher=0
+[bc  620] loss=0.0018  match=1.000  size_L1_to_teacher=0
+[bc  640] loss=0.0010  match=1.000  size_L1_to_teacher=0
+[bc  660] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  680] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  700] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  720] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  740] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  760] loss=0.0002  match=1.000  size_L1_to_teacher=0
+[bc  780] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[bc  799] loss=0.0001  match=1.000  size_L1_to_teacher=0
+[train] saved BC checkpoint -> <server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/lit-pbw/full_s7/policy_bc.pt
+[ep     0] decode Score=+0.6939  rawU=+0.5148  max|m|=19
+[ep   256] R=+5.597  Δeq5=-0.242  eq5=+0.553  H=0.04  pl=+0.054  vl=2.146  t=2.2s
+[ep   512] R=+5.704  Δeq5=+0.099  eq5=+0.775  H=0.03  pl=-0.013  vl=2.224  t=4.5s
+[ep   768] R=+5.474  Δeq5=-0.109  eq5=+0.639  H=0.04  pl=+0.006  vl=2.121  t=6.8s
+[ep  1024] R=+5.424  Δeq5=-0.131  eq5=+0.626  H=0.04  pl=+0.005  vl=2.127  t=9.0s
+[ep  1280] R=+5.495  Δeq5=-0.030  eq5=+0.692  H=0.03  pl=+0.009  vl=2.137  t=11.3s
+[ep  1536] R=+5.452  Δeq5=-0.129  eq5=+0.615  H=0.04  pl=+0.012  vl=2.067  t=13.6s
+[ep  1792] R=+5.577  Δeq5=-0.185  eq5=+0.582  H=0.05  pl=+0.007  vl=2.091  t=15.9s
+[ep  2048] R=+5.790  Δeq5=-0.040  eq5=+0.672  H=0.05  pl=+0.015  vl=2.216  t=18.1s
+[train] best (decode Score or Δ) = +0.780
+  -> Score +0.3458 sizes [20, 10, 6] [0m25s]
+
+[rl] finished in 23m48s
+
+[run_gpu] stages ['ablation'] done in 23m48s

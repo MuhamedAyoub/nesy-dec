@@ -1,0 +1,18 @@
+[
+  {
+    "where": "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/service/JaxRpcOrderService.java:44",
+    "method": "getBean",
+    "name": "petStore",
+    "bound_to": [
+      "org.springframework.samples.jpetstore.domain.logic.PetStoreImpl"
+    ]
+  },
+  {
+    "where": "KimJongSung__jPetStore/src/main/java/org/springframework/samples/jpetstore/web/struts/BaseAction.java:38",
+    "method": "getBean",
+    "name": "petStore",
+    "bound_to": [
+      "org.springframework.samples.jpetstore.domain.logic.PetStoreImpl"
+    ]
+  }
+]

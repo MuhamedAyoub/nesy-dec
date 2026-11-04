@@ -1,0 +1,1713 @@
+2026-10-26 09:51:08,238 DEBUG loggers.py:54 -- recording experiment information in <server>/<repo>/results_java/lit-pbw/baselines/rldec_models/lit-pbw/rldec_combsequential_s1
+2026-10-26 09:51:08,240 DEBUG callbacks.py:32 -- Creating callbacks
+2026-10-26 09:51:08,240 DEBUG loggers.py:142 -- recording result information in <server>/<repo>/results_java/lit-pbw/baselines/rldec_models/lit-pbw/rldec_combsequential_s1
+2026-10-26 09:51:08,244 DEBUG callbacks.py:32 -- Creating callbacks
+2026-10-26 09:51:08,244 DEBUG loggers.py:142 -- recording result information in <server>/<repo>/results_java/lit-pbw/baselines/rldec_models/lit-pbw/rldec_combsequential_s1
+2026-10-26 09:51:09,253 DEBUG callbacks.py:96 -- starting training default
+2026-10-26 09:51:09,254 INFO train_model.py:128 -- starting training
+2026-10-26 09:51:09,254 INFO train_model.py:130 -- starting training iteration 0
+2026-10-26 09:51:09,254 DEBUG callbacks.py:108 -- starting episode 1 with id 656247381085762037 (env-idx=0)
+2026-10-26 09:51:09,483 INFO callbacks.py:181 -- episode 1 with id 656247381085762037 (env-inx=0) finished in step 36 with the score -0.010218
+2026-10-26 09:51:09,483 DEBUG callbacks.py:186 -- saving metrics for episode 1
+2026-10-26 09:51:09,483 DEBUG callbacks.py:108 -- starting episode 2 with id 924948642789419743 (env-idx=0)
+2026-10-26 09:51:09,676 INFO callbacks.py:181 -- episode 2 with id 924948642789419743 (env-inx=0) finished in step 36 with the score -0.019107
+2026-10-26 09:51:09,676 DEBUG callbacks.py:186 -- saving metrics for episode 2
+2026-10-26 09:51:09,676 DEBUG callbacks.py:108 -- starting episode 3 with id 72757217426062276 (env-idx=0)
+2026-10-26 09:51:09,889 INFO callbacks.py:181 -- episode 3 with id 72757217426062276 (env-inx=0) finished in step 36 with the score 0.042737
+2026-10-26 09:51:09,890 DEBUG callbacks.py:186 -- saving metrics for episode 3
+2026-10-26 09:51:09,890 DEBUG callbacks.py:108 -- starting episode 4 with id 135951006097486908 (env-idx=0)
+2026-10-26 09:51:10,093 INFO callbacks.py:181 -- episode 4 with id 135951006097486908 (env-inx=0) finished in step 36 with the score -0.045958
+2026-10-26 09:51:10,093 DEBUG callbacks.py:186 -- saving metrics for episode 4
+2026-10-26 09:51:10,093 DEBUG callbacks.py:108 -- starting episode 5 with id 877329965204690299 (env-idx=0)
+2026-10-26 09:51:10,294 INFO callbacks.py:181 -- episode 5 with id 877329965204690299 (env-inx=0) finished in step 36 with the score -0.023244
+2026-10-26 09:51:10,294 DEBUG callbacks.py:186 -- saving metrics for episode 5
+2026-10-26 09:51:10,295 DEBUG callbacks.py:108 -- starting episode 6 with id 544461693100611747 (env-idx=0)
+2026-10-26 09:51:10,501 INFO callbacks.py:181 -- episode 6 with id 544461693100611747 (env-inx=0) finished in step 36 with the score -0.019138
+2026-10-26 09:51:10,502 DEBUG callbacks.py:186 -- saving metrics for episode 6
+2026-10-26 09:51:10,502 DEBUG callbacks.py:108 -- starting episode 7 with id 437666554764512283 (env-idx=0)
+2026-10-26 09:51:10,707 INFO callbacks.py:181 -- episode 7 with id 437666554764512283 (env-inx=0) finished in step 36 with the score -0.007171
+2026-10-26 09:51:10,707 DEBUG callbacks.py:186 -- saving metrics for episode 7
+2026-10-26 09:51:10,707 DEBUG callbacks.py:108 -- starting episode 8 with id 242061413842535958 (env-idx=0)
+2026-10-26 09:51:10,906 INFO callbacks.py:181 -- episode 8 with id 242061413842535958 (env-inx=0) finished in step 36 with the score -0.057512
+2026-10-26 09:51:10,906 DEBUG callbacks.py:186 -- saving metrics for episode 8
+2026-10-26 09:51:10,906 DEBUG callbacks.py:108 -- starting episode 9 with id 562460430631906956 (env-idx=0)
+2026-10-26 09:51:11,130 INFO callbacks.py:181 -- episode 9 with id 562460430631906956 (env-inx=0) finished in step 36 with the score -0.044632
+2026-10-26 09:51:11,131 DEBUG callbacks.py:186 -- saving metrics for episode 9
+2026-10-26 09:51:11,131 DEBUG callbacks.py:108 -- starting episode 10 with id 449418956171948978 (env-idx=0)
+2026-10-26 09:51:11,326 INFO callbacks.py:181 -- episode 10 with id 449418956171948978 (env-inx=0) finished in step 36 with the score -0.037945
+2026-10-26 09:51:11,326 DEBUG callbacks.py:186 -- saving metrics for episode 10
+2026-10-26 09:51:11,326 DEBUG callbacks.py:108 -- starting episode 11 with id 700328328238322310 (env-idx=0)
+2026-10-26 09:51:11,525 INFO callbacks.py:181 -- episode 11 with id 700328328238322310 (env-inx=0) finished in step 36 with the score -0.115421
+2026-10-26 09:51:11,526 DEBUG callbacks.py:186 -- saving metrics for episode 11
+2026-10-26 09:51:11,526 DEBUG callbacks.py:108 -- starting episode 12 with id 884472535618734469 (env-idx=0)
+2026-10-26 09:51:11,722 INFO callbacks.py:181 -- episode 12 with id 884472535618734469 (env-inx=0) finished in step 36 with the score 0.022876
+2026-10-26 09:51:11,722 DEBUG callbacks.py:186 -- saving metrics for episode 12
+2026-10-26 09:51:11,722 DEBUG callbacks.py:108 -- starting episode 13 with id 802240676187735462 (env-idx=0)
+2026-10-26 09:51:11,918 INFO callbacks.py:181 -- episode 13 with id 802240676187735462 (env-inx=0) finished in step 36 with the score -0.079311
+2026-10-26 09:51:11,918 DEBUG callbacks.py:186 -- saving metrics for episode 13
+2026-10-26 09:51:11,918 DEBUG callbacks.py:108 -- starting episode 14 with id 307058226200110381 (env-idx=0)
+2026-10-26 09:51:12,113 INFO callbacks.py:181 -- episode 14 with id 307058226200110381 (env-inx=0) finished in step 36 with the score 0.017755
+2026-10-26 09:51:12,114 DEBUG callbacks.py:186 -- saving metrics for episode 14
+2026-10-26 09:51:12,114 DEBUG callbacks.py:108 -- starting episode 15 with id 924442866899933438 (env-idx=0)
+2026-10-26 09:51:12,314 INFO callbacks.py:181 -- episode 15 with id 924442866899933438 (env-inx=0) finished in step 36 with the score -0.005307
+2026-10-26 09:51:12,314 DEBUG callbacks.py:186 -- saving metrics for episode 15
+2026-10-26 09:51:12,314 DEBUG callbacks.py:108 -- starting episode 16 with id 681553500597922097 (env-idx=0)
+2026-10-26 09:51:12,514 INFO callbacks.py:181 -- episode 16 with id 681553500597922097 (env-inx=0) finished in step 36 with the score -0.037693
+2026-10-26 09:51:12,514 DEBUG callbacks.py:186 -- saving metrics for episode 16
+2026-10-26 09:51:12,514 DEBUG callbacks.py:108 -- starting episode 17 with id 117859889551590050 (env-idx=0)
+2026-10-26 09:51:12,709 INFO callbacks.py:181 -- episode 17 with id 117859889551590050 (env-inx=0) finished in step 36 with the score -0.005499
+2026-10-26 09:51:12,709 DEBUG callbacks.py:186 -- saving metrics for episode 17
+2026-10-26 09:51:12,709 DEBUG callbacks.py:108 -- starting episode 18 with id 365971457039397689 (env-idx=0)
+2026-10-26 09:51:12,915 INFO callbacks.py:181 -- episode 18 with id 365971457039397689 (env-inx=0) finished in step 36 with the score 0.035253
+2026-10-26 09:51:12,915 DEBUG callbacks.py:186 -- saving metrics for episode 18
+2026-10-26 09:51:12,915 DEBUG callbacks.py:108 -- starting episode 19 with id 25735641737510620 (env-idx=0)
+2026-10-26 09:51:13,111 INFO callbacks.py:181 -- episode 19 with id 25735641737510620 (env-inx=0) finished in step 36 with the score 0.076471
+2026-10-26 09:51:13,111 DEBUG callbacks.py:186 -- saving metrics for episode 19
+2026-10-26 09:51:13,111 DEBUG callbacks.py:108 -- starting episode 20 with id 748875707635179193 (env-idx=0)
+2026-10-26 09:51:13,307 INFO callbacks.py:181 -- episode 20 with id 748875707635179193 (env-inx=0) finished in step 36 with the score -0.035145
+2026-10-26 09:51:13,307 DEBUG callbacks.py:186 -- saving metrics for episode 20
+2026-10-26 09:51:13,307 DEBUG callbacks.py:108 -- starting episode 21 with id 10612570161021470 (env-idx=0)
+2026-10-26 09:51:13,506 INFO callbacks.py:181 -- episode 21 with id 10612570161021470 (env-inx=0) finished in step 36 with the score -0.096074
+2026-10-26 09:51:13,506 DEBUG callbacks.py:186 -- saving metrics for episode 21
+2026-10-26 09:51:13,506 DEBUG callbacks.py:108 -- starting episode 22 with id 791462002120104399 (env-idx=0)
+2026-10-26 09:51:13,702 INFO callbacks.py:181 -- episode 22 with id 791462002120104399 (env-inx=0) finished in step 36 with the score -0.007174
+2026-10-26 09:51:13,702 DEBUG callbacks.py:186 -- saving metrics for episode 22
+2026-10-26 09:51:13,703 DEBUG callbacks.py:108 -- starting episode 23 with id 836851074946028789 (env-idx=0)
+2026-10-26 09:51:13,902 INFO callbacks.py:181 -- episode 23 with id 836851074946028789 (env-inx=0) finished in step 36 with the score -0.028413
+2026-10-26 09:51:13,902 DEBUG callbacks.py:186 -- saving metrics for episode 23
+2026-10-26 09:51:13,902 DEBUG callbacks.py:108 -- starting episode 24 with id 608315300796905351 (env-idx=0)
+2026-10-26 09:51:14,101 INFO callbacks.py:181 -- episode 24 with id 608315300796905351 (env-inx=0) finished in step 36 with the score -0.015351
+2026-10-26 09:51:14,101 DEBUG callbacks.py:186 -- saving metrics for episode 24
+2026-10-26 09:51:14,101 DEBUG callbacks.py:108 -- starting episode 25 with id 880487297567475965 (env-idx=0)
+2026-10-26 09:51:14,299 INFO callbacks.py:181 -- episode 25 with id 880487297567475965 (env-inx=0) finished in step 36 with the score 0.016978
+2026-10-26 09:51:14,299 DEBUG callbacks.py:186 -- saving metrics for episode 25
+2026-10-26 09:51:14,299 DEBUG callbacks.py:108 -- starting episode 26 with id 637403694663306516 (env-idx=0)
+2026-10-26 09:51:14,493 INFO callbacks.py:181 -- episode 26 with id 637403694663306516 (env-inx=0) finished in step 36 with the score -0.063572
+2026-10-26 09:51:14,493 DEBUG callbacks.py:186 -- saving metrics for episode 26
+2026-10-26 09:51:14,493 DEBUG callbacks.py:108 -- starting episode 27 with id 398565441287187513 (env-idx=0)
+2026-10-26 09:51:14,691 INFO callbacks.py:181 -- episode 27 with id 398565441287187513 (env-inx=0) finished in step 36 with the score 0.008284
+2026-10-26 09:51:14,691 DEBUG callbacks.py:186 -- saving metrics for episode 27
+2026-10-26 09:51:14,691 DEBUG callbacks.py:108 -- starting episode 28 with id 780353240361996767 (env-idx=0)
+2026-10-26 09:51:14,849 INFO train_model.py:132 -- finished training iteration 0
+2026-10-26 09:51:14,849 INFO train_model.py:130 -- starting training iteration 1
+2026-10-26 09:51:16,013 INFO callbacks.py:181 -- episode 28 with id 780353240361996767 (env-inx=0) finished in step 36 with the score 0.023552
+2026-10-26 09:51:16,013 DEBUG callbacks.py:186 -- saving metrics for episode 28
+2026-10-26 09:51:16,013 DEBUG callbacks.py:108 -- starting episode 29 with id 414892586526521887 (env-idx=0)
+2026-10-26 09:51:22,016 INFO callbacks.py:181 -- episode 29 with id 414892586526521887 (env-inx=0) finished in step 36 with the score -0.018779
+2026-10-26 09:51:22,017 DEBUG callbacks.py:186 -- saving metrics for episode 29
+2026-10-26 09:51:22,017 DEBUG callbacks.py:108 -- starting episode 30 with id 26636251823426732 (env-idx=0)
+2026-10-26 09:51:31,339 INFO callbacks.py:181 -- episode 30 with id 26636251823426732 (env-inx=0) finished in step 36 with the score -0.043304
+2026-10-26 09:51:31,339 DEBUG callbacks.py:186 -- saving metrics for episode 30
+2026-10-26 09:51:31,339 DEBUG callbacks.py:108 -- starting episode 31 with id 410783269267834894 (env-idx=0)
+2026-10-26 09:51:36,826 INFO callbacks.py:181 -- episode 31 with id 410783269267834894 (env-inx=0) finished in step 36 with the score -0.093954
+2026-10-26 09:51:36,826 DEBUG callbacks.py:186 -- saving metrics for episode 31
+2026-10-26 09:51:36,826 DEBUG callbacks.py:108 -- starting episode 32 with id 960896302793916297 (env-idx=0)
+2026-10-26 09:51:43,255 INFO callbacks.py:181 -- episode 32 with id 960896302793916297 (env-inx=0) finished in step 36 with the score 0.050718
+2026-10-26 09:51:43,256 DEBUG callbacks.py:186 -- saving metrics for episode 32
+2026-10-26 09:51:43,256 DEBUG callbacks.py:108 -- starting episode 33 with id 942474042406524412 (env-idx=0)
+2026-10-26 09:51:48,857 INFO callbacks.py:181 -- episode 33 with id 942474042406524412 (env-inx=0) finished in step 36 with the score -0.005527
+2026-10-26 09:51:48,858 DEBUG callbacks.py:186 -- saving metrics for episode 33
+2026-10-26 09:51:48,858 DEBUG callbacks.py:108 -- starting episode 34 with id 836876710171790571 (env-idx=0)
+2026-10-26 09:51:55,241 INFO callbacks.py:181 -- episode 34 with id 836876710171790571 (env-inx=0) finished in step 36 with the score 0.005443
+2026-10-26 09:51:55,242 DEBUG callbacks.py:186 -- saving metrics for episode 34
+2026-10-26 09:51:55,242 DEBUG callbacks.py:108 -- starting episode 35 with id 614242310009912585 (env-idx=0)
+2026-10-26 09:52:04,543 INFO callbacks.py:181 -- episode 35 with id 614242310009912585 (env-inx=0) finished in step 36 with the score 0.052741
+2026-10-26 09:52:04,543 DEBUG callbacks.py:186 -- saving metrics for episode 35
+2026-10-26 09:52:04,543 DEBUG callbacks.py:108 -- starting episode 36 with id 392379892456117958 (env-idx=0)
+2026-10-26 09:52:10,034 INFO callbacks.py:181 -- episode 36 with id 392379892456117958 (env-inx=0) finished in step 36 with the score 0.096348
+2026-10-26 09:52:10,034 DEBUG callbacks.py:186 -- saving metrics for episode 36
+2026-10-26 09:52:10,035 DEBUG callbacks.py:108 -- starting episode 37 with id 311824391704353720 (env-idx=0)
+2026-10-26 09:52:19,487 INFO callbacks.py:181 -- episode 37 with id 311824391704353720 (env-inx=0) finished in step 36 with the score -0.039573
+2026-10-26 09:52:19,487 DEBUG callbacks.py:186 -- saving metrics for episode 37
+2026-10-26 09:52:19,487 DEBUG callbacks.py:108 -- starting episode 38 with id 473921672399442587 (env-idx=0)
+2026-10-26 09:52:25,035 INFO callbacks.py:181 -- episode 38 with id 473921672399442587 (env-inx=0) finished in step 36 with the score 0.026779
+2026-10-26 09:52:25,035 DEBUG callbacks.py:186 -- saving metrics for episode 38
+2026-10-26 09:52:25,035 DEBUG callbacks.py:108 -- starting episode 39 with id 790716023998488309 (env-idx=0)
+2026-10-26 09:52:30,489 INFO callbacks.py:181 -- episode 39 with id 790716023998488309 (env-inx=0) finished in step 36 with the score -0.014253
+2026-10-26 09:52:30,489 DEBUG callbacks.py:186 -- saving metrics for episode 39
+2026-10-26 09:52:30,489 DEBUG callbacks.py:108 -- starting episode 40 with id 410700612223586861 (env-idx=0)
+2026-10-26 09:52:36,113 INFO callbacks.py:181 -- episode 40 with id 410700612223586861 (env-inx=0) finished in step 36 with the score -0.019709
+2026-10-26 09:52:36,114 DEBUG callbacks.py:186 -- saving metrics for episode 40
+2026-10-26 09:52:36,114 DEBUG callbacks.py:108 -- starting episode 41 with id 833260915783244994 (env-idx=0)
+2026-10-26 09:52:41,739 INFO callbacks.py:181 -- episode 41 with id 833260915783244994 (env-inx=0) finished in step 36 with the score -0.019502
+2026-10-26 09:52:41,739 DEBUG callbacks.py:186 -- saving metrics for episode 41
+2026-10-26 09:52:41,739 DEBUG callbacks.py:108 -- starting episode 42 with id 542070294823823881 (env-idx=0)
+2026-10-26 09:52:47,300 INFO callbacks.py:181 -- episode 42 with id 542070294823823881 (env-inx=0) finished in step 36 with the score 0.037071
+2026-10-26 09:52:47,301 DEBUG callbacks.py:186 -- saving metrics for episode 42
+2026-10-26 09:52:47,301 DEBUG callbacks.py:108 -- starting episode 43 with id 829640169812753023 (env-idx=0)
+2026-10-26 09:52:52,788 INFO callbacks.py:181 -- episode 43 with id 829640169812753023 (env-inx=0) finished in step 36 with the score 0.039445
+2026-10-26 09:52:52,789 DEBUG callbacks.py:186 -- saving metrics for episode 43
+2026-10-26 09:52:52,789 DEBUG callbacks.py:108 -- starting episode 44 with id 15125597510756252 (env-idx=0)
+2026-10-26 09:52:58,307 INFO callbacks.py:181 -- episode 44 with id 15125597510756252 (env-inx=0) finished in step 36 with the score 0.010417
+2026-10-26 09:52:58,307 DEBUG callbacks.py:186 -- saving metrics for episode 44
+2026-10-26 09:52:58,308 DEBUG callbacks.py:108 -- starting episode 45 with id 500700800335914196 (env-idx=0)
+2026-10-26 09:53:03,934 INFO callbacks.py:181 -- episode 45 with id 500700800335914196 (env-inx=0) finished in step 36 with the score 0.001720
+2026-10-26 09:53:03,934 DEBUG callbacks.py:186 -- saving metrics for episode 45
+2026-10-26 09:53:03,934 DEBUG callbacks.py:108 -- starting episode 46 with id 158549286479437389 (env-idx=0)
+2026-10-26 09:53:09,510 INFO callbacks.py:181 -- episode 46 with id 158549286479437389 (env-inx=0) finished in step 36 with the score -0.037672
+2026-10-26 09:53:09,510 DEBUG callbacks.py:186 -- saving metrics for episode 46
+2026-10-26 09:53:09,510 DEBUG callbacks.py:108 -- starting episode 47 with id 231468417081319291 (env-idx=0)
+2026-10-26 09:53:15,008 INFO callbacks.py:181 -- episode 47 with id 231468417081319291 (env-inx=0) finished in step 36 with the score -0.090162
+2026-10-26 09:53:15,008 DEBUG callbacks.py:186 -- saving metrics for episode 47
+2026-10-26 09:53:15,008 DEBUG callbacks.py:108 -- starting episode 48 with id 368018184921805463 (env-idx=0)
+2026-10-26 09:53:20,538 INFO callbacks.py:181 -- episode 48 with id 368018184921805463 (env-inx=0) finished in step 36 with the score 0.029973
+2026-10-26 09:53:20,538 DEBUG callbacks.py:186 -- saving metrics for episode 48
+2026-10-26 09:53:20,538 DEBUG callbacks.py:108 -- starting episode 49 with id 952775747212005665 (env-idx=0)
+2026-10-26 09:53:26,163 INFO callbacks.py:181 -- episode 49 with id 952775747212005665 (env-inx=0) finished in step 36 with the score -0.008669
+2026-10-26 09:53:26,163 DEBUG callbacks.py:186 -- saving metrics for episode 49
+2026-10-26 09:53:26,163 DEBUG callbacks.py:108 -- starting episode 50 with id 25406245904219081 (env-idx=0)
+2026-10-26 09:53:31,687 INFO callbacks.py:181 -- episode 50 with id 25406245904219081 (env-inx=0) finished in step 36 with the score 0.026749
+2026-10-26 09:53:31,687 DEBUG callbacks.py:186 -- saving metrics for episode 50
+2026-10-26 09:53:31,687 DEBUG callbacks.py:108 -- starting episode 51 with id 509273056989871783 (env-idx=0)
+2026-10-26 09:53:37,266 INFO callbacks.py:181 -- episode 51 with id 509273056989871783 (env-inx=0) finished in step 36 with the score 0.024693
+2026-10-26 09:53:37,266 DEBUG callbacks.py:186 -- saving metrics for episode 51
+2026-10-26 09:53:37,266 DEBUG callbacks.py:108 -- starting episode 52 with id 263436145784873442 (env-idx=0)
+2026-10-26 09:53:42,798 INFO callbacks.py:181 -- episode 52 with id 263436145784873442 (env-inx=0) finished in step 36 with the score 0.006791
+2026-10-26 09:53:42,798 DEBUG callbacks.py:186 -- saving metrics for episode 52
+2026-10-26 09:53:42,798 DEBUG callbacks.py:108 -- starting episode 53 with id 780897456989067390 (env-idx=0)
+2026-10-26 09:53:48,454 INFO callbacks.py:181 -- episode 53 with id 780897456989067390 (env-inx=0) finished in step 36 with the score 0.000394
+2026-10-26 09:53:48,454 DEBUG callbacks.py:186 -- saving metrics for episode 53
+2026-10-26 09:53:48,454 DEBUG callbacks.py:108 -- starting episode 54 with id 41575125935329634 (env-idx=0)
+2026-10-26 09:53:53,974 INFO callbacks.py:181 -- episode 54 with id 41575125935329634 (env-inx=0) finished in step 36 with the score -0.035797
+2026-10-26 09:53:53,974 DEBUG callbacks.py:186 -- saving metrics for episode 54
+2026-10-26 09:53:53,974 DEBUG callbacks.py:108 -- starting episode 55 with id 632905242864528891 (env-idx=0)
+2026-10-26 09:53:59,542 INFO callbacks.py:181 -- episode 55 with id 632905242864528891 (env-inx=0) finished in step 36 with the score -0.048310
+2026-10-26 09:53:59,543 DEBUG callbacks.py:186 -- saving metrics for episode 55
+2026-10-26 09:53:59,543 DEBUG callbacks.py:108 -- starting episode 56 with id 343938643293292623 (env-idx=0)
+2026-10-26 09:54:02,913 INFO train_model.py:132 -- finished training iteration 1
+2026-10-26 09:54:02,913 INFO train_model.py:130 -- starting training iteration 2
+2026-10-26 09:54:05,252 INFO callbacks.py:181 -- episode 56 with id 343938643293292623 (env-inx=0) finished in step 36 with the score -0.057552
+2026-10-26 09:54:05,252 DEBUG callbacks.py:186 -- saving metrics for episode 56
+2026-10-26 09:54:05,252 DEBUG callbacks.py:108 -- starting episode 57 with id 214914930207986378 (env-idx=0)
+2026-10-26 09:54:10,886 INFO callbacks.py:181 -- episode 57 with id 214914930207986378 (env-inx=0) finished in step 36 with the score -0.014332
+2026-10-26 09:54:10,886 DEBUG callbacks.py:186 -- saving metrics for episode 57
+2026-10-26 09:54:10,886 DEBUG callbacks.py:108 -- starting episode 58 with id 542745059908766953 (env-idx=0)
+2026-10-26 09:54:16,437 INFO callbacks.py:181 -- episode 58 with id 542745059908766953 (env-inx=0) finished in step 36 with the score -0.021959
+2026-10-26 09:54:16,437 DEBUG callbacks.py:186 -- saving metrics for episode 58
+2026-10-26 09:54:16,437 DEBUG callbacks.py:108 -- starting episode 59 with id 813564373561880108 (env-idx=0)
+2026-10-26 09:54:22,021 INFO callbacks.py:181 -- episode 59 with id 813564373561880108 (env-inx=0) finished in step 36 with the score -0.015791
+2026-10-26 09:54:22,021 DEBUG callbacks.py:186 -- saving metrics for episode 59
+2026-10-26 09:54:22,021 DEBUG callbacks.py:108 -- starting episode 60 with id 452257801121955899 (env-idx=0)
+2026-10-26 09:54:27,604 INFO callbacks.py:181 -- episode 60 with id 452257801121955899 (env-inx=0) finished in step 36 with the score -0.039323
+2026-10-26 09:54:27,605 DEBUG callbacks.py:186 -- saving metrics for episode 60
+2026-10-26 09:54:27,605 DEBUG callbacks.py:108 -- starting episode 61 with id 593398945972029177 (env-idx=0)
+2026-10-26 09:54:33,266 INFO callbacks.py:181 -- episode 61 with id 593398945972029177 (env-inx=0) finished in step 36 with the score -0.028549
+2026-10-26 09:54:33,266 DEBUG callbacks.py:186 -- saving metrics for episode 61
+2026-10-26 09:54:33,266 DEBUG callbacks.py:108 -- starting episode 62 with id 598168647791652053 (env-idx=0)
+2026-10-26 09:54:38,842 INFO callbacks.py:181 -- episode 62 with id 598168647791652053 (env-inx=0) finished in step 36 with the score -0.015382
+2026-10-26 09:54:38,842 DEBUG callbacks.py:186 -- saving metrics for episode 62
+2026-10-26 09:54:38,842 DEBUG callbacks.py:108 -- starting episode 63 with id 119166044564654873 (env-idx=0)
+2026-10-26 09:54:48,203 INFO callbacks.py:181 -- episode 63 with id 119166044564654873 (env-inx=0) finished in step 36 with the score 0.007133
+2026-10-26 09:54:48,203 DEBUG callbacks.py:186 -- saving metrics for episode 63
+2026-10-26 09:54:48,203 DEBUG callbacks.py:108 -- starting episode 64 with id 786874885287449963 (env-idx=0)
+2026-10-26 09:54:53,718 INFO callbacks.py:181 -- episode 64 with id 786874885287449963 (env-inx=0) finished in step 36 with the score -0.061111
+2026-10-26 09:54:53,718 DEBUG callbacks.py:186 -- saving metrics for episode 64
+2026-10-26 09:54:53,718 DEBUG callbacks.py:108 -- starting episode 65 with id 192591265220999374 (env-idx=0)
+2026-10-26 09:55:03,124 INFO callbacks.py:181 -- episode 65 with id 192591265220999374 (env-inx=0) finished in step 36 with the score 0.014127
+2026-10-26 09:55:03,124 DEBUG callbacks.py:186 -- saving metrics for episode 65
+2026-10-26 09:55:03,124 DEBUG callbacks.py:108 -- starting episode 66 with id 645244272659025120 (env-idx=0)
+2026-10-26 09:55:08,670 INFO callbacks.py:181 -- episode 66 with id 645244272659025120 (env-inx=0) finished in step 36 with the score -0.051650
+2026-10-26 09:55:08,670 DEBUG callbacks.py:186 -- saving metrics for episode 66
+2026-10-26 09:55:08,670 DEBUG callbacks.py:108 -- starting episode 67 with id 4605244540933727 (env-idx=0)
+2026-10-26 09:55:14,175 INFO callbacks.py:181 -- episode 67 with id 4605244540933727 (env-inx=0) finished in step 36 with the score -0.003519
+2026-10-26 09:55:14,175 DEBUG callbacks.py:186 -- saving metrics for episode 67
+2026-10-26 09:55:14,175 DEBUG callbacks.py:108 -- starting episode 68 with id 344482128062604977 (env-idx=0)
+2026-10-26 09:55:19,732 INFO callbacks.py:181 -- episode 68 with id 344482128062604977 (env-inx=0) finished in step 36 with the score -0.089798
+2026-10-26 09:55:19,732 DEBUG callbacks.py:186 -- saving metrics for episode 68
+2026-10-26 09:55:19,732 DEBUG callbacks.py:108 -- starting episode 69 with id 499503852928392807 (env-idx=0)
+2026-10-26 09:55:29,032 INFO callbacks.py:181 -- episode 69 with id 499503852928392807 (env-inx=0) finished in step 36 with the score 0.011975
+2026-10-26 09:55:29,032 DEBUG callbacks.py:186 -- saving metrics for episode 69
+2026-10-26 09:55:29,033 DEBUG callbacks.py:108 -- starting episode 70 with id 393964167313195168 (env-idx=0)
+2026-10-26 09:55:34,581 INFO callbacks.py:181 -- episode 70 with id 393964167313195168 (env-inx=0) finished in step 36 with the score -0.043173
+2026-10-26 09:55:34,581 DEBUG callbacks.py:186 -- saving metrics for episode 70
+2026-10-26 09:55:34,582 DEBUG callbacks.py:108 -- starting episode 71 with id 778219736395595103 (env-idx=0)
+2026-10-26 09:55:40,121 INFO callbacks.py:181 -- episode 71 with id 778219736395595103 (env-inx=0) finished in step 36 with the score 0.085597
+2026-10-26 09:55:40,121 DEBUG callbacks.py:186 -- saving metrics for episode 71
+2026-10-26 09:55:40,121 DEBUG callbacks.py:108 -- starting episode 72 with id 235666087537543502 (env-idx=0)
+2026-10-26 09:55:45,808 INFO callbacks.py:181 -- episode 72 with id 235666087537543502 (env-inx=0) finished in step 36 with the score -0.097360
+2026-10-26 09:55:45,808 DEBUG callbacks.py:186 -- saving metrics for episode 72
+2026-10-26 09:55:45,809 DEBUG callbacks.py:108 -- starting episode 73 with id 397362543717106519 (env-idx=0)
+2026-10-26 09:55:51,440 INFO callbacks.py:181 -- episode 73 with id 397362543717106519 (env-inx=0) finished in step 36 with the score -0.036322
+2026-10-26 09:55:51,440 DEBUG callbacks.py:186 -- saving metrics for episode 73
+2026-10-26 09:55:51,440 DEBUG callbacks.py:108 -- starting episode 74 with id 540138911363313891 (env-idx=0)
+2026-10-26 09:55:57,001 INFO callbacks.py:181 -- episode 74 with id 540138911363313891 (env-inx=0) finished in step 36 with the score 0.047613
+2026-10-26 09:55:57,002 DEBUG callbacks.py:186 -- saving metrics for episode 74
+2026-10-26 09:55:57,002 DEBUG callbacks.py:108 -- starting episode 75 with id 671212752481718241 (env-idx=0)
+2026-10-26 09:56:07,241 INFO callbacks.py:181 -- episode 75 with id 671212752481718241 (env-inx=0) finished in step 36 with the score -0.030763
+2026-10-26 09:56:07,241 DEBUG callbacks.py:186 -- saving metrics for episode 75
+2026-10-26 09:56:07,241 DEBUG callbacks.py:108 -- starting episode 76 with id 756608896175167775 (env-idx=0)
+2026-10-26 09:56:12,897 INFO callbacks.py:181 -- episode 76 with id 756608896175167775 (env-inx=0) finished in step 36 with the score -0.007842
+2026-10-26 09:56:12,898 DEBUG callbacks.py:186 -- saving metrics for episode 76
+2026-10-26 09:56:12,898 DEBUG callbacks.py:108 -- starting episode 77 with id 51524718845094261 (env-idx=0)
+2026-10-26 09:56:18,561 INFO callbacks.py:181 -- episode 77 with id 51524718845094261 (env-inx=0) finished in step 36 with the score 0.047903
+2026-10-26 09:56:18,561 DEBUG callbacks.py:186 -- saving metrics for episode 77
+2026-10-26 09:56:18,561 DEBUG callbacks.py:108 -- starting episode 78 with id 391651566943534605 (env-idx=0)
+2026-10-26 09:56:24,171 INFO callbacks.py:181 -- episode 78 with id 391651566943534605 (env-inx=0) finished in step 36 with the score -0.081944
+2026-10-26 09:56:24,171 DEBUG callbacks.py:186 -- saving metrics for episode 78
+2026-10-26 09:56:24,171 DEBUG callbacks.py:108 -- starting episode 79 with id 146869136728299914 (env-idx=0)
+2026-10-26 09:56:30,093 INFO callbacks.py:181 -- episode 79 with id 146869136728299914 (env-inx=0) finished in step 36 with the score -0.011415
+2026-10-26 09:56:30,093 DEBUG callbacks.py:186 -- saving metrics for episode 79
+2026-10-26 09:56:30,093 DEBUG callbacks.py:108 -- starting episode 80 with id 883591731088111463 (env-idx=0)
+2026-10-26 09:56:35,754 INFO callbacks.py:181 -- episode 80 with id 883591731088111463 (env-inx=0) finished in step 36 with the score 0.028237
+2026-10-26 09:56:35,754 DEBUG callbacks.py:186 -- saving metrics for episode 80
+2026-10-26 09:56:35,754 DEBUG callbacks.py:108 -- starting episode 81 with id 259229387280697832 (env-idx=0)
+2026-10-26 09:56:41,650 INFO callbacks.py:181 -- episode 81 with id 259229387280697832 (env-inx=0) finished in step 36 with the score 0.001098
+2026-10-26 09:56:41,651 DEBUG callbacks.py:186 -- saving metrics for episode 81
+2026-10-26 09:56:41,654 DEBUG callbacks.py:108 -- starting episode 82 with id 702100802374677955 (env-idx=0)
+2026-10-26 09:56:50,772 INFO callbacks.py:181 -- episode 82 with id 702100802374677955 (env-inx=0) finished in step 36 with the score -0.007599
+2026-10-26 09:56:50,772 DEBUG callbacks.py:186 -- saving metrics for episode 82
+2026-10-26 09:56:50,772 DEBUG callbacks.py:108 -- starting episode 83 with id 148682894523923668 (env-idx=0)
+2026-10-26 09:56:56,420 INFO callbacks.py:181 -- episode 83 with id 148682894523923668 (env-inx=0) finished in step 36 with the score -0.046731
+2026-10-26 09:56:56,420 DEBUG callbacks.py:186 -- saving metrics for episode 83
+2026-10-26 09:56:56,420 DEBUG callbacks.py:108 -- starting episode 84 with id 860686861954875747 (env-idx=0)
+2026-10-26 09:56:58,494 INFO train_model.py:132 -- finished training iteration 2
+2026-10-26 09:56:58,494 INFO train_model.py:130 -- starting training iteration 3
+2026-10-26 09:57:02,132 INFO callbacks.py:181 -- episode 84 with id 860686861954875747 (env-inx=0) finished in step 36 with the score 0.022740
+2026-10-26 09:57:02,133 DEBUG callbacks.py:186 -- saving metrics for episode 84
+2026-10-26 09:57:02,133 DEBUG callbacks.py:108 -- starting episode 85 with id 863294255282215264 (env-idx=0)
+2026-10-26 09:57:07,739 INFO callbacks.py:181 -- episode 85 with id 863294255282215264 (env-inx=0) finished in step 36 with the score -0.126503
+2026-10-26 09:57:07,739 DEBUG callbacks.py:186 -- saving metrics for episode 85
+2026-10-26 09:57:07,740 DEBUG callbacks.py:108 -- starting episode 86 with id 230527635398350468 (env-idx=0)
+2026-10-26 09:57:13,431 INFO callbacks.py:181 -- episode 86 with id 230527635398350468 (env-inx=0) finished in step 36 with the score -0.033375
+2026-10-26 09:57:13,432 DEBUG callbacks.py:186 -- saving metrics for episode 86
+2026-10-26 09:57:13,432 DEBUG callbacks.py:108 -- starting episode 87 with id 85597174898854436 (env-idx=0)
+2026-10-26 09:57:19,981 INFO callbacks.py:181 -- episode 87 with id 85597174898854436 (env-inx=0) finished in step 36 with the score -0.014897
+2026-10-26 09:57:19,981 DEBUG callbacks.py:186 -- saving metrics for episode 87
+2026-10-26 09:57:19,981 DEBUG callbacks.py:108 -- starting episode 88 with id 321376736453192100 (env-idx=0)
+2026-10-26 09:57:25,565 INFO callbacks.py:181 -- episode 88 with id 321376736453192100 (env-inx=0) finished in step 36 with the score -0.068178
+2026-10-26 09:57:25,566 DEBUG callbacks.py:186 -- saving metrics for episode 88
+2026-10-26 09:57:25,566 DEBUG callbacks.py:108 -- starting episode 89 with id 442604134490090794 (env-idx=0)
+2026-10-26 09:57:34,943 INFO callbacks.py:181 -- episode 89 with id 442604134490090794 (env-inx=0) finished in step 36 with the score -0.021098
+2026-10-26 09:57:34,943 DEBUG callbacks.py:186 -- saving metrics for episode 89
+2026-10-26 09:57:34,943 DEBUG callbacks.py:108 -- starting episode 90 with id 438563054503884204 (env-idx=0)
+2026-10-26 09:57:40,634 INFO callbacks.py:181 -- episode 90 with id 438563054503884204 (env-inx=0) finished in step 36 with the score -0.000039
+2026-10-26 09:57:40,634 DEBUG callbacks.py:186 -- saving metrics for episode 90
+2026-10-26 09:57:40,634 DEBUG callbacks.py:108 -- starting episode 91 with id 410502939457962383 (env-idx=0)
+2026-10-26 09:57:46,459 INFO callbacks.py:181 -- episode 91 with id 410502939457962383 (env-inx=0) finished in step 36 with the score 0.015275
+2026-10-26 09:57:46,459 DEBUG callbacks.py:186 -- saving metrics for episode 91
+2026-10-26 09:57:46,459 DEBUG callbacks.py:108 -- starting episode 92 with id 882892716873680752 (env-idx=0)
+2026-10-26 09:57:52,114 INFO callbacks.py:181 -- episode 92 with id 882892716873680752 (env-inx=0) finished in step 36 with the score -0.020302
+2026-10-26 09:57:52,114 DEBUG callbacks.py:186 -- saving metrics for episode 92
+2026-10-26 09:57:52,114 DEBUG callbacks.py:108 -- starting episode 93 with id 476998069419250542 (env-idx=0)
+2026-10-26 09:57:57,854 INFO callbacks.py:181 -- episode 93 with id 476998069419250542 (env-inx=0) finished in step 36 with the score 0.016873
+2026-10-26 09:57:57,854 DEBUG callbacks.py:186 -- saving metrics for episode 93
+2026-10-26 09:57:57,854 DEBUG callbacks.py:108 -- starting episode 94 with id 729852184665848180 (env-idx=0)
+2026-10-26 09:58:03,458 INFO callbacks.py:181 -- episode 94 with id 729852184665848180 (env-inx=0) finished in step 36 with the score 0.006722
+2026-10-26 09:58:03,459 DEBUG callbacks.py:186 -- saving metrics for episode 94
+2026-10-26 09:58:03,459 DEBUG callbacks.py:108 -- starting episode 95 with id 493908208429809491 (env-idx=0)
+2026-10-26 09:58:09,018 INFO callbacks.py:181 -- episode 95 with id 493908208429809491 (env-inx=0) finished in step 36 with the score 0.022552
+2026-10-26 09:58:09,018 DEBUG callbacks.py:186 -- saving metrics for episode 95
+2026-10-26 09:58:09,018 DEBUG callbacks.py:108 -- starting episode 96 with id 89377906460465606 (env-idx=0)
+2026-10-26 09:58:14,568 INFO callbacks.py:181 -- episode 96 with id 89377906460465606 (env-inx=0) finished in step 36 with the score -0.003254
+2026-10-26 09:58:14,568 DEBUG callbacks.py:186 -- saving metrics for episode 96
+2026-10-26 09:58:14,568 DEBUG callbacks.py:108 -- starting episode 97 with id 431929304584143880 (env-idx=0)
+2026-10-26 09:58:20,150 INFO callbacks.py:181 -- episode 97 with id 431929304584143880 (env-inx=0) finished in step 36 with the score -0.117103
+2026-10-26 09:58:20,150 DEBUG callbacks.py:186 -- saving metrics for episode 97
+2026-10-26 09:58:20,150 DEBUG callbacks.py:108 -- starting episode 98 with id 585379770047777833 (env-idx=0)
+2026-10-26 09:58:25,717 INFO callbacks.py:181 -- episode 98 with id 585379770047777833 (env-inx=0) finished in step 36 with the score -0.034240
+2026-10-26 09:58:25,717 DEBUG callbacks.py:186 -- saving metrics for episode 98
+2026-10-26 09:58:25,717 DEBUG callbacks.py:108 -- starting episode 99 with id 931468436202611061 (env-idx=0)
+2026-10-26 09:58:31,256 INFO callbacks.py:181 -- episode 99 with id 931468436202611061 (env-inx=0) finished in step 36 with the score -0.032234
+2026-10-26 09:58:31,256 DEBUG callbacks.py:186 -- saving metrics for episode 99
+2026-10-26 09:58:31,256 DEBUG callbacks.py:108 -- starting episode 100 with id 475468990186696068 (env-idx=0)
+2026-10-26 09:58:40,684 INFO callbacks.py:181 -- episode 100 with id 475468990186696068 (env-inx=0) finished in step 36 with the score -0.021300
+2026-10-26 09:58:40,684 DEBUG callbacks.py:186 -- saving metrics for episode 100
+2026-10-26 09:58:40,684 DEBUG callbacks.py:108 -- starting episode 101 with id 237664236717315207 (env-idx=0)
+2026-10-26 09:58:46,214 INFO callbacks.py:181 -- episode 101 with id 237664236717315207 (env-inx=0) finished in step 36 with the score 0.021455
+2026-10-26 09:58:46,214 DEBUG callbacks.py:186 -- saving metrics for episode 101
+2026-10-26 09:58:46,214 DEBUG callbacks.py:108 -- starting episode 102 with id 238397409308325839 (env-idx=0)
+2026-10-26 09:58:51,769 INFO callbacks.py:181 -- episode 102 with id 238397409308325839 (env-inx=0) finished in step 36 with the score -0.007176
+2026-10-26 09:58:51,769 DEBUG callbacks.py:186 -- saving metrics for episode 102
+2026-10-26 09:58:51,769 DEBUG callbacks.py:108 -- starting episode 103 with id 320160905470343447 (env-idx=0)
+2026-10-26 09:58:57,375 INFO callbacks.py:181 -- episode 103 with id 320160905470343447 (env-inx=0) finished in step 36 with the score 0.000732
+2026-10-26 09:58:57,375 DEBUG callbacks.py:186 -- saving metrics for episode 103
+2026-10-26 09:58:57,376 DEBUG callbacks.py:108 -- starting episode 104 with id 736265767730122314 (env-idx=0)
+2026-10-26 09:59:02,924 INFO callbacks.py:181 -- episode 104 with id 736265767730122314 (env-inx=0) finished in step 36 with the score 0.027803
+2026-10-26 09:59:02,924 DEBUG callbacks.py:186 -- saving metrics for episode 104
+2026-10-26 09:59:02,924 DEBUG callbacks.py:108 -- starting episode 105 with id 771444357716486910 (env-idx=0)
+2026-10-26 09:59:08,461 INFO callbacks.py:181 -- episode 105 with id 771444357716486910 (env-inx=0) finished in step 36 with the score 0.014404
+2026-10-26 09:59:08,461 DEBUG callbacks.py:186 -- saving metrics for episode 105
+2026-10-26 09:59:08,461 DEBUG callbacks.py:108 -- starting episode 106 with id 48700242271427830 (env-idx=0)
+2026-10-26 09:59:14,022 INFO callbacks.py:181 -- episode 106 with id 48700242271427830 (env-inx=0) finished in step 36 with the score 0.013141
+2026-10-26 09:59:14,022 DEBUG callbacks.py:186 -- saving metrics for episode 106
+2026-10-26 09:59:14,022 DEBUG callbacks.py:108 -- starting episode 107 with id 178529804572993931 (env-idx=0)
+2026-10-26 09:59:19,729 INFO callbacks.py:181 -- episode 107 with id 178529804572993931 (env-inx=0) finished in step 36 with the score 0.057396
+2026-10-26 09:59:19,729 DEBUG callbacks.py:186 -- saving metrics for episode 107
+2026-10-26 09:59:19,730 DEBUG callbacks.py:108 -- starting episode 108 with id 142211353791681756 (env-idx=0)
+2026-10-26 09:59:25,309 INFO callbacks.py:181 -- episode 108 with id 142211353791681756 (env-inx=0) finished in step 36 with the score 0.043492
+2026-10-26 09:59:25,309 DEBUG callbacks.py:186 -- saving metrics for episode 108
+2026-10-26 09:59:25,309 DEBUG callbacks.py:108 -- starting episode 109 with id 141014685532185102 (env-idx=0)
+2026-10-26 09:59:30,869 INFO callbacks.py:181 -- episode 109 with id 141014685532185102 (env-inx=0) finished in step 36 with the score -0.039228
+2026-10-26 09:59:30,869 DEBUG callbacks.py:186 -- saving metrics for episode 109
+2026-10-26 09:59:30,869 DEBUG callbacks.py:108 -- starting episode 110 with id 412449193952341962 (env-idx=0)
+2026-10-26 09:59:36,435 INFO callbacks.py:181 -- episode 110 with id 412449193952341962 (env-inx=0) finished in step 36 with the score 0.027328
+2026-10-26 09:59:36,435 DEBUG callbacks.py:186 -- saving metrics for episode 110
+2026-10-26 09:59:36,435 DEBUG callbacks.py:108 -- starting episode 111 with id 619784991305077259 (env-idx=0)
+2026-10-26 09:59:41,989 INFO callbacks.py:181 -- episode 111 with id 619784991305077259 (env-inx=0) finished in step 36 with the score 0.114505
+2026-10-26 09:59:41,989 DEBUG callbacks.py:186 -- saving metrics for episode 111
+2026-10-26 09:59:41,989 DEBUG callbacks.py:108 -- starting episode 112 with id 728197321681526709 (env-idx=0)
+2026-10-26 09:59:42,728 INFO train_model.py:132 -- finished training iteration 3
+2026-10-26 09:59:42,728 INFO train_model.py:130 -- starting training iteration 4
+2026-10-26 09:59:47,560 INFO callbacks.py:181 -- episode 112 with id 728197321681526709 (env-inx=0) finished in step 36 with the score -0.005574
+2026-10-26 09:59:47,560 DEBUG callbacks.py:186 -- saving metrics for episode 112
+2026-10-26 09:59:47,560 DEBUG callbacks.py:108 -- starting episode 113 with id 55268755963246771 (env-idx=0)
+2026-10-26 09:59:53,121 INFO callbacks.py:181 -- episode 113 with id 55268755963246771 (env-inx=0) finished in step 36 with the score 0.047685
+2026-10-26 09:59:53,121 DEBUG callbacks.py:186 -- saving metrics for episode 113
+2026-10-26 09:59:53,121 DEBUG callbacks.py:108 -- starting episode 114 with id 777501046578440863 (env-idx=0)
+2026-10-26 09:59:58,834 INFO callbacks.py:181 -- episode 114 with id 777501046578440863 (env-inx=0) finished in step 36 with the score -0.067283
+2026-10-26 09:59:58,834 DEBUG callbacks.py:186 -- saving metrics for episode 114
+2026-10-26 09:59:58,834 DEBUG callbacks.py:108 -- starting episode 115 with id 760473305433481535 (env-idx=0)
+2026-10-26 10:00:04,420 INFO callbacks.py:181 -- episode 115 with id 760473305433481535 (env-inx=0) finished in step 36 with the score 0.017338
+2026-10-26 10:00:04,420 DEBUG callbacks.py:186 -- saving metrics for episode 115
+2026-10-26 10:00:04,420 DEBUG callbacks.py:108 -- starting episode 116 with id 990926564214736780 (env-idx=0)
+2026-10-26 10:00:09,969 INFO callbacks.py:181 -- episode 116 with id 990926564214736780 (env-inx=0) finished in step 36 with the score -0.145077
+2026-10-26 10:00:09,969 DEBUG callbacks.py:186 -- saving metrics for episode 116
+2026-10-26 10:00:09,969 DEBUG callbacks.py:108 -- starting episode 117 with id 961403868031071730 (env-idx=0)
+2026-10-26 10:00:15,508 INFO callbacks.py:181 -- episode 117 with id 961403868031071730 (env-inx=0) finished in step 36 with the score 0.124088
+2026-10-26 10:00:15,508 DEBUG callbacks.py:186 -- saving metrics for episode 117
+2026-10-26 10:00:15,509 DEBUG callbacks.py:108 -- starting episode 118 with id 765781553769258166 (env-idx=0)
+2026-10-26 10:00:21,079 INFO callbacks.py:181 -- episode 118 with id 765781553769258166 (env-inx=0) finished in step 36 with the score -0.062349
+2026-10-26 10:00:21,080 DEBUG callbacks.py:186 -- saving metrics for episode 118
+2026-10-26 10:00:21,080 DEBUG callbacks.py:108 -- starting episode 119 with id 297450135664060400 (env-idx=0)
+2026-10-26 10:00:26,642 INFO callbacks.py:181 -- episode 119 with id 297450135664060400 (env-inx=0) finished in step 36 with the score 0.049896
+2026-10-26 10:00:26,642 DEBUG callbacks.py:186 -- saving metrics for episode 119
+2026-10-26 10:00:26,642 DEBUG callbacks.py:108 -- starting episode 120 with id 12253242520496290 (env-idx=0)
+2026-10-26 10:00:32,184 INFO callbacks.py:181 -- episode 120 with id 12253242520496290 (env-inx=0) finished in step 36 with the score 0.038132
+2026-10-26 10:00:32,184 DEBUG callbacks.py:186 -- saving metrics for episode 120
+2026-10-26 10:00:32,184 DEBUG callbacks.py:108 -- starting episode 121 with id 229024893016577031 (env-idx=0)
+2026-10-26 10:00:37,767 INFO callbacks.py:181 -- episode 121 with id 229024893016577031 (env-inx=0) finished in step 36 with the score 0.012195
+2026-10-26 10:00:37,768 DEBUG callbacks.py:186 -- saving metrics for episode 121
+2026-10-26 10:00:37,768 DEBUG callbacks.py:108 -- starting episode 122 with id 574993101817039665 (env-idx=0)
+2026-10-26 10:00:43,435 INFO callbacks.py:181 -- episode 122 with id 574993101817039665 (env-inx=0) finished in step 36 with the score -0.004329
+2026-10-26 10:00:43,435 DEBUG callbacks.py:186 -- saving metrics for episode 122
+2026-10-26 10:00:43,435 DEBUG callbacks.py:108 -- starting episode 123 with id 575223355136087052 (env-idx=0)
+2026-10-26 10:00:48,987 INFO callbacks.py:181 -- episode 123 with id 575223355136087052 (env-inx=0) finished in step 36 with the score 0.010710
+2026-10-26 10:00:48,987 DEBUG callbacks.py:186 -- saving metrics for episode 123
+2026-10-26 10:00:48,987 DEBUG callbacks.py:108 -- starting episode 124 with id 196707467083968096 (env-idx=0)
+2026-10-26 10:00:54,583 INFO callbacks.py:181 -- episode 124 with id 196707467083968096 (env-inx=0) finished in step 36 with the score 0.020312
+2026-10-26 10:00:54,583 DEBUG callbacks.py:186 -- saving metrics for episode 124
+2026-10-26 10:00:54,583 DEBUG callbacks.py:108 -- starting episode 125 with id 496477938638001543 (env-idx=0)
+2026-10-26 10:01:00,170 INFO callbacks.py:181 -- episode 125 with id 496477938638001543 (env-inx=0) finished in step 36 with the score -0.042686
+2026-10-26 10:01:00,171 DEBUG callbacks.py:186 -- saving metrics for episode 125
+2026-10-26 10:01:00,171 DEBUG callbacks.py:108 -- starting episode 126 with id 876118132233045004 (env-idx=0)
+2026-10-26 10:01:05,755 INFO callbacks.py:181 -- episode 126 with id 876118132233045004 (env-inx=0) finished in step 36 with the score -0.006964
+2026-10-26 10:01:05,755 DEBUG callbacks.py:186 -- saving metrics for episode 126
+2026-10-26 10:01:05,755 DEBUG callbacks.py:108 -- starting episode 127 with id 63222120407462510 (env-idx=0)
+2026-10-26 10:01:11,318 INFO callbacks.py:181 -- episode 127 with id 63222120407462510 (env-inx=0) finished in step 36 with the score 0.073712
+2026-10-26 10:01:11,318 DEBUG callbacks.py:186 -- saving metrics for episode 127
+2026-10-26 10:01:11,319 DEBUG callbacks.py:108 -- starting episode 128 with id 151475948074958141 (env-idx=0)
+2026-10-26 10:01:16,905 INFO callbacks.py:181 -- episode 128 with id 151475948074958141 (env-inx=0) finished in step 36 with the score -0.052552
+2026-10-26 10:01:16,906 DEBUG callbacks.py:186 -- saving metrics for episode 128
+2026-10-26 10:01:16,906 DEBUG callbacks.py:108 -- starting episode 129 with id 689244190061115365 (env-idx=0)
+2026-10-26 10:01:22,598 INFO callbacks.py:181 -- episode 129 with id 689244190061115365 (env-inx=0) finished in step 36 with the score -0.081662
+2026-10-26 10:01:22,598 DEBUG callbacks.py:186 -- saving metrics for episode 129
+2026-10-26 10:01:22,599 DEBUG callbacks.py:108 -- starting episode 130 with id 506964138477026551 (env-idx=0)
+2026-10-26 10:01:28,155 INFO callbacks.py:181 -- episode 130 with id 506964138477026551 (env-inx=0) finished in step 36 with the score -0.019868
+2026-10-26 10:01:28,155 DEBUG callbacks.py:186 -- saving metrics for episode 130
+2026-10-26 10:01:28,155 DEBUG callbacks.py:108 -- starting episode 131 with id 542089515493357130 (env-idx=0)
+2026-10-26 10:01:33,735 INFO callbacks.py:181 -- episode 131 with id 542089515493357130 (env-inx=0) finished in step 36 with the score -0.044534
+2026-10-26 10:01:33,735 DEBUG callbacks.py:186 -- saving metrics for episode 131
+2026-10-26 10:01:33,736 DEBUG callbacks.py:108 -- starting episode 132 with id 17588815499100231 (env-idx=0)
+2026-10-26 10:01:39,314 INFO callbacks.py:181 -- episode 132 with id 17588815499100231 (env-inx=0) finished in step 36 with the score 0.016590
+2026-10-26 10:01:39,314 DEBUG callbacks.py:186 -- saving metrics for episode 132
+2026-10-26 10:01:39,315 DEBUG callbacks.py:108 -- starting episode 133 with id 993805651630265277 (env-idx=0)
+2026-10-26 10:01:44,892 INFO callbacks.py:181 -- episode 133 with id 993805651630265277 (env-inx=0) finished in step 36 with the score 0.034551
+2026-10-26 10:01:44,892 DEBUG callbacks.py:186 -- saving metrics for episode 133
+2026-10-26 10:01:44,892 DEBUG callbacks.py:108 -- starting episode 134 with id 227698315221256384 (env-idx=0)
+2026-10-26 10:01:50,483 INFO callbacks.py:181 -- episode 134 with id 227698315221256384 (env-inx=0) finished in step 36 with the score 0.049868
+2026-10-26 10:01:50,483 DEBUG callbacks.py:186 -- saving metrics for episode 134
+2026-10-26 10:01:50,484 DEBUG callbacks.py:108 -- starting episode 135 with id 480711536091562709 (env-idx=0)
+2026-10-26 10:01:56,064 INFO callbacks.py:181 -- episode 135 with id 480711536091562709 (env-inx=0) finished in step 36 with the score -0.032804
+2026-10-26 10:01:56,064 DEBUG callbacks.py:186 -- saving metrics for episode 135
+2026-10-26 10:01:56,065 DEBUG callbacks.py:108 -- starting episode 136 with id 116367498890994331 (env-idx=0)
+2026-10-26 10:02:01,746 INFO callbacks.py:181 -- episode 136 with id 116367498890994331 (env-inx=0) finished in step 36 with the score -0.008866
+2026-10-26 10:02:01,746 DEBUG callbacks.py:186 -- saving metrics for episode 136
+2026-10-26 10:02:01,746 DEBUG callbacks.py:108 -- starting episode 137 with id 824114238989309261 (env-idx=0)
+2026-10-26 10:02:07,318 INFO callbacks.py:181 -- episode 137 with id 824114238989309261 (env-inx=0) finished in step 36 with the score -0.006844
+2026-10-26 10:02:07,318 DEBUG callbacks.py:186 -- saving metrics for episode 137
+2026-10-26 10:02:07,318 DEBUG callbacks.py:108 -- starting episode 138 with id 405217747765117 (env-idx=0)
+2026-10-26 10:02:12,868 INFO callbacks.py:181 -- episode 138 with id 405217747765117 (env-inx=0) finished in step 36 with the score -0.025426
+2026-10-26 10:02:12,868 DEBUG callbacks.py:186 -- saving metrics for episode 138
+2026-10-26 10:02:12,868 DEBUG callbacks.py:108 -- starting episode 139 with id 959221012257640030 (env-idx=0)
+2026-10-26 10:02:17,992 INFO train_model.py:132 -- finished training iteration 4
+2026-10-26 10:02:17,993 INFO train_model.py:130 -- starting training iteration 5
+2026-10-26 10:02:18,443 INFO callbacks.py:181 -- episode 139 with id 959221012257640030 (env-inx=0) finished in step 36 with the score 0.030042
+2026-10-26 10:02:18,443 DEBUG callbacks.py:186 -- saving metrics for episode 139
+2026-10-26 10:02:18,443 DEBUG callbacks.py:108 -- starting episode 140 with id 887824506913669210 (env-idx=0)
+2026-10-26 10:02:24,890 INFO callbacks.py:181 -- episode 140 with id 887824506913669210 (env-inx=0) finished in step 36 with the score 0.047651
+2026-10-26 10:02:24,890 DEBUG callbacks.py:186 -- saving metrics for episode 140
+2026-10-26 10:02:24,890 DEBUG callbacks.py:108 -- starting episode 141 with id 952750352345095624 (env-idx=0)
+2026-10-26 10:02:30,434 INFO callbacks.py:181 -- episode 141 with id 952750352345095624 (env-inx=0) finished in step 36 with the score -0.128859
+2026-10-26 10:02:30,434 DEBUG callbacks.py:186 -- saving metrics for episode 141
+2026-10-26 10:02:30,434 DEBUG callbacks.py:108 -- starting episode 142 with id 194307381070185777 (env-idx=0)
+2026-10-26 10:02:35,958 INFO callbacks.py:181 -- episode 142 with id 194307381070185777 (env-inx=0) finished in step 36 with the score -0.012712
+2026-10-26 10:02:35,959 DEBUG callbacks.py:186 -- saving metrics for episode 142
+2026-10-26 10:02:35,959 DEBUG callbacks.py:108 -- starting episode 143 with id 386453075171537629 (env-idx=0)
+2026-10-26 10:02:41,527 INFO callbacks.py:181 -- episode 143 with id 386453075171537629 (env-inx=0) finished in step 36 with the score 0.040525
+2026-10-26 10:02:41,527 DEBUG callbacks.py:186 -- saving metrics for episode 143
+2026-10-26 10:02:41,527 DEBUG callbacks.py:108 -- starting episode 144 with id 26735685525685280 (env-idx=0)
+2026-10-26 10:02:47,168 INFO callbacks.py:181 -- episode 144 with id 26735685525685280 (env-inx=0) finished in step 36 with the score 0.028078
+2026-10-26 10:02:47,168 DEBUG callbacks.py:186 -- saving metrics for episode 144
+2026-10-26 10:02:47,168 DEBUG callbacks.py:108 -- starting episode 145 with id 53373457754241360 (env-idx=0)
+2026-10-26 10:02:52,840 INFO callbacks.py:181 -- episode 145 with id 53373457754241360 (env-inx=0) finished in step 36 with the score -0.018221
+2026-10-26 10:02:52,841 DEBUG callbacks.py:186 -- saving metrics for episode 145
+2026-10-26 10:02:52,841 DEBUG callbacks.py:108 -- starting episode 146 with id 538587578119643689 (env-idx=0)
+2026-10-26 10:02:58,420 INFO callbacks.py:181 -- episode 146 with id 538587578119643689 (env-inx=0) finished in step 36 with the score -0.028902
+2026-10-26 10:02:58,420 DEBUG callbacks.py:186 -- saving metrics for episode 146
+2026-10-26 10:02:58,420 DEBUG callbacks.py:108 -- starting episode 147 with id 563277889562434205 (env-idx=0)
+2026-10-26 10:03:03,997 INFO callbacks.py:181 -- episode 147 with id 563277889562434205 (env-inx=0) finished in step 36 with the score 0.008492
+2026-10-26 10:03:03,997 DEBUG callbacks.py:186 -- saving metrics for episode 147
+2026-10-26 10:03:03,998 DEBUG callbacks.py:108 -- starting episode 148 with id 126015248177507259 (env-idx=0)
+2026-10-26 10:03:09,564 INFO callbacks.py:181 -- episode 148 with id 126015248177507259 (env-inx=0) finished in step 36 with the score -0.016801
+2026-10-26 10:03:09,564 DEBUG callbacks.py:186 -- saving metrics for episode 148
+2026-10-26 10:03:09,564 DEBUG callbacks.py:108 -- starting episode 149 with id 735976428499599660 (env-idx=0)
+2026-10-26 10:03:16,052 INFO callbacks.py:181 -- episode 149 with id 735976428499599660 (env-inx=0) finished in step 36 with the score 0.013109
+2026-10-26 10:03:16,052 DEBUG callbacks.py:186 -- saving metrics for episode 149
+2026-10-26 10:03:16,052 DEBUG callbacks.py:108 -- starting episode 150 with id 119431167131041706 (env-idx=0)
+2026-10-26 10:03:21,602 INFO callbacks.py:181 -- episode 150 with id 119431167131041706 (env-inx=0) finished in step 36 with the score 0.017081
+2026-10-26 10:03:21,603 DEBUG callbacks.py:186 -- saving metrics for episode 150
+2026-10-26 10:03:21,603 DEBUG callbacks.py:108 -- starting episode 151 with id 190234006233707218 (env-idx=0)
+2026-10-26 10:03:27,199 INFO callbacks.py:181 -- episode 151 with id 190234006233707218 (env-inx=0) finished in step 36 with the score -0.010681
+2026-10-26 10:03:27,200 DEBUG callbacks.py:186 -- saving metrics for episode 151
+2026-10-26 10:03:27,200 DEBUG callbacks.py:108 -- starting episode 152 with id 506425760722901553 (env-idx=0)
+2026-10-26 10:03:32,895 INFO callbacks.py:181 -- episode 152 with id 506425760722901553 (env-inx=0) finished in step 36 with the score -0.042850
+2026-10-26 10:03:32,896 DEBUG callbacks.py:186 -- saving metrics for episode 152
+2026-10-26 10:03:32,896 DEBUG callbacks.py:108 -- starting episode 153 with id 972388911997405751 (env-idx=0)
+2026-10-26 10:03:38,477 INFO callbacks.py:181 -- episode 153 with id 972388911997405751 (env-inx=0) finished in step 36 with the score 0.081293
+2026-10-26 10:03:38,477 DEBUG callbacks.py:186 -- saving metrics for episode 153
+2026-10-26 10:03:38,477 DEBUG callbacks.py:108 -- starting episode 154 with id 91132361625085165 (env-idx=0)
+2026-10-26 10:03:44,118 INFO callbacks.py:181 -- episode 154 with id 91132361625085165 (env-inx=0) finished in step 36 with the score 0.002557
+2026-10-26 10:03:44,118 DEBUG callbacks.py:186 -- saving metrics for episode 154
+2026-10-26 10:03:44,118 DEBUG callbacks.py:108 -- starting episode 155 with id 352649859258304233 (env-idx=0)
+2026-10-26 10:03:49,722 INFO callbacks.py:181 -- episode 155 with id 352649859258304233 (env-inx=0) finished in step 36 with the score -0.002365
+2026-10-26 10:03:49,722 DEBUG callbacks.py:186 -- saving metrics for episode 155
+2026-10-26 10:03:49,722 DEBUG callbacks.py:108 -- starting episode 156 with id 170282421247572291 (env-idx=0)
+2026-10-26 10:03:55,345 INFO callbacks.py:181 -- episode 156 with id 170282421247572291 (env-inx=0) finished in step 36 with the score 0.021407
+2026-10-26 10:03:55,345 DEBUG callbacks.py:186 -- saving metrics for episode 156
+2026-10-26 10:03:55,345 DEBUG callbacks.py:108 -- starting episode 157 with id 151960359862308719 (env-idx=0)
+2026-10-26 10:04:04,707 INFO callbacks.py:181 -- episode 157 with id 151960359862308719 (env-inx=0) finished in step 36 with the score 0.031103
+2026-10-26 10:04:04,707 DEBUG callbacks.py:186 -- saving metrics for episode 157
+2026-10-26 10:04:04,707 DEBUG callbacks.py:108 -- starting episode 158 with id 975531290504002843 (env-idx=0)
+2026-10-26 10:04:10,336 INFO callbacks.py:181 -- episode 158 with id 975531290504002843 (env-inx=0) finished in step 36 with the score 0.045649
+2026-10-26 10:04:10,337 DEBUG callbacks.py:186 -- saving metrics for episode 158
+2026-10-26 10:04:10,337 DEBUG callbacks.py:108 -- starting episode 159 with id 946551594802253873 (env-idx=0)
+2026-10-26 10:04:19,711 INFO callbacks.py:181 -- episode 159 with id 946551594802253873 (env-inx=0) finished in step 36 with the score 0.021359
+2026-10-26 10:04:19,711 DEBUG callbacks.py:186 -- saving metrics for episode 159
+2026-10-26 10:04:19,711 DEBUG callbacks.py:108 -- starting episode 160 with id 274516664398335274 (env-idx=0)
+2026-10-26 10:04:25,308 INFO callbacks.py:181 -- episode 160 with id 274516664398335274 (env-inx=0) finished in step 36 with the score -0.030811
+2026-10-26 10:04:25,308 DEBUG callbacks.py:186 -- saving metrics for episode 160
+2026-10-26 10:04:25,308 DEBUG callbacks.py:108 -- starting episode 161 with id 678184923988133993 (env-idx=0)
+2026-10-26 10:04:31,960 INFO callbacks.py:181 -- episode 161 with id 678184923988133993 (env-inx=0) finished in step 36 with the score -0.009545
+2026-10-26 10:04:31,961 DEBUG callbacks.py:186 -- saving metrics for episode 161
+2026-10-26 10:04:31,961 DEBUG callbacks.py:108 -- starting episode 162 with id 337440115237093800 (env-idx=0)
+2026-10-26 10:04:38,586 INFO callbacks.py:181 -- episode 162 with id 337440115237093800 (env-inx=0) finished in step 36 with the score 0.011562
+2026-10-26 10:04:38,586 DEBUG callbacks.py:186 -- saving metrics for episode 162
+2026-10-26 10:04:38,586 DEBUG callbacks.py:108 -- starting episode 163 with id 287802375939997134 (env-idx=0)
+2026-10-26 10:04:47,925 INFO callbacks.py:181 -- episode 163 with id 287802375939997134 (env-inx=0) finished in step 36 with the score 0.005178
+2026-10-26 10:04:47,926 DEBUG callbacks.py:186 -- saving metrics for episode 163
+2026-10-26 10:04:47,926 DEBUG callbacks.py:108 -- starting episode 164 with id 528993707744356765 (env-idx=0)
+2026-10-26 10:04:53,532 INFO callbacks.py:181 -- episode 164 with id 528993707744356765 (env-inx=0) finished in step 36 with the score -0.062195
+2026-10-26 10:04:53,532 DEBUG callbacks.py:186 -- saving metrics for episode 164
+2026-10-26 10:04:53,532 DEBUG callbacks.py:108 -- starting episode 165 with id 295504954756764948 (env-idx=0)
+2026-10-26 10:04:59,225 INFO callbacks.py:181 -- episode 165 with id 295504954756764948 (env-inx=0) finished in step 36 with the score -0.029180
+2026-10-26 10:04:59,225 DEBUG callbacks.py:186 -- saving metrics for episode 165
+2026-10-26 10:04:59,225 DEBUG callbacks.py:108 -- starting episode 166 with id 265667598538183461 (env-idx=0)
+2026-10-26 10:05:04,914 INFO callbacks.py:181 -- episode 166 with id 265667598538183461 (env-inx=0) finished in step 36 with the score -0.008654
+2026-10-26 10:05:04,915 DEBUG callbacks.py:186 -- saving metrics for episode 166
+2026-10-26 10:05:04,915 DEBUG callbacks.py:108 -- starting episode 167 with id 693389526492838225 (env-idx=0)
+2026-10-26 10:05:08,801 INFO train_model.py:132 -- finished training iteration 5
+2026-10-26 10:05:08,801 INFO train_model.py:130 -- starting training iteration 6
+2026-10-26 10:05:10,560 INFO callbacks.py:181 -- episode 167 with id 693389526492838225 (env-inx=0) finished in step 36 with the score -0.068703
+2026-10-26 10:05:10,560 DEBUG callbacks.py:186 -- saving metrics for episode 167
+2026-10-26 10:05:10,561 DEBUG callbacks.py:108 -- starting episode 168 with id 366984438087188840 (env-idx=0)
+2026-10-26 10:05:16,296 INFO callbacks.py:181 -- episode 168 with id 366984438087188840 (env-inx=0) finished in step 36 with the score -0.023749
+2026-10-26 10:05:16,296 DEBUG callbacks.py:186 -- saving metrics for episode 168
+2026-10-26 10:05:16,297 DEBUG callbacks.py:108 -- starting episode 169 with id 893508825987490772 (env-idx=0)
+2026-10-26 10:05:26,528 INFO callbacks.py:181 -- episode 169 with id 893508825987490772 (env-inx=0) finished in step 36 with the score 0.048791
+2026-10-26 10:05:26,529 DEBUG callbacks.py:186 -- saving metrics for episode 169
+2026-10-26 10:05:26,529 DEBUG callbacks.py:108 -- starting episode 170 with id 770757317281424375 (env-idx=0)
+2026-10-26 10:05:32,097 INFO callbacks.py:181 -- episode 170 with id 770757317281424375 (env-inx=0) finished in step 36 with the score -0.017747
+2026-10-26 10:05:32,097 DEBUG callbacks.py:186 -- saving metrics for episode 170
+2026-10-26 10:05:32,097 DEBUG callbacks.py:108 -- starting episode 171 with id 864715038383946223 (env-idx=0)
+2026-10-26 10:05:37,684 INFO callbacks.py:181 -- episode 171 with id 864715038383946223 (env-inx=0) finished in step 36 with the score 0.050275
+2026-10-26 10:05:37,684 DEBUG callbacks.py:186 -- saving metrics for episode 171
+2026-10-26 10:05:37,684 DEBUG callbacks.py:108 -- starting episode 172 with id 908250932591199834 (env-idx=0)
+2026-10-26 10:05:43,297 INFO callbacks.py:181 -- episode 172 with id 908250932591199834 (env-inx=0) finished in step 36 with the score -0.001266
+2026-10-26 10:05:43,297 DEBUG callbacks.py:186 -- saving metrics for episode 172
+2026-10-26 10:05:43,297 DEBUG callbacks.py:108 -- starting episode 173 with id 221522829966228291 (env-idx=0)
+2026-10-26 10:05:48,920 INFO callbacks.py:181 -- episode 173 with id 221522829966228291 (env-inx=0) finished in step 36 with the score -0.014902
+2026-10-26 10:05:48,920 DEBUG callbacks.py:186 -- saving metrics for episode 173
+2026-10-26 10:05:48,920 DEBUG callbacks.py:108 -- starting episode 174 with id 137227936109187628 (env-idx=0)
+2026-10-26 10:05:54,610 INFO callbacks.py:181 -- episode 174 with id 137227936109187628 (env-inx=0) finished in step 36 with the score -0.023536
+2026-10-26 10:05:54,610 DEBUG callbacks.py:186 -- saving metrics for episode 174
+2026-10-26 10:05:54,610 DEBUG callbacks.py:108 -- starting episode 175 with id 427143064759366393 (env-idx=0)
+2026-10-26 10:06:04,028 INFO callbacks.py:181 -- episode 175 with id 427143064759366393 (env-inx=0) finished in step 36 with the score -0.097165
+2026-10-26 10:06:04,029 DEBUG callbacks.py:186 -- saving metrics for episode 175
+2026-10-26 10:06:04,029 DEBUG callbacks.py:108 -- starting episode 176 with id 98844738273227957 (env-idx=0)
+2026-10-26 10:06:09,766 INFO callbacks.py:181 -- episode 176 with id 98844738273227957 (env-inx=0) finished in step 36 with the score -0.052222
+2026-10-26 10:06:09,767 DEBUG callbacks.py:186 -- saving metrics for episode 176
+2026-10-26 10:06:09,767 DEBUG callbacks.py:108 -- starting episode 177 with id 593213861698481362 (env-idx=0)
+2026-10-26 10:06:15,602 INFO callbacks.py:181 -- episode 177 with id 593213861698481362 (env-inx=0) finished in step 36 with the score 0.012789
+2026-10-26 10:06:15,602 DEBUG callbacks.py:186 -- saving metrics for episode 177
+2026-10-26 10:06:15,602 DEBUG callbacks.py:108 -- starting episode 178 with id 653109551226655340 (env-idx=0)
+2026-10-26 10:06:21,382 INFO callbacks.py:181 -- episode 178 with id 653109551226655340 (env-inx=0) finished in step 36 with the score 0.058723
+2026-10-26 10:06:21,382 DEBUG callbacks.py:186 -- saving metrics for episode 178
+2026-10-26 10:06:21,383 DEBUG callbacks.py:108 -- starting episode 179 with id 858313520230862270 (env-idx=0)
+2026-10-26 10:06:27,092 INFO callbacks.py:181 -- episode 179 with id 858313520230862270 (env-inx=0) finished in step 36 with the score 0.026518
+2026-10-26 10:06:27,092 DEBUG callbacks.py:186 -- saving metrics for episode 179
+2026-10-26 10:06:27,093 DEBUG callbacks.py:108 -- starting episode 180 with id 591550185403672210 (env-idx=0)
+2026-10-26 10:06:33,712 INFO callbacks.py:181 -- episode 180 with id 591550185403672210 (env-inx=0) finished in step 36 with the score 0.022295
+2026-10-26 10:06:33,712 DEBUG callbacks.py:186 -- saving metrics for episode 180
+2026-10-26 10:06:33,713 DEBUG callbacks.py:108 -- starting episode 181 with id 648956048185701109 (env-idx=0)
+2026-10-26 10:06:43,109 INFO callbacks.py:181 -- episode 181 with id 648956048185701109 (env-inx=0) finished in step 36 with the score -0.043182
+2026-10-26 10:06:43,109 DEBUG callbacks.py:186 -- saving metrics for episode 181
+2026-10-26 10:06:43,110 DEBUG callbacks.py:108 -- starting episode 182 with id 655468136125446038 (env-idx=0)
+2026-10-26 10:06:48,777 INFO callbacks.py:181 -- episode 182 with id 655468136125446038 (env-inx=0) finished in step 36 with the score 0.006987
+2026-10-26 10:06:48,777 DEBUG callbacks.py:186 -- saving metrics for episode 182
+2026-10-26 10:06:48,777 DEBUG callbacks.py:108 -- starting episode 183 with id 532485039010774456 (env-idx=0)
+2026-10-26 10:06:54,388 INFO callbacks.py:181 -- episode 183 with id 532485039010774456 (env-inx=0) finished in step 36 with the score 0.032610
+2026-10-26 10:06:54,389 DEBUG callbacks.py:186 -- saving metrics for episode 183
+2026-10-26 10:06:54,389 DEBUG callbacks.py:108 -- starting episode 184 with id 211026022886934746 (env-idx=0)
+2026-10-26 10:07:00,002 INFO callbacks.py:181 -- episode 184 with id 211026022886934746 (env-inx=0) finished in step 36 with the score 0.045161
+2026-10-26 10:07:00,002 DEBUG callbacks.py:186 -- saving metrics for episode 184
+2026-10-26 10:07:00,002 DEBUG callbacks.py:108 -- starting episode 185 with id 422061908169938642 (env-idx=0)
+2026-10-26 10:07:05,632 INFO callbacks.py:181 -- episode 185 with id 422061908169938642 (env-inx=0) finished in step 36 with the score -0.015835
+2026-10-26 10:07:05,632 DEBUG callbacks.py:186 -- saving metrics for episode 185
+2026-10-26 10:07:05,633 DEBUG callbacks.py:108 -- starting episode 186 with id 415969919017402605 (env-idx=0)
+2026-10-26 10:07:11,322 INFO callbacks.py:181 -- episode 186 with id 415969919017402605 (env-inx=0) finished in step 36 with the score 0.022979
+2026-10-26 10:07:11,322 DEBUG callbacks.py:186 -- saving metrics for episode 186
+2026-10-26 10:07:11,322 DEBUG callbacks.py:108 -- starting episode 187 with id 896881116686781530 (env-idx=0)
+2026-10-26 10:07:17,008 INFO callbacks.py:181 -- episode 187 with id 896881116686781530 (env-inx=0) finished in step 36 with the score -0.003557
+2026-10-26 10:07:17,008 DEBUG callbacks.py:186 -- saving metrics for episode 187
+2026-10-26 10:07:17,008 DEBUG callbacks.py:108 -- starting episode 188 with id 877238176550653195 (env-idx=0)
+2026-10-26 10:07:26,029 INFO callbacks.py:181 -- episode 188 with id 877238176550653195 (env-inx=0) finished in step 36 with the score -0.001697
+2026-10-26 10:07:26,030 DEBUG callbacks.py:186 -- saving metrics for episode 188
+2026-10-26 10:07:26,032 DEBUG callbacks.py:108 -- starting episode 189 with id 541769536196267408 (env-idx=0)
+2026-10-26 10:07:32,013 INFO callbacks.py:181 -- episode 189 with id 541769536196267408 (env-inx=0) finished in step 36 with the score 0.046080
+2026-10-26 10:07:32,013 DEBUG callbacks.py:186 -- saving metrics for episode 189
+2026-10-26 10:07:32,013 DEBUG callbacks.py:108 -- starting episode 190 with id 969232133733210464 (env-idx=0)
+2026-10-26 10:07:37,681 INFO callbacks.py:181 -- episode 190 with id 969232133733210464 (env-inx=0) finished in step 36 with the score 0.000337
+2026-10-26 10:07:37,681 DEBUG callbacks.py:186 -- saving metrics for episode 190
+2026-10-26 10:07:37,681 DEBUG callbacks.py:108 -- starting episode 191 with id 315463156205707922 (env-idx=0)
+2026-10-26 10:07:43,305 INFO callbacks.py:181 -- episode 191 with id 315463156205707922 (env-inx=0) finished in step 36 with the score -0.028259
+2026-10-26 10:07:43,306 DEBUG callbacks.py:186 -- saving metrics for episode 191
+2026-10-26 10:07:43,306 DEBUG callbacks.py:108 -- starting episode 192 with id 438939654902064117 (env-idx=0)
+2026-10-26 10:07:52,699 INFO callbacks.py:181 -- episode 192 with id 438939654902064117 (env-inx=0) finished in step 36 with the score 0.039186
+2026-10-26 10:07:52,699 DEBUG callbacks.py:186 -- saving metrics for episode 192
+2026-10-26 10:07:52,699 DEBUG callbacks.py:108 -- starting episode 193 with id 564522420813212730 (env-idx=0)
+2026-10-26 10:07:58,306 INFO callbacks.py:181 -- episode 193 with id 564522420813212730 (env-inx=0) finished in step 36 with the score -0.054554
+2026-10-26 10:07:58,306 DEBUG callbacks.py:186 -- saving metrics for episode 193
+2026-10-26 10:07:58,306 DEBUG callbacks.py:108 -- starting episode 194 with id 473620782229097654 (env-idx=0)
+2026-10-26 10:08:03,905 INFO callbacks.py:181 -- episode 194 with id 473620782229097654 (env-inx=0) finished in step 36 with the score -0.079290
+2026-10-26 10:08:03,906 DEBUG callbacks.py:186 -- saving metrics for episode 194
+2026-10-26 10:08:03,906 DEBUG callbacks.py:108 -- starting episode 195 with id 409450620130179638 (env-idx=0)
+2026-10-26 10:08:10,314 INFO train_model.py:132 -- finished training iteration 6
+2026-10-26 10:08:10,314 INFO train_model.py:130 -- starting training iteration 7
+2026-10-26 10:08:13,270 INFO callbacks.py:181 -- episode 195 with id 409450620130179638 (env-inx=0) finished in step 36 with the score -0.133636
+2026-10-26 10:08:13,270 DEBUG callbacks.py:186 -- saving metrics for episode 195
+2026-10-26 10:08:13,270 DEBUG callbacks.py:108 -- starting episode 196 with id 832905513504364996 (env-idx=0)
+2026-10-26 10:08:18,870 INFO callbacks.py:181 -- episode 196 with id 832905513504364996 (env-inx=0) finished in step 36 with the score -0.006217
+2026-10-26 10:08:18,871 DEBUG callbacks.py:186 -- saving metrics for episode 196
+2026-10-26 10:08:18,871 DEBUG callbacks.py:108 -- starting episode 197 with id 246718925188083521 (env-idx=0)
+2026-10-26 10:08:24,460 INFO callbacks.py:181 -- episode 197 with id 246718925188083521 (env-inx=0) finished in step 36 with the score -0.133143
+2026-10-26 10:08:24,460 DEBUG callbacks.py:186 -- saving metrics for episode 197
+2026-10-26 10:08:24,460 DEBUG callbacks.py:108 -- starting episode 198 with id 136011428182226076 (env-idx=0)
+2026-10-26 10:08:30,070 INFO callbacks.py:181 -- episode 198 with id 136011428182226076 (env-inx=0) finished in step 36 with the score 0.020367
+2026-10-26 10:08:30,070 DEBUG callbacks.py:186 -- saving metrics for episode 198
+2026-10-26 10:08:30,070 DEBUG callbacks.py:108 -- starting episode 199 with id 671450042471191477 (env-idx=0)
+2026-10-26 10:08:39,466 INFO callbacks.py:181 -- episode 199 with id 671450042471191477 (env-inx=0) finished in step 36 with the score -0.113429
+2026-10-26 10:08:39,466 DEBUG callbacks.py:186 -- saving metrics for episode 199
+2026-10-26 10:08:39,467 DEBUG callbacks.py:108 -- starting episode 200 with id 364563505469042428 (env-idx=0)
+2026-10-26 10:08:45,107 INFO callbacks.py:181 -- episode 200 with id 364563505469042428 (env-inx=0) finished in step 36 with the score -0.059240
+2026-10-26 10:08:45,107 DEBUG callbacks.py:186 -- saving metrics for episode 200
+2026-10-26 10:08:45,107 DEBUG callbacks.py:108 -- starting episode 201 with id 496046315638925019 (env-idx=0)
+2026-10-26 10:08:50,698 INFO callbacks.py:181 -- episode 201 with id 496046315638925019 (env-inx=0) finished in step 36 with the score -0.052758
+2026-10-26 10:08:50,698 DEBUG callbacks.py:186 -- saving metrics for episode 201
+2026-10-26 10:08:50,698 DEBUG callbacks.py:108 -- starting episode 202 with id 203126985123702318 (env-idx=0)
+2026-10-26 10:08:56,311 INFO callbacks.py:181 -- episode 202 with id 203126985123702318 (env-inx=0) finished in step 36 with the score -0.017060
+2026-10-26 10:08:56,311 DEBUG callbacks.py:186 -- saving metrics for episode 202
+2026-10-26 10:08:56,311 DEBUG callbacks.py:108 -- starting episode 203 with id 527195686609637885 (env-idx=0)
+2026-10-26 10:09:01,925 INFO callbacks.py:181 -- episode 203 with id 527195686609637885 (env-inx=0) finished in step 36 with the score 0.015966
+2026-10-26 10:09:01,925 DEBUG callbacks.py:186 -- saving metrics for episode 203
+2026-10-26 10:09:01,925 DEBUG callbacks.py:108 -- starting episode 204 with id 225370875841427663 (env-idx=0)
+2026-10-26 10:09:07,555 INFO callbacks.py:181 -- episode 204 with id 225370875841427663 (env-inx=0) finished in step 36 with the score -0.077981
+2026-10-26 10:09:07,556 DEBUG callbacks.py:186 -- saving metrics for episode 204
+2026-10-26 10:09:07,556 DEBUG callbacks.py:108 -- starting episode 205 with id 271654690234975226 (env-idx=0)
+2026-10-26 10:09:13,162 INFO callbacks.py:181 -- episode 205 with id 271654690234975226 (env-inx=0) finished in step 36 with the score -0.085591
+2026-10-26 10:09:13,162 DEBUG callbacks.py:186 -- saving metrics for episode 205
+2026-10-26 10:09:13,162 DEBUG callbacks.py:108 -- starting episode 206 with id 592665414886089262 (env-idx=0)
+2026-10-26 10:09:18,838 INFO callbacks.py:181 -- episode 206 with id 592665414886089262 (env-inx=0) finished in step 36 with the score 0.026976
+2026-10-26 10:09:18,838 DEBUG callbacks.py:186 -- saving metrics for episode 206
+2026-10-26 10:09:18,839 DEBUG callbacks.py:108 -- starting episode 207 with id 207880111597977100 (env-idx=0)
+2026-10-26 10:09:24,423 INFO callbacks.py:181 -- episode 207 with id 207880111597977100 (env-inx=0) finished in step 36 with the score -0.086002
+2026-10-26 10:09:24,423 DEBUG callbacks.py:186 -- saving metrics for episode 207
+2026-10-26 10:09:24,423 DEBUG callbacks.py:108 -- starting episode 208 with id 802998966893050338 (env-idx=0)
+2026-10-26 10:09:30,056 INFO callbacks.py:181 -- episode 208 with id 802998966893050338 (env-inx=0) finished in step 36 with the score 0.030341
+2026-10-26 10:09:30,057 DEBUG callbacks.py:186 -- saving metrics for episode 208
+2026-10-26 10:09:30,057 DEBUG callbacks.py:108 -- starting episode 209 with id 358887175514162367 (env-idx=0)
+2026-10-26 10:09:35,665 INFO callbacks.py:181 -- episode 209 with id 358887175514162367 (env-inx=0) finished in step 36 with the score 0.046116
+2026-10-26 10:09:35,666 DEBUG callbacks.py:186 -- saving metrics for episode 209
+2026-10-26 10:09:35,666 DEBUG callbacks.py:108 -- starting episode 210 with id 123780005994289794 (env-idx=0)
+2026-10-26 10:09:45,125 INFO callbacks.py:181 -- episode 210 with id 123780005994289794 (env-inx=0) finished in step 36 with the score -0.133972
+2026-10-26 10:09:45,125 DEBUG callbacks.py:186 -- saving metrics for episode 210
+2026-10-26 10:09:45,125 DEBUG callbacks.py:108 -- starting episode 211 with id 856551218323694916 (env-idx=0)
+2026-10-26 10:09:50,808 INFO callbacks.py:181 -- episode 211 with id 856551218323694916 (env-inx=0) finished in step 36 with the score 0.005382
+2026-10-26 10:09:50,808 DEBUG callbacks.py:186 -- saving metrics for episode 211
+2026-10-26 10:09:50,808 DEBUG callbacks.py:108 -- starting episode 212 with id 439937989574003767 (env-idx=0)
+2026-10-26 10:09:56,504 INFO callbacks.py:181 -- episode 212 with id 439937989574003767 (env-inx=0) finished in step 36 with the score -0.020416
+2026-10-26 10:09:56,504 DEBUG callbacks.py:186 -- saving metrics for episode 212
+2026-10-26 10:09:56,504 DEBUG callbacks.py:108 -- starting episode 213 with id 809803565636088810 (env-idx=0)
+2026-10-26 10:10:02,202 INFO callbacks.py:181 -- episode 213 with id 809803565636088810 (env-inx=0) finished in step 36 with the score 0.004191
+2026-10-26 10:10:02,202 DEBUG callbacks.py:186 -- saving metrics for episode 213
+2026-10-26 10:10:02,202 DEBUG callbacks.py:108 -- starting episode 214 with id 80724717991605531 (env-idx=0)
+2026-10-26 10:10:07,972 INFO callbacks.py:181 -- episode 214 with id 80724717991605531 (env-inx=0) finished in step 36 with the score 0.050039
+2026-10-26 10:10:07,972 DEBUG callbacks.py:186 -- saving metrics for episode 214
+2026-10-26 10:10:07,972 DEBUG callbacks.py:108 -- starting episode 215 with id 75468142949216536 (env-idx=0)
+2026-10-26 10:10:13,568 INFO callbacks.py:181 -- episode 215 with id 75468142949216536 (env-inx=0) finished in step 36 with the score 0.136036
+2026-10-26 10:10:13,568 DEBUG callbacks.py:186 -- saving metrics for episode 215
+2026-10-26 10:10:13,568 DEBUG callbacks.py:108 -- starting episode 216 with id 385504029889094506 (env-idx=0)
+2026-10-26 10:10:19,240 INFO callbacks.py:181 -- episode 216 with id 385504029889094506 (env-inx=0) finished in step 36 with the score -0.054451
+2026-10-26 10:10:19,241 DEBUG callbacks.py:186 -- saving metrics for episode 216
+2026-10-26 10:10:19,241 DEBUG callbacks.py:108 -- starting episode 217 with id 309427889663901714 (env-idx=0)
+2026-10-26 10:10:24,865 INFO callbacks.py:181 -- episode 217 with id 309427889663901714 (env-inx=0) finished in step 36 with the score 0.025715
+2026-10-26 10:10:24,865 DEBUG callbacks.py:186 -- saving metrics for episode 217
+2026-10-26 10:10:24,866 DEBUG callbacks.py:108 -- starting episode 218 with id 45474689091307425 (env-idx=0)
+2026-10-26 10:10:30,582 INFO callbacks.py:181 -- episode 218 with id 45474689091307425 (env-inx=0) finished in step 36 with the score 0.008009
+2026-10-26 10:10:30,582 DEBUG callbacks.py:186 -- saving metrics for episode 218
+2026-10-26 10:10:30,582 DEBUG callbacks.py:108 -- starting episode 219 with id 905467688678133894 (env-idx=0)
+2026-10-26 10:10:36,259 INFO callbacks.py:181 -- episode 219 with id 905467688678133894 (env-inx=0) finished in step 36 with the score -0.072560
+2026-10-26 10:10:36,259 DEBUG callbacks.py:186 -- saving metrics for episode 219
+2026-10-26 10:10:36,259 DEBUG callbacks.py:108 -- starting episode 220 with id 766323089122933375 (env-idx=0)
+2026-10-26 10:10:41,966 INFO callbacks.py:181 -- episode 220 with id 766323089122933375 (env-inx=0) finished in step 36 with the score -0.088007
+2026-10-26 10:10:41,966 DEBUG callbacks.py:186 -- saving metrics for episode 220
+2026-10-26 10:10:41,967 DEBUG callbacks.py:108 -- starting episode 221 with id 612157976380641611 (env-idx=0)
+2026-10-26 10:10:47,638 INFO callbacks.py:181 -- episode 221 with id 612157976380641611 (env-inx=0) finished in step 36 with the score 0.033224
+2026-10-26 10:10:47,638 DEBUG callbacks.py:186 -- saving metrics for episode 221
+2026-10-26 10:10:47,638 DEBUG callbacks.py:108 -- starting episode 222 with id 622600829258293679 (env-idx=0)
+2026-10-26 10:10:53,332 INFO callbacks.py:181 -- episode 222 with id 622600829258293679 (env-inx=0) finished in step 36 with the score 0.068364
+2026-10-26 10:10:53,332 DEBUG callbacks.py:186 -- saving metrics for episode 222
+2026-10-26 10:10:53,333 DEBUG callbacks.py:108 -- starting episode 223 with id 460385884262388856 (env-idx=0)
+2026-10-26 10:10:54,853 INFO train_model.py:132 -- finished training iteration 7
+2026-10-26 10:10:54,853 INFO train_model.py:130 -- starting training iteration 8
+2026-10-26 10:10:59,133 INFO callbacks.py:181 -- episode 223 with id 460385884262388856 (env-inx=0) finished in step 36 with the score -0.022000
+2026-10-26 10:10:59,133 DEBUG callbacks.py:186 -- saving metrics for episode 223
+2026-10-26 10:10:59,133 DEBUG callbacks.py:108 -- starting episode 224 with id 196447404990131684 (env-idx=0)
+2026-10-26 10:11:04,876 INFO callbacks.py:181 -- episode 224 with id 196447404990131684 (env-inx=0) finished in step 36 with the score 0.047762
+2026-10-26 10:11:04,876 DEBUG callbacks.py:186 -- saving metrics for episode 224
+2026-10-26 10:11:04,876 DEBUG callbacks.py:108 -- starting episode 225 with id 746109919436815101 (env-idx=0)
+2026-10-26 10:11:10,566 INFO callbacks.py:181 -- episode 225 with id 746109919436815101 (env-inx=0) finished in step 36 with the score -0.067836
+2026-10-26 10:11:10,566 DEBUG callbacks.py:186 -- saving metrics for episode 225
+2026-10-26 10:11:10,566 DEBUG callbacks.py:108 -- starting episode 226 with id 762158182892843668 (env-idx=0)
+2026-10-26 10:11:16,390 INFO callbacks.py:181 -- episode 226 with id 762158182892843668 (env-inx=0) finished in step 36 with the score -0.141142
+2026-10-26 10:11:16,391 DEBUG callbacks.py:186 -- saving metrics for episode 226
+2026-10-26 10:11:16,391 DEBUG callbacks.py:108 -- starting episode 227 with id 540120553243650689 (env-idx=0)
+2026-10-26 10:11:22,154 INFO callbacks.py:181 -- episode 227 with id 540120553243650689 (env-inx=0) finished in step 36 with the score -0.015714
+2026-10-26 10:11:22,154 DEBUG callbacks.py:186 -- saving metrics for episode 227
+2026-10-26 10:11:22,155 DEBUG callbacks.py:108 -- starting episode 228 with id 506834577162174634 (env-idx=0)
+2026-10-26 10:11:27,827 INFO callbacks.py:181 -- episode 228 with id 506834577162174634 (env-inx=0) finished in step 36 with the score 0.019487
+2026-10-26 10:11:27,827 DEBUG callbacks.py:186 -- saving metrics for episode 228
+2026-10-26 10:11:27,827 DEBUG callbacks.py:108 -- starting episode 229 with id 351010314681317215 (env-idx=0)
+2026-10-26 10:11:33,478 INFO callbacks.py:181 -- episode 229 with id 351010314681317215 (env-inx=0) finished in step 36 with the score 0.058596
+2026-10-26 10:11:33,478 DEBUG callbacks.py:186 -- saving metrics for episode 229
+2026-10-26 10:11:33,478 DEBUG callbacks.py:108 -- starting episode 230 with id 10222355047990045 (env-idx=0)
+2026-10-26 10:11:39,166 INFO callbacks.py:181 -- episode 230 with id 10222355047990045 (env-inx=0) finished in step 36 with the score 0.024932
+2026-10-26 10:11:39,166 DEBUG callbacks.py:186 -- saving metrics for episode 230
+2026-10-26 10:11:39,167 DEBUG callbacks.py:108 -- starting episode 231 with id 596269877447598043 (env-idx=0)
+2026-10-26 10:11:44,866 INFO callbacks.py:181 -- episode 231 with id 596269877447598043 (env-inx=0) finished in step 36 with the score 0.032498
+2026-10-26 10:11:44,866 DEBUG callbacks.py:186 -- saving metrics for episode 231
+2026-10-26 10:11:44,866 DEBUG callbacks.py:108 -- starting episode 232 with id 177258425879514452 (env-idx=0)
+2026-10-26 10:11:50,557 INFO callbacks.py:181 -- episode 232 with id 177258425879514452 (env-inx=0) finished in step 36 with the score -0.078728
+2026-10-26 10:11:50,557 DEBUG callbacks.py:186 -- saving metrics for episode 232
+2026-10-26 10:11:50,558 DEBUG callbacks.py:108 -- starting episode 233 with id 621414465480915630 (env-idx=0)
+2026-10-26 10:11:56,304 INFO callbacks.py:181 -- episode 233 with id 621414465480915630 (env-inx=0) finished in step 36 with the score -0.014542
+2026-10-26 10:11:56,305 DEBUG callbacks.py:186 -- saving metrics for episode 233
+2026-10-26 10:11:56,305 DEBUG callbacks.py:108 -- starting episode 234 with id 767315592971663287 (env-idx=0)
+2026-10-26 10:12:02,089 INFO callbacks.py:181 -- episode 234 with id 767315592971663287 (env-inx=0) finished in step 36 with the score 0.024395
+2026-10-26 10:12:02,089 DEBUG callbacks.py:186 -- saving metrics for episode 234
+2026-10-26 10:12:02,089 DEBUG callbacks.py:108 -- starting episode 235 with id 909705388474096622 (env-idx=0)
+2026-10-26 10:12:08,660 INFO callbacks.py:181 -- episode 235 with id 909705388474096622 (env-inx=0) finished in step 36 with the score -0.087155
+2026-10-26 10:12:08,661 DEBUG callbacks.py:186 -- saving metrics for episode 235
+2026-10-26 10:12:08,661 DEBUG callbacks.py:108 -- starting episode 236 with id 770219553619491211 (env-idx=0)
+2026-10-26 10:12:14,406 INFO callbacks.py:181 -- episode 236 with id 770219553619491211 (env-inx=0) finished in step 36 with the score -0.019138
+2026-10-26 10:12:14,406 DEBUG callbacks.py:186 -- saving metrics for episode 236
+2026-10-26 10:12:14,406 DEBUG callbacks.py:108 -- starting episode 237 with id 619378541104941156 (env-idx=0)
+2026-10-26 10:12:20,157 INFO callbacks.py:181 -- episode 237 with id 619378541104941156 (env-inx=0) finished in step 36 with the score 0.016033
+2026-10-26 10:12:20,157 DEBUG callbacks.py:186 -- saving metrics for episode 237
+2026-10-26 10:12:20,158 DEBUG callbacks.py:108 -- starting episode 238 with id 332361619780993359 (env-idx=0)
+2026-10-26 10:12:29,611 INFO callbacks.py:181 -- episode 238 with id 332361619780993359 (env-inx=0) finished in step 36 with the score -0.043079
+2026-10-26 10:12:29,611 DEBUG callbacks.py:186 -- saving metrics for episode 238
+2026-10-26 10:12:29,611 DEBUG callbacks.py:108 -- starting episode 239 with id 151375743523947867 (env-idx=0)
+2026-10-26 10:12:35,297 INFO callbacks.py:181 -- episode 239 with id 151375743523947867 (env-inx=0) finished in step 36 with the score -0.118000
+2026-10-26 10:12:35,297 DEBUG callbacks.py:186 -- saving metrics for episode 239
+2026-10-26 10:12:35,297 DEBUG callbacks.py:108 -- starting episode 240 with id 527742994246327238 (env-idx=0)
+2026-10-26 10:12:41,092 INFO callbacks.py:181 -- episode 240 with id 527742994246327238 (env-inx=0) finished in step 36 with the score -0.017708
+2026-10-26 10:12:41,092 DEBUG callbacks.py:186 -- saving metrics for episode 240
+2026-10-26 10:12:41,092 DEBUG callbacks.py:108 -- starting episode 241 with id 412467419956981740 (env-idx=0)
+2026-10-26 10:12:46,765 INFO callbacks.py:181 -- episode 241 with id 412467419956981740 (env-inx=0) finished in step 36 with the score -0.011794
+2026-10-26 10:12:46,765 DEBUG callbacks.py:186 -- saving metrics for episode 241
+2026-10-26 10:12:46,765 DEBUG callbacks.py:108 -- starting episode 242 with id 666370389070158091 (env-idx=0)
+2026-10-26 10:12:52,426 INFO callbacks.py:181 -- episode 242 with id 666370389070158091 (env-inx=0) finished in step 36 with the score 0.130216
+2026-10-26 10:12:52,426 DEBUG callbacks.py:186 -- saving metrics for episode 242
+2026-10-26 10:12:52,426 DEBUG callbacks.py:108 -- starting episode 243 with id 40772090678911026 (env-idx=0)
+2026-10-26 10:12:58,119 INFO callbacks.py:181 -- episode 243 with id 40772090678911026 (env-inx=0) finished in step 36 with the score 0.046205
+2026-10-26 10:12:58,120 DEBUG callbacks.py:186 -- saving metrics for episode 243
+2026-10-26 10:12:58,120 DEBUG callbacks.py:108 -- starting episode 244 with id 467300973238120316 (env-idx=0)
+2026-10-26 10:13:03,787 INFO callbacks.py:181 -- episode 244 with id 467300973238120316 (env-inx=0) finished in step 36 with the score -0.060344
+2026-10-26 10:13:03,787 DEBUG callbacks.py:186 -- saving metrics for episode 244
+2026-10-26 10:13:03,788 DEBUG callbacks.py:108 -- starting episode 245 with id 562855971575042127 (env-idx=0)
+2026-10-26 10:13:09,456 INFO callbacks.py:181 -- episode 245 with id 562855971575042127 (env-inx=0) finished in step 36 with the score 0.012098
+2026-10-26 10:13:09,456 DEBUG callbacks.py:186 -- saving metrics for episode 245
+2026-10-26 10:13:09,456 DEBUG callbacks.py:108 -- starting episode 246 with id 116464856241983646 (env-idx=0)
+2026-10-26 10:13:15,120 INFO callbacks.py:181 -- episode 246 with id 116464856241983646 (env-inx=0) finished in step 36 with the score -0.048685
+2026-10-26 10:13:15,120 DEBUG callbacks.py:186 -- saving metrics for episode 246
+2026-10-26 10:13:15,120 DEBUG callbacks.py:108 -- starting episode 247 with id 488755119989041490 (env-idx=0)
+2026-10-26 10:13:20,853 INFO callbacks.py:181 -- episode 247 with id 488755119989041490 (env-inx=0) finished in step 36 with the score 0.045525
+2026-10-26 10:13:20,853 DEBUG callbacks.py:186 -- saving metrics for episode 247
+2026-10-26 10:13:20,856 DEBUG callbacks.py:108 -- starting episode 248 with id 232971404194310924 (env-idx=0)
+2026-10-26 10:13:26,631 INFO callbacks.py:181 -- episode 248 with id 232971404194310924 (env-inx=0) finished in step 36 with the score -0.088848
+2026-10-26 10:13:26,631 DEBUG callbacks.py:186 -- saving metrics for episode 248
+2026-10-26 10:13:26,631 DEBUG callbacks.py:108 -- starting episode 249 with id 935126372680304497 (env-idx=0)
+2026-10-26 10:13:32,419 INFO callbacks.py:181 -- episode 249 with id 935126372680304497 (env-inx=0) finished in step 36 with the score -0.046391
+2026-10-26 10:13:32,420 DEBUG callbacks.py:186 -- saving metrics for episode 249
+2026-10-26 10:13:32,420 DEBUG callbacks.py:108 -- starting episode 250 with id 694191088710711784 (env-idx=0)
+2026-10-26 10:13:38,162 INFO callbacks.py:181 -- episode 250 with id 694191088710711784 (env-inx=0) finished in step 36 with the score -0.021574
+2026-10-26 10:13:38,162 DEBUG callbacks.py:186 -- saving metrics for episode 250
+2026-10-26 10:13:38,162 DEBUG callbacks.py:108 -- starting episode 251 with id 932646718652846552 (env-idx=0)
+2026-10-26 10:13:38,455 INFO train_model.py:132 -- finished training iteration 8
+2026-10-26 10:13:38,455 INFO train_model.py:130 -- starting training iteration 9
+2026-10-26 10:13:44,859 INFO callbacks.py:181 -- episode 251 with id 932646718652846552 (env-inx=0) finished in step 36 with the score -0.114441
+2026-10-26 10:13:44,859 DEBUG callbacks.py:186 -- saving metrics for episode 251
+2026-10-26 10:13:44,859 DEBUG callbacks.py:108 -- starting episode 252 with id 976977976416212144 (env-idx=0)
+2026-10-26 10:13:50,819 INFO callbacks.py:181 -- episode 252 with id 976977976416212144 (env-inx=0) finished in step 36 with the score 0.111238
+2026-10-26 10:13:50,819 DEBUG callbacks.py:186 -- saving metrics for episode 252
+2026-10-26 10:13:50,820 DEBUG callbacks.py:108 -- starting episode 253 with id 308223401084705363 (env-idx=0)
+2026-10-26 10:13:56,632 INFO callbacks.py:181 -- episode 253 with id 308223401084705363 (env-inx=0) finished in step 36 with the score 0.025694
+2026-10-26 10:13:56,632 DEBUG callbacks.py:186 -- saving metrics for episode 253
+2026-10-26 10:13:56,632 DEBUG callbacks.py:108 -- starting episode 254 with id 247622680246780367 (env-idx=0)
+2026-10-26 10:14:02,324 INFO callbacks.py:181 -- episode 254 with id 247622680246780367 (env-inx=0) finished in step 36 with the score -0.025444
+2026-10-26 10:14:02,324 DEBUG callbacks.py:186 -- saving metrics for episode 254
+2026-10-26 10:14:02,324 DEBUG callbacks.py:108 -- starting episode 255 with id 628827789674502777 (env-idx=0)
+2026-10-26 10:14:08,945 INFO callbacks.py:181 -- episode 255 with id 628827789674502777 (env-inx=0) finished in step 36 with the score -0.059019
+2026-10-26 10:14:08,946 DEBUG callbacks.py:186 -- saving metrics for episode 255
+2026-10-26 10:14:08,946 DEBUG callbacks.py:108 -- starting episode 256 with id 274779375455496084 (env-idx=0)
+2026-10-26 10:14:18,402 INFO callbacks.py:181 -- episode 256 with id 274779375455496084 (env-inx=0) finished in step 36 with the score -0.031322
+2026-10-26 10:14:18,402 DEBUG callbacks.py:186 -- saving metrics for episode 256
+2026-10-26 10:14:18,402 DEBUG callbacks.py:108 -- starting episode 257 with id 753834023071629245 (env-idx=0)
+2026-10-26 10:14:24,086 INFO callbacks.py:181 -- episode 257 with id 753834023071629245 (env-inx=0) finished in step 36 with the score 0.050913
+2026-10-26 10:14:24,087 DEBUG callbacks.py:186 -- saving metrics for episode 257
+2026-10-26 10:14:24,087 DEBUG callbacks.py:108 -- starting episode 258 with id 24436534542054909 (env-idx=0)
+2026-10-26 10:14:29,876 INFO callbacks.py:181 -- episode 258 with id 24436534542054909 (env-inx=0) finished in step 36 with the score 0.062748
+2026-10-26 10:14:29,876 DEBUG callbacks.py:186 -- saving metrics for episode 258
+2026-10-26 10:14:29,877 DEBUG callbacks.py:108 -- starting episode 259 with id 414890014691166125 (env-idx=0)
+2026-10-26 10:14:35,616 INFO callbacks.py:181 -- episode 259 with id 414890014691166125 (env-inx=0) finished in step 36 with the score 0.048144
+2026-10-26 10:14:35,616 DEBUG callbacks.py:186 -- saving metrics for episode 259
+2026-10-26 10:14:35,616 DEBUG callbacks.py:108 -- starting episode 260 with id 319878790578518008 (env-idx=0)
+2026-10-26 10:14:41,323 INFO callbacks.py:181 -- episode 260 with id 319878790578518008 (env-inx=0) finished in step 36 with the score 0.078646
+2026-10-26 10:14:41,323 DEBUG callbacks.py:186 -- saving metrics for episode 260
+2026-10-26 10:14:41,323 DEBUG callbacks.py:108 -- starting episode 261 with id 492834364318739680 (env-idx=0)
+2026-10-26 10:14:47,949 INFO callbacks.py:181 -- episode 261 with id 492834364318739680 (env-inx=0) finished in step 36 with the score 0.038801
+2026-10-26 10:14:47,949 DEBUG callbacks.py:186 -- saving metrics for episode 261
+2026-10-26 10:14:47,949 DEBUG callbacks.py:108 -- starting episode 262 with id 741900993611481869 (env-idx=0)
+2026-10-26 10:14:53,664 INFO callbacks.py:181 -- episode 262 with id 741900993611481869 (env-inx=0) finished in step 36 with the score 0.080748
+2026-10-26 10:14:53,664 DEBUG callbacks.py:186 -- saving metrics for episode 262
+2026-10-26 10:14:53,664 DEBUG callbacks.py:108 -- starting episode 263 with id 318307659579150559 (env-idx=0)
+2026-10-26 10:14:59,437 INFO callbacks.py:181 -- episode 263 with id 318307659579150559 (env-inx=0) finished in step 36 with the score 0.087975
+2026-10-26 10:14:59,437 DEBUG callbacks.py:186 -- saving metrics for episode 263
+2026-10-26 10:14:59,437 DEBUG callbacks.py:108 -- starting episode 264 with id 876969569930705584 (env-idx=0)
+2026-10-26 10:15:05,191 INFO callbacks.py:181 -- episode 264 with id 876969569930705584 (env-inx=0) finished in step 36 with the score 0.042263
+2026-10-26 10:15:05,191 DEBUG callbacks.py:186 -- saving metrics for episode 264
+2026-10-26 10:15:05,191 DEBUG callbacks.py:108 -- starting episode 265 with id 511875274307437194 (env-idx=0)
+2026-10-26 10:15:10,952 INFO callbacks.py:181 -- episode 265 with id 511875274307437194 (env-inx=0) finished in step 36 with the score 0.024739
+2026-10-26 10:15:10,952 DEBUG callbacks.py:186 -- saving metrics for episode 265
+2026-10-26 10:15:10,952 DEBUG callbacks.py:108 -- starting episode 266 with id 242680522396666456 (env-idx=0)
+2026-10-26 10:15:20,308 INFO callbacks.py:181 -- episode 266 with id 242680522396666456 (env-inx=0) finished in step 36 with the score 0.109305
+2026-10-26 10:15:20,309 DEBUG callbacks.py:186 -- saving metrics for episode 266
+2026-10-26 10:15:20,312 DEBUG callbacks.py:108 -- starting episode 267 with id 345097989438244031 (env-idx=0)
+2026-10-26 10:15:26,105 INFO callbacks.py:181 -- episode 267 with id 345097989438244031 (env-inx=0) finished in step 36 with the score 0.024904
+2026-10-26 10:15:26,105 DEBUG callbacks.py:186 -- saving metrics for episode 267
+2026-10-26 10:15:26,105 DEBUG callbacks.py:108 -- starting episode 268 with id 495519212420767127 (env-idx=0)
+2026-10-26 10:15:31,753 INFO callbacks.py:181 -- episode 268 with id 495519212420767127 (env-inx=0) finished in step 36 with the score -0.014329
+2026-10-26 10:15:31,753 DEBUG callbacks.py:186 -- saving metrics for episode 268
+2026-10-26 10:15:31,753 DEBUG callbacks.py:108 -- starting episode 269 with id 781624023383510483 (env-idx=0)
+2026-10-26 10:15:37,457 INFO callbacks.py:181 -- episode 269 with id 781624023383510483 (env-inx=0) finished in step 36 with the score -0.042064
+2026-10-26 10:15:37,458 DEBUG callbacks.py:186 -- saving metrics for episode 269
+2026-10-26 10:15:37,458 DEBUG callbacks.py:108 -- starting episode 270 with id 229314904111372145 (env-idx=0)
+2026-10-26 10:15:43,147 INFO callbacks.py:181 -- episode 270 with id 229314904111372145 (env-inx=0) finished in step 36 with the score -0.115261
+2026-10-26 10:15:43,147 DEBUG callbacks.py:186 -- saving metrics for episode 270
+2026-10-26 10:15:43,148 DEBUG callbacks.py:108 -- starting episode 271 with id 496959766457109178 (env-idx=0)
+2026-10-26 10:15:48,928 INFO callbacks.py:181 -- episode 271 with id 496959766457109178 (env-inx=0) finished in step 36 with the score -0.056172
+2026-10-26 10:15:48,928 DEBUG callbacks.py:186 -- saving metrics for episode 271
+2026-10-26 10:15:48,928 DEBUG callbacks.py:108 -- starting episode 272 with id 960089661487163362 (env-idx=0)
+2026-10-26 10:15:54,608 INFO callbacks.py:181 -- episode 272 with id 960089661487163362 (env-inx=0) finished in step 36 with the score 0.026083
+2026-10-26 10:15:54,608 DEBUG callbacks.py:186 -- saving metrics for episode 272
+2026-10-26 10:15:54,609 DEBUG callbacks.py:108 -- starting episode 273 with id 309480419730275095 (env-idx=0)
+2026-10-26 10:16:00,272 INFO callbacks.py:181 -- episode 273 with id 309480419730275095 (env-inx=0) finished in step 36 with the score 0.029933
+2026-10-26 10:16:00,272 DEBUG callbacks.py:186 -- saving metrics for episode 273
+2026-10-26 10:16:00,272 DEBUG callbacks.py:108 -- starting episode 274 with id 468895532431988676 (env-idx=0)
+2026-10-26 10:16:05,952 INFO callbacks.py:181 -- episode 274 with id 468895532431988676 (env-inx=0) finished in step 36 with the score 0.025802
+2026-10-26 10:16:05,952 DEBUG callbacks.py:186 -- saving metrics for episode 274
+2026-10-26 10:16:05,952 DEBUG callbacks.py:108 -- starting episode 275 with id 437337851417167992 (env-idx=0)
+2026-10-26 10:16:11,666 INFO callbacks.py:181 -- episode 275 with id 437337851417167992 (env-inx=0) finished in step 36 with the score 0.019680
+2026-10-26 10:16:11,666 DEBUG callbacks.py:186 -- saving metrics for episode 275
+2026-10-26 10:16:11,667 DEBUG callbacks.py:108 -- starting episode 276 with id 796437870397791529 (env-idx=0)
+2026-10-26 10:16:17,351 INFO callbacks.py:181 -- episode 276 with id 796437870397791529 (env-inx=0) finished in step 36 with the score 0.032006
+2026-10-26 10:16:17,351 DEBUG callbacks.py:186 -- saving metrics for episode 276
+2026-10-26 10:16:17,351 DEBUG callbacks.py:108 -- starting episode 277 with id 845101652305097944 (env-idx=0)
+2026-10-26 10:16:23,955 INFO callbacks.py:181 -- episode 277 with id 845101652305097944 (env-inx=0) finished in step 36 with the score 0.072704
+2026-10-26 10:16:23,955 DEBUG callbacks.py:186 -- saving metrics for episode 277
+2026-10-26 10:16:23,955 DEBUG callbacks.py:108 -- starting episode 278 with id 411701886542171477 (env-idx=0)
+2026-10-26 10:16:28,605 INFO train_model.py:132 -- finished training iteration 9
+2026-10-26 10:16:28,605 INFO train_model.py:130 -- starting training iteration 10
+2026-10-26 10:16:29,651 INFO callbacks.py:181 -- episode 278 with id 411701886542171477 (env-inx=0) finished in step 36 with the score 0.038875
+2026-10-26 10:16:29,651 DEBUG callbacks.py:186 -- saving metrics for episode 278
+2026-10-26 10:16:29,651 DEBUG callbacks.py:108 -- starting episode 279 with id 940723539401746560 (env-idx=0)
+2026-10-26 10:16:35,386 INFO callbacks.py:181 -- episode 279 with id 940723539401746560 (env-inx=0) finished in step 36 with the score -0.029461
+2026-10-26 10:16:35,386 DEBUG callbacks.py:186 -- saving metrics for episode 279
+2026-10-26 10:16:35,386 DEBUG callbacks.py:108 -- starting episode 280 with id 729874252975819586 (env-idx=0)
+2026-10-26 10:16:42,047 INFO callbacks.py:181 -- episode 280 with id 729874252975819586 (env-inx=0) finished in step 36 with the score 0.094600
+2026-10-26 10:16:42,047 DEBUG callbacks.py:186 -- saving metrics for episode 280
+2026-10-26 10:16:42,047 DEBUG callbacks.py:108 -- starting episode 281 with id 567661602224940944 (env-idx=0)
+2026-10-26 10:16:47,716 INFO callbacks.py:181 -- episode 281 with id 567661602224940944 (env-inx=0) finished in step 36 with the score 0.059497
+2026-10-26 10:16:47,716 DEBUG callbacks.py:186 -- saving metrics for episode 281
+2026-10-26 10:16:47,717 DEBUG callbacks.py:108 -- starting episode 282 with id 147159484739631389 (env-idx=0)
+2026-10-26 10:16:53,558 INFO callbacks.py:181 -- episode 282 with id 147159484739631389 (env-inx=0) finished in step 36 with the score -0.043422
+2026-10-26 10:16:53,558 DEBUG callbacks.py:186 -- saving metrics for episode 282
+2026-10-26 10:16:53,558 DEBUG callbacks.py:108 -- starting episode 283 with id 438279759125307412 (env-idx=0)
+2026-10-26 10:17:03,978 INFO callbacks.py:181 -- episode 283 with id 438279759125307412 (env-inx=0) finished in step 36 with the score 0.085660
+2026-10-26 10:17:03,979 DEBUG callbacks.py:186 -- saving metrics for episode 283
+2026-10-26 10:17:03,979 DEBUG callbacks.py:108 -- starting episode 284 with id 291602877601129105 (env-idx=0)
+2026-10-26 10:17:09,763 INFO callbacks.py:181 -- episode 284 with id 291602877601129105 (env-inx=0) finished in step 36 with the score -0.023000
+2026-10-26 10:17:09,763 DEBUG callbacks.py:186 -- saving metrics for episode 284
+2026-10-26 10:17:09,763 DEBUG callbacks.py:108 -- starting episode 285 with id 73627847537502913 (env-idx=0)
+2026-10-26 10:17:15,561 INFO callbacks.py:181 -- episode 285 with id 73627847537502913 (env-inx=0) finished in step 36 with the score -0.021092
+2026-10-26 10:17:15,561 DEBUG callbacks.py:186 -- saving metrics for episode 285
+2026-10-26 10:17:15,562 DEBUG callbacks.py:108 -- starting episode 286 with id 982867524556830464 (env-idx=0)
+2026-10-26 10:17:21,262 INFO callbacks.py:181 -- episode 286 with id 982867524556830464 (env-inx=0) finished in step 36 with the score -0.049606
+2026-10-26 10:17:21,262 DEBUG callbacks.py:186 -- saving metrics for episode 286
+2026-10-26 10:17:21,262 DEBUG callbacks.py:108 -- starting episode 287 with id 426585222087936250 (env-idx=0)
+2026-10-26 10:17:26,896 INFO callbacks.py:181 -- episode 287 with id 426585222087936250 (env-inx=0) finished in step 36 with the score -0.008375
+2026-10-26 10:17:26,896 DEBUG callbacks.py:186 -- saving metrics for episode 287
+2026-10-26 10:17:26,896 DEBUG callbacks.py:108 -- starting episode 288 with id 730494953890081993 (env-idx=0)
+2026-10-26 10:17:32,597 INFO callbacks.py:181 -- episode 288 with id 730494953890081993 (env-inx=0) finished in step 36 with the score -0.017542
+2026-10-26 10:17:32,597 DEBUG callbacks.py:186 -- saving metrics for episode 288
+2026-10-26 10:17:32,597 DEBUG callbacks.py:108 -- starting episode 289 with id 408795415082676286 (env-idx=0)
+2026-10-26 10:17:38,329 INFO callbacks.py:181 -- episode 289 with id 408795415082676286 (env-inx=0) finished in step 36 with the score -0.002079
+2026-10-26 10:17:38,329 DEBUG callbacks.py:186 -- saving metrics for episode 289
+2026-10-26 10:17:38,329 DEBUG callbacks.py:108 -- starting episode 290 with id 31550690293303666 (env-idx=0)
+2026-10-26 10:17:44,068 INFO callbacks.py:181 -- episode 290 with id 31550690293303666 (env-inx=0) finished in step 36 with the score -0.016688
+2026-10-26 10:17:44,068 DEBUG callbacks.py:186 -- saving metrics for episode 290
+2026-10-26 10:17:44,069 DEBUG callbacks.py:108 -- starting episode 291 with id 931898947631451564 (env-idx=0)
+2026-10-26 10:17:53,540 INFO callbacks.py:181 -- episode 291 with id 931898947631451564 (env-inx=0) finished in step 36 with the score 0.092117
+2026-10-26 10:17:53,540 DEBUG callbacks.py:186 -- saving metrics for episode 291
+2026-10-26 10:17:53,540 DEBUG callbacks.py:108 -- starting episode 292 with id 809473402426472392 (env-idx=0)
+2026-10-26 10:17:59,222 INFO callbacks.py:181 -- episode 292 with id 809473402426472392 (env-inx=0) finished in step 36 with the score -0.026806
+2026-10-26 10:17:59,222 DEBUG callbacks.py:186 -- saving metrics for episode 292
+2026-10-26 10:17:59,222 DEBUG callbacks.py:108 -- starting episode 293 with id 959771116603857598 (env-idx=0)
+2026-10-26 10:18:04,891 INFO callbacks.py:181 -- episode 293 with id 959771116603857598 (env-inx=0) finished in step 36 with the score 0.045233
+2026-10-26 10:18:04,891 DEBUG callbacks.py:186 -- saving metrics for episode 293
+2026-10-26 10:18:04,891 DEBUG callbacks.py:108 -- starting episode 294 with id 123678695286667821 (env-idx=0)
+2026-10-26 10:18:10,585 INFO callbacks.py:181 -- episode 294 with id 123678695286667821 (env-inx=0) finished in step 36 with the score 0.058972
+2026-10-26 10:18:10,585 DEBUG callbacks.py:186 -- saving metrics for episode 294
+2026-10-26 10:18:10,586 DEBUG callbacks.py:108 -- starting episode 295 with id 951607662232937612 (env-idx=0)
+2026-10-26 10:18:16,260 INFO callbacks.py:181 -- episode 295 with id 951607662232937612 (env-inx=0) finished in step 36 with the score 0.064600
+2026-10-26 10:18:16,260 DEBUG callbacks.py:186 -- saving metrics for episode 295
+2026-10-26 10:18:16,261 DEBUG callbacks.py:108 -- starting episode 296 with id 955208088306615340 (env-idx=0)
+2026-10-26 10:18:21,908 INFO callbacks.py:181 -- episode 296 with id 955208088306615340 (env-inx=0) finished in step 36 with the score -0.007220
+2026-10-26 10:18:21,908 DEBUG callbacks.py:186 -- saving metrics for episode 296
+2026-10-26 10:18:21,909 DEBUG callbacks.py:108 -- starting episode 297 with id 989594770230245133 (env-idx=0)
+2026-10-26 10:18:27,562 INFO callbacks.py:181 -- episode 297 with id 989594770230245133 (env-inx=0) finished in step 36 with the score -0.007188
+2026-10-26 10:18:27,562 DEBUG callbacks.py:186 -- saving metrics for episode 297
+2026-10-26 10:18:27,562 DEBUG callbacks.py:108 -- starting episode 298 with id 465585753299258114 (env-idx=0)
+2026-10-26 10:18:33,215 INFO callbacks.py:181 -- episode 298 with id 465585753299258114 (env-inx=0) finished in step 36 with the score -0.028907
+2026-10-26 10:18:33,215 DEBUG callbacks.py:186 -- saving metrics for episode 298
+2026-10-26 10:18:33,215 DEBUG callbacks.py:108 -- starting episode 299 with id 164126498089656421 (env-idx=0)
+2026-10-26 10:18:38,925 INFO callbacks.py:181 -- episode 299 with id 164126498089656421 (env-inx=0) finished in step 36 with the score 0.034144
+2026-10-26 10:18:38,926 DEBUG callbacks.py:186 -- saving metrics for episode 299
+2026-10-26 10:18:38,926 DEBUG callbacks.py:108 -- starting episode 300 with id 761428444262624687 (env-idx=0)
+2026-10-26 10:18:44,612 INFO callbacks.py:181 -- episode 300 with id 761428444262624687 (env-inx=0) finished in step 36 with the score 0.020256
+2026-10-26 10:18:44,612 DEBUG callbacks.py:186 -- saving metrics for episode 300
+2026-10-26 10:18:44,612 DEBUG callbacks.py:108 -- starting episode 301 with id 879219932313888335 (env-idx=0)
+2026-10-26 10:18:50,297 INFO callbacks.py:181 -- episode 301 with id 879219932313888335 (env-inx=0) finished in step 36 with the score 0.054731
+2026-10-26 10:18:50,297 DEBUG callbacks.py:186 -- saving metrics for episode 301
+2026-10-26 10:18:50,297 DEBUG callbacks.py:108 -- starting episode 302 with id 133132686818560804 (env-idx=0)
+2026-10-26 10:18:55,931 INFO callbacks.py:181 -- episode 302 with id 133132686818560804 (env-inx=0) finished in step 36 with the score 0.127703
+2026-10-26 10:18:55,931 DEBUG callbacks.py:186 -- saving metrics for episode 302
+2026-10-26 10:18:55,931 DEBUG callbacks.py:108 -- starting episode 303 with id 497843009267656544 (env-idx=0)
+2026-10-26 10:19:01,620 INFO callbacks.py:181 -- episode 303 with id 497843009267656544 (env-inx=0) finished in step 36 with the score -0.047083
+2026-10-26 10:19:01,620 DEBUG callbacks.py:186 -- saving metrics for episode 303
+2026-10-26 10:19:01,621 DEBUG callbacks.py:108 -- starting episode 304 with id 114893865495365937 (env-idx=0)
+2026-10-26 10:19:07,325 INFO callbacks.py:181 -- episode 304 with id 114893865495365937 (env-inx=0) finished in step 36 with the score 0.028367
+2026-10-26 10:19:07,325 DEBUG callbacks.py:186 -- saving metrics for episode 304
+2026-10-26 10:19:07,325 DEBUG callbacks.py:108 -- starting episode 305 with id 764690521730201229 (env-idx=0)
+2026-10-26 10:19:12,863 INFO callbacks.py:181 -- episode 305 with id 764690521730201229 (env-inx=0) finished in step 36 with the score 0.012429
+2026-10-26 10:19:12,863 DEBUG callbacks.py:186 -- saving metrics for episode 305
+2026-10-26 10:19:12,863 DEBUG callbacks.py:108 -- starting episode 306 with id 25504237849444748 (env-idx=0)
+2026-10-26 10:19:16,330 INFO train_model.py:132 -- finished training iteration 10
+2026-10-26 10:19:16,330 INFO train_model.py:130 -- starting training iteration 11
+2026-10-26 10:19:19,510 INFO callbacks.py:181 -- episode 306 with id 25504237849444748 (env-inx=0) finished in step 36 with the score -0.001111
+2026-10-26 10:19:19,511 DEBUG callbacks.py:186 -- saving metrics for episode 306
+2026-10-26 10:19:19,511 DEBUG callbacks.py:108 -- starting episode 307 with id 716085008229464482 (env-idx=0)
+2026-10-26 10:19:25,182 INFO callbacks.py:181 -- episode 307 with id 716085008229464482 (env-inx=0) finished in step 36 with the score 0.084448
+2026-10-26 10:19:25,182 DEBUG callbacks.py:186 -- saving metrics for episode 307
+2026-10-26 10:19:25,183 DEBUG callbacks.py:108 -- starting episode 308 with id 670443307208994794 (env-idx=0)
+2026-10-26 10:19:34,609 INFO callbacks.py:181 -- episode 308 with id 670443307208994794 (env-inx=0) finished in step 36 with the score -0.029861
+2026-10-26 10:19:34,609 DEBUG callbacks.py:186 -- saving metrics for episode 308
+2026-10-26 10:19:34,610 DEBUG callbacks.py:108 -- starting episode 309 with id 696763935008437322 (env-idx=0)
+2026-10-26 10:19:41,277 INFO callbacks.py:181 -- episode 309 with id 696763935008437322 (env-inx=0) finished in step 36 with the score 0.013728
+2026-10-26 10:19:41,277 DEBUG callbacks.py:186 -- saving metrics for episode 309
+2026-10-26 10:19:41,277 DEBUG callbacks.py:108 -- starting episode 310 with id 23162964632100685 (env-idx=0)
+2026-10-26 10:19:46,933 INFO callbacks.py:181 -- episode 310 with id 23162964632100685 (env-inx=0) finished in step 36 with the score -0.027986
+2026-10-26 10:19:46,933 DEBUG callbacks.py:186 -- saving metrics for episode 310
+2026-10-26 10:19:46,934 DEBUG callbacks.py:108 -- starting episode 311 with id 118142179773082529 (env-idx=0)
+2026-10-26 10:19:52,577 INFO callbacks.py:181 -- episode 311 with id 118142179773082529 (env-inx=0) finished in step 36 with the score 0.069133
+2026-10-26 10:19:52,578 DEBUG callbacks.py:186 -- saving metrics for episode 311
+2026-10-26 10:19:52,578 DEBUG callbacks.py:108 -- starting episode 312 with id 800167234293049985 (env-idx=0)
+2026-10-26 10:19:58,240 INFO callbacks.py:181 -- episode 312 with id 800167234293049985 (env-inx=0) finished in step 36 with the score -0.027265
+2026-10-26 10:19:58,240 DEBUG callbacks.py:186 -- saving metrics for episode 312
+2026-10-26 10:19:58,241 DEBUG callbacks.py:108 -- starting episode 313 with id 444370815623519736 (env-idx=0)
+2026-10-26 10:20:03,938 INFO callbacks.py:181 -- episode 313 with id 444370815623519736 (env-inx=0) finished in step 36 with the score 0.011909
+2026-10-26 10:20:03,938 DEBUG callbacks.py:186 -- saving metrics for episode 313
+2026-10-26 10:20:03,938 DEBUG callbacks.py:108 -- starting episode 314 with id 648051067842566567 (env-idx=0)
+2026-10-26 10:20:09,586 INFO callbacks.py:181 -- episode 314 with id 648051067842566567 (env-inx=0) finished in step 36 with the score -0.019826
+2026-10-26 10:20:09,586 DEBUG callbacks.py:186 -- saving metrics for episode 314
+2026-10-26 10:20:09,586 DEBUG callbacks.py:108 -- starting episode 315 with id 443545798259367719 (env-idx=0)
+2026-10-26 10:20:15,257 INFO callbacks.py:181 -- episode 315 with id 443545798259367719 (env-inx=0) finished in step 36 with the score -0.032751
+2026-10-26 10:20:15,257 DEBUG callbacks.py:186 -- saving metrics for episode 315
+2026-10-26 10:20:15,257 DEBUG callbacks.py:108 -- starting episode 316 with id 781675889448725550 (env-idx=0)
+2026-10-26 10:20:20,989 INFO callbacks.py:181 -- episode 316 with id 781675889448725550 (env-inx=0) finished in step 36 with the score 0.024954
+2026-10-26 10:20:20,989 DEBUG callbacks.py:186 -- saving metrics for episode 316
+2026-10-26 10:20:20,990 DEBUG callbacks.py:108 -- starting episode 317 with id 362201490071439408 (env-idx=0)
+2026-10-26 10:20:26,735 INFO callbacks.py:181 -- episode 317 with id 362201490071439408 (env-inx=0) finished in step 36 with the score -0.050997
+2026-10-26 10:20:26,735 DEBUG callbacks.py:186 -- saving metrics for episode 317
+2026-10-26 10:20:26,735 DEBUG callbacks.py:108 -- starting episode 318 with id 464133962629697001 (env-idx=0)
+2026-10-26 10:20:32,426 INFO callbacks.py:181 -- episode 318 with id 464133962629697001 (env-inx=0) finished in step 36 with the score 0.081367
+2026-10-26 10:20:32,426 DEBUG callbacks.py:186 -- saving metrics for episode 318
+2026-10-26 10:20:32,427 DEBUG callbacks.py:108 -- starting episode 319 with id 5909603936288088 (env-idx=0)
+2026-10-26 10:20:38,095 INFO callbacks.py:181 -- episode 319 with id 5909603936288088 (env-inx=0) finished in step 36 with the score 0.016771
+2026-10-26 10:20:38,095 DEBUG callbacks.py:186 -- saving metrics for episode 319
+2026-10-26 10:20:38,096 DEBUG callbacks.py:108 -- starting episode 320 with id 916470931694952646 (env-idx=0)
+2026-10-26 10:20:43,658 INFO callbacks.py:181 -- episode 320 with id 916470931694952646 (env-inx=0) finished in step 36 with the score -0.067249
+2026-10-26 10:20:43,658 DEBUG callbacks.py:186 -- saving metrics for episode 320
+2026-10-26 10:20:43,658 DEBUG callbacks.py:108 -- starting episode 321 with id 737161278830542485 (env-idx=0)
+2026-10-26 10:20:49,297 INFO callbacks.py:181 -- episode 321 with id 737161278830542485 (env-inx=0) finished in step 36 with the score -0.065691
+2026-10-26 10:20:49,297 DEBUG callbacks.py:186 -- saving metrics for episode 321
+2026-10-26 10:20:49,298 DEBUG callbacks.py:108 -- starting episode 322 with id 763641469895846875 (env-idx=0)
+2026-10-26 10:20:54,986 INFO callbacks.py:181 -- episode 322 with id 763641469895846875 (env-inx=0) finished in step 36 with the score -0.068600
+2026-10-26 10:20:54,987 DEBUG callbacks.py:186 -- saving metrics for episode 322
+2026-10-26 10:20:54,987 DEBUG callbacks.py:108 -- starting episode 323 with id 479075966745732769 (env-idx=0)
+2026-10-26 10:21:00,653 INFO callbacks.py:181 -- episode 323 with id 479075966745732769 (env-inx=0) finished in step 36 with the score 0.028455
+2026-10-26 10:21:00,653 DEBUG callbacks.py:186 -- saving metrics for episode 323
+2026-10-26 10:21:00,653 DEBUG callbacks.py:108 -- starting episode 324 with id 202760173544480388 (env-idx=0)
+2026-10-26 10:21:06,401 INFO callbacks.py:181 -- episode 324 with id 202760173544480388 (env-inx=0) finished in step 36 with the score -0.058116
+2026-10-26 10:21:06,401 DEBUG callbacks.py:186 -- saving metrics for episode 324
+2026-10-26 10:21:06,401 DEBUG callbacks.py:108 -- starting episode 325 with id 85587567997351089 (env-idx=0)
+2026-10-26 10:21:16,810 INFO callbacks.py:181 -- episode 325 with id 85587567997351089 (env-inx=0) finished in step 36 with the score -0.035814
+2026-10-26 10:21:16,810 DEBUG callbacks.py:186 -- saving metrics for episode 325
+2026-10-26 10:21:16,810 DEBUG callbacks.py:108 -- starting episode 326 with id 945796953346758418 (env-idx=0)
+2026-10-26 10:21:26,280 INFO callbacks.py:181 -- episode 326 with id 945796953346758418 (env-inx=0) finished in step 36 with the score -0.014829
+2026-10-26 10:21:26,281 DEBUG callbacks.py:186 -- saving metrics for episode 326
+2026-10-26 10:21:26,281 DEBUG callbacks.py:108 -- starting episode 327 with id 171351899613607453 (env-idx=0)
+2026-10-26 10:21:31,937 INFO callbacks.py:181 -- episode 327 with id 171351899613607453 (env-inx=0) finished in step 36 with the score -0.021522
+2026-10-26 10:21:31,937 DEBUG callbacks.py:186 -- saving metrics for episode 327
+2026-10-26 10:21:31,937 DEBUG callbacks.py:108 -- starting episode 328 with id 965888412626659172 (env-idx=0)
+2026-10-26 10:21:41,433 INFO callbacks.py:181 -- episode 328 with id 965888412626659172 (env-inx=0) finished in step 36 with the score 0.036909
+2026-10-26 10:21:41,433 DEBUG callbacks.py:186 -- saving metrics for episode 328
+2026-10-26 10:21:41,433 DEBUG callbacks.py:108 -- starting episode 329 with id 309073994751783701 (env-idx=0)
+2026-10-26 10:21:47,128 INFO callbacks.py:181 -- episode 329 with id 309073994751783701 (env-inx=0) finished in step 36 with the score -0.015466
+2026-10-26 10:21:47,128 DEBUG callbacks.py:186 -- saving metrics for episode 329
+2026-10-26 10:21:47,128 DEBUG callbacks.py:108 -- starting episode 330 with id 658942388225229387 (env-idx=0)
+2026-10-26 10:21:52,671 INFO callbacks.py:181 -- episode 330 with id 658942388225229387 (env-inx=0) finished in step 36 with the score 0.130492
+2026-10-26 10:21:52,671 DEBUG callbacks.py:186 -- saving metrics for episode 330
+2026-10-26 10:21:52,671 DEBUG callbacks.py:108 -- starting episode 331 with id 820389506725224043 (env-idx=0)
+2026-10-26 10:21:58,443 INFO callbacks.py:181 -- episode 331 with id 820389506725224043 (env-inx=0) finished in step 36 with the score 0.040341
+2026-10-26 10:21:58,443 DEBUG callbacks.py:186 -- saving metrics for episode 331
+2026-10-26 10:21:58,443 DEBUG callbacks.py:108 -- starting episode 332 with id 741841543149985144 (env-idx=0)
+2026-10-26 10:22:05,131 INFO callbacks.py:181 -- episode 332 with id 741841543149985144 (env-inx=0) finished in step 36 with the score -0.035598
+2026-10-26 10:22:05,131 DEBUG callbacks.py:186 -- saving metrics for episode 332
+2026-10-26 10:22:05,131 DEBUG callbacks.py:108 -- starting episode 333 with id 510949986966276404 (env-idx=0)
+2026-10-26 10:22:10,874 INFO callbacks.py:181 -- episode 333 with id 510949986966276404 (env-inx=0) finished in step 36 with the score -0.139605
+2026-10-26 10:22:10,874 DEBUG callbacks.py:186 -- saving metrics for episode 333
+2026-10-26 10:22:10,875 DEBUG callbacks.py:108 -- starting episode 334 with id 695329793101849761 (env-idx=0)
+2026-10-26 10:22:12,990 INFO train_model.py:132 -- finished training iteration 11
+2026-10-26 10:22:12,990 INFO train_model.py:130 -- starting training iteration 12
+2026-10-26 10:22:20,385 INFO callbacks.py:181 -- episode 334 with id 695329793101849761 (env-inx=0) finished in step 36 with the score 0.134028
+2026-10-26 10:22:20,386 DEBUG callbacks.py:186 -- saving metrics for episode 334
+2026-10-26 10:22:20,386 DEBUG callbacks.py:108 -- starting episode 335 with id 310284806756456257 (env-idx=0)
+2026-10-26 10:22:26,118 INFO callbacks.py:181 -- episode 335 with id 310284806756456257 (env-inx=0) finished in step 36 with the score 0.006562
+2026-10-26 10:22:26,119 DEBUG callbacks.py:186 -- saving metrics for episode 335
+2026-10-26 10:22:26,119 DEBUG callbacks.py:108 -- starting episode 336 with id 915501222492666802 (env-idx=0)
+2026-10-26 10:22:31,879 INFO callbacks.py:181 -- episode 336 with id 915501222492666802 (env-inx=0) finished in step 36 with the score -0.034788
+2026-10-26 10:22:31,879 DEBUG callbacks.py:186 -- saving metrics for episode 336
+2026-10-26 10:22:31,879 DEBUG callbacks.py:108 -- starting episode 337 with id 646680671056020232 (env-idx=0)
+2026-10-26 10:22:37,638 INFO callbacks.py:181 -- episode 337 with id 646680671056020232 (env-inx=0) finished in step 36 with the score -0.049019
+2026-10-26 10:22:37,638 DEBUG callbacks.py:186 -- saving metrics for episode 337
+2026-10-26 10:22:37,639 DEBUG callbacks.py:108 -- starting episode 338 with id 886417739027625785 (env-idx=0)
+2026-10-26 10:22:43,382 INFO callbacks.py:181 -- episode 338 with id 886417739027625785 (env-inx=0) finished in step 36 with the score 0.015625
+2026-10-26 10:22:43,383 DEBUG callbacks.py:186 -- saving metrics for episode 338
+2026-10-26 10:22:43,383 DEBUG callbacks.py:108 -- starting episode 339 with id 995958756667481265 (env-idx=0)
+2026-10-26 10:22:48,983 INFO callbacks.py:181 -- episode 339 with id 995958756667481265 (env-inx=0) finished in step 36 with the score 0.069603
+2026-10-26 10:22:48,983 DEBUG callbacks.py:186 -- saving metrics for episode 339
+2026-10-26 10:22:48,983 DEBUG callbacks.py:108 -- starting episode 340 with id 36494794374081744 (env-idx=0)
+2026-10-26 10:22:54,712 INFO callbacks.py:181 -- episode 340 with id 36494794374081744 (env-inx=0) finished in step 36 with the score 0.057464
+2026-10-26 10:22:54,713 DEBUG callbacks.py:186 -- saving metrics for episode 340
+2026-10-26 10:22:54,713 DEBUG callbacks.py:108 -- starting episode 341 with id 900960096195067286 (env-idx=0)
+2026-10-26 10:23:00,419 INFO callbacks.py:181 -- episode 341 with id 900960096195067286 (env-inx=0) finished in step 36 with the score 0.036376
+2026-10-26 10:23:00,419 DEBUG callbacks.py:186 -- saving metrics for episode 341
+2026-10-26 10:23:00,419 DEBUG callbacks.py:108 -- starting episode 342 with id 647991374170628568 (env-idx=0)
+2026-10-26 10:23:06,177 INFO callbacks.py:181 -- episode 342 with id 647991374170628568 (env-inx=0) finished in step 36 with the score -0.036185
+2026-10-26 10:23:06,178 DEBUG callbacks.py:186 -- saving metrics for episode 342
+2026-10-26 10:23:06,178 DEBUG callbacks.py:108 -- starting episode 343 with id 897167193849385238 (env-idx=0)
+2026-10-26 10:23:11,946 INFO callbacks.py:181 -- episode 343 with id 897167193849385238 (env-inx=0) finished in step 36 with the score 0.008102
+2026-10-26 10:23:11,946 DEBUG callbacks.py:186 -- saving metrics for episode 343
+2026-10-26 10:23:11,946 DEBUG callbacks.py:108 -- starting episode 344 with id 56653510739598813 (env-idx=0)
+2026-10-26 10:23:17,664 INFO callbacks.py:181 -- episode 344 with id 56653510739598813 (env-inx=0) finished in step 36 with the score -0.011292
+2026-10-26 10:23:17,664 DEBUG callbacks.py:186 -- saving metrics for episode 344
+2026-10-26 10:23:17,664 DEBUG callbacks.py:108 -- starting episode 345 with id 531649279829679563 (env-idx=0)
+2026-10-26 10:23:23,411 INFO callbacks.py:181 -- episode 345 with id 531649279829679563 (env-inx=0) finished in step 36 with the score 0.078922
+2026-10-26 10:23:23,411 DEBUG callbacks.py:186 -- saving metrics for episode 345
+2026-10-26 10:23:23,412 DEBUG callbacks.py:108 -- starting episode 346 with id 903285909200563722 (env-idx=0)
+2026-10-26 10:23:29,155 INFO callbacks.py:181 -- episode 346 with id 903285909200563722 (env-inx=0) finished in step 36 with the score 0.053015
+2026-10-26 10:23:29,156 DEBUG callbacks.py:186 -- saving metrics for episode 346
+2026-10-26 10:23:29,156 DEBUG callbacks.py:108 -- starting episode 347 with id 472566672988636734 (env-idx=0)
+2026-10-26 10:23:34,904 INFO callbacks.py:181 -- episode 347 with id 472566672988636734 (env-inx=0) finished in step 36 with the score 0.001080
+2026-10-26 10:23:34,904 DEBUG callbacks.py:186 -- saving metrics for episode 347
+2026-10-26 10:23:34,904 DEBUG callbacks.py:108 -- starting episode 348 with id 386004672798155254 (env-idx=0)
+2026-10-26 10:23:40,689 INFO callbacks.py:181 -- episode 348 with id 386004672798155254 (env-inx=0) finished in step 36 with the score 0.066474
+2026-10-26 10:23:40,689 DEBUG callbacks.py:186 -- saving metrics for episode 348
+2026-10-26 10:23:40,689 DEBUG callbacks.py:108 -- starting episode 349 with id 511181632575050813 (env-idx=0)
+2026-10-26 10:23:46,295 INFO callbacks.py:181 -- episode 349 with id 511181632575050813 (env-inx=0) finished in step 36 with the score 0.017604
+2026-10-26 10:23:46,295 DEBUG callbacks.py:186 -- saving metrics for episode 349
+2026-10-26 10:23:46,295 DEBUG callbacks.py:108 -- starting episode 350 with id 318517852702094318 (env-idx=0)
+2026-10-26 10:23:52,126 INFO callbacks.py:181 -- episode 350 with id 318517852702094318 (env-inx=0) finished in step 36 with the score 0.016004
+2026-10-26 10:23:52,126 DEBUG callbacks.py:186 -- saving metrics for episode 350
+2026-10-26 10:23:52,126 DEBUG callbacks.py:108 -- starting episode 351 with id 75032705197978729 (env-idx=0)
+2026-10-26 10:23:57,915 INFO callbacks.py:181 -- episode 351 with id 75032705197978729 (env-inx=0) finished in step 36 with the score 0.025036
+2026-10-26 10:23:57,915 DEBUG callbacks.py:186 -- saving metrics for episode 351
+2026-10-26 10:23:57,915 DEBUG callbacks.py:108 -- starting episode 352 with id 103651528024776296 (env-idx=0)
+2026-10-26 10:24:03,662 INFO callbacks.py:181 -- episode 352 with id 103651528024776296 (env-inx=0) finished in step 36 with the score 0.013424
+2026-10-26 10:24:03,662 DEBUG callbacks.py:186 -- saving metrics for episode 352
+2026-10-26 10:24:03,663 DEBUG callbacks.py:108 -- starting episode 353 with id 856234293786918953 (env-idx=0)
+2026-10-26 10:24:09,404 INFO callbacks.py:181 -- episode 353 with id 856234293786918953 (env-inx=0) finished in step 36 with the score -0.007178
+2026-10-26 10:24:09,404 DEBUG callbacks.py:186 -- saving metrics for episode 353
+2026-10-26 10:24:09,404 DEBUG callbacks.py:108 -- starting episode 354 with id 796385636793350425 (env-idx=0)
+2026-10-26 10:24:15,127 INFO callbacks.py:181 -- episode 354 with id 796385636793350425 (env-inx=0) finished in step 36 with the score 0.051010
+2026-10-26 10:24:15,127 DEBUG callbacks.py:186 -- saving metrics for episode 354
+2026-10-26 10:24:15,127 DEBUG callbacks.py:108 -- starting episode 355 with id 771667658125545120 (env-idx=0)
+2026-10-26 10:24:24,625 INFO callbacks.py:181 -- episode 355 with id 771667658125545120 (env-inx=0) finished in step 36 with the score -0.013342
+2026-10-26 10:24:24,625 DEBUG callbacks.py:186 -- saving metrics for episode 355
+2026-10-26 10:24:24,625 DEBUG callbacks.py:108 -- starting episode 356 with id 975710906987159829 (env-idx=0)
+2026-10-26 10:24:35,078 INFO callbacks.py:181 -- episode 356 with id 975710906987159829 (env-inx=0) finished in step 36 with the score -0.020015
+2026-10-26 10:24:35,078 DEBUG callbacks.py:186 -- saving metrics for episode 356
+2026-10-26 10:24:35,079 DEBUG callbacks.py:108 -- starting episode 357 with id 144947709010672154 (env-idx=0)
+2026-10-26 10:24:40,840 INFO callbacks.py:181 -- episode 357 with id 144947709010672154 (env-inx=0) finished in step 36 with the score -0.107993
+2026-10-26 10:24:40,840 DEBUG callbacks.py:186 -- saving metrics for episode 357
+2026-10-26 10:24:40,841 DEBUG callbacks.py:108 -- starting episode 358 with id 172697964577771500 (env-idx=0)
+2026-10-26 10:24:46,384 INFO callbacks.py:181 -- episode 358 with id 172697964577771500 (env-inx=0) finished in step 36 with the score 0.011104
+2026-10-26 10:24:46,384 DEBUG callbacks.py:186 -- saving metrics for episode 358
+2026-10-26 10:24:46,384 DEBUG callbacks.py:108 -- starting episode 359 with id 446950570112434651 (env-idx=0)
+2026-10-26 10:24:52,080 INFO callbacks.py:181 -- episode 359 with id 446950570112434651 (env-inx=0) finished in step 36 with the score 0.080081
+2026-10-26 10:24:52,080 DEBUG callbacks.py:186 -- saving metrics for episode 359
+2026-10-26 10:24:52,080 DEBUG callbacks.py:108 -- starting episode 360 with id 997066391874540936 (env-idx=0)
+2026-10-26 10:24:57,753 INFO callbacks.py:181 -- episode 360 with id 997066391874540936 (env-inx=0) finished in step 36 with the score 0.036962
+2026-10-26 10:24:57,754 DEBUG callbacks.py:186 -- saving metrics for episode 360
+2026-10-26 10:24:57,754 DEBUG callbacks.py:108 -- starting episode 361 with id 624766841593241932 (env-idx=0)
+2026-10-26 10:25:03,562 INFO callbacks.py:181 -- episode 361 with id 624766841593241932 (env-inx=0) finished in step 36 with the score 0.056750
+2026-10-26 10:25:03,562 DEBUG callbacks.py:186 -- saving metrics for episode 361
+2026-10-26 10:25:03,562 DEBUG callbacks.py:108 -- starting episode 362 with id 226499472870122957 (env-idx=0)
+2026-10-26 10:25:04,323 INFO train_model.py:132 -- finished training iteration 12
+2026-10-26 10:25:04,323 INFO train_model.py:130 -- starting training iteration 13
+2026-10-26 10:25:09,340 INFO callbacks.py:181 -- episode 362 with id 226499472870122957 (env-inx=0) finished in step 36 with the score 0.022026
+2026-10-26 10:25:09,340 DEBUG callbacks.py:186 -- saving metrics for episode 362
+2026-10-26 10:25:09,341 DEBUG callbacks.py:108 -- starting episode 363 with id 945194997539430467 (env-idx=0)
+2026-10-26 10:25:15,134 INFO callbacks.py:181 -- episode 363 with id 945194997539430467 (env-inx=0) finished in step 36 with the score 0.000692
+2026-10-26 10:25:15,135 DEBUG callbacks.py:186 -- saving metrics for episode 363
+2026-10-26 10:25:15,135 DEBUG callbacks.py:108 -- starting episode 364 with id 879857483289999562 (env-idx=0)
+2026-10-26 10:25:20,994 INFO callbacks.py:181 -- episode 364 with id 879857483289999562 (env-inx=0) finished in step 36 with the score -0.010677
+2026-10-26 10:25:20,994 DEBUG callbacks.py:186 -- saving metrics for episode 364
+2026-10-26 10:25:20,994 DEBUG callbacks.py:108 -- starting episode 365 with id 437845360013857300 (env-idx=0)
+2026-10-26 10:25:26,795 INFO callbacks.py:181 -- episode 365 with id 437845360013857300 (env-inx=0) finished in step 36 with the score -0.000176
+2026-10-26 10:25:26,795 DEBUG callbacks.py:186 -- saving metrics for episode 365
+2026-10-26 10:25:26,796 DEBUG callbacks.py:108 -- starting episode 366 with id 72537967330800082 (env-idx=0)
+2026-10-26 10:25:32,923 INFO callbacks.py:181 -- episode 366 with id 72537967330800082 (env-inx=0) finished in step 36 with the score -0.100529
+2026-10-26 10:25:32,923 DEBUG callbacks.py:186 -- saving metrics for episode 366
+2026-10-26 10:25:32,923 DEBUG callbacks.py:108 -- starting episode 367 with id 283404576510447821 (env-idx=0)
+2026-10-26 10:25:38,521 INFO callbacks.py:181 -- episode 367 with id 283404576510447821 (env-inx=0) finished in step 36 with the score -0.009640
+2026-10-26 10:25:38,522 DEBUG callbacks.py:186 -- saving metrics for episode 367
+2026-10-26 10:25:38,522 DEBUG callbacks.py:108 -- starting episode 368 with id 683941673354941194 (env-idx=0)
+2026-10-26 10:25:44,304 INFO callbacks.py:181 -- episode 368 with id 683941673354941194 (env-inx=0) finished in step 36 with the score 0.118167
+2026-10-26 10:25:44,305 DEBUG callbacks.py:186 -- saving metrics for episode 368
+2026-10-26 10:25:44,305 DEBUG callbacks.py:108 -- starting episode 369 with id 164200068792178498 (env-idx=0)
+2026-10-26 10:25:53,806 INFO callbacks.py:181 -- episode 369 with id 164200068792178498 (env-inx=0) finished in step 36 with the score 0.085938
+2026-10-26 10:25:53,806 DEBUG callbacks.py:186 -- saving metrics for episode 369
+2026-10-26 10:25:53,806 DEBUG callbacks.py:108 -- starting episode 370 with id 114513261743854264 (env-idx=0)
+2026-10-26 10:26:03,357 INFO callbacks.py:181 -- episode 370 with id 114513261743854264 (env-inx=0) finished in step 36 with the score -0.020000
+2026-10-26 10:26:03,357 DEBUG callbacks.py:186 -- saving metrics for episode 370
+2026-10-26 10:26:03,358 DEBUG callbacks.py:108 -- starting episode 371 with id 310786411837769127 (env-idx=0)
+2026-10-26 10:26:09,072 INFO callbacks.py:181 -- episode 371 with id 310786411837769127 (env-inx=0) finished in step 36 with the score -0.018439
+2026-10-26 10:26:09,072 DEBUG callbacks.py:186 -- saving metrics for episode 371
+2026-10-26 10:26:09,072 DEBUG callbacks.py:108 -- starting episode 372 with id 608202656892919359 (env-idx=0)
+2026-10-26 10:26:15,692 INFO callbacks.py:181 -- episode 372 with id 608202656892919359 (env-inx=0) finished in step 36 with the score 0.123852
+2026-10-26 10:26:15,693 DEBUG callbacks.py:186 -- saving metrics for episode 372
+2026-10-26 10:26:15,693 DEBUG callbacks.py:108 -- starting episode 373 with id 627582006712923919 (env-idx=0)
+2026-10-26 10:26:21,627 INFO callbacks.py:181 -- episode 373 with id 627582006712923919 (env-inx=0) finished in step 36 with the score 0.095560
+2026-10-26 10:26:21,627 DEBUG callbacks.py:186 -- saving metrics for episode 373
+2026-10-26 10:26:21,627 DEBUG callbacks.py:108 -- starting episode 374 with id 890758438555136848 (env-idx=0)
+2026-10-26 10:26:30,913 INFO callbacks.py:181 -- episode 374 with id 890758438555136848 (env-inx=0) finished in step 36 with the score -0.018911
+2026-10-26 10:26:30,913 DEBUG callbacks.py:186 -- saving metrics for episode 374
+2026-10-26 10:26:30,914 DEBUG callbacks.py:108 -- starting episode 375 with id 496071886668969117 (env-idx=0)
+2026-10-26 10:26:36,723 INFO callbacks.py:181 -- episode 375 with id 496071886668969117 (env-inx=0) finished in step 36 with the score -0.029098
+2026-10-26 10:26:36,723 DEBUG callbacks.py:186 -- saving metrics for episode 375
+2026-10-26 10:26:36,724 DEBUG callbacks.py:108 -- starting episode 376 with id 114806923013206777 (env-idx=0)
+2026-10-26 10:26:42,540 INFO callbacks.py:181 -- episode 376 with id 114806923013206777 (env-inx=0) finished in step 36 with the score 0.104952
+2026-10-26 10:26:42,540 DEBUG callbacks.py:186 -- saving metrics for episode 376
+2026-10-26 10:26:42,541 DEBUG callbacks.py:108 -- starting episode 377 with id 315915118676583050 (env-idx=0)
+2026-10-26 10:26:48,384 INFO callbacks.py:181 -- episode 377 with id 315915118676583050 (env-inx=0) finished in step 36 with the score 0.067061
+2026-10-26 10:26:48,385 DEBUG callbacks.py:186 -- saving metrics for episode 377
+2026-10-26 10:26:48,385 DEBUG callbacks.py:108 -- starting episode 378 with id 687209743661619859 (env-idx=0)
+2026-10-26 10:26:54,157 INFO callbacks.py:181 -- episode 378 with id 687209743661619859 (env-inx=0) finished in step 36 with the score -0.032717
+2026-10-26 10:26:54,157 DEBUG callbacks.py:186 -- saving metrics for episode 378
+2026-10-26 10:26:54,157 DEBUG callbacks.py:108 -- starting episode 379 with id 283162661158160609 (env-idx=0)
+2026-10-26 10:26:59,922 INFO callbacks.py:181 -- episode 379 with id 283162661158160609 (env-inx=0) finished in step 36 with the score 0.060225
+2026-10-26 10:26:59,922 DEBUG callbacks.py:186 -- saving metrics for episode 379
+2026-10-26 10:26:59,922 DEBUG callbacks.py:108 -- starting episode 380 with id 660238554011641238 (env-idx=0)
+2026-10-26 10:27:05,545 INFO callbacks.py:181 -- episode 380 with id 660238554011641238 (env-inx=0) finished in step 36 with the score 0.007615
+2026-10-26 10:27:05,545 DEBUG callbacks.py:186 -- saving metrics for episode 380
+2026-10-26 10:27:05,545 DEBUG callbacks.py:108 -- starting episode 381 with id 725274398948353686 (env-idx=0)
+2026-10-26 10:27:11,317 INFO callbacks.py:181 -- episode 381 with id 725274398948353686 (env-inx=0) finished in step 36 with the score 0.035205
+2026-10-26 10:27:11,317 DEBUG callbacks.py:186 -- saving metrics for episode 381
+2026-10-26 10:27:11,317 DEBUG callbacks.py:108 -- starting episode 382 with id 115711037985463049 (env-idx=0)
+2026-10-26 10:27:17,959 INFO callbacks.py:181 -- episode 382 with id 115711037985463049 (env-inx=0) finished in step 36 with the score -0.060174
+2026-10-26 10:27:17,959 DEBUG callbacks.py:186 -- saving metrics for episode 382
+2026-10-26 10:27:17,959 DEBUG callbacks.py:108 -- starting episode 383 with id 439491092088553170 (env-idx=0)
+2026-10-26 10:27:23,956 INFO callbacks.py:181 -- episode 383 with id 439491092088553170 (env-inx=0) finished in step 36 with the score 0.052620
+2026-10-26 10:27:23,956 DEBUG callbacks.py:186 -- saving metrics for episode 383
+2026-10-26 10:27:23,956 DEBUG callbacks.py:108 -- starting episode 384 with id 485857740823281920 (env-idx=0)
+2026-10-26 10:27:29,710 INFO callbacks.py:181 -- episode 384 with id 485857740823281920 (env-inx=0) finished in step 36 with the score 0.042642
+2026-10-26 10:27:29,710 DEBUG callbacks.py:186 -- saving metrics for episode 384
+2026-10-26 10:27:29,710 DEBUG callbacks.py:108 -- starting episode 385 with id 123383567164013796 (env-idx=0)
+2026-10-26 10:27:36,365 INFO callbacks.py:181 -- episode 385 with id 123383567164013796 (env-inx=0) finished in step 36 with the score 0.061949
+2026-10-26 10:27:36,365 DEBUG callbacks.py:186 -- saving metrics for episode 385
+2026-10-26 10:27:36,365 DEBUG callbacks.py:108 -- starting episode 386 with id 519633519888949257 (env-idx=0)
+2026-10-26 10:27:45,863 INFO callbacks.py:181 -- episode 386 with id 519633519888949257 (env-inx=0) finished in step 36 with the score -0.094204
+2026-10-26 10:27:45,863 DEBUG callbacks.py:186 -- saving metrics for episode 386
+2026-10-26 10:27:45,864 DEBUG callbacks.py:108 -- starting episode 387 with id 269323854765458009 (env-idx=0)
+2026-10-26 10:27:51,440 INFO callbacks.py:181 -- episode 387 with id 269323854765458009 (env-inx=0) finished in step 36 with the score -0.047202
+2026-10-26 10:27:51,441 DEBUG callbacks.py:186 -- saving metrics for episode 387
+2026-10-26 10:27:51,441 DEBUG callbacks.py:108 -- starting episode 388 with id 260501875550768675 (env-idx=0)
+2026-10-26 10:27:57,185 INFO callbacks.py:181 -- episode 388 with id 260501875550768675 (env-inx=0) finished in step 36 with the score 0.114753
+2026-10-26 10:27:57,185 DEBUG callbacks.py:186 -- saving metrics for episode 388
+2026-10-26 10:27:57,185 DEBUG callbacks.py:108 -- starting episode 389 with id 542978031549872281 (env-idx=0)
+2026-10-26 10:28:02,489 INFO train_model.py:132 -- finished training iteration 13
+2026-10-26 10:28:02,489 INFO train_model.py:130 -- starting training iteration 14
+2026-10-26 10:28:02,952 INFO callbacks.py:181 -- episode 389 with id 542978031549872281 (env-inx=0) finished in step 36 with the score 0.081317
+2026-10-26 10:28:02,952 DEBUG callbacks.py:186 -- saving metrics for episode 389
+2026-10-26 10:28:02,952 DEBUG callbacks.py:108 -- starting episode 390 with id 838858105285426854 (env-idx=0)
+2026-10-26 10:28:09,633 INFO callbacks.py:181 -- episode 390 with id 838858105285426854 (env-inx=0) finished in step 36 with the score 0.003247
+2026-10-26 10:28:09,634 DEBUG callbacks.py:186 -- saving metrics for episode 390
+2026-10-26 10:28:09,634 DEBUG callbacks.py:108 -- starting episode 391 with id 245462426442008778 (env-idx=0)
+2026-10-26 10:28:15,399 INFO callbacks.py:181 -- episode 391 with id 245462426442008778 (env-inx=0) finished in step 36 with the score 0.091859
+2026-10-26 10:28:15,399 DEBUG callbacks.py:186 -- saving metrics for episode 391
+2026-10-26 10:28:15,399 DEBUG callbacks.py:108 -- starting episode 392 with id 227888381105176581 (env-idx=0)
+2026-10-26 10:28:21,155 INFO callbacks.py:181 -- episode 392 with id 227888381105176581 (env-inx=0) finished in step 36 with the score -0.063486
+2026-10-26 10:28:21,156 DEBUG callbacks.py:186 -- saving metrics for episode 392
+2026-10-26 10:28:21,156 DEBUG callbacks.py:108 -- starting episode 393 with id 142217745907285844 (env-idx=0)
+2026-10-26 10:28:27,682 INFO callbacks.py:181 -- episode 393 with id 142217745907285844 (env-inx=0) finished in step 36 with the score -0.020705
+2026-10-26 10:28:27,682 DEBUG callbacks.py:186 -- saving metrics for episode 393
+2026-10-26 10:28:27,682 DEBUG callbacks.py:108 -- starting episode 394 with id 148489424687358745 (env-idx=0)
+2026-10-26 10:28:34,361 INFO callbacks.py:181 -- episode 394 with id 148489424687358745 (env-inx=0) finished in step 36 with the score -0.008340
+2026-10-26 10:28:34,361 DEBUG callbacks.py:186 -- saving metrics for episode 394
+2026-10-26 10:28:34,361 DEBUG callbacks.py:108 -- starting episode 395 with id 4074549940037250 (env-idx=0)
+2026-10-26 10:28:40,233 INFO callbacks.py:181 -- episode 395 with id 4074549940037250 (env-inx=0) finished in step 36 with the score 0.064539
+2026-10-26 10:28:40,233 DEBUG callbacks.py:186 -- saving metrics for episode 395
+2026-10-26 10:28:40,233 DEBUG callbacks.py:108 -- starting episode 396 with id 722899356827070957 (env-idx=0)
+2026-10-26 10:28:46,060 INFO callbacks.py:181 -- episode 396 with id 722899356827070957 (env-inx=0) finished in step 36 with the score 0.043396
+2026-10-26 10:28:46,060 DEBUG callbacks.py:186 -- saving metrics for episode 396
+2026-10-26 10:28:46,060 DEBUG callbacks.py:108 -- starting episode 397 with id 155507456427830628 (env-idx=0)
+2026-10-26 10:28:52,698 INFO callbacks.py:181 -- episode 397 with id 155507456427830628 (env-inx=0) finished in step 36 with the score 0.009677
+2026-10-26 10:28:52,698 DEBUG callbacks.py:186 -- saving metrics for episode 397
+2026-10-26 10:28:52,698 DEBUG callbacks.py:108 -- starting episode 398 with id 720877154044430618 (env-idx=0)
+2026-10-26 10:28:59,056 INFO callbacks.py:181 -- episode 398 with id 720877154044430618 (env-inx=0) finished in step 36 with the score -0.027870
+2026-10-26 10:28:59,057 DEBUG callbacks.py:186 -- saving metrics for episode 398
+2026-10-26 10:28:59,060 DEBUG callbacks.py:108 -- starting episode 399 with id 620110305733515641 (env-idx=0)
+2026-10-26 10:29:05,135 INFO callbacks.py:181 -- episode 399 with id 620110305733515641 (env-inx=0) finished in step 36 with the score -0.116772
+2026-10-26 10:29:05,135 DEBUG callbacks.py:186 -- saving metrics for episode 399
+2026-10-26 10:29:05,135 DEBUG callbacks.py:108 -- starting episode 400 with id 442464334549583747 (env-idx=0)
+2026-10-26 10:29:11,825 INFO callbacks.py:181 -- episode 400 with id 442464334549583747 (env-inx=0) finished in step 36 with the score 0.046181
+2026-10-26 10:29:11,825 DEBUG callbacks.py:186 -- saving metrics for episode 400
+2026-10-26 10:29:11,825 DEBUG callbacks.py:108 -- starting episode 401 with id 273727328582510733 (env-idx=0)
+2026-10-26 10:29:17,601 INFO callbacks.py:181 -- episode 401 with id 273727328582510733 (env-inx=0) finished in step 36 with the score 0.109205
+2026-10-26 10:29:17,601 DEBUG callbacks.py:186 -- saving metrics for episode 401
+2026-10-26 10:29:17,602 DEBUG callbacks.py:108 -- starting episode 402 with id 605348061900429260 (env-idx=0)
+2026-10-26 10:29:27,087 INFO callbacks.py:181 -- episode 402 with id 605348061900429260 (env-inx=0) finished in step 36 with the score -0.002315
+2026-10-26 10:29:27,087 DEBUG callbacks.py:186 -- saving metrics for episode 402
+2026-10-26 10:29:27,087 DEBUG callbacks.py:108 -- starting episode 403 with id 679680883878004315 (env-idx=0)
+2026-10-26 10:29:32,842 INFO callbacks.py:181 -- episode 403 with id 679680883878004315 (env-inx=0) finished in step 36 with the score -0.001280
+2026-10-26 10:29:32,842 DEBUG callbacks.py:186 -- saving metrics for episode 403
+2026-10-26 10:29:32,843 DEBUG callbacks.py:108 -- starting episode 404 with id 76273546052284432 (env-idx=0)
+2026-10-26 10:29:38,427 INFO callbacks.py:181 -- episode 404 with id 76273546052284432 (env-inx=0) finished in step 36 with the score 0.016245
+2026-10-26 10:29:38,428 DEBUG callbacks.py:186 -- saving metrics for episode 404
+2026-10-26 10:29:38,428 DEBUG callbacks.py:108 -- starting episode 405 with id 986088663051068549 (env-idx=0)
+2026-10-26 10:29:44,173 INFO callbacks.py:181 -- episode 405 with id 986088663051068549 (env-inx=0) finished in step 36 with the score 0.050132
+2026-10-26 10:29:44,173 DEBUG callbacks.py:186 -- saving metrics for episode 405
+2026-10-26 10:29:44,173 DEBUG callbacks.py:108 -- starting episode 406 with id 397634663656694007 (env-idx=0)
+2026-10-26 10:29:50,878 INFO callbacks.py:181 -- episode 406 with id 397634663656694007 (env-inx=0) finished in step 36 with the score 0.018111
+2026-10-26 10:29:50,878 DEBUG callbacks.py:186 -- saving metrics for episode 406
+2026-10-26 10:29:50,878 DEBUG callbacks.py:108 -- starting episode 407 with id 240024346004921929 (env-idx=0)
+2026-10-26 10:29:56,681 INFO callbacks.py:181 -- episode 407 with id 240024346004921929 (env-inx=0) finished in step 36 with the score 0.038422
+2026-10-26 10:29:56,681 DEBUG callbacks.py:186 -- saving metrics for episode 407
+2026-10-26 10:29:56,681 DEBUG callbacks.py:108 -- starting episode 408 with id 517684108533216080 (env-idx=0)
+2026-10-26 10:30:03,426 INFO callbacks.py:181 -- episode 408 with id 517684108533216080 (env-inx=0) finished in step 36 with the score 0.049019
+2026-10-26 10:30:03,426 DEBUG callbacks.py:186 -- saving metrics for episode 408
+2026-10-26 10:30:03,426 DEBUG callbacks.py:108 -- starting episode 409 with id 557331460247410980 (env-idx=0)
+2026-10-26 10:30:09,160 INFO callbacks.py:181 -- episode 409 with id 557331460247410980 (env-inx=0) finished in step 36 with the score 0.156242
+2026-10-26 10:30:09,160 DEBUG callbacks.py:186 -- saving metrics for episode 409
+2026-10-26 10:30:09,160 DEBUG callbacks.py:108 -- starting episode 410 with id 151507067144481466 (env-idx=0)
+2026-10-26 10:30:18,581 INFO callbacks.py:181 -- episode 410 with id 151507067144481466 (env-inx=0) finished in step 36 with the score 0.003076
+2026-10-26 10:30:18,581 DEBUG callbacks.py:186 -- saving metrics for episode 410
+2026-10-26 10:30:18,581 DEBUG callbacks.py:108 -- starting episode 411 with id 506986256334152025 (env-idx=0)
+2026-10-26 10:30:24,325 INFO callbacks.py:181 -- episode 411 with id 506986256334152025 (env-inx=0) finished in step 36 with the score 0.036799
+2026-10-26 10:30:24,326 DEBUG callbacks.py:186 -- saving metrics for episode 411
+2026-10-26 10:30:24,326 DEBUG callbacks.py:108 -- starting episode 412 with id 694389721042584307 (env-idx=0)
+2026-10-26 10:30:30,105 INFO callbacks.py:181 -- episode 412 with id 694389721042584307 (env-inx=0) finished in step 36 with the score 0.010952
+2026-10-26 10:30:30,105 DEBUG callbacks.py:186 -- saving metrics for episode 412
+2026-10-26 10:30:30,106 DEBUG callbacks.py:108 -- starting episode 413 with id 898606872213823782 (env-idx=0)
+2026-10-26 10:30:35,891 INFO callbacks.py:181 -- episode 413 with id 898606872213823782 (env-inx=0) finished in step 36 with the score -0.006259
+2026-10-26 10:30:35,892 DEBUG callbacks.py:186 -- saving metrics for episode 413
+2026-10-26 10:30:35,892 DEBUG callbacks.py:108 -- starting episode 414 with id 452886924464731412 (env-idx=0)
+2026-10-26 10:30:45,368 INFO callbacks.py:181 -- episode 414 with id 452886924464731412 (env-inx=0) finished in step 36 with the score 0.005695
+2026-10-26 10:30:45,368 DEBUG callbacks.py:186 -- saving metrics for episode 414
+2026-10-26 10:30:45,368 DEBUG callbacks.py:108 -- starting episode 415 with id 533012089481693310 (env-idx=0)
+2026-10-26 10:30:51,174 INFO callbacks.py:181 -- episode 415 with id 533012089481693310 (env-inx=0) finished in step 36 with the score -0.014529
+2026-10-26 10:30:51,175 DEBUG callbacks.py:186 -- saving metrics for episode 415
+2026-10-26 10:30:51,175 DEBUG callbacks.py:108 -- starting episode 416 with id 710009185194989724 (env-idx=0)
+2026-10-26 10:30:57,027 INFO callbacks.py:181 -- episode 416 with id 710009185194989724 (env-inx=0) finished in step 36 with the score 0.002711
+2026-10-26 10:30:57,027 DEBUG callbacks.py:186 -- saving metrics for episode 416
+2026-10-26 10:30:57,027 DEBUG callbacks.py:108 -- starting episode 417 with id 391562708848652666 (env-idx=0)
+2026-10-26 10:31:01,182 INFO train_model.py:132 -- finished training iteration 14
+2026-10-26 10:31:01,182 INFO train_model.py:130 -- starting training iteration 15
+2026-10-26 10:31:02,877 INFO callbacks.py:181 -- episode 417 with id 391562708848652666 (env-inx=0) finished in step 36 with the score 0.023748
+2026-10-26 10:31:02,877 DEBUG callbacks.py:186 -- saving metrics for episode 417
+2026-10-26 10:31:02,877 DEBUG callbacks.py:108 -- starting episode 418 with id 837974077450786784 (env-idx=0)
+2026-10-26 10:31:08,717 INFO callbacks.py:181 -- episode 418 with id 837974077450786784 (env-inx=0) finished in step 36 with the score 0.036217
+2026-10-26 10:31:08,717 DEBUG callbacks.py:186 -- saving metrics for episode 418
+2026-10-26 10:31:08,717 DEBUG callbacks.py:108 -- starting episode 419 with id 698511517924037668 (env-idx=0)
+2026-10-26 10:31:15,454 INFO callbacks.py:181 -- episode 419 with id 698511517924037668 (env-inx=0) finished in step 36 with the score -0.061207
+2026-10-26 10:31:15,455 DEBUG callbacks.py:186 -- saving metrics for episode 419
+2026-10-26 10:31:15,455 DEBUG callbacks.py:108 -- starting episode 420 with id 730862263075019920 (env-idx=0)
+2026-10-26 10:31:21,293 INFO callbacks.py:181 -- episode 420 with id 730862263075019920 (env-inx=0) finished in step 36 with the score -0.033140
+2026-10-26 10:31:21,293 DEBUG callbacks.py:186 -- saving metrics for episode 420
+2026-10-26 10:31:21,293 DEBUG callbacks.py:108 -- starting episode 421 with id 134942322704559750 (env-idx=0)
+2026-10-26 10:31:27,109 INFO callbacks.py:181 -- episode 421 with id 134942322704559750 (env-inx=0) finished in step 36 with the score -0.017416
+2026-10-26 10:31:27,109 DEBUG callbacks.py:186 -- saving metrics for episode 421
+2026-10-26 10:31:27,110 DEBUG callbacks.py:108 -- starting episode 422 with id 669126989176507435 (env-idx=0)
+2026-10-26 10:31:36,462 INFO callbacks.py:181 -- episode 422 with id 669126989176507435 (env-inx=0) finished in step 36 with the score -0.017290
+2026-10-26 10:31:36,463 DEBUG callbacks.py:186 -- saving metrics for episode 422
+2026-10-26 10:31:36,463 DEBUG callbacks.py:108 -- starting episode 423 with id 16657845678606693 (env-idx=0)
+2026-10-26 10:31:42,250 INFO callbacks.py:181 -- episode 423 with id 16657845678606693 (env-inx=0) finished in step 36 with the score -0.051555
+2026-10-26 10:31:42,250 DEBUG callbacks.py:186 -- saving metrics for episode 423
+2026-10-26 10:31:42,250 DEBUG callbacks.py:108 -- starting episode 424 with id 860179893116573366 (env-idx=0)
+2026-10-26 10:31:47,992 INFO callbacks.py:181 -- episode 424 with id 860179893116573366 (env-inx=0) finished in step 36 with the score 0.017100
+2026-10-26 10:31:47,992 DEBUG callbacks.py:186 -- saving metrics for episode 424
+2026-10-26 10:31:47,992 DEBUG callbacks.py:108 -- starting episode 425 with id 745606488769157100 (env-idx=0)
+2026-10-26 10:31:53,784 INFO callbacks.py:181 -- episode 425 with id 745606488769157100 (env-inx=0) finished in step 36 with the score 0.067484
+2026-10-26 10:31:53,785 DEBUG callbacks.py:186 -- saving metrics for episode 425
+2026-10-26 10:31:53,785 DEBUG callbacks.py:108 -- starting episode 426 with id 747421256448055212 (env-idx=0)
+2026-10-26 10:31:59,550 INFO callbacks.py:181 -- episode 426 with id 747421256448055212 (env-inx=0) finished in step 36 with the score -0.081100
+2026-10-26 10:31:59,550 DEBUG callbacks.py:186 -- saving metrics for episode 426
+2026-10-26 10:31:59,550 DEBUG callbacks.py:108 -- starting episode 427 with id 672018535374509512 (env-idx=0)
+2026-10-26 10:32:05,223 INFO callbacks.py:181 -- episode 427 with id 672018535374509512 (env-inx=0) finished in step 36 with the score 0.072494
+2026-10-26 10:32:05,223 DEBUG callbacks.py:186 -- saving metrics for episode 427
+2026-10-26 10:32:05,224 DEBUG callbacks.py:108 -- starting episode 428 with id 736094317809655676 (env-idx=0)
+2026-10-26 10:32:11,049 INFO callbacks.py:181 -- episode 428 with id 736094317809655676 (env-inx=0) finished in step 36 with the score 0.070062
+2026-10-26 10:32:11,049 DEBUG callbacks.py:186 -- saving metrics for episode 428
+2026-10-26 10:32:11,049 DEBUG callbacks.py:108 -- starting episode 429 with id 14537070979991484 (env-idx=0)
+2026-10-26 10:32:16,863 INFO callbacks.py:181 -- episode 429 with id 14537070979991484 (env-inx=0) finished in step 36 with the score 0.121825
+2026-10-26 10:32:16,864 DEBUG callbacks.py:186 -- saving metrics for episode 429
+2026-10-26 10:32:16,864 DEBUG callbacks.py:108 -- starting episode 430 with id 964195505465954682 (env-idx=0)
+2026-10-26 10:32:22,650 INFO callbacks.py:181 -- episode 430 with id 964195505465954682 (env-inx=0) finished in step 36 with the score 0.056701
+2026-10-26 10:32:22,650 DEBUG callbacks.py:186 -- saving metrics for episode 430
+2026-10-26 10:32:22,650 DEBUG callbacks.py:108 -- starting episode 431 with id 433843463222904789 (env-idx=0)
+2026-10-26 10:32:28,483 INFO callbacks.py:181 -- episode 431 with id 433843463222904789 (env-inx=0) finished in step 36 with the score -0.042591
+2026-10-26 10:32:28,483 DEBUG callbacks.py:186 -- saving metrics for episode 431
+2026-10-26 10:32:28,483 DEBUG callbacks.py:108 -- starting episode 432 with id 809954274934674376 (env-idx=0)
+2026-10-26 10:32:34,160 INFO callbacks.py:181 -- episode 432 with id 809954274934674376 (env-inx=0) finished in step 36 with the score 0.014568
+2026-10-26 10:32:34,160 DEBUG callbacks.py:186 -- saving metrics for episode 432
+2026-10-26 10:32:34,160 DEBUG callbacks.py:108 -- starting episode 433 with id 611808628092810112 (env-idx=0)
+2026-10-26 10:32:39,952 INFO callbacks.py:181 -- episode 433 with id 611808628092810112 (env-inx=0) finished in step 36 with the score -0.030807
+2026-10-26 10:32:39,953 DEBUG callbacks.py:186 -- saving metrics for episode 433
+2026-10-26 10:32:39,953 DEBUG callbacks.py:108 -- starting episode 434 with id 693719742579887506 (env-idx=0)
+2026-10-26 10:32:45,759 INFO callbacks.py:181 -- episode 434 with id 693719742579887506 (env-inx=0) finished in step 36 with the score 0.078284
+2026-10-26 10:32:45,759 DEBUG callbacks.py:186 -- saving metrics for episode 434
+2026-10-26 10:32:45,759 DEBUG callbacks.py:108 -- starting episode 435 with id 912722342859046476 (env-idx=0)
+2026-10-26 10:32:51,539 INFO callbacks.py:181 -- episode 435 with id 912722342859046476 (env-inx=0) finished in step 36 with the score 0.010713
+2026-10-26 10:32:51,539 DEBUG callbacks.py:186 -- saving metrics for episode 435
+2026-10-26 10:32:51,539 DEBUG callbacks.py:108 -- starting episode 436 with id 816294185794476719 (env-idx=0)
+2026-10-26 10:32:57,370 INFO callbacks.py:181 -- episode 436 with id 816294185794476719 (env-inx=0) finished in step 36 with the score 0.062566
+2026-10-26 10:32:57,370 DEBUG callbacks.py:186 -- saving metrics for episode 436
+2026-10-26 10:32:57,370 DEBUG callbacks.py:108 -- starting episode 437 with id 159565913602808877 (env-idx=0)
+2026-10-26 10:33:02,980 INFO callbacks.py:181 -- episode 437 with id 159565913602808877 (env-inx=0) finished in step 36 with the score 0.027940
+2026-10-26 10:33:02,981 DEBUG callbacks.py:186 -- saving metrics for episode 437
+2026-10-26 10:33:02,981 DEBUG callbacks.py:108 -- starting episode 438 with id 666922842535887878 (env-idx=0)
+2026-10-26 10:33:08,787 INFO callbacks.py:181 -- episode 438 with id 666922842535887878 (env-inx=0) finished in step 36 with the score -0.034762
+2026-10-26 10:33:08,788 DEBUG callbacks.py:186 -- saving metrics for episode 438
+2026-10-26 10:33:08,788 DEBUG callbacks.py:108 -- starting episode 439 with id 462741147185564685 (env-idx=0)
+2026-10-26 10:33:14,610 INFO callbacks.py:181 -- episode 439 with id 462741147185564685 (env-inx=0) finished in step 36 with the score 0.112068
+2026-10-26 10:33:14,610 DEBUG callbacks.py:186 -- saving metrics for episode 439
+2026-10-26 10:33:14,610 DEBUG callbacks.py:108 -- starting episode 440 with id 78385086566598752 (env-idx=0)
+2026-10-26 10:33:20,417 INFO callbacks.py:181 -- episode 440 with id 78385086566598752 (env-inx=0) finished in step 36 with the score 0.082955
+2026-10-26 10:33:20,417 DEBUG callbacks.py:186 -- saving metrics for episode 440
+2026-10-26 10:33:20,417 DEBUG callbacks.py:108 -- starting episode 441 with id 498131249397631389 (env-idx=0)
+2026-10-26 10:33:27,229 INFO callbacks.py:181 -- episode 441 with id 498131249397631389 (env-inx=0) finished in step 36 with the score 0.093562
+2026-10-26 10:33:27,229 DEBUG callbacks.py:186 -- saving metrics for episode 441
+2026-10-26 10:33:27,230 DEBUG callbacks.py:108 -- starting episode 442 with id 98617851056590675 (env-idx=0)
+2026-10-26 10:33:32,871 INFO callbacks.py:181 -- episode 442 with id 98617851056590675 (env-inx=0) finished in step 36 with the score -0.018904
+2026-10-26 10:33:32,871 DEBUG callbacks.py:186 -- saving metrics for episode 442
+2026-10-26 10:33:32,871 DEBUG callbacks.py:108 -- starting episode 443 with id 734487756157941685 (env-idx=0)
+2026-10-26 10:33:42,361 INFO callbacks.py:181 -- episode 443 with id 734487756157941685 (env-inx=0) finished in step 36 with the score 0.003333
+2026-10-26 10:33:42,361 DEBUG callbacks.py:186 -- saving metrics for episode 443
+2026-10-26 10:33:42,361 DEBUG callbacks.py:108 -- starting episode 444 with id 299008433661607769 (env-idx=0)
+2026-10-26 10:33:48,213 INFO callbacks.py:181 -- episode 444 with id 299008433661607769 (env-inx=0) finished in step 36 with the score -0.018011
+2026-10-26 10:33:48,213 DEBUG callbacks.py:186 -- saving metrics for episode 444
+2026-10-26 10:33:48,213 DEBUG callbacks.py:108 -- starting episode 445 with id 360576065836016104 (env-idx=0)
+2026-10-26 10:33:50,934 INFO train_model.py:132 -- finished training iteration 15
+2026-10-26 10:33:50,934 INFO train_model.py:130 -- starting training iteration 16
+2026-10-26 10:33:54,063 INFO callbacks.py:181 -- episode 445 with id 360576065836016104 (env-inx=0) finished in step 36 with the score 0.040420
+2026-10-26 10:33:54,063 DEBUG callbacks.py:186 -- saving metrics for episode 445
+2026-10-26 10:33:54,063 DEBUG callbacks.py:108 -- starting episode 446 with id 393954659378152436 (env-idx=0)
+2026-10-26 10:34:00,001 INFO callbacks.py:181 -- episode 446 with id 393954659378152436 (env-inx=0) finished in step 36 with the score 0.079089
+2026-10-26 10:34:00,001 DEBUG callbacks.py:186 -- saving metrics for episode 446
+2026-10-26 10:34:00,002 DEBUG callbacks.py:108 -- starting episode 447 with id 189380929802400289 (env-idx=0)
+2026-10-26 10:34:05,640 INFO callbacks.py:181 -- episode 447 with id 189380929802400289 (env-inx=0) finished in step 36 with the score 0.013692
+2026-10-26 10:34:05,640 DEBUG callbacks.py:186 -- saving metrics for episode 447
+2026-10-26 10:34:05,640 DEBUG callbacks.py:108 -- starting episode 448 with id 370691632002719015 (env-idx=0)
+2026-10-26 10:34:11,448 INFO callbacks.py:181 -- episode 448 with id 370691632002719015 (env-inx=0) finished in step 36 with the score 0.062998
+2026-10-26 10:34:11,448 DEBUG callbacks.py:186 -- saving metrics for episode 448
+2026-10-26 10:34:11,449 DEBUG callbacks.py:108 -- starting episode 449 with id 360855920175257955 (env-idx=0)
+2026-10-26 10:34:17,273 INFO callbacks.py:181 -- episode 449 with id 360855920175257955 (env-inx=0) finished in step 36 with the score 0.039138
+2026-10-26 10:34:17,273 DEBUG callbacks.py:186 -- saving metrics for episode 449
+2026-10-26 10:34:17,273 DEBUG callbacks.py:108 -- starting episode 450 with id 422982953782685854 (env-idx=0)
+2026-10-26 10:34:23,304 INFO callbacks.py:181 -- episode 450 with id 422982953782685854 (env-inx=0) finished in step 36 with the score 0.050989
+2026-10-26 10:34:23,304 DEBUG callbacks.py:186 -- saving metrics for episode 450
+2026-10-26 10:34:23,304 DEBUG callbacks.py:108 -- starting episode 451 with id 23286215807637169 (env-idx=0)
+2026-10-26 10:34:29,173 INFO callbacks.py:181 -- episode 451 with id 23286215807637169 (env-inx=0) finished in step 36 with the score 0.072498
+2026-10-26 10:34:29,173 DEBUG callbacks.py:186 -- saving metrics for episode 451
+2026-10-26 10:34:29,174 DEBUG callbacks.py:108 -- starting episode 452 with id 794694019279813223 (env-idx=0)
+2026-10-26 10:34:34,876 INFO callbacks.py:181 -- episode 452 with id 794694019279813223 (env-inx=0) finished in step 36 with the score -0.005635
+2026-10-26 10:34:34,877 DEBUG callbacks.py:186 -- saving metrics for episode 452
+2026-10-26 10:34:34,877 DEBUG callbacks.py:108 -- starting episode 453 with id 273176620662824031 (env-idx=0)
+2026-10-26 10:34:44,548 INFO callbacks.py:181 -- episode 453 with id 273176620662824031 (env-inx=0) finished in step 36 with the score -0.003946
+2026-10-26 10:34:44,549 DEBUG callbacks.py:186 -- saving metrics for episode 453
+2026-10-26 10:34:44,549 DEBUG callbacks.py:108 -- starting episode 454 with id 43145965434090534 (env-idx=0)
+2026-10-26 10:34:50,398 INFO callbacks.py:181 -- episode 454 with id 43145965434090534 (env-inx=0) finished in step 36 with the score -0.043897
+2026-10-26 10:34:50,398 DEBUG callbacks.py:186 -- saving metrics for episode 454
+2026-10-26 10:34:50,398 DEBUG callbacks.py:108 -- starting episode 455 with id 194280186732802890 (env-idx=0)
+2026-10-26 10:34:56,166 INFO callbacks.py:181 -- episode 455 with id 194280186732802890 (env-inx=0) finished in step 36 with the score 0.041215
+2026-10-26 10:34:56,167 DEBUG callbacks.py:186 -- saving metrics for episode 455
+2026-10-26 10:34:56,167 DEBUG callbacks.py:108 -- starting episode 456 with id 140782139654099932 (env-idx=0)
+2026-10-26 10:35:01,994 INFO callbacks.py:181 -- episode 456 with id 140782139654099932 (env-inx=0) finished in step 36 with the score -0.068123
+2026-10-26 10:35:01,994 DEBUG callbacks.py:186 -- saving metrics for episode 456
+2026-10-26 10:35:01,994 DEBUG callbacks.py:108 -- starting episode 457 with id 651894000660475586 (env-idx=0)
+2026-10-26 10:35:07,881 INFO callbacks.py:181 -- episode 457 with id 651894000660475586 (env-inx=0) finished in step 36 with the score -0.021531
+2026-10-26 10:35:07,881 DEBUG callbacks.py:186 -- saving metrics for episode 457
+2026-10-26 10:35:07,881 DEBUG callbacks.py:108 -- starting episode 458 with id 340119088439253097 (env-idx=0)
+2026-10-26 10:35:13,663 INFO callbacks.py:181 -- episode 458 with id 340119088439253097 (env-inx=0) finished in step 36 with the score -0.021541
+2026-10-26 10:35:13,663 DEBUG callbacks.py:186 -- saving metrics for episode 458
+2026-10-26 10:35:13,663 DEBUG callbacks.py:108 -- starting episode 459 with id 927717579453003807 (env-idx=0)
+2026-10-26 10:35:19,490 INFO callbacks.py:181 -- episode 459 with id 927717579453003807 (env-inx=0) finished in step 36 with the score -0.022987
+2026-10-26 10:35:19,490 DEBUG callbacks.py:186 -- saving metrics for episode 459
+2026-10-26 10:35:19,490 DEBUG callbacks.py:108 -- starting episode 460 with id 618590704055869430 (env-idx=0)
+2026-10-26 10:35:25,294 INFO callbacks.py:181 -- episode 460 with id 618590704055869430 (env-inx=0) finished in step 36 with the score 0.010278
+2026-10-26 10:35:25,294 DEBUG callbacks.py:186 -- saving metrics for episode 460
+2026-10-26 10:35:25,294 DEBUG callbacks.py:108 -- starting episode 461 with id 927304994340248950 (env-idx=0)
+2026-10-26 10:35:32,080 INFO callbacks.py:181 -- episode 461 with id 927304994340248950 (env-inx=0) finished in step 36 with the score 0.005026
+2026-10-26 10:35:32,081 DEBUG callbacks.py:186 -- saving metrics for episode 461
+2026-10-26 10:35:32,081 DEBUG callbacks.py:108 -- starting episode 462 with id 78901602609078730 (env-idx=0)
+2026-10-26 10:35:37,693 INFO callbacks.py:181 -- episode 462 with id 78901602609078730 (env-inx=0) finished in step 36 with the score -0.085334
+2026-10-26 10:35:37,694 DEBUG callbacks.py:186 -- saving metrics for episode 462
+2026-10-26 10:35:37,694 DEBUG callbacks.py:108 -- starting episode 463 with id 6254492806197957 (env-idx=0)
+2026-10-26 10:35:43,497 INFO callbacks.py:181 -- episode 463 with id 6254492806197957 (env-inx=0) finished in step 36 with the score 0.018546
+2026-10-26 10:35:43,497 DEBUG callbacks.py:186 -- saving metrics for episode 463
+2026-10-26 10:35:43,497 DEBUG callbacks.py:108 -- starting episode 464 with id 561368816973017907 (env-idx=0)
+2026-10-26 10:35:53,002 INFO callbacks.py:181 -- episode 464 with id 561368816973017907 (env-inx=0) finished in step 36 with the score 0.003384
+2026-10-26 10:35:53,002 DEBUG callbacks.py:186 -- saving metrics for episode 464
+2026-10-26 10:35:53,003 DEBUG callbacks.py:108 -- starting episode 465 with id 925908759794312829 (env-idx=0)
+2026-10-26 10:35:58,856 INFO callbacks.py:181 -- episode 465 with id 925908759794312829 (env-inx=0) finished in step 36 with the score 0.018564
+2026-10-26 10:35:58,856 DEBUG callbacks.py:186 -- saving metrics for episode 465
+2026-10-26 10:35:58,856 DEBUG callbacks.py:108 -- starting episode 466 with id 504614548310734163 (env-idx=0)
+2026-10-26 10:36:04,704 INFO callbacks.py:181 -- episode 466 with id 504614548310734163 (env-inx=0) finished in step 36 with the score 0.020509
+2026-10-26 10:36:04,704 DEBUG callbacks.py:186 -- saving metrics for episode 466
+2026-10-26 10:36:04,705 DEBUG callbacks.py:108 -- starting episode 467 with id 934401475865534895 (env-idx=0)
+2026-10-26 10:36:10,431 INFO callbacks.py:181 -- episode 467 with id 934401475865534895 (env-inx=0) finished in step 36 with the score 0.070268
+2026-10-26 10:36:10,432 DEBUG callbacks.py:186 -- saving metrics for episode 467
+2026-10-26 10:36:10,432 DEBUG callbacks.py:108 -- starting episode 468 with id 970605076564974491 (env-idx=0)
+2026-10-26 10:36:16,241 INFO callbacks.py:181 -- episode 468 with id 970605076564974491 (env-inx=0) finished in step 36 with the score -0.000261
+2026-10-26 10:36:16,241 DEBUG callbacks.py:186 -- saving metrics for episode 468
+2026-10-26 10:36:16,241 DEBUG callbacks.py:108 -- starting episode 469 with id 410429816357144630 (env-idx=0)
+2026-10-26 10:36:22,260 INFO callbacks.py:181 -- episode 469 with id 410429816357144630 (env-inx=0) finished in step 36 with the score -0.032893
+2026-10-26 10:36:22,260 DEBUG callbacks.py:186 -- saving metrics for episode 469
+2026-10-26 10:36:22,260 DEBUG callbacks.py:108 -- starting episode 470 with id 398249152695816596 (env-idx=0)
+2026-10-26 10:36:28,045 INFO callbacks.py:181 -- episode 470 with id 398249152695816596 (env-inx=0) finished in step 36 with the score 0.001474
+2026-10-26 10:36:28,045 DEBUG callbacks.py:186 -- saving metrics for episode 470
+2026-10-26 10:36:28,045 DEBUG callbacks.py:108 -- starting episode 471 with id 362408949861288064 (env-idx=0)
+2026-10-26 10:36:33,672 INFO callbacks.py:181 -- episode 471 with id 362408949861288064 (env-inx=0) finished in step 36 with the score 0.105211
+2026-10-26 10:36:33,672 DEBUG callbacks.py:186 -- saving metrics for episode 471
+2026-10-26 10:36:33,673 DEBUG callbacks.py:108 -- starting episode 472 with id 78967656566657408 (env-idx=0)
+2026-10-26 10:36:39,477 INFO callbacks.py:181 -- episode 472 with id 78967656566657408 (env-inx=0) finished in step 36 with the score -0.071475
+2026-10-26 10:36:39,477 DEBUG callbacks.py:186 -- saving metrics for episode 472
+2026-10-26 10:36:39,477 DEBUG callbacks.py:108 -- starting episode 473 with id 537782991628390521 (env-idx=0)
+2026-10-26 10:36:41,020 INFO train_model.py:132 -- finished training iteration 16
+2026-10-26 10:36:41,020 INFO train_model.py:130 -- starting training iteration 17
+2026-10-26 10:36:45,293 INFO callbacks.py:181 -- episode 473 with id 537782991628390521 (env-inx=0) finished in step 36 with the score 0.067949
+2026-10-26 10:36:45,293 DEBUG callbacks.py:186 -- saving metrics for episode 473
+2026-10-26 10:36:45,293 DEBUG callbacks.py:108 -- starting episode 474 with id 765754985514031294 (env-idx=0)
+2026-10-26 10:36:51,101 INFO callbacks.py:181 -- episode 474 with id 765754985514031294 (env-inx=0) finished in step 36 with the score -0.021732
+2026-10-26 10:36:51,101 DEBUG callbacks.py:186 -- saving metrics for episode 474
+2026-10-26 10:36:51,102 DEBUG callbacks.py:108 -- starting episode 475 with id 209969549747195737 (env-idx=0)
+2026-10-26 10:36:56,877 INFO callbacks.py:181 -- episode 475 with id 209969549747195737 (env-inx=0) finished in step 36 with the score -0.000274
+2026-10-26 10:36:56,877 DEBUG callbacks.py:186 -- saving metrics for episode 475
+2026-10-26 10:36:56,877 DEBUG callbacks.py:108 -- starting episode 476 with id 128665324852607648 (env-idx=0)
+2026-10-26 10:37:02,515 INFO callbacks.py:181 -- episode 476 with id 128665324852607648 (env-inx=0) finished in step 36 with the score 0.075118
+2026-10-26 10:37:02,516 DEBUG callbacks.py:186 -- saving metrics for episode 476
+2026-10-26 10:37:02,516 DEBUG callbacks.py:108 -- starting episode 477 with id 878928644233864588 (env-idx=0)
+2026-10-26 10:37:08,324 INFO callbacks.py:181 -- episode 477 with id 878928644233864588 (env-inx=0) finished in step 36 with the score 0.053421
+2026-10-26 10:37:08,324 DEBUG callbacks.py:186 -- saving metrics for episode 477
+2026-10-26 10:37:08,324 DEBUG callbacks.py:108 -- starting episode 478 with id 849497942293149391 (env-idx=0)
+2026-10-26 10:37:14,244 INFO callbacks.py:181 -- episode 478 with id 849497942293149391 (env-inx=0) finished in step 36 with the score 0.006102
+2026-10-26 10:37:14,244 DEBUG callbacks.py:186 -- saving metrics for episode 478
+2026-10-26 10:37:14,244 DEBUG callbacks.py:108 -- starting episode 479 with id 124725426977699290 (env-idx=0)
+2026-10-26 10:37:20,992 INFO callbacks.py:181 -- episode 479 with id 124725426977699290 (env-inx=0) finished in step 36 with the score 0.027257
+2026-10-26 10:37:20,993 DEBUG callbacks.py:186 -- saving metrics for episode 479
+2026-10-26 10:37:20,993 DEBUG callbacks.py:108 -- starting episode 480 with id 721299629091807356 (env-idx=0)
+2026-10-26 10:37:26,633 INFO callbacks.py:181 -- episode 480 with id 721299629091807356 (env-inx=0) finished in step 36 with the score 0.021900
+2026-10-26 10:37:26,634 DEBUG callbacks.py:186 -- saving metrics for episode 480
+2026-10-26 10:37:26,634 DEBUG callbacks.py:108 -- starting episode 481 with id 191495666903471482 (env-idx=0)
+2026-10-26 10:37:32,504 INFO callbacks.py:181 -- episode 481 with id 191495666903471482 (env-inx=0) finished in step 36 with the score 0.087457
+2026-10-26 10:37:32,504 DEBUG callbacks.py:186 -- saving metrics for episode 481
+2026-10-26 10:37:32,504 DEBUG callbacks.py:108 -- starting episode 482 with id 934242370475434901 (env-idx=0)
+2026-10-26 10:37:38,317 INFO callbacks.py:181 -- episode 482 with id 934242370475434901 (env-inx=0) finished in step 36 with the score -0.010411
+2026-10-26 10:37:38,317 DEBUG callbacks.py:186 -- saving metrics for episode 482
+2026-10-26 10:37:38,317 DEBUG callbacks.py:108 -- starting episode 483 with id 592130257879198099 (env-idx=0)
+2026-10-26 10:37:44,192 INFO callbacks.py:181 -- episode 483 with id 592130257879198099 (env-inx=0) finished in step 36 with the score 0.070459
+2026-10-26 10:37:44,192 DEBUG callbacks.py:186 -- saving metrics for episode 483
+2026-10-26 10:37:44,193 DEBUG callbacks.py:108 -- starting episode 484 with id 190915647812014277 (env-idx=0)
+2026-10-26 10:37:53,782 INFO callbacks.py:181 -- episode 484 with id 190915647812014277 (env-inx=0) finished in step 36 with the score 0.003844
+2026-10-26 10:37:53,782 DEBUG callbacks.py:186 -- saving metrics for episode 484
+2026-10-26 10:37:53,782 DEBUG callbacks.py:108 -- starting episode 485 with id 299409939054431856 (env-idx=0)
+2026-10-26 10:37:59,443 INFO callbacks.py:181 -- episode 485 with id 299409939054431856 (env-inx=0) finished in step 36 with the score 0.014198
+2026-10-26 10:37:59,443 DEBUG callbacks.py:186 -- saving metrics for episode 485
+2026-10-26 10:37:59,443 DEBUG callbacks.py:108 -- starting episode 486 with id 120510271023178009 (env-idx=0)
+2026-10-26 10:38:05,265 INFO callbacks.py:181 -- episode 486 with id 120510271023178009 (env-inx=0) finished in step 36 with the score 0.054817
+2026-10-26 10:38:05,265 DEBUG callbacks.py:186 -- saving metrics for episode 486
+2026-10-26 10:38:05,265 DEBUG callbacks.py:108 -- starting episode 487 with id 805985239082996502 (env-idx=0)
+2026-10-26 10:38:11,108 INFO callbacks.py:181 -- episode 487 with id 805985239082996502 (env-inx=0) finished in step 36 with the score 0.020910
+2026-10-26 10:38:11,108 DEBUG callbacks.py:186 -- saving metrics for episode 487
+2026-10-26 10:38:11,108 DEBUG callbacks.py:108 -- starting episode 488 with id 182287523876803082 (env-idx=0)
+2026-10-26 10:38:16,870 INFO callbacks.py:181 -- episode 488 with id 182287523876803082 (env-inx=0) finished in step 36 with the score 0.013546
+2026-10-26 10:38:16,871 DEBUG callbacks.py:186 -- saving metrics for episode 488
+2026-10-26 10:38:16,871 DEBUG callbacks.py:108 -- starting episode 489 with id 85901801094008180 (env-idx=0)
+2026-10-26 10:38:22,536 INFO callbacks.py:181 -- episode 489 with id 85901801094008180 (env-inx=0) finished in step 36 with the score 0.037441
+2026-10-26 10:38:22,536 DEBUG callbacks.py:186 -- saving metrics for episode 489
+2026-10-26 10:38:22,537 DEBUG callbacks.py:108 -- starting episode 490 with id 301769574753936197 (env-idx=0)
+2026-10-26 10:38:31,921 INFO callbacks.py:181 -- episode 490 with id 301769574753936197 (env-inx=0) finished in step 36 with the score 0.117300
+2026-10-26 10:38:31,921 DEBUG callbacks.py:186 -- saving metrics for episode 490
+2026-10-26 10:38:31,922 DEBUG callbacks.py:108 -- starting episode 491 with id 709634434495251363 (env-idx=0)
+2026-10-26 10:38:37,734 INFO callbacks.py:181 -- episode 491 with id 709634434495251363 (env-inx=0) finished in step 36 with the score 0.010033
+2026-10-26 10:38:37,734 DEBUG callbacks.py:186 -- saving metrics for episode 491
+2026-10-26 10:38:37,734 DEBUG callbacks.py:108 -- starting episode 492 with id 663875328994168833 (env-idx=0)
+2026-10-26 10:38:43,466 INFO callbacks.py:181 -- episode 492 with id 663875328994168833 (env-inx=0) finished in step 36 with the score 0.004439
+2026-10-26 10:38:43,467 DEBUG callbacks.py:186 -- saving metrics for episode 492
+2026-10-26 10:38:43,467 DEBUG callbacks.py:108 -- starting episode 493 with id 149431688911932872 (env-idx=0)
+2026-10-26 10:38:49,081 INFO callbacks.py:181 -- episode 493 with id 149431688911932872 (env-inx=0) finished in step 36 with the score -0.011049
+2026-10-26 10:38:49,081 DEBUG callbacks.py:186 -- saving metrics for episode 493
+2026-10-26 10:38:49,081 DEBUG callbacks.py:108 -- starting episode 494 with id 447948163458328814 (env-idx=0)
+2026-10-26 10:38:54,892 INFO callbacks.py:181 -- episode 494 with id 447948163458328814 (env-inx=0) finished in step 36 with the score -0.052680
+2026-10-26 10:38:54,892 DEBUG callbacks.py:186 -- saving metrics for episode 494
+2026-10-26 10:38:54,893 DEBUG callbacks.py:108 -- starting episode 495 with id 303439775876139691 (env-idx=0)
+2026-10-26 10:39:00,643 INFO callbacks.py:181 -- episode 495 with id 303439775876139691 (env-inx=0) finished in step 36 with the score -0.046624
+2026-10-26 10:39:00,644 DEBUG callbacks.py:186 -- saving metrics for episode 495
+2026-10-26 10:39:00,644 DEBUG callbacks.py:108 -- starting episode 496 with id 645612375877599693 (env-idx=0)
+2026-10-26 10:39:06,462 INFO callbacks.py:181 -- episode 496 with id 645612375877599693 (env-inx=0) finished in step 36 with the score 0.016734
+2026-10-26 10:39:06,463 DEBUG callbacks.py:186 -- saving metrics for episode 496
+2026-10-26 10:39:06,463 DEBUG callbacks.py:108 -- starting episode 497 with id 965257303271439280 (env-idx=0)
+2026-10-26 10:39:12,068 INFO callbacks.py:181 -- episode 497 with id 965257303271439280 (env-inx=0) finished in step 36 with the score 0.034421
+2026-10-26 10:39:12,068 DEBUG callbacks.py:186 -- saving metrics for episode 497
+2026-10-26 10:39:12,068 DEBUG callbacks.py:108 -- starting episode 498 with id 192176474506970839 (env-idx=0)
+2026-10-26 10:39:17,860 INFO callbacks.py:181 -- episode 498 with id 192176474506970839 (env-inx=0) finished in step 36 with the score -0.021967
+2026-10-26 10:39:17,860 DEBUG callbacks.py:186 -- saving metrics for episode 498
+2026-10-26 10:39:17,860 DEBUG callbacks.py:108 -- starting episode 499 with id 322926206345071509 (env-idx=0)
+2026-10-26 10:39:23,660 INFO callbacks.py:181 -- episode 499 with id 322926206345071509 (env-inx=0) finished in step 36 with the score -0.019996
+2026-10-26 10:39:23,660 DEBUG callbacks.py:186 -- saving metrics for episode 499
+2026-10-26 10:39:23,660 DEBUG callbacks.py:108 -- starting episode 500 with id 631659379882193880 (env-idx=0)
+2026-10-26 10:39:30,377 INFO callbacks.py:181 -- episode 500 with id 631659379882193880 (env-inx=0) finished in step 36 with the score -0.057229
+2026-10-26 10:39:30,377 DEBUG callbacks.py:186 -- saving metrics for episode 500
+2026-10-26 10:39:30,377 DEBUG callbacks.py:108 -- starting episode 501 with id 472334012607398101 (env-idx=0)
+2026-10-26 10:39:30,531 INFO train_model.py:132 -- finished training iteration 17
+2026-10-26 10:39:30,531 INFO train_model.py:130 -- starting training iteration 18
+2026-10-26 10:39:36,041 INFO callbacks.py:181 -- episode 501 with id 472334012607398101 (env-inx=0) finished in step 36 with the score -0.001556
+2026-10-26 10:39:36,041 DEBUG callbacks.py:186 -- saving metrics for episode 501
+2026-10-26 10:39:36,041 DEBUG callbacks.py:108 -- starting episode 502 with id 497720461046596197 (env-idx=0)
+2026-10-26 10:39:42,797 INFO callbacks.py:181 -- episode 502 with id 497720461046596197 (env-inx=0) finished in step 36 with the score 0.028091
+2026-10-26 10:39:42,797 DEBUG callbacks.py:186 -- saving metrics for episode 502
+2026-10-26 10:39:42,798 DEBUG callbacks.py:108 -- starting episode 503 with id 773866669749395760 (env-idx=0)
+2026-10-26 10:39:48,627 INFO callbacks.py:181 -- episode 503 with id 773866669749395760 (env-inx=0) finished in step 36 with the score -0.060701
+2026-10-26 10:39:48,627 DEBUG callbacks.py:186 -- saving metrics for episode 503
+2026-10-26 10:39:48,628 DEBUG callbacks.py:108 -- starting episode 504 with id 30167669275154936 (env-idx=0)
+2026-10-26 10:39:54,247 INFO callbacks.py:181 -- episode 504 with id 30167669275154936 (env-inx=0) finished in step 36 with the score 0.004349
+2026-10-26 10:39:54,247 DEBUG callbacks.py:186 -- saving metrics for episode 504
+2026-10-26 10:39:54,247 DEBUG callbacks.py:108 -- starting episode 505 with id 492492703282467256 (env-idx=0)
+2026-10-26 10:40:03,778 INFO callbacks.py:181 -- episode 505 with id 492492703282467256 (env-inx=0) finished in step 36 with the score -0.024753
+2026-10-26 10:40:03,778 DEBUG callbacks.py:186 -- saving metrics for episode 505
+2026-10-26 10:40:03,779 DEBUG callbacks.py:108 -- starting episode 506 with id 389168420529197389 (env-idx=0)
+2026-10-26 10:40:11,807 INFO callbacks.py:181 -- episode 506 with id 389168420529197389 (env-inx=0) finished in step 36 with the score 0.055995
+2026-10-26 10:40:11,808 DEBUG callbacks.py:186 -- saving metrics for episode 506
+2026-10-26 10:40:11,810 DEBUG callbacks.py:108 -- starting episode 507 with id 416645905682700899 (env-idx=0)
+2026-10-26 10:40:19,141 INFO callbacks.py:181 -- episode 507 with id 416645905682700899 (env-inx=0) finished in step 36 with the score 0.026821
+2026-10-26 10:40:19,141 DEBUG callbacks.py:186 -- saving metrics for episode 507
+2026-10-26 10:40:19,141 DEBUG callbacks.py:108 -- starting episode 508 with id 217404432986208658 (env-idx=0)
+2026-10-26 10:40:24,797 INFO callbacks.py:181 -- episode 508 with id 217404432986208658 (env-inx=0) finished in step 36 with the score -0.010841
+2026-10-26 10:40:24,798 DEBUG callbacks.py:186 -- saving metrics for episode 508
+2026-10-26 10:40:24,798 DEBUG callbacks.py:108 -- starting episode 509 with id 303438763427070428 (env-idx=0)
+2026-10-26 10:40:30,643 INFO callbacks.py:181 -- episode 509 with id 303438763427070428 (env-inx=0) finished in step 36 with the score 0.096021
+2026-10-26 10:40:30,644 DEBUG callbacks.py:186 -- saving metrics for episode 509
+2026-10-26 10:40:30,644 DEBUG callbacks.py:108 -- starting episode 510 with id 207035762644982407 (env-idx=0)
+2026-10-26 10:40:40,226 DEBUG callbacks.py:186 -- saving metrics for episode 510
+2026-10-26 10:40:40,226 DEBUG callbacks.py:108 -- starting episode 511 with id 640336657476898461 (env-idx=0)
+2026-10-26 10:40:46,150 INFO callbacks.py:181 -- episode 511 with id 640336657476898461 (env-inx=0) finished in step 36 with the score -0.166531
+2026-10-26 10:40:46,150 DEBUG callbacks.py:186 -- saving metrics for episode 511
+2026-10-26 10:40:46,150 DEBUG callbacks.py:108 -- starting episode 512 with id 165195462572830619 (env-idx=0)
+2026-10-26 10:40:51,977 INFO callbacks.py:181 -- episode 512 with id 165195462572830619 (env-inx=0) finished in step 36 with the score -0.013841
+2026-10-26 10:40:51,977 DEBUG callbacks.py:186 -- saving metrics for episode 512
+2026-10-26 10:40:51,977 DEBUG callbacks.py:108 -- starting episode 513 with id 184945915735701636 (env-idx=0)
+2026-10-26 10:41:01,826 DEBUG callbacks.py:186 -- saving metrics for episode 513
+2026-10-26 10:41:01,827 DEBUG callbacks.py:108 -- starting episode 514 with id 92290224485576664 (env-idx=0)
+2026-10-26 10:41:07,784 DEBUG callbacks.py:186 -- saving metrics for episode 514
+2026-10-26 10:41:07,784 DEBUG callbacks.py:108 -- starting episode 515 with id 225612105551559626 (env-idx=0)
+2026-10-26 10:41:13,444 DEBUG callbacks.py:186 -- saving metrics for episode 515
+2026-10-26 10:41:13,444 DEBUG callbacks.py:108 -- starting episode 516 with id 460235927638203097 (env-idx=0)
+2026-10-26 10:41:19,332 DEBUG callbacks.py:186 -- saving metrics for episode 516
+2026-10-26 10:41:19,333 DEBUG callbacks.py:108 -- starting episode 517 with id 704224356164694380 (env-idx=0)
+2026-10-26 10:41:25,245 DEBUG callbacks.py:186 -- saving metrics for episode 517
+2026-10-26 10:41:25,245 DEBUG callbacks.py:108 -- starting episode 518 with id 834662220887682237 (env-idx=0)
+2026-10-26 10:41:31,007 INFO callbacks.py:181 -- episode 518 with id 834662220887682237 (env-inx=0) finished in step 36 with the score -0.078367
+2026-10-26 10:41:31,008 DEBUG callbacks.py:186 -- saving metrics for episode 518
+2026-10-26 10:41:31,008 DEBUG callbacks.py:108 -- starting episode 519 with id 8054397541314241 (env-idx=0)
+2026-10-26 10:41:36,653 INFO callbacks.py:181 -- episode 519 with id 8054397541314241 (env-inx=0) finished in step 36 with the score 0.068571
+2026-10-26 10:41:36,654 DEBUG callbacks.py:186 -- saving metrics for episode 519
+2026-10-26 10:41:36,654 DEBUG callbacks.py:108 -- starting episode 520 with id 902331095291254132 (env-idx=0)
+2026-10-26 10:41:46,249 INFO callbacks.py:181 -- episode 520 with id 902331095291254132 (env-inx=0) finished in step 36 with the score 0.142041
+2026-10-26 10:41:46,250 DEBUG callbacks.py:186 -- saving metrics for episode 520
+2026-10-26 10:41:46,250 DEBUG callbacks.py:108 -- starting episode 521 with id 314737563312277359 (env-idx=0)
+2026-10-26 10:41:52,018 DEBUG callbacks.py:186 -- saving metrics for episode 521
+2026-10-26 10:41:52,018 DEBUG callbacks.py:108 -- starting episode 522 with id 432958359572409177 (env-idx=0)
+2026-10-26 10:41:57,620 INFO callbacks.py:181 -- episode 522 with id 432958359572409177 (env-inx=0) finished in step 36 with the score -0.063673
+2026-10-26 10:41:57,620 DEBUG callbacks.py:186 -- saving metrics for episode 522
+2026-10-26 10:41:57,621 DEBUG callbacks.py:108 -- starting episode 523 with id 360297141746416350 (env-idx=0)
+2026-10-26 10:42:03,429 DEBUG callbacks.py:186 -- saving metrics for episode 523
+2026-10-26 10:42:03,429 DEBUG callbacks.py:108 -- starting episode 524 with id 70934730716329348 (env-idx=0)
+2026-10-26 10:42:09,261 INFO callbacks.py:181 -- episode 524 with id 70934730716329348 (env-inx=0) finished in step 36 with the score -0.027548
+2026-10-26 10:42:09,261 DEBUG callbacks.py:186 -- saving metrics for episode 524
+2026-10-26 10:42:09,261 DEBUG callbacks.py:108 -- starting episode 525 with id 229047740920190350 (env-idx=0)
+2026-10-26 10:42:15,946 INFO callbacks.py:181 -- episode 525 with id 229047740920190350 (env-inx=0) finished in step 36 with the score 0.124962
+2026-10-26 10:42:15,946 DEBUG callbacks.py:186 -- saving metrics for episode 525
+2026-10-26 10:42:15,946 DEBUG callbacks.py:108 -- starting episode 526 with id 313904677245971562 (env-idx=0)
+2026-10-26 10:42:21,563 INFO callbacks.py:181 -- episode 526 with id 313904677245971562 (env-inx=0) finished in step 36 with the score 0.083457
+2026-10-26 10:42:21,563 DEBUG callbacks.py:186 -- saving metrics for episode 526
+2026-10-26 10:42:21,563 DEBUG callbacks.py:108 -- starting episode 527 with id 888538956317770334 (env-idx=0)
+2026-10-26 10:42:27,348 INFO callbacks.py:181 -- episode 527 with id 888538956317770334 (env-inx=0) finished in step 36 with the score 0.017301
+2026-10-26 10:42:27,348 DEBUG callbacks.py:186 -- saving metrics for episode 527
+2026-10-26 10:42:27,348 DEBUG callbacks.py:108 -- starting episode 528 with id 645317348267266337 (env-idx=0)
+2026-10-26 10:42:35,684 INFO train_model.py:132 -- finished training iteration 18
+2026-10-26 10:42:35,684 INFO train_model.py:130 -- starting training iteration 19
+2026-10-26 10:42:36,911 INFO callbacks.py:181 -- episode 528 with id 645317348267266337 (env-inx=0) finished in step 36 with the score 0.214876
+2026-10-26 10:42:36,911 DEBUG callbacks.py:186 -- saving metrics for episode 528
+2026-10-26 10:42:36,911 DEBUG callbacks.py:108 -- starting episode 529 with id 667271492862000672 (env-idx=0)
+2026-10-26 10:42:42,471 INFO callbacks.py:181 -- episode 529 with id 667271492862000672 (env-inx=0) finished in step 36 with the score 0.235828
+2026-10-26 10:42:42,472 DEBUG callbacks.py:186 -- saving metrics for episode 529
+2026-10-26 10:42:42,472 DEBUG callbacks.py:108 -- starting episode 530 with id 563709489241251903 (env-idx=0)
+2026-10-26 10:42:48,244 INFO callbacks.py:181 -- episode 530 with id 563709489241251903 (env-inx=0) finished in step 36 with the score -0.093061
+2026-10-26 10:42:48,244 DEBUG callbacks.py:186 -- saving metrics for episode 530
+2026-10-26 10:42:48,244 DEBUG callbacks.py:108 -- starting episode 531 with id 319262091581715402 (env-idx=0)
+2026-10-26 10:42:54,041 INFO callbacks.py:181 -- episode 531 with id 319262091581715402 (env-inx=0) finished in step 36 with the score 0.050265
+2026-10-26 10:42:54,042 DEBUG callbacks.py:186 -- saving metrics for episode 531
+2026-10-26 10:42:54,042 DEBUG callbacks.py:108 -- starting episode 532 with id 208658342366197869 (env-idx=0)
+2026-10-26 10:42:59,837 DEBUG callbacks.py:186 -- saving metrics for episode 532
+2026-10-26 10:42:59,837 DEBUG callbacks.py:108 -- starting episode 533 with id 420121488469050178 (env-idx=0)
+2026-10-26 10:43:05,729 INFO callbacks.py:181 -- episode 533 with id 420121488469050178 (env-inx=0) finished in step 36 with the score -0.075260
+2026-10-26 10:43:05,730 DEBUG callbacks.py:186 -- saving metrics for episode 533
+2026-10-26 10:43:05,733 DEBUG callbacks.py:108 -- starting episode 534 with id 210162327958531761 (env-idx=0)
+2026-10-26 10:43:12,178 DEBUG callbacks.py:186 -- saving metrics for episode 534
+2026-10-26 10:43:12,178 DEBUG callbacks.py:108 -- starting episode 535 with id 511067151620154396 (env-idx=0)
+2026-10-26 10:43:17,971 INFO callbacks.py:181 -- episode 535 with id 511067151620154396 (env-inx=0) finished in step 36 with the score 0.103806
+2026-10-26 10:43:17,971 DEBUG callbacks.py:186 -- saving metrics for episode 535
+2026-10-26 10:43:17,971 DEBUG callbacks.py:108 -- starting episode 536 with id 552884727144947107 (env-idx=0)
+2026-10-26 10:43:23,603 INFO callbacks.py:181 -- episode 536 with id 552884727144947107 (env-inx=0) finished in step 36 with the score -0.025506
+2026-10-26 10:43:23,603 DEBUG callbacks.py:186 -- saving metrics for episode 536
+2026-10-26 10:43:23,603 DEBUG callbacks.py:108 -- starting episode 537 with id 509739665468031458 (env-idx=0)
+2026-10-26 10:43:30,254 INFO callbacks.py:181 -- episode 537 with id 509739665468031458 (env-inx=0) finished in step 36 with the score 0.259516
+2026-10-26 10:43:30,254 DEBUG callbacks.py:186 -- saving metrics for episode 537
+2026-10-26 10:43:30,254 DEBUG callbacks.py:108 -- starting episode 538 with id 566128449037593458 (env-idx=0)
+2026-10-26 10:43:36,026 INFO callbacks.py:181 -- episode 538 with id 566128449037593458 (env-inx=0) finished in step 36 with the score 0.010966
+2026-10-26 10:43:36,026 DEBUG callbacks.py:186 -- saving metrics for episode 538
+2026-10-26 10:43:36,027 DEBUG callbacks.py:108 -- starting episode 539 with id 18643090932539 (env-idx=0)
+2026-10-26 10:43:41,809 INFO callbacks.py:181 -- episode 539 with id 18643090932539 (env-inx=0) finished in step 36 with the score 0.053194
+2026-10-26 10:43:41,809 DEBUG callbacks.py:186 -- saving metrics for episode 539
+2026-10-26 10:43:41,809 DEBUG callbacks.py:108 -- starting episode 540 with id 84635072371532039 (env-idx=0)
+2026-10-26 10:43:51,187 INFO callbacks.py:181 -- episode 540 with id 84635072371532039 (env-inx=0) finished in step 36 with the score -0.002805
+2026-10-26 10:43:51,187 DEBUG callbacks.py:186 -- saving metrics for episode 540
+2026-10-26 10:43:51,188 DEBUG callbacks.py:108 -- starting episode 541 with id 409345354185421119 (env-idx=0)
+2026-10-26 10:43:56,949 INFO callbacks.py:181 -- episode 541 with id 409345354185421119 (env-inx=0) finished in step 36 with the score 0.010521
+2026-10-26 10:43:56,949 DEBUG callbacks.py:186 -- saving metrics for episode 541
+2026-10-26 10:43:56,949 DEBUG callbacks.py:108 -- starting episode 542 with id 71654835225764493 (env-idx=0)
+2026-10-26 10:44:02,687 INFO callbacks.py:181 -- episode 542 with id 71654835225764493 (env-inx=0) finished in step 36 with the score 0.063991
+2026-10-26 10:44:02,688 DEBUG callbacks.py:186 -- saving metrics for episode 542
+2026-10-26 10:44:02,688 DEBUG callbacks.py:108 -- starting episode 543 with id 544952023726711641 (env-idx=0)
+2026-10-26 10:44:08,253 INFO callbacks.py:181 -- episode 543 with id 544952023726711641 (env-inx=0) finished in step 36 with the score -0.012804
+2026-10-26 10:44:08,254 DEBUG callbacks.py:186 -- saving metrics for episode 543
+2026-10-26 10:44:08,254 DEBUG callbacks.py:108 -- starting episode 544 with id 333429534070533305 (env-idx=0)
+2026-10-26 10:44:14,057 INFO callbacks.py:181 -- episode 544 with id 333429534070533305 (env-inx=0) finished in step 36 with the score 0.023640
+2026-10-26 10:44:14,057 DEBUG callbacks.py:186 -- saving metrics for episode 544
+2026-10-26 10:44:14,057 DEBUG callbacks.py:108 -- starting episode 545 with id 83530823471794276 (env-idx=0)
+2026-10-26 10:44:23,624 INFO callbacks.py:181 -- episode 545 with id 83530823471794276 (env-inx=0) finished in step 36 with the score -0.012237
+2026-10-26 10:44:23,624 DEBUG callbacks.py:186 -- saving metrics for episode 545
+2026-10-26 10:44:23,625 DEBUG callbacks.py:108 -- starting episode 546 with id 325950927835518750 (env-idx=0)
+2026-10-26 10:44:29,455 INFO callbacks.py:181 -- episode 546 with id 325950927835518750 (env-inx=0) finished in step 36 with the score 0.084129
+2026-10-26 10:44:29,455 DEBUG callbacks.py:186 -- saving metrics for episode 546
+2026-10-26 10:44:29,455 DEBUG callbacks.py:108 -- starting episode 547 with id 625876481465621812 (env-idx=0)
+2026-10-26 10:44:35,100 INFO callbacks.py:181 -- episode 547 with id 625876481465621812 (env-inx=0) finished in step 36 with the score 0.003016
+2026-10-26 10:44:35,101 DEBUG callbacks.py:186 -- saving metrics for episode 547
+2026-10-26 10:44:35,101 DEBUG callbacks.py:108 -- starting episode 548 with id 118656266941805093 (env-idx=0)
+2026-10-26 10:44:40,959 INFO callbacks.py:181 -- episode 548 with id 118656266941805093 (env-inx=0) finished in step 36 with the score 0.140175
+2026-10-26 10:44:40,959 DEBUG callbacks.py:186 -- saving metrics for episode 548
+2026-10-26 10:44:40,959 DEBUG callbacks.py:108 -- starting episode 549 with id 604013515714143239 (env-idx=0)
+2026-10-26 10:44:46,776 INFO callbacks.py:181 -- episode 549 with id 604013515714143239 (env-inx=0) finished in step 36 with the score -0.155185
+2026-10-26 10:44:46,777 DEBUG callbacks.py:186 -- saving metrics for episode 549
+2026-10-26 10:44:46,777 DEBUG callbacks.py:108 -- starting episode 550 with id 12462685683782809 (env-idx=0)
+2026-10-26 10:44:52,384 INFO callbacks.py:181 -- episode 550 with id 12462685683782809 (env-inx=0) finished in step 36 with the score 0.067450
+2026-10-26 10:44:52,384 DEBUG callbacks.py:186 -- saving metrics for episode 550
+2026-10-26 10:44:52,385 DEBUG callbacks.py:108 -- starting episode 551 with id 895684930796203533 (env-idx=0)
+2026-10-26 10:44:58,211 INFO callbacks.py:181 -- episode 551 with id 895684930796203533 (env-inx=0) finished in step 36 with the score -0.064191
+2026-10-26 10:44:58,212 DEBUG callbacks.py:186 -- saving metrics for episode 551
+2026-10-26 10:44:58,212 DEBUG callbacks.py:108 -- starting episode 552 with id 256177718536726057 (env-idx=0)
+2026-10-26 10:45:04,044 INFO callbacks.py:181 -- episode 552 with id 256177718536726057 (env-inx=0) finished in step 36 with the score 0.053289
+2026-10-26 10:45:04,044 DEBUG callbacks.py:186 -- saving metrics for episode 552
+2026-10-26 10:45:04,044 DEBUG callbacks.py:108 -- starting episode 553 with id 230301162518359991 (env-idx=0)
+2026-10-26 10:45:09,817 INFO callbacks.py:181 -- episode 553 with id 230301162518359991 (env-inx=0) finished in step 36 with the score 0.030749
+2026-10-26 10:45:09,817 DEBUG callbacks.py:186 -- saving metrics for episode 553
+2026-10-26 10:45:09,817 DEBUG callbacks.py:108 -- starting episode 554 with id 277402791170130410 (env-idx=0)
+2026-10-26 10:45:15,566 DEBUG callbacks.py:186 -- saving metrics for episode 554
+2026-10-26 10:45:15,567 DEBUG callbacks.py:108 -- starting episode 555 with id 181268976510452258 (env-idx=0)
+2026-10-26 10:45:21,391 INFO callbacks.py:181 -- episode 555 with id 181268976510452258 (env-inx=0) finished in step 36 with the score 0.026801
+2026-10-26 10:45:21,391 DEBUG callbacks.py:186 -- saving metrics for episode 555
+2026-10-26 10:45:21,391 DEBUG callbacks.py:108 -- starting episode 556 with id 274682099924554550 (env-idx=0)
+2026-10-26 10:45:24,727 INFO train_model.py:132 -- finished training iteration 19
+2026-10-26 10:45:24,727 INFO train_model.py:133 -- saving checkpoint
+2026-10-26 10:45:24,803 INFO train_model.py:137 -- closing loggers
+2026-10-26 10:45:24,803 DEBUG loggers.py:108 -- closing logger and all files
+2026-10-26 10:45:24,803 INFO train_model.py:139 -- closing callbacks
+2026-10-26 10:45:24,803 DEBUG loggers.py:155 -- closing result logger
+2026-10-26 10:45:24,804 INFO train_model.py:148 -- finished
+2026-10-26 10:45:24,804 INFO decompose.py:44 -- decomposing lit-pbw with rldec_combsequential_s1
+2026-10-26 10:45:25,010 DEBUG decompose.py:55 -- beginning the decomposition
+2026-10-26 10:45:25,010 DEBUG decompose.py:60 -- beginning episode 0
+2026-10-26 10:45:25,154 DEBUG decompose.py:70 -- finished episode 0 with cumulative reward nan
+2026-10-26 10:45:25,154 INFO decompose.py:79 -- finished the decomposition

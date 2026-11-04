@@ -1,0 +1,187 @@
+{
+  "app": "daytrader7",
+  "class_nodes": 115,
+  "kinds": {
+    "class": 109,
+    "interface": 4,
+    "annotation": 2
+  },
+  "call_sites": 3691,
+  "categories": {
+    "external": 1895,
+    "edge_concrete": 1119,
+    "self": 616,
+    "J3_reflective": 21,
+    "J1_dispatch": 40
+  },
+  "naive_edges": 213,
+  "isolated_nodes": 24,
+  "J1": {
+    "abstractions": 4,
+    "with_0_impl": 0,
+    "with_1_impl": 2,
+    "with_2plus_impl": 2,
+    "call_sites": 40,
+    "call_sites_by_impl_count": {
+      ">=2": 37,
+      "1": 3
+    },
+    "lost_owner_impl_pairs": 19,
+    "multi_impl_abstractions": {
+      "com.ibm.websphere.samples.daytrader.TradeServices": [
+        "com.ibm.websphere.samples.daytrader.TradeAction",
+        "com.ibm.websphere.samples.daytrader.direct.TradeDirect",
+        "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean"
+      ],
+      "com.ibm.websphere.samples.daytrader.web.prims.PingEJBIFace": [
+        "com.ibm.websphere.samples.daytrader.web.prims.PingEJBLocal",
+        "com.ibm.websphere.samples.daytrader.web.prims.PingEJBLocalDecorator"
+      ]
+    },
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:165  return trade.getMarketSummary();   [owner=TradeAction, target=TradeServices]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:234  marketSummaryData = trade.getMarketSummary();   [owner=TradeAction, target=TradeServices]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:256  OrderDataBean orderData = trade.buy(userID, symbol, quantity, orderProcessingMode);   [owner=TradeAction, target=TradeServices]"
+    ]
+  },
+  "J2": {
+    "annotated_injection_points": 46,
+    "by_annotation": {
+      "EJB": 11,
+      "Resource": 15,
+      "Inject": 17,
+      "PersistenceContext": 3
+    },
+    "by_declared_type": {
+      "app-abstraction": 5,
+      "external": 25,
+      "app-concrete": 16
+    },
+    "spring_xml_injections": 0,
+    "spring_xml_injections_involving_app_classes": 0,
+    "call_sites_through_injected_fields": 91,
+    "those_call_sites_by_category": {
+      "external": 65,
+      "edge_concrete": 22,
+      "J1_dispatch": 4
+    },
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/DTBroker3MDB.java:50  @EJB com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBLocal tradeSLSB",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/DTBroker3MDB.java:53  @Resource javax.ejb.MessageDrivenContext mdc",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/DTStreamer3MDB.java:50  @Resource javax.ejb.MessageDrivenContext mdc"
+    ]
+  },
+  "J3": {
+    "call_sites": 21,
+    "by_method_and_argument": {
+      "lookup/literal": 19,
+      "lookup/non-literal": 2
+    },
+    "jndi_literal_names": [
+      "java:comp/BeanManager",
+      "java:comp/DefaultManagedThreadFactory",
+      "java:comp/UserTransaction",
+      "java:comp/env/ejb/TradeSLSBBean",
+      "java:comp/env/ejb/TradeSLSBBeanRemote",
+      "java:comp/env/jms/QueueConnectionFactory",
+      "java:comp/env/jms/TopicConnectionFactory",
+      "java:comp/env/jms/TradeBrokerQueue",
+      "java:comp/env/jms/TradeStreamerTopic",
+      "java:module/TradeSLSBBean",
+      "jms/TradeBrokerQueue",
+      "jms/TradeStreamerTopic"
+    ],
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:115  tradeLocal = (TradeSLSBLocal) context.lookup(\"java:comp/env/ejb/TradeSLSBBean\");   [owner=TradeAction, target=InitialContext]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:116  tradeRemote = (TradeSLSBRemote) context.lookup(\"java:comp/env/ejb/TradeSLSBBeanRemote\");   [owner=TradeAction, target=InitialContext]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/direct/TradeDirect.java:215  txn = (javax.transaction.UserTransaction) context.lookup(\"java:comp/UserTransaction\");   [owner=TradeDirect, target=InitialContext]"
+    ]
+  },
+  "J4": {
+    "interfaces_without_java_impl": [],
+    "of_which_bound_by_mapper_xml": [],
+    "call_sites_on_interfaces_without_impl": 0,
+    "sql_xml_files": 0,
+    "alias_packages": [],
+    "ibatis_dao_sqlmap_links": 0,
+    "binder_to_mapped_type_pairs": 0,
+    "binder_to_mapped_type_pairs_missing_in_naive_graph": 0,
+    "missing_pairs": [],
+    "class_literal_sites_on_external_receivers": 25,
+    "class_literal_receiver_types": {
+      "CriteriaBuilder": 3,
+      "CriteriaQuery": 3,
+      "EntityManager": 17,
+      "SessionContext": 1,
+      "HttpServletRequest": 1
+    },
+    "class_literal_owner_target_pairs": 8,
+    "class_literal_pairs_missing_in_naive_graph": 1,
+    "class_literal_examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/MarketSummarySingleton.java:74  CriteriaQuery<QuoteDataBean> criteriaQuery = criteriaBuilder.createQuery(QuoteDataBean.class);   [owner=MarketSummarySingleton, target=CriteriaBuilder]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/MarketSummarySingleton.java:75  Root<QuoteDataBean> quoteRoot = criteriaQuery.from(QuoteDataBean.class);   [owner=MarketSummarySingleton, target=CriteriaQuery]",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/ejb3/TradeSLSBBean.java:133  AccountProfileDataBean profile = entityManager.find(AccountProfileDataBean.class, userID);   [owner=TradeSLSBBean, target=EntityManager]"
+    ],
+    "jpa_associations": 9,
+    "jpa_association_pairs_missing_in_naive_graph": 5,
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/entities/AccountDataBean.java:80  @OneToMany orders -> com.ibm.websphere.samples.daytrader.entities.OrderDataBean",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/entities/AccountDataBean.java:83  @OneToMany holdings -> com.ibm.websphere.samples.daytrader.entities.HoldingDataBean"
+    ]
+  },
+  "J5": {
+    "classes_named_outside_java": {
+      "other-xml": 2,
+      "persistence.xml": 5,
+      "web.xml": 2,
+      "pages(fqcn)": 12,
+      "pages(EL)": 7,
+      "annotation-entry-point": 54
+    },
+    "entry_point_sources": [
+      "web.xml",
+      "pages(fqcn)",
+      "pages(EL)",
+      "annotation-entry-point"
+    ],
+    "entry_point_classes": 72,
+    "entry_points_without_inbound_naive_edge": 61,
+    "el_reference_counts": {
+      "com.ibm.websphere.samples.daytrader.web.prims.PingCDIJSFBean": 1,
+      "com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF": 18,
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF": 31,
+      "com.ibm.websphere.samples.daytrader.web.jsf.AccountDataJSF": 36,
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF": 23,
+      "com.ibm.websphere.samples.daytrader.web.jsf.OrderDataJSF": 13,
+      "com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF": 8
+    },
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/resources/META-INF/ibm-ejb-jar-bnd.xml:38  com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/resources/META-INF/ibm-ejb-jar-bnd.xml:42  com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/resources/META-INF/persistence.xml:26  com.ibm.websphere.samples.daytrader.entities.AccountDataBean",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/resources/META-INF/persistence.xml:27  com.ibm.websphere.samples.daytrader.entities.AccountProfileDataBean"
+    ]
+  },
+  "J6": {
+    "call_sites": 0,
+    "share_of_call_sites": 0.0,
+    "by_error": {},
+    "top_unsolved_symbols": {},
+    "by_module": {},
+    "unresolved_supertype_refs": 0,
+    "unresolved_field_types": 0,
+    "jars_loaded": 6,
+    "examples": []
+  },
+  "J7": {
+    "type_use_pairs": 80,
+    "type_use_pairs_without_call_edge": 27,
+    "examples": [
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:658  TradeAction declares type RunStatsDataBean",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:536  TradeAction declares type AccountDataBean",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:552  TradeAction declares type AccountProfileDataBean",
+      "sample.daytrader7/daytrader-ee7-ejb/src/main/java/com/ibm/websphere/samples/daytrader/TradeAction.java:520  TradeAction declares type HoldingDataBean"
+    ]
+  },
+  "object_creations_of_app_classes": 89
+}

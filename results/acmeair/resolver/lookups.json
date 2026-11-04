@@ -1,0 +1,50 @@
+[
+  {
+    "where": "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:68",
+    "method": "lookup",
+    "name": "java:comp/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:77",
+    "method": "lookup",
+    "name": "java:comp/env/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:96",
+    "method": "lookup",
+    "name": "java:comp/env",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:130",
+    "method": "lookup",
+    "name": "java:comp/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:139",
+    "method": "lookup",
+    "name": "java:comp/env/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-services-wxs/src/main/java/com/acmeair/wxs/utils/WXSSessionManager.java:193",
+    "method": "lookup",
+    "name": "java:comp/env",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-webapp/src/main/java/com/acmeair/config/AcmeAirConfiguration.java:44",
+    "method": "lookup",
+    "name": "java:comp/BeanManager",
+    "bound_to": []
+  },
+  {
+    "where": "acmeair/acmeair-webapp/src/main/java/com/acmeair/config/AcmeAirConfiguration.java:53",
+    "method": "lookup",
+    "name": "java:comp/env/BeanManager",
+    "bound_to": []
+  }
+]

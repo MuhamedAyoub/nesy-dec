@@ -1,0 +1,228 @@
+{
+  "app": "acmeair",
+  "class_nodes": 72,
+  "kinds": {
+    "interface": 14,
+    "enum": 2,
+    "class": 55,
+    "annotation": 1
+  },
+  "call_sites": 1142,
+  "categories": {
+    "self": 50,
+    "J1_dispatch": 115,
+    "external": 687,
+    "edge_concrete": 141,
+    "J3_reflective": 17,
+    "J6_unresolved": 132
+  },
+  "naive_edges": 86,
+  "isolated_nodes": 23,
+  "J1": {
+    "abstractions": 16,
+    "with_0_impl": 0,
+    "with_1_impl": 3,
+    "with_2plus_impl": 13,
+    "call_sites": 115,
+    "call_sites_by_impl_count": {
+      ">=2": 114,
+      "1": 1
+    },
+    "lost_owner_impl_pairs": 87,
+    "multi_impl_abstractions": {
+      "com.acmeair.AcmeAirConstants": [
+        "com.acmeair.morphia.services.BookingServiceImpl",
+        "com.acmeair.morphia.services.CustomerServiceImpl",
+        "com.acmeair.morphia.services.FlightServiceImpl",
+        "com.acmeair.morphia.services.util.MongoConnectionManager"
+      ],
+      "com.acmeair.entities.AirportCodeMapping": [
+        "com.acmeair.morphia.entities.AirportCodeMappingImpl",
+        "com.acmeair.wxs.entities.AirportCodeMappingImpl"
+      ],
+      "com.acmeair.entities.Booking": [
+        "com.acmeair.morphia.entities.BookingImpl",
+        "com.acmeair.wxs.entities.BookingImpl"
+      ],
+      "com.acmeair.entities.Customer": [
+        "com.acmeair.morphia.entities.CustomerImpl",
+        "com.acmeair.wxs.entities.CustomerImpl"
+      ],
+      "com.acmeair.entities.CustomerAddress": [
+        "com.acmeair.morphia.entities.CustomerAddressImpl",
+        "com.acmeair.wxs.entities.CustomerAddressImpl"
+      ],
+      "com.acmeair.entities.CustomerSession": [
+        "com.acmeair.morphia.entities.CustomerSessionImpl",
+        "com.acmeair.wxs.entities.CustomerSessionImpl"
+      ],
+      "com.acmeair.entities.Flight": [
+        "com.acmeair.morphia.entities.FlightImpl",
+        "com.acmeair.wxs.entities.FlightImpl"
+      ],
+      "com.acmeair.entities.FlightSegment": [
+        "com.acmeair.morphia.entities.FlightSegmentImpl",
+        "com.acmeair.wxs.entities.FlightSegmentImpl"
+      ],
+      "com.acmeair.service.BookingService": [
+        "com.acmeair.morphia.services.BookingServiceImpl",
+        "com.acmeair.wxs.service.BookingServiceImpl"
+      ],
+      "com.acmeair.service.CustomerService": [
+        "com.acmeair.morphia.services.CustomerServiceImpl",
+        "com.acmeair.wxs.service.CustomerServiceImpl"
+      ],
+      "com.acmeair.service.FlightService": [
+        "com.acmeair.morphia.services.FlightServiceImpl",
+        "com.acmeair.wxs.service.FlightServiceImpl"
+      ],
+      "com.acmeair.wxs.WXSConstants": [
+        "com.acmeair.wxs.service.BookingServiceImpl",
+        "com.acmeair.wxs.service.CustomerServiceImpl",
+        "com.acmeair.wxs.service.FlightServiceImpl",
+        "com.acmeair.wxs.utils.WXSSessionManager"
+      ],
+      "com.acmeair.morphia.MorphiaConstants": [
+        "com.acmeair.morphia.services.BookingServiceImpl",
+        "com.acmeair.morphia.services.CustomerServiceImpl",
+        "com.acmeair.morphia.services.FlightServiceImpl",
+        "com.acmeair.morphia.services.util.MongoConnectionManager"
+      ]
+    },
+    "examples": [
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/CustomerService.java:50  c.setPassword(null);   [owner=CustomerService, target=Customer]",
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/CustomerService.java:59  validatedCustomer = password.equals(customerToValidate.getPassword());   [owner=CustomerService, target=Customer]",
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/CustomerService.java:67  if (!c.getPassword().equals(password)) {   [owner=CustomerService, target=Customer]"
+    ]
+  },
+  "J2": {
+    "annotated_injection_points": 11,
+    "by_annotation": {
+      "Inject": 10,
+      "Resource": 1
+    },
+    "by_declared_type": {
+      "app-concrete": 7,
+      "external": 4
+    },
+    "spring_xml_injections": 3,
+    "spring_xml_injections_involving_app_classes": 1,
+    "call_sites_through_injected_fields": 15,
+    "those_call_sites_by_category": {
+      "edge_concrete": 7,
+      "external": 8
+    },
+    "examples": [
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/CustomerService.java:33  @Inject com.acmeair.service.KeyGenerator keyGenerator",
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:50  @Inject javax.enterprise.inject.spi.BeanManager beanManager",
+      "acmeair/acmeair-services-wxs/src/main/java/com/acmeair/wxs/service/BookingServiceImpl.java:63  @Inject com.acmeair.service.KeyGenerator keyGenerator",
+      "acmeair/acmeair-services-morphia/src/main/resources/spring-config-acmeair-data-morphia.xml:40  bean com.acmeair.morphia.DatastoreFactory constructor-arg None -> localDatastore (None)"
+    ]
+  },
+  "J3": {
+    "call_sites": 17,
+    "by_method_and_argument": {
+      "lookup/literal": 8,
+      "lookup/non-literal": 9
+    },
+    "jndi_literal_names": [
+      "java:comp/BeanManager",
+      "java:comp/env",
+      "java:comp/env/BeanManager"
+    ],
+    "examples": [
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:68  beanManager = (BeanManager) new InitialContext().lookup(\"java:comp/BeanManager\");   [owner=ServiceLocator, target=InitialContext]",
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:77  beanManager = (BeanManager) new InitialContext().lookup(\"java:comp/env/BeanManager\");   [owner=ServiceLocator, target=InitialContext]",
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:96  envContext = (javax.naming.Context) context.lookup(\"java:comp/env\");   [owner=ServiceLocator, target=Context]"
+    ]
+  },
+  "J4": {
+    "interfaces_without_java_impl": [],
+    "of_which_bound_by_mapper_xml": [],
+    "call_sites_on_interfaces_without_impl": 0,
+    "sql_xml_files": 0,
+    "alias_packages": [],
+    "ibatis_dao_sqlmap_links": 0,
+    "binder_to_mapped_type_pairs": 0,
+    "binder_to_mapped_type_pairs_missing_in_naive_graph": 0,
+    "missing_pairs": [],
+    "class_literal_sites_on_external_receivers": 6,
+    "class_literal_receiver_types": {
+      "BeanManager": 1,
+      "Datastore": 3,
+      "Arrays": 2
+    },
+    "class_literal_owner_target_pairs": 6,
+    "class_literal_pairs_missing_in_naive_graph": 6,
+    "class_literal_examples": [
+      "acmeair/acmeair-services/src/main/java/com/acmeair/service/ServiceLocator.java:248  Set<Bean<?>> beans = beanManager.getBeans(CustomerService.class,new AnnotationLiteral<Any>() {   [owner=ServiceLocator, target=BeanManager]",
+      "acmeair/acmeair-services-morphia/src/main/java/com/acmeair/morphia/DatastoreFactory.java:85  result.ensureIndex(Booking.class, \"pkey.customerId\");   [owner=DatastoreFactory, target=Datastore]",
+      "acmeair/acmeair-services-morphia/src/main/java/com/acmeair/morphia/DatastoreFactory.java:86  result.ensureIndex(Flight.class, \"pkey.flightSegmentId,scheduledDepartureTime\");   [owner=DatastoreFactory, target=Datastore]"
+    ],
+    "jpa_associations": 0,
+    "jpa_association_pairs_missing_in_naive_graph": 0,
+    "examples": []
+  },
+  "J5": {
+    "classes_named_outside_java": {
+      "spring-xml": 2,
+      "other-xml": 6,
+      "web.xml": 3,
+      "annotation-entry-point": 8
+    },
+    "entry_point_sources": [
+      "web.xml",
+      "annotation-entry-point"
+    ],
+    "entry_point_classes": 9,
+    "entry_points_without_inbound_naive_edge": 9,
+    "el_reference_counts": {},
+    "examples": [
+      "acmeair/acmeair-services-morphia/src/main/resources/spring-config-acmeair-data-morphia.xml:40  com.acmeair.morphia.DatastoreFactory",
+      "acmeair/acmeair-services-wxs/src/main/resources/objectgrid.xml:33  com.acmeair.wxs.entities.AirportCodeMappingImpl",
+      "acmeair/acmeair-services-wxs/src/main/resources/objectgrid.xml:34  com.acmeair.wxs.entities.BookingImpl",
+      "acmeair/acmeair-services-wxs/src/main/resources/objectgrid.xml:35  com.acmeair.wxs.entities.CustomerImpl"
+    ]
+  },
+  "J6": {
+    "call_sites": 132,
+    "share_of_call_sites": 0.1156,
+    "by_error": {
+      "UnsolvedSymbolException": 132
+    },
+    "top_unsolved_symbols": {
+      "ObjectGrid": 30,
+      "Session": 29,
+      "ObjectMap": 28,
+      "ObjectGridException": 10,
+      "MapIndex": 6,
+      "UndefinedMapException": 6,
+      "TransactionCallbackException": 6,
+      "ObjectGridManagerFactory": 3,
+      "ObjectGridConfigFactory": 3,
+      "ObjectGridConfiguration": 2
+    },
+    "by_module": {
+      "acmeair/acmeair-services-wxs/src/main/java": 132
+    },
+    "unresolved_supertype_refs": 3,
+    "unresolved_field_types": 5,
+    "jars_loaded": 12,
+    "examples": [
+      "acmeair/acmeair-services-wxs/src/main/java/com/acmeair/wxs/service/BookingServiceImpl.java:75  logger.severe(\"Unable to retreive the ObjectGrid reference \" + e.getMessage());   [owner=BookingServiceImpl, target=?]",
+      "acmeair/acmeair-services-wxs/src/main/java/com/acmeair/wxs/service/BookingServiceImpl.java:90  Session session = og.getSession();   [owner=BookingServiceImpl, target=?]",
+      "acmeair/acmeair-services-wxs/src/main/java/com/acmeair/wxs/service/BookingServiceImpl.java:91  ObjectMap bookingMap = session.getMap(BOOKING_MAP_NAME);   [owner=BookingServiceImpl, target=?]"
+    ]
+  },
+  "J7": {
+    "type_use_pairs": 88,
+    "type_use_pairs_without_call_edge": 32,
+    "examples": [
+      "acmeair/acmeair-webapp/src/main/java/com/acmeair/config/AcmeAirConfiguration.java:61  AcmeAirConfiguration declares type ServiceData",
+      "acmeair/acmeair-common/src/main/java/com/acmeair/entities/Customer.java:36  Customer declares type MemberShipStatus",
+      "acmeair/acmeair-common/src/main/java/com/acmeair/entities/Customer.java:48  Customer declares type PhoneType",
+      "acmeair/acmeair-common/src/main/java/com/acmeair/entities/Customer.java:52  Customer declares type CustomerAddress"
+    ]
+  },
+  "object_creations_of_app_classes": 47
+}

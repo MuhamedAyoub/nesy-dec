@@ -1,0 +1,99 @@
+{
+  "jpetstore-6": {
+    "packages": {
+      "org.mybatis.jpetstore.domain": 9,
+      "org.mybatis.jpetstore.mapper": 7,
+      "org.mybatis.jpetstore.service": 3,
+      "org.mybatis.jpetstore.web.actions": 5
+    },
+    "source_modules": {
+      "jpetstore-6": 24
+    }
+  },
+  "acmeair": {
+    "packages": {
+      "com.acmeair": 1,
+      "com.acmeair.config": 3,
+      "com.acmeair.entities": 11,
+      "com.acmeair.loader": 3,
+      "com.acmeair.morphia": 4,
+      "com.acmeair.morphia.entities": 7,
+      "com.acmeair.morphia.services": 3,
+      "com.acmeair.morphia.services.util": 1,
+      "com.acmeair.service": 7,
+      "com.acmeair.web": 7,
+      "com.acmeair.web.dto": 10,
+      "com.acmeair.wxs": 1,
+      "com.acmeair.wxs.entities": 9,
+      "com.acmeair.wxs.service": 3,
+      "com.acmeair.wxs.utils": 2
+    },
+    "source_modules": {
+      "acmeair/acmeair-common": 10,
+      "acmeair/acmeair-services": 7,
+      "acmeair/acmeair-services-wxs": 17,
+      "acmeair/acmeair-services-morphia": 15,
+      "acmeair/acmeair-loader": 3,
+      "acmeair/acmeair-webapp": 20
+    }
+  },
+  "daytrader7": {
+    "packages": {
+      "com.ibm.websphere.samples.daytrader": 2,
+      "com.ibm.websphere.samples.daytrader.beans": 2,
+      "com.ibm.websphere.samples.daytrader.direct": 2,
+      "com.ibm.websphere.samples.daytrader.ejb3": 7,
+      "com.ibm.websphere.samples.daytrader.entities": 5,
+      "com.ibm.websphere.samples.daytrader.util": 9,
+      "com.ibm.websphere.samples.daytrader.web": 8,
+      "com.ibm.websphere.samples.daytrader.web.jsf": 14,
+      "com.ibm.websphere.samples.daytrader.web.prims": 48,
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3": 11,
+      "com.ibm.websphere.samples.daytrader.web.websocket": 7
+    },
+    "source_modules": {
+      "sample.daytrader7/daytrader-ee7-ejb": 27,
+      "sample.daytrader7/daytrader-ee7-web": 88
+    }
+  },
+  "plantsbywebsphere": {
+    "packages": {
+      "com.ibm.websphere.samples.pbw.bean": 12,
+      "com.ibm.websphere.samples.pbw.jpa": 8,
+      "com.ibm.websphere.samples.pbw.utils": 2,
+      "com.ibm.websphere.samples.pbw.war": 15
+    },
+    "source_modules": {
+      "sample.plantsbywebsphere": 37
+    }
+  },
+  "lit-jpetstore": {
+    "packages": {
+      "org.springframework.samples.jpetstore.dao": 5,
+      "org.springframework.samples.jpetstore.dao.ibatis": 10,
+      "org.springframework.samples.jpetstore.domain": 8,
+      "org.springframework.samples.jpetstore.domain.logic": 6,
+      "org.springframework.samples.jpetstore.service": 1,
+      "org.springframework.samples.jpetstore.service.client": 1,
+      "org.springframework.samples.jpetstore.web.spring": 18,
+      "org.springframework.samples.jpetstore.web.struts": 24
+    },
+    "source_modules": {
+      "KimJongSung__jPetStore": 73
+    }
+  },
+  "lit-pbw": {
+    "packages": {
+      "com.ibm.websphere.samples.pbw.ejb": 11,
+      "com.ibm.websphere.samples.pbw.jpa": 8,
+      "com.ibm.websphere.samples.pbw.migration": 1,
+      "com.ibm.websphere.samples.pbw.utils": 2,
+      "com.ibm.websphere.samples.pbw.war": 15,
+      "pagecode": 2
+    },
+    "source_modules": {
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/PlantsByWebSphere": 37,
+      "SteeleDesmond__sample.mono-to-ms.pbw-monolith/pbw-lib": 2
+    }
+  }
+}

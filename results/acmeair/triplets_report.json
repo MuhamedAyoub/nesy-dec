@@ -1,0 +1,17 @@
+{
+  "app": "acmeair",
+  "triplets": 1312,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "cocite": 1003,
+    "must_link": 309
+  },
+  "neg_sources": {
+    "random": 300,
+    "same_role": 450,
+    "cannot_link": 562
+  },
+  "distinct_anchors": 51,
+  "active_classes": 70
+}

@@ -1,0 +1,74 @@
+{
+  "app": "plantsbywebsphere",
+  "class_nodes": 37,
+  "entities": [
+    "com.ibm.websphere.samples.pbw.jpa.BackOrder",
+    "com.ibm.websphere.samples.pbw.jpa.Customer",
+    "com.ibm.websphere.samples.pbw.jpa.Inventory",
+    "com.ibm.websphere.samples.pbw.jpa.Order",
+    "com.ibm.websphere.samples.pbw.jpa.OrderItem",
+    "com.ibm.websphere.samples.pbw.jpa.Supplier"
+  ],
+  "call_sites": 1178,
+  "site_resolution": {
+    "J-L0": 583,
+    "external": 415,
+    "self": 180
+  },
+  "refused_by_reason": {},
+  "sites_by_rule": {
+    "call_declared": 583,
+    "jpa_named_query": 8,
+    "entity_class_literal": 20
+  },
+  "creation_and_ref_sites": {
+    "creation": 27
+  },
+  "non_call_reference_sites": {
+    "field_ref": 94,
+    "class_literal": 20
+  },
+  "fact_pairs_by_rule": {
+    "jpa_assoc": 4,
+    "jpa_named_query": 7,
+    "entity_class_literal": 9,
+    "type_use": 57
+  },
+  "weight_by_layer": {
+    "J-L0": 724.0,
+    "J-L3": 24.0,
+    "J-T": 57.0
+  },
+  "weight_share_by_layer": {
+    "J-L0": 0.8994,
+    "J-L3": 0.0298,
+    "J-T": 0.0708
+  },
+  "weight_by_rule": {
+    "call_declared": 583.0,
+    "creation": 27.0,
+    "field_ref": 94.0,
+    "class_literal": 20.0,
+    "jpa_assoc": 8.0,
+    "jpa_named_query": 7.0,
+    "entity_class_literal": 9.0,
+    "type_use": 57.0
+  },
+  "pairs_by_layer": {
+    "J-L0": 88,
+    "J-L3": 17,
+    "J-T": 57
+  },
+  "edges": 101,
+  "call_edges": 86,
+  "isolated": [
+    "com.ibm.websphere.samples.pbw.bean.NoSupplierException",
+    "com.ibm.websphere.samples.pbw.jpa.OrderKey"
+  ],
+  "isolated_calls_graph": [
+    "com.ibm.websphere.samples.pbw.bean.NoSupplierException",
+    "com.ibm.websphere.samples.pbw.jpa.OrderKey"
+  ],
+  "data_map_classes": 10,
+  "fanout_cap": 5
+}

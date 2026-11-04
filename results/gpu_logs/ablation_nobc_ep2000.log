@@ -1,0 +1,908 @@
+
+==============================================================================
+# rl: GraphRL-Dec ablation nobc_ep2000
+==============================================================================
+
+########################################################################
+# [1/36] jpetstore-6 | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-1.1750  rawU=-0.6185  max|m|=10
+[ep   256] R=+0.105  Δeq5=-1.650  eq5=-0.843  H=1.38  pl=-0.002  vl=0.174  t=1.9s
+[ep   512] R=+0.213  Δeq5=-1.593  eq5=-0.779  H=1.17  pl=-0.004  vl=0.280  t=3.4s
+[ep   768] R=+0.387  Δeq5=-1.445  eq5=-0.650  H=0.96  pl=-0.006  vl=0.407  t=4.9s
+[ep  1024] R=+0.566  Δeq5=-1.329  eq5=-0.553  H=0.71  pl=-0.001  vl=0.427  t=6.4s
+[ep  1280] R=+0.766  Δeq5=-1.173  eq5=-0.418  H=0.46  pl=-0.003  vl=0.403  t=7.9s
+[ep  1536] R=+1.271  Δeq5=-0.804  eq5=-0.069  H=0.11  pl=+0.002  vl=0.291  t=9.5s
+[ep  1792] R=+1.324  Δeq5=-0.758  eq5=-0.024  H=0.06  pl=+0.000  vl=0.276  t=11.1s
+[ep  2048] R=+1.312  Δeq5=-0.766  eq5=-0.031  H=0.06  pl=+0.002  vl=0.279  t=12.6s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m15s]
+
+########################################################################
+# [2/36] jpetstore-6 | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-1.0861  rawU=-0.5381  max|m|=11
+[ep   256] R=+1.617  Δeq5=-1.575  eq5=-0.774  H=1.56  pl=-0.007  vl=0.464  t=1.5s
+[ep   512] R=+2.745  Δeq5=-1.482  eq5=-0.683  H=1.18  pl=-0.008  vl=0.774  t=3.1s
+[ep   768] R=+6.207  Δeq5=-0.971  eq5=-0.228  H=0.32  pl=+0.003  vl=2.194  t=4.7s
+[ep  1024] R=+7.219  Δeq5=-0.822  eq5=-0.084  H=0.14  pl=+0.003  vl=2.801  t=6.2s
+[ep  1280] R=+7.273  Δeq5=-0.802  eq5=-0.066  H=0.13  pl=+0.003  vl=2.851  t=7.8s
+[ep  1536] R=+7.321  Δeq5=-0.790  eq5=-0.055  H=0.11  pl=+0.005  vl=2.878  t=9.4s
+[ep  1792] R=+7.423  Δeq5=-0.770  eq5=-0.036  H=0.09  pl=+0.002  vl=2.802  t=11.0s
+[ep  2048] R=+7.338  Δeq5=-0.793  eq5=-0.058  H=0.10  pl=+0.001  vl=2.923  t=12.5s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m12s]
+
+########################################################################
+# [3/36] acmeair | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.4701  rawU=-0.2856  max|m|=12
+[ep   256] R=+0.372  Δeq5=-1.299  eq5=-0.465  H=2.21  pl=-0.002  vl=0.061  t=4.8s
+[ep   512] R=+0.355  Δeq5=-1.293  eq5=-0.456  H=2.18  pl=-0.002  vl=0.066  t=9.8s
+[ep   768] R=+0.354  Δeq5=-1.291  eq5=-0.450  H=2.06  pl=-0.003  vl=0.066  t=14.8s
+[ep  1024] R=+0.401  Δeq5=-1.303  eq5=-0.458  H=1.85  pl=-0.001  vl=0.074  t=19.7s
+[ep  1280] R=+0.285  Δeq5=-1.371  eq5=-0.510  H=1.52  pl=+0.000  vl=0.078  t=24.7s
+[ep  1536] R=+0.353  Δeq5=-1.403  eq5=-0.534  H=1.33  pl=-0.001  vl=0.078  t=29.5s
+[ep  1792] R=+0.223  Δeq5=-1.431  eq5=-0.558  H=1.18  pl=+0.002  vl=0.077  t=34.5s
+[ep  2048] R=+0.255  Δeq5=-1.455  eq5=-0.577  H=1.13  pl=+0.000  vl=0.070  t=39.3s
+[train] best (decode Score or Δ) = -0.470
+  -> Score -0.4220 sizes [51, 5, 4, 3, 1, 1, 1, 1, 1, 1] [0m39s]
+
+########################################################################
+# [4/36] acmeair | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.5831  rawU=-0.3321  max|m|=18
+[ep   256] R=+1.843  Δeq5=-1.309  eq5=-0.470  H=2.28  pl=-0.006  vl=0.174  t=5.1s
+[ep   512] R=+2.471  Δeq5=-1.319  eq5=-0.472  H=2.04  pl=-0.005  vl=0.254  t=10.4s
+[ep   768] R=+4.006  Δeq5=-1.368  eq5=-0.504  H=1.49  pl=-0.007  vl=0.422  t=15.6s
+[ep  1024] R=+7.021  Δeq5=-1.478  eq5=-0.600  H=0.80  pl=+0.001  vl=1.244  t=20.7s
+[ep  1280] R=+7.404  Δeq5=-1.503  eq5=-0.624  H=0.72  pl=+0.003  vl=1.774  t=25.7s
+[ep  1536] R=+7.101  Δeq5=-1.425  eq5=-0.556  H=0.74  pl=+0.003  vl=1.900  t=30.7s
+[ep  1792] R=+6.934  Δeq5=-1.378  eq5=-0.516  H=0.76  pl=+0.003  vl=1.675  t=35.7s
+[ep  2048] R=+6.876  Δeq5=-1.369  eq5=-0.510  H=0.72  pl=+0.002  vl=1.668  t=40.8s
+[train] best (decode Score or Δ) = -0.548
+  -> Score -0.1667 sizes [] [0m41s]
+
+########################################################################
+# [5/36] daytrader7 | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-1.1472  rawU=-0.4522  max|m|=30
+[ep   256] R=+0.872  Δeq5=-1.485  eq5=-0.741  H=1.87  pl=-0.002  vl=0.089  t=7.2s
+[ep   512] R=+0.943  Δeq5=-1.294  eq5=-0.574  H=1.87  pl=-0.004  vl=0.127  t=14.6s
+[ep   768] R=+1.046  Δeq5=-1.216  eq5=-0.504  H=1.85  pl=-0.000  vl=0.144  t=22.0s
+[ep  1024] R=+1.116  Δeq5=-1.211  eq5=-0.498  H=1.81  pl=-0.002  vl=0.142  t=29.5s
+[ep  1280] R=+1.533  Δeq5=-1.154  eq5=-0.447  H=1.63  pl=-0.000  vl=0.161  t=36.7s
+[ep  1536] R=+2.014  Δeq5=-1.129  eq5=-0.431  H=1.45  pl=+0.002  vl=0.215  t=43.9s
+[ep  1792] R=+2.079  Δeq5=-1.102  eq5=-0.409  H=1.51  pl=+0.000  vl=0.223  t=51.1s
+[ep  2048] R=+2.079  Δeq5=-1.092  eq5=-0.398  H=1.50  pl=+0.000  vl=0.229  t=58.4s
+[train] best (decode Score or Δ) = -0.405
+  -> Score -0.5464 sizes [57, 47] [0m59s]
+
+########################################################################
+# [6/36] daytrader7 | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-0.7035  rawU=-0.2720  max|m|=15
+[ep   256] R=+9.437  Δeq5=-1.395  eq5=-0.667  H=1.98  pl=-0.004  vl=0.731  t=7.9s
+[ep   512] R=+10.444  Δeq5=-1.147  eq5=-0.441  H=1.84  pl=-0.007  vl=1.251  t=15.9s
+[ep   768] R=+16.906  Δeq5=-1.226  eq5=-0.512  H=1.31  pl=-0.010  vl=2.549  t=23.5s
+[ep  1024] R=+27.196  Δeq5=-1.269  eq5=-0.555  H=0.81  pl=-0.004  vl=6.556  t=31.1s
+[ep  1280] R=+36.810  Δeq5=-1.271  eq5=-0.558  H=0.46  pl=-0.000  vl=12.701  t=38.6s
+[ep  1536] R=+38.601  Δeq5=-1.234  eq5=-0.525  H=0.39  pl=+0.003  vl=18.376  t=46.0s
+[ep  1792] R=+38.940  Δeq5=-1.200  eq5=-0.497  H=0.36  pl=+0.001  vl=22.000  t=52.9s
+[ep  2048] R=+39.369  Δeq5=-1.182  eq5=-0.482  H=0.35  pl=+0.002  vl=22.938  t=60.1s
+[train] best (decode Score or Δ) = -0.345
+  -> Score -0.1489 sizes [47, 28] [1m00s]
+
+########################################################################
+# [7/36] plantsbywebsphere | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-0.6324  rawU=-0.3837  max|m|=14
+[ep   256] R=+1.083  Δeq5=-2.118  eq5=-0.763  H=1.10  pl=-0.002  vl=0.377  t=2.1s
+[ep   512] R=+1.383  Δeq5=-1.997  eq5=-0.616  H=0.97  pl=-0.006  vl=0.423  t=4.3s
+[ep   768] R=+2.356  Δeq5=-1.746  eq5=-0.448  H=0.56  pl=-0.005  vl=0.736  t=6.4s
+[ep  1024] R=+3.458  Δeq5=-1.148  eq5=-0.029  H=0.18  pl=+0.001  vl=1.194  t=8.3s
+[ep  1280] R=+3.420  Δeq5=-1.123  eq5=-0.006  H=0.18  pl=+0.003  vl=1.256  t=10.4s
+[ep  1536] R=+3.309  Δeq5=-1.213  eq5=-0.070  H=0.22  pl=-0.001  vl=1.202  t=12.4s
+[ep  1792] R=+3.514  Δeq5=-1.068  eq5=+0.033  H=0.14  pl=-0.001  vl=1.249  t=14.5s
+[ep  2048] R=+3.513  Δeq5=-1.064  eq5=+0.033  H=0.13  pl=+0.004  vl=1.296  t=16.8s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m17s]
+
+########################################################################
+# [8/36] plantsbywebsphere | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-1.0502  rawU=-0.9288  max|m|=8
+[ep   256] R=+3.071  Δeq5=-1.919  eq5=-0.594  H=1.32  pl=-0.002  vl=0.887  t=2.3s
+[ep   512] R=+5.137  Δeq5=-1.813  eq5=-0.464  H=0.94  pl=-0.009  vl=1.694  t=4.7s
+[ep   768] R=+9.668  Δeq5=-1.352  eq5=-0.186  H=0.34  pl=+0.002  vl=5.141  t=7.0s
+[ep  1024] R=+11.077  Δeq5=-1.125  eq5=-0.021  H=0.18  pl=+0.002  vl=7.310  t=9.4s
+[ep  1280] R=+10.860  Δeq5=-1.169  eq5=-0.053  H=0.21  pl=+0.002  vl=7.318  t=11.8s
+[ep  1536] R=+10.986  Δeq5=-1.145  eq5=-0.043  H=0.21  pl=+0.002  vl=7.268  t=14.1s
+[ep  1792] R=+10.717  Δeq5=-1.179  eq5=-0.071  H=0.24  pl=+0.001  vl=7.161  t=16.5s
+[ep  2048] R=+10.527  Δeq5=-1.227  eq5=-0.103  H=0.27  pl=+0.002  vl=7.293  t=18.8s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m19s]
+
+########################################################################
+# [9/36] lit-jpetstore | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.6151  rawU=-0.2528  max|m|=21
+[ep   256] R=+0.571  Δeq5=-1.639  eq5=-0.591  H=1.74  pl=-0.003  vl=0.136  t=4.9s
+[ep   512] R=+0.510  Δeq5=-1.634  eq5=-0.582  H=1.66  pl=+0.000  vl=0.151  t=9.8s
+[ep   768] R=+0.740  Δeq5=-1.604  eq5=-0.557  H=1.60  pl=+0.001  vl=0.154  t=14.8s
+[ep  1024] R=+0.814  Δeq5=-1.632  eq5=-0.594  H=1.47  pl=-0.002  vl=0.178  t=19.7s
+[ep  1280] R=+1.146  Δeq5=-1.618  eq5=-0.573  H=1.24  pl=-0.002  vl=0.210  t=24.6s
+[ep  1536] R=+1.696  Δeq5=-1.457  eq5=-0.442  H=1.04  pl=+0.001  vl=0.256  t=29.5s
+[ep  1792] R=+2.110  Δeq5=-1.249  eq5=-0.276  H=0.82  pl=+0.001  vl=0.357  t=34.5s
+[ep  2048] R=+2.299  Δeq5=-1.063  eq5=-0.141  H=0.69  pl=+0.001  vl=0.434  t=39.5s
+[train] best (decode Score or Δ) = -0.404
+  -> Score -0.4001 sizes [55, 16] [0m40s]
+
+########################################################################
+# [10/36] lit-jpetstore | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.4678  rawU=-0.2295  max|m|=15
+[ep   256] R=+4.800  Δeq5=-1.516  eq5=-0.482  H=1.87  pl=-0.003  vl=0.642  t=5.0s
+[ep   512] R=+5.814  Δeq5=-1.579  eq5=-0.538  H=1.71  pl=-0.000  vl=0.932  t=10.2s
+[ep   768] R=+7.651  Δeq5=-1.624  eq5=-0.591  H=1.47  pl=-0.006  vl=1.476  t=15.4s
+[ep  1024] R=+13.832  Δeq5=-1.566  eq5=-0.592  H=0.92  pl=-0.001  vl=4.606  t=20.1s
+[ep  1280] R=+19.421  Δeq5=-1.493  eq5=-0.526  H=0.54  pl=+0.001  vl=9.943  t=24.0s
+[ep  1536] R=+18.866  Δeq5=-1.441  eq5=-0.466  H=0.53  pl=+0.003  vl=12.084  t=28.0s
+[ep  1792] R=+19.305  Δeq5=-1.384  eq5=-0.410  H=0.41  pl=+0.001  vl=14.758  t=31.7s
+[ep  2048] R=+19.548  Δeq5=-1.339  eq5=-0.378  H=0.37  pl=+0.003  vl=14.641  t=35.5s
+[train] best (decode Score or Δ) = -0.108
+  -> Score -0.0891 sizes [55] [0m36s]
+
+########################################################################
+# [11/36] lit-pbw | structural | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/structural_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-0.8443  rawU=-0.6417  max|m|=14
+[ep   256] R=+0.789  Δeq5=-1.598  eq5=-0.535  H=1.38  pl=-0.001  vl=0.290  t=1.7s
+[ep   512] R=+0.990  Δeq5=-1.595  eq5=-0.481  H=1.18  pl=-0.006  vl=0.341  t=3.5s
+[ep   768] R=+1.873  Δeq5=-1.559  eq5=-0.399  H=0.84  pl=-0.007  vl=0.521  t=5.2s
+[ep  1024] R=+2.858  Δeq5=-1.233  eq5=-0.133  H=0.39  pl=+0.001  vl=0.948  t=6.9s
+[ep  1280] R=+3.166  Δeq5=-1.032  eq5=+0.031  H=0.28  pl=+0.003  vl=1.098  t=8.6s
+[ep  1536] R=+3.136  Δeq5=-1.013  eq5=+0.038  H=0.27  pl=+0.005  vl=1.096  t=10.3s
+[ep  1792] R=+3.273  Δeq5=-0.972  eq5=+0.069  H=0.22  pl=+0.003  vl=1.170  t=11.9s
+[ep  2048] R=+3.265  Δeq5=-0.956  eq5=+0.084  H=0.24  pl=+0.004  vl=1.155  t=13.6s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m13s]
+
+########################################################################
+# [12/36] lit-pbw | full | seed 42
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/full_s42
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-1.0156  rawU=-0.6344  max|m|=17
+[ep   256] R=+2.540  Δeq5=-1.537  eq5=-0.452  H=1.54  pl=-0.006  vl=0.726  t=1.8s
+[ep   512] R=+3.976  Δeq5=-1.537  eq5=-0.409  H=1.22  pl=-0.013  vl=1.255  t=3.7s
+[ep   768] R=+9.499  Δeq5=-1.172  eq5=-0.077  H=0.43  pl=-0.000  vl=4.988  t=5.5s
+[ep  1024] R=+10.108  Δeq5=-1.098  eq5=-0.037  H=0.32  pl=+0.001  vl=7.053  t=7.4s
+[ep  1280] R=+10.811  Δeq5=-0.960  eq5=+0.079  H=0.23  pl=+0.002  vl=7.570  t=9.8s
+[ep  1536] R=+11.108  Δeq5=-0.901  eq5=+0.121  H=0.19  pl=+0.005  vl=7.719  t=12.2s
+[ep  1792] R=+11.135  Δeq5=-0.880  eq5=+0.136  H=0.19  pl=+0.004  vl=7.927  t=14.6s
+[ep  2048] R=+10.797  Δeq5=-0.937  eq5=+0.090  H=0.25  pl=+0.002  vl=7.880  t=17.0s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m17s]
+
+########################################################################
+# [13/36] jpetstore-6 | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-0.8941  rawU=-0.4157  max|m|=8
+[ep   256] R=+0.066  Δeq5=-1.674  eq5=-0.869  H=1.38  pl=-0.001  vl=0.146  t=1.4s
+[ep   512] R=+0.197  Δeq5=-1.618  eq5=-0.798  H=1.28  pl=-0.007  vl=0.202  t=3.0s
+[ep   768] R=+0.323  Δeq5=-1.513  eq5=-0.701  H=1.04  pl=-0.004  vl=0.354  t=4.5s
+[ep  1024] R=+0.546  Δeq5=-1.345  eq5=-0.569  H=0.74  pl=-0.005  vl=0.415  t=6.0s
+[ep  1280] R=+0.808  Δeq5=-1.142  eq5=-0.384  H=0.41  pl=-0.004  vl=0.375  t=7.5s
+[ep  1536] R=+1.289  Δeq5=-0.785  eq5=-0.051  H=0.09  pl=+0.001  vl=0.286  t=9.0s
+[ep  1792] R=+1.316  Δeq5=-0.764  eq5=-0.030  H=0.07  pl=+0.002  vl=0.278  t=10.5s
+[ep  2048] R=+1.302  Δeq5=-0.773  eq5=-0.038  H=0.07  pl=-0.000  vl=0.283  t=12.0s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m12s]
+
+########################################################################
+# [14/36] jpetstore-6 | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-0.9622  rawU=-0.4681  max|m|=10
+[ep   256] R=+1.512  Δeq5=-1.665  eq5=-0.859  H=1.56  pl=-0.005  vl=0.437  t=1.4s
+[ep   512] R=+2.395  Δeq5=-1.535  eq5=-0.727  H=1.27  pl=-0.008  vl=0.690  t=3.0s
+[ep   768] R=+4.256  Δeq5=-1.312  eq5=-0.547  H=0.68  pl=-0.004  vl=1.274  t=4.6s
+[ep  1024] R=+7.061  Δeq5=-0.861  eq5=-0.122  H=0.18  pl=+0.002  vl=2.512  t=6.2s
+[ep  1280] R=+7.182  Δeq5=-0.815  eq5=-0.078  H=0.17  pl=+0.002  vl=2.900  t=7.7s
+[ep  1536] R=+7.315  Δeq5=-0.775  eq5=-0.041  H=0.12  pl=+0.004  vl=2.899  t=9.3s
+[ep  1792] R=+7.453  Δeq5=-0.776  eq5=-0.041  H=0.09  pl=+0.001  vl=2.825  t=10.8s
+[ep  2048] R=+7.413  Δeq5=-0.782  eq5=-0.047  H=0.09  pl=+0.003  vl=2.936  t=12.4s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m12s]
+
+########################################################################
+# [15/36] acmeair | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.6539  rawU=-0.3686  max|m|=18
+[ep   256] R=+0.377  Δeq5=-1.307  eq5=-0.473  H=2.22  pl=-0.002  vl=0.057  t=4.8s
+[ep   512] R=+0.388  Δeq5=-1.294  eq5=-0.456  H=2.15  pl=-0.002  vl=0.065  t=9.7s
+[ep   768] R=+0.355  Δeq5=-1.312  eq5=-0.466  H=2.01  pl=-0.001  vl=0.073  t=14.7s
+[ep  1024] R=+0.407  Δeq5=-1.319  eq5=-0.471  H=1.88  pl=-0.001  vl=0.073  t=19.6s
+[ep  1280] R=+0.420  Δeq5=-1.343  eq5=-0.489  H=1.63  pl=-0.002  vl=0.074  t=24.5s
+[ep  1536] R=+0.339  Δeq5=-1.444  eq5=-0.570  H=1.28  pl=-0.001  vl=0.079  t=29.4s
+[ep  1792] R=+0.286  Δeq5=-1.461  eq5=-0.583  H=1.14  pl=+0.003  vl=0.078  t=34.3s
+[ep  2048] R=+0.257  Δeq5=-1.501  eq5=-0.616  H=1.07  pl=+0.002  vl=0.075  t=39.1s
+[train] best (decode Score or Δ) = -0.582
+  -> Score -2.3586 sizes [39, 31] [0m39s]
+
+########################################################################
+# [16/36] acmeair | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.6395  rawU=-0.3932  max|m|=32
+[ep   256] R=+1.828  Δeq5=-1.315  eq5=-0.476  H=2.27  pl=-0.003  vl=0.185  t=5.1s
+[ep   512] R=+2.347  Δeq5=-1.280  eq5=-0.442  H=2.09  pl=-0.002  vl=0.267  t=10.3s
+[ep   768] R=+3.489  Δeq5=-1.324  eq5=-0.472  H=1.68  pl=-0.007  vl=0.393  t=15.5s
+[ep  1024] R=+5.969  Δeq5=-1.525  eq5=-0.636  H=1.05  pl=-0.001  vl=0.811  t=20.6s
+[ep  1280] R=+7.401  Δeq5=-1.529  eq5=-0.647  H=0.71  pl=+0.002  vl=1.485  t=25.7s
+[ep  1536] R=+7.565  Δeq5=-1.532  eq5=-0.649  H=0.71  pl=+0.003  vl=1.603  t=30.7s
+[ep  1792] R=+7.528  Δeq5=-1.519  eq5=-0.639  H=0.63  pl=+0.001  vl=1.842  t=35.8s
+[ep  2048] R=+7.097  Δeq5=-1.467  eq5=-0.592  H=0.76  pl=+0.001  vl=1.809  t=40.9s
+[train] best (decode Score or Δ) = -0.569
+  -> Score -0.1667 sizes [] [0m41s]
+
+########################################################################
+# [17/36] daytrader7 | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-0.9000  rawU=-0.2927  max|m|=24
+[ep   256] R=+0.827  Δeq5=-1.437  eq5=-0.709  H=1.89  pl=-0.001  vl=0.093  t=7.1s
+[ep   512] R=+0.970  Δeq5=-1.260  eq5=-0.544  H=1.85  pl=-0.002  vl=0.137  t=14.5s
+[ep   768] R=+1.075  Δeq5=-1.151  eq5=-0.450  H=1.81  pl=-0.003  vl=0.143  t=21.9s
+[ep  1024] R=+1.320  Δeq5=-1.144  eq5=-0.440  H=1.69  pl=-0.002  vl=0.153  t=29.2s
+[ep  1280] R=+1.622  Δeq5=-1.168  eq5=-0.462  H=1.50  pl=+0.000  vl=0.173  t=36.6s
+[ep  1536] R=+1.794  Δeq5=-1.118  eq5=-0.422  H=1.43  pl=-0.000  vl=0.186  t=43.9s
+[ep  1792] R=+1.816  Δeq5=-1.069  eq5=-0.382  H=1.31  pl=+0.001  vl=0.216  t=51.1s
+[ep  2048] R=+1.947  Δeq5=-1.118  eq5=-0.424  H=1.27  pl=-0.001  vl=0.232  t=58.4s
+[train] best (decode Score or Δ) = -0.283
+  -> Score -0.7413 sizes [66, 38] [0m59s]
+
+########################################################################
+# [18/36] daytrader7 | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-0.6717  rawU=-0.2110  max|m|=31
+[ep   256] R=+8.902  Δeq5=-1.337  eq5=-0.622  H=2.02  pl=-0.003  vl=0.711  t=7.7s
+[ep   512] R=+10.022  Δeq5=-1.134  eq5=-0.435  H=1.89  pl=-0.004  vl=1.213  t=15.7s
+[ep   768] R=+14.568  Δeq5=-1.167  eq5=-0.462  H=1.45  pl=-0.009  vl=2.032  t=23.5s
+[ep  1024] R=+26.791  Δeq5=-1.278  eq5=-0.564  H=0.86  pl=-0.001  vl=5.635  t=31.1s
+[ep  1280] R=+37.132  Δeq5=-1.289  eq5=-0.574  H=0.51  pl=+0.003  vl=12.198  t=38.5s
+[ep  1536] R=+39.152  Δeq5=-1.222  eq5=-0.516  H=0.33  pl=+0.001  vl=19.900  t=46.1s
+[ep  1792] R=+39.434  Δeq5=-1.209  eq5=-0.501  H=0.29  pl=+0.004  vl=22.897  t=53.6s
+[ep  2048] R=+39.335  Δeq5=-1.191  eq5=-0.486  H=0.29  pl=+0.003  vl=24.237  t=61.1s
+[train] best (decode Score or Δ) = -0.345
+  -> Score -0.1667 sizes [] [1m01s]
+
+########################################################################
+# [19/36] plantsbywebsphere | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-0.8728  rawU=-0.6230  max|m|=16
+[ep   256] R=+1.051  Δeq5=-2.113  eq5=-0.770  H=1.09  pl=-0.002  vl=0.365  t=2.2s
+[ep   512] R=+1.296  Δeq5=-2.035  eq5=-0.652  H=0.97  pl=-0.004  vl=0.430  t=4.4s
+[ep   768] R=+2.495  Δeq5=-1.626  eq5=-0.366  H=0.53  pl=-0.002  vl=0.791  t=6.7s
+[ep  1024] R=+3.397  Δeq5=-1.134  eq5=-0.015  H=0.17  pl=+0.003  vl=1.225  t=8.9s
+[ep  1280] R=+3.565  Δeq5=-1.015  eq5=+0.080  H=0.10  pl=+0.002  vl=1.277  t=11.2s
+[ep  1536] R=+3.584  Δeq5=-0.992  eq5=+0.096  H=0.09  pl=+0.002  vl=1.292  t=13.5s
+[ep  1792] R=+3.571  Δeq5=-1.010  eq5=+0.077  H=0.10  pl=+0.001  vl=1.321  t=15.7s
+[ep  2048] R=+3.584  Δeq5=-0.970  eq5=+0.117  H=0.08  pl=+0.000  vl=1.279  t=17.9s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m18s]
+
+########################################################################
+# [20/36] plantsbywebsphere | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-0.5970  rawU=-0.3758  max|m|=13
+[ep   256] R=+3.139  Δeq5=-1.847  eq5=-0.543  H=1.33  pl=-0.006  vl=0.908  t=2.3s
+[ep   512] R=+4.111  Δeq5=-1.928  eq5=-0.568  H=1.11  pl=-0.007  vl=1.407  t=4.6s
+[ep   768] R=+8.816  Δeq5=-1.482  eq5=-0.281  H=0.45  pl=-0.001  vl=4.351  t=6.9s
+[ep  1024] R=+10.699  Δeq5=-1.164  eq5=-0.043  H=0.21  pl=+0.003  vl=6.885  t=9.3s
+[ep  1280] R=+10.962  Δeq5=-1.157  eq5=-0.042  H=0.23  pl=+0.002  vl=7.288  t=11.6s
+[ep  1536] R=+11.223  Δeq5=-1.071  eq5=+0.024  H=0.17  pl=+0.003  vl=6.964  t=13.9s
+[ep  1792] R=+11.213  Δeq5=-1.077  eq5=+0.013  H=0.17  pl=+0.003  vl=7.135  t=16.3s
+[ep  2048] R=+10.965  Δeq5=-1.123  eq5=-0.021  H=0.20  pl=+0.003  vl=7.714  t=18.7s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m19s]
+
+########################################################################
+# [21/36] lit-jpetstore | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.7113  rawU=-0.3281  max|m|=37
+[ep   256] R=+0.546  Δeq5=-1.641  eq5=-0.595  H=1.75  pl=-0.002  vl=0.134  t=4.8s
+[ep   512] R=+0.618  Δeq5=-1.624  eq5=-0.575  H=1.72  pl=-0.000  vl=0.154  t=9.8s
+[ep   768] R=+0.616  Δeq5=-1.616  eq5=-0.568  H=1.65  pl=-0.005  vl=0.156  t=14.7s
+[ep  1024] R=+0.788  Δeq5=-1.618  eq5=-0.562  H=1.55  pl=-0.004  vl=0.180  t=19.7s
+[ep  1280] R=+1.073  Δeq5=-1.585  eq5=-0.533  H=1.41  pl=-0.003  vl=0.196  t=24.6s
+[ep  1536] R=+1.493  Δeq5=-1.497  eq5=-0.461  H=1.18  pl=+0.001  vl=0.249  t=29.6s
+[ep  1792] R=+1.806  Δeq5=-1.373  eq5=-0.364  H=1.06  pl=+0.000  vl=0.264  t=34.5s
+[ep  2048] R=+2.228  Δeq5=-1.197  eq5=-0.247  H=0.85  pl=-0.002  vl=0.324  t=39.5s
+[train] best (decode Score or Δ) = -0.274
+  -> Score -0.4001 sizes [55, 16] [0m40s]
+
+########################################################################
+# [22/36] lit-jpetstore | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.5803  rawU=-0.3582  max|m|=6
+[ep   256] R=+4.627  Δeq5=-1.532  eq5=-0.496  H=1.88  pl=-0.007  vl=0.610  t=4.9s
+[ep   512] R=+5.984  Δeq5=-1.575  eq5=-0.534  H=1.67  pl=-0.002  vl=1.041  t=10.1s
+[ep   768] R=+8.630  Δeq5=-1.611  eq5=-0.594  H=1.28  pl=-0.005  vl=1.869  t=15.2s
+[ep  1024] R=+16.448  Δeq5=-1.550  eq5=-0.583  H=0.71  pl=+0.001  vl=6.386  t=20.1s
+[ep  1280] R=+19.181  Δeq5=-1.474  eq5=-0.509  H=0.50  pl=+0.001  vl=11.284  t=25.1s
+[ep  1536] R=+20.139  Δeq5=-1.476  eq5=-0.508  H=0.31  pl=+0.004  vl=15.114  t=30.2s
+[ep  1792] R=+20.238  Δeq5=-1.386  eq5=-0.434  H=0.26  pl=+0.003  vl=15.097  t=35.2s
+[ep  2048] R=+19.754  Δeq5=-1.337  eq5=-0.380  H=0.24  pl=+0.006  vl=15.516  t=40.3s
+[train] best (decode Score or Δ) = -0.196
+  -> Score -0.1667 sizes [] [0m40s]
+
+########################################################################
+# [23/36] lit-pbw | structural | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/structural_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-0.7128  rawU=-0.4402  max|m|=20
+[ep   256] R=+0.747  Δeq5=-1.639  eq5=-0.588  H=1.38  pl=-0.002  vl=0.280  t=2.3s
+[ep   512] R=+0.999  Δeq5=-1.601  eq5=-0.472  H=1.20  pl=-0.009  vl=0.354  t=4.6s
+[ep   768] R=+1.782  Δeq5=-1.528  eq5=-0.384  H=0.81  pl=-0.007  vl=0.527  t=6.9s
+[ep  1024] R=+2.932  Δeq5=-1.195  eq5=-0.092  H=0.39  pl=+0.000  vl=0.905  t=9.2s
+[ep  1280] R=+3.213  Δeq5=-0.987  eq5=+0.059  H=0.22  pl=+0.002  vl=1.094  t=11.4s
+[ep  1536] R=+3.281  Δeq5=-0.910  eq5=+0.121  H=0.15  pl=+0.002  vl=1.135  t=13.7s
+[ep  1792] R=+3.282  Δeq5=-0.887  eq5=+0.133  H=0.17  pl=+0.002  vl=1.144  t=16.0s
+[ep  2048] R=+3.332  Δeq5=-0.875  eq5=+0.144  H=0.14  pl=+0.003  vl=1.165  t=18.3s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m18s]
+
+########################################################################
+# [24/36] lit-pbw | full | seed 1
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/full_s1
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-0.5159  rawU=-0.4332  max|m|=15
+[ep   256] R=+2.424  Δeq5=-1.583  eq5=-0.509  H=1.55  pl=-0.004  vl=0.697  t=2.3s
+[ep   512] R=+3.771  Δeq5=-1.526  eq5=-0.412  H=1.27  pl=-0.005  vl=1.244  t=4.8s
+[ep   768] R=+7.386  Δeq5=-1.397  eq5=-0.258  H=0.63  pl=-0.004  vl=3.521  t=7.2s
+[ep  1024] R=+10.183  Δeq5=-1.074  eq5=-0.007  H=0.35  pl=+0.000  vl=6.561  t=9.6s
+[ep  1280] R=+10.460  Δeq5=-1.013  eq5=+0.034  H=0.28  pl=+0.002  vl=7.317  t=11.9s
+[ep  1536] R=+10.661  Δeq5=-1.009  eq5=+0.040  H=0.28  pl=+0.003  vl=7.866  t=14.3s
+[ep  1792] R=+10.647  Δeq5=-0.975  eq5=+0.063  H=0.28  pl=+0.002  vl=7.712  t=16.7s
+[ep  2048] R=+10.976  Δeq5=-0.938  eq5=+0.093  H=0.21  pl=+0.001  vl=7.702  t=19.1s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m19s]
+
+########################################################################
+# [25/36] jpetstore-6 | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-0.8613  rawU=-0.3854  max|m|=8
+[ep   256] R=+0.076  Δeq5=-1.685  eq5=-0.877  H=1.38  pl=-0.001  vl=0.146  t=1.5s
+[ep   512] R=+0.180  Δeq5=-1.599  eq5=-0.780  H=1.25  pl=-0.003  vl=0.255  t=3.0s
+[ep   768] R=+0.290  Δeq5=-1.506  eq5=-0.704  H=1.00  pl=-0.004  vl=0.359  t=4.5s
+[ep  1024] R=+0.624  Δeq5=-1.290  eq5=-0.514  H=0.71  pl=-0.004  vl=0.395  t=6.1s
+[ep  1280] R=+0.926  Δeq5=-1.053  eq5=-0.310  H=0.37  pl=-0.001  vl=0.397  t=7.6s
+[ep  1536] R=+1.310  Δeq5=-0.771  eq5=-0.036  H=0.09  pl=+0.001  vl=0.276  t=9.1s
+[ep  1792] R=+1.324  Δeq5=-0.758  eq5=-0.024  H=0.06  pl=+0.001  vl=0.275  t=10.6s
+[ep  2048] R=+1.324  Δeq5=-0.758  eq5=-0.024  H=0.07  pl=+0.002  vl=0.276  t=12.1s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m12s]
+
+########################################################################
+# [26/36] jpetstore-6 | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/jpetstore-6/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/jpetstore-6/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=24  E=110  K=4  must_link=12  cannot_link=0
+[train] baseline eq5 (vs random) = +0.080
+[ep     0] decode Score=-0.9639  rawU=-0.5547  max|m|=11
+[ep   256] R=+1.645  Δeq5=-1.627  eq5=-0.823  H=1.56  pl=-0.005  vl=0.436  t=1.5s
+[ep   512] R=+2.607  Δeq5=-1.514  eq5=-0.713  H=1.23  pl=-0.016  vl=0.716  t=3.1s
+[ep   768] R=+4.479  Δeq5=-1.258  eq5=-0.495  H=0.67  pl=-0.007  vl=1.456  t=4.7s
+[ep  1024] R=+7.053  Δeq5=-0.843  eq5=-0.107  H=0.20  pl=+0.000  vl=2.625  t=6.3s
+[ep  1280] R=+7.191  Δeq5=-0.814  eq5=-0.078  H=0.16  pl=+0.002  vl=2.750  t=7.9s
+[ep  1536] R=+7.410  Δeq5=-0.783  eq5=-0.048  H=0.11  pl=-0.001  vl=2.858  t=9.4s
+[ep  1792] R=+7.403  Δeq5=-0.770  eq5=-0.037  H=0.10  pl=+0.004  vl=2.831  t=11.0s
+[ep  2048] R=+7.487  Δeq5=-0.766  eq5=-0.032  H=0.09  pl=+0.002  vl=2.974  t=12.5s
+[train] best (decode Score or Δ) = -0.024
+  -> Score +0.0304 sizes [24] [0m12s]
+
+########################################################################
+# [27/36] acmeair | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.5647  rawU=-0.3290  max|m|=17
+[ep   256] R=+0.369  Δeq5=-1.291  eq5=-0.459  H=2.22  pl=-0.001  vl=0.056  t=4.8s
+[ep   512] R=+0.370  Δeq5=-1.293  eq5=-0.458  H=2.19  pl=-0.005  vl=0.065  t=9.8s
+[ep   768] R=+0.346  Δeq5=-1.298  eq5=-0.455  H=2.04  pl=-0.002  vl=0.062  t=14.8s
+[ep  1024] R=+0.376  Δeq5=-1.306  eq5=-0.459  H=1.90  pl=-0.001  vl=0.071  t=19.8s
+[ep  1280] R=+0.340  Δeq5=-1.319  eq5=-0.469  H=1.69  pl=-0.001  vl=0.070  t=24.7s
+[ep  1536] R=+0.305  Δeq5=-1.400  eq5=-0.531  H=1.40  pl=+0.000  vl=0.084  t=28.9s
+[ep  1792] R=+0.233  Δeq5=-1.445  eq5=-0.569  H=1.26  pl=+0.000  vl=0.075  t=32.3s
+[ep  2048] R=+0.251  Δeq5=-1.487  eq5=-0.605  H=1.12  pl=+0.001  vl=0.078  t=35.7s
+[train] best (decode Score or Δ) = -0.564
+  -> Score -1.4922 sizes [55, 15] [0m36s]
+
+########################################################################
+# [28/36] acmeair | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/acmeair/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/acmeair/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/acmeair.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/acmeair/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=70  E=528  K=11  must_link=13  cannot_link=169
+[train] baseline eq5 (vs random) = +0.129
+[ep     0] decode Score=-0.4480  rawU=-0.3138  max|m|=21
+[ep   256] R=+1.749  Δeq5=-1.295  eq5=-0.460  H=2.28  pl=-0.004  vl=0.169  t=3.6s
+[ep   512] R=+2.416  Δeq5=-1.299  eq5=-0.455  H=2.03  pl=-0.003  vl=0.262  t=7.4s
+[ep   768] R=+4.161  Δeq5=-1.371  eq5=-0.506  H=1.49  pl=-0.008  vl=0.485  t=11.1s
+[ep  1024] R=+6.584  Δeq5=-1.500  eq5=-0.619  H=0.93  pl=+0.001  vl=1.087  t=14.8s
+[ep  1280] R=+7.012  Δeq5=-1.462  eq5=-0.587  H=0.84  pl=+0.000  vl=1.583  t=18.5s
+[ep  1536] R=+6.941  Δeq5=-1.423  eq5=-0.556  H=0.80  pl=+0.003  vl=1.536  t=22.5s
+[ep  1792] R=+6.890  Δeq5=-1.399  eq5=-0.533  H=0.71  pl=+0.006  vl=1.725  t=27.5s
+[ep  2048] R=+7.011  Δeq5=-1.410  eq5=-0.543  H=0.61  pl=+0.003  vl=1.724  t=32.5s
+[train] best (decode Score or Δ) = -0.333
+  -> Score -0.1667 sizes [] [0m33s]
+
+########################################################################
+# [29/36] daytrader7 | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-0.9068  rawU=-0.2958  max|m|=35
+[ep   256] R=+0.889  Δeq5=-1.291  eq5=-0.581  H=1.89  pl=-0.001  vl=0.110  t=7.2s
+[ep   512] R=+0.964  Δeq5=-1.299  eq5=-0.572  H=1.85  pl=+0.000  vl=0.131  t=14.5s
+[ep   768] R=+1.281  Δeq5=-1.185  eq5=-0.473  H=1.72  pl=-0.001  vl=0.162  t=21.7s
+[ep  1024] R=+1.642  Δeq5=-1.191  eq5=-0.479  H=1.58  pl=-0.001  vl=0.157  t=29.1s
+[ep  1280] R=+1.958  Δeq5=-1.160  eq5=-0.457  H=1.55  pl=-0.001  vl=0.177  t=36.5s
+[ep  1536] R=+2.012  Δeq5=-1.168  eq5=-0.464  H=1.52  pl=+0.002  vl=0.201  t=43.9s
+[ep  1792] R=+2.036  Δeq5=-1.127  eq5=-0.430  H=1.54  pl=-0.001  vl=0.221  t=51.2s
+[ep  2048] R=+2.121  Δeq5=-1.108  eq5=-0.414  H=1.45  pl=-0.000  vl=0.232  t=58.6s
+[train] best (decode Score or Δ) = -0.405
+  -> Score -0.5464 sizes [57, 47] [0m59s]
+
+########################################################################
+# [30/36] daytrader7 | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/daytrader7/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/daytrader7/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/daytrader7.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/daytrader7/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=104  E=598  K=11  must_link=41  cannot_link=684
+[train] baseline eq5 (vs random) = +0.072
+[ep     0] decode Score=-0.6019  rawU=-0.1854  max|m|=30
+[ep   256] R=+8.985  Δeq5=-1.224  eq5=-0.517  H=2.02  pl=-0.003  vl=0.712  t=7.8s
+[ep   512] R=+10.731  Δeq5=-1.234  eq5=-0.519  H=1.83  pl=-0.004  vl=1.280  t=15.7s
+[ep   768] R=+15.771  Δeq5=-1.178  eq5=-0.473  H=1.38  pl=-0.008  vl=2.244  t=23.7s
+[ep  1024] R=+29.828  Δeq5=-1.280  eq5=-0.565  H=0.75  pl=-0.003  vl=6.813  t=31.4s
+[ep  1280] R=+36.371  Δeq5=-1.247  eq5=-0.537  H=0.47  pl=+0.001  vl=14.543  t=39.0s
+[ep  1536] R=+39.543  Δeq5=-1.198  eq5=-0.491  H=0.28  pl=+0.003  vl=21.533  t=46.6s
+[ep  1792] R=+38.975  Δeq5=-1.206  eq5=-0.502  H=0.38  pl=+0.002  vl=20.921  t=54.1s
+[ep  2048] R=+38.262  Δeq5=-1.211  eq5=-0.507  H=0.39  pl=+0.001  vl=21.648  t=61.7s
+[train] best (decode Score or Δ) = -0.394
+  -> Score -0.5464 sizes [57, 47] [1m02s]
+
+########################################################################
+# [31/36] plantsbywebsphere | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-0.9730  rawU=-0.6839  max|m|=16
+[ep   256] R=+1.131  Δeq5=-2.064  eq5=-0.703  H=1.09  pl=-0.003  vl=0.397  t=2.3s
+[ep   512] R=+1.780  Δeq5=-1.852  eq5=-0.492  H=0.76  pl=-0.003  vl=0.515  t=4.6s
+[ep   768] R=+3.018  Δeq5=-1.383  eq5=-0.194  H=0.33  pl=-0.002  vl=1.038  t=6.9s
+[ep  1024] R=+3.415  Δeq5=-1.145  eq5=-0.022  H=0.18  pl=+0.002  vl=1.208  t=9.0s
+[ep  1280] R=+3.554  Δeq5=-1.018  eq5=+0.075  H=0.10  pl=+0.004  vl=1.295  t=11.3s
+[ep  1536] R=+3.469  Δeq5=-1.106  eq5=+0.003  H=0.13  pl=+0.001  vl=1.278  t=13.6s
+[ep  1792] R=+3.481  Δeq5=-1.049  eq5=+0.051  H=0.10  pl=+0.001  vl=1.284  t=15.8s
+[ep  2048] R=+3.626  Δeq5=-0.924  eq5=+0.153  H=0.09  pl=-0.001  vl=1.292  t=18.1s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m18s]
+
+########################################################################
+# [32/36] plantsbywebsphere | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/plantsbywebsphere/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/plantsbywebsphere/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/plantsbywebsphere.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/plantsbywebsphere/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=35  E=202  K=3  must_link=38  cannot_link=0
+[train] baseline eq5 (vs random) = +0.411
+[ep     0] decode Score=-0.6175  rawU=-0.3352  max|m|=9
+[ep   256] R=+3.390  Δeq5=-1.863  eq5=-0.553  H=1.32  pl=-0.010  vl=0.937  t=2.3s
+[ep   512] R=+4.585  Δeq5=-1.898  eq5=-0.542  H=1.04  pl=-0.006  vl=1.461  t=4.7s
+[ep   768] R=+9.380  Δeq5=-1.360  eq5=-0.186  H=0.40  pl=-0.001  vl=4.781  t=7.1s
+[ep  1024] R=+11.003  Δeq5=-1.122  eq5=-0.014  H=0.23  pl=+0.001  vl=6.835  t=9.4s
+[ep  1280] R=+11.239  Δeq5=-1.112  eq5=-0.015  H=0.18  pl=+0.001  vl=7.469  t=11.8s
+[ep  1536] R=+11.019  Δeq5=-1.134  eq5=-0.034  H=0.14  pl=+0.002  vl=7.834  t=14.1s
+[ep  1792] R=+11.187  Δeq5=-1.122  eq5=-0.022  H=0.17  pl=+0.003  vl=7.556  t=16.4s
+[ep  2048] R=+10.395  Δeq5=-1.247  eq5=-0.119  H=0.32  pl=+0.000  vl=7.189  t=18.7s
+[train] best (decode Score or Δ) = +0.180
+  -> Score +0.1619 sizes [35] [0m19s]
+
+########################################################################
+# [33/36] lit-jpetstore | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.5962  rawU=-0.2503  max|m|=27
+[ep   256] R=+0.557  Δeq5=-1.640  eq5=-0.595  H=1.74  pl=-0.000  vl=0.133  t=4.7s
+[ep   512] R=+0.559  Δeq5=-1.637  eq5=-0.587  H=1.67  pl=-0.002  vl=0.152  t=9.5s
+[ep   768] R=+0.849  Δeq5=-1.608  eq5=-0.551  H=1.55  pl=-0.004  vl=0.168  t=14.4s
+[ep  1024] R=+1.016  Δeq5=-1.623  eq5=-0.563  H=1.41  pl=-0.005  vl=0.190  t=19.3s
+[ep  1280] R=+1.198  Δeq5=-1.559  eq5=-0.509  H=1.26  pl=-0.001  vl=0.203  t=24.2s
+[ep  1536] R=+1.599  Δeq5=-1.457  eq5=-0.426  H=1.05  pl=+0.000  vl=0.261  t=29.0s
+[ep  1792] R=+1.909  Δeq5=-1.305  eq5=-0.316  H=0.89  pl=+0.000  vl=0.335  t=33.9s
+[ep  2048] R=+2.197  Δeq5=-1.118  eq5=-0.187  H=0.78  pl=+0.001  vl=0.398  t=38.8s
+[train] best (decode Score or Δ) = -0.274
+  -> Score -0.4001 sizes [55, 16] [0m39s]
+
+########################################################################
+# [34/36] lit-jpetstore | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-jpetstore/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-jpetstore/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-jpetstore.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-jpetstore/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=71  E=438  K=8  must_link=44  cannot_link=352
+[train] baseline eq5 (vs random) = +0.059
+[ep     0] decode Score=-0.5593  rawU=-0.2328  max|m|=18
+[ep   256] R=+4.845  Δeq5=-1.576  eq5=-0.532  H=1.87  pl=-0.002  vl=0.627  t=5.0s
+[ep   512] R=+5.889  Δeq5=-1.593  eq5=-0.544  H=1.68  pl=-0.003  vl=0.989  t=10.1s
+[ep   768] R=+8.780  Δeq5=-1.657  eq5=-0.633  H=1.26  pl=-0.004  vl=1.936  t=15.3s
+[ep  1024] R=+16.374  Δeq5=-1.625  eq5=-0.670  H=0.68  pl=+0.001  vl=5.955  t=20.5s
+[ep  1280] R=+20.571  Δeq5=-1.614  eq5=-0.668  H=0.37  pl=+0.000  vl=11.758  t=25.6s
+[ep  1536] R=+20.114  Δeq5=-1.549  eq5=-0.596  H=0.41  pl=+0.002  vl=14.564  t=30.7s
+[ep  1792] R=+19.673  Δeq5=-1.474  eq5=-0.505  H=0.38  pl=+0.002  vl=14.794  t=35.8s
+[ep  2048] R=+20.018  Δeq5=-1.428  eq5=-0.453  H=0.33  pl=+0.003  vl=15.024  t=40.9s
+[train] best (decode Score or Δ) = -0.348
+  -> Score -0.0891 sizes [55] [0m41s]
+
+########################################################################
+# [35/36] lit-pbw | structural | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/structural_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-1.3481  rawU=-1.2118  max|m|=22
+[ep   256] R=+0.666  Δeq5=-1.677  eq5=-0.622  H=1.38  pl=-0.002  vl=0.257  t=2.2s
+[ep   512] R=+0.972  Δeq5=-1.650  eq5=-0.538  H=1.28  pl=-0.003  vl=0.333  t=4.6s
+[ep   768] R=+1.509  Δeq5=-1.577  eq5=-0.426  H=0.97  pl=-0.009  vl=0.454  t=6.9s
+[ep  1024] R=+2.534  Δeq5=-1.328  eq5=-0.194  H=0.55  pl=-0.003  vl=0.751  t=9.2s
+[ep  1280] R=+3.110  Δeq5=-1.028  eq5=+0.031  H=0.25  pl=+0.001  vl=1.075  t=11.5s
+[ep  1536] R=+3.165  Δeq5=-1.041  eq5=+0.020  H=0.22  pl=+0.001  vl=1.109  t=13.7s
+[ep  1792] R=+3.288  Δeq5=-0.931  eq5=+0.104  H=0.19  pl=+0.003  vl=1.129  t=15.9s
+[ep  2048] R=+3.338  Δeq5=-0.869  eq5=+0.148  H=0.27  pl=-0.002  vl=1.164  t=18.2s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m18s]
+
+########################################################################
+# [36/36] lit-pbw | full | seed 7
+########################################################################
+[train] facts:      <server>/<repo>/results_java/lit-pbw/facts_nesy.json
+[train] graph_exp:  <server>/<repo>/results_java/lit-pbw/exp_a0.9_b0.1_n8_java.json
+[train] embeddings: <server>/<repo>/results_java/_nesy/encoder/train/embeddings/lit-pbw.pt
+[train] output:     <server>/<repo>/results_java/_nesy/rl_ablation/nobc_ep2000/lit-pbw/full_s7
+[train] device:     cuda  num_envs=64
+<server>/<repo>/.venv/lib/python3.12/site-packages/sklearn/cluster/_hdbscan/hdbscan.py:722: FutureWarning: The default value of `copy` will change from False to True in 1.10. Explicitly set a value for `copy` to silence this warning.
+  warn(
+[train] zscore reward vs 4 fixed peers
+[train] N=36  E=200  K=4  must_link=37  cannot_link=0
+[train] baseline eq5 (vs random) = +0.515
+[ep     0] decode Score=-0.5480  rawU=-0.4964  max|m|=11
+[ep   256] R=+2.477  Δeq5=-1.596  eq5=-0.519  H=1.56  pl=-0.005  vl=0.727  t=2.3s
+[ep   512] R=+3.672  Δeq5=-1.488  eq5=-0.386  H=1.29  pl=-0.009  vl=1.102  t=4.8s
+[ep   768] R=+8.048  Δeq5=-1.315  eq5=-0.218  H=0.58  pl=-0.001  vl=3.955  t=7.2s
+[ep  1024] R=+9.944  Δeq5=-1.088  eq5=-0.021  H=0.33  pl=-0.000  vl=6.756  t=9.6s
+[ep  1280] R=+10.724  Δeq5=-0.961  eq5=+0.065  H=0.24  pl=+0.004  vl=7.392  t=12.0s
+[ep  1536] R=+10.964  Δeq5=-0.915  eq5=+0.113  H=0.20  pl=+0.003  vl=7.479  t=14.4s
+[ep  1792] R=+10.823  Δeq5=-0.936  eq5=+0.094  H=0.21  pl=+0.004  vl=7.719  t=16.8s
+[ep  2048] R=+11.054  Δeq5=-0.890  eq5=+0.125  H=0.22  pl=+0.000  vl=7.848  t=19.1s
+[train] best (decode Score or Δ) = +0.283
+  -> Score +0.1462 sizes [36] [0m19s]
+
+[rl] finished in 18m50s
+
+[run_gpu] stages ['ablation'] done in 18m50s

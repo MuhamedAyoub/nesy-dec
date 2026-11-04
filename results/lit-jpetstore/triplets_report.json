@@ -1,0 +1,18 @@
+{
+  "app": "lit-jpetstore",
+  "triplets": 1500,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "cocite": 702,
+    "shared_entity": 59,
+    "must_link": 739
+  },
+  "neg_sources": {
+    "same_role": 450,
+    "random": 300,
+    "cannot_link": 750
+  },
+  "distinct_anchors": 67,
+  "active_classes": 71
+}

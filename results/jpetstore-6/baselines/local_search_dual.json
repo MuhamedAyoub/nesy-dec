@@ -1,0 +1,43 @@
+{
+  "method": "local_search_dual",
+  "app": "jpetstore-6",
+  "moves": 2,
+  "size_cap": 30,
+  "dual_score_start": 0.14374955180532087,
+  "dual_score_end": 0.5269564206245321,
+  "partitions": [
+    [
+      "org.mybatis.jpetstore.domain.Item",
+      "org.mybatis.jpetstore.domain.Product",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.service.CatalogService",
+      "org.mybatis.jpetstore.web.actions.CatalogActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Cart",
+      "org.mybatis.jpetstore.domain.CartItem"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Category",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+      "org.mybatis.jpetstore.web.actions.CartActionBean",
+      "org.mybatis.jpetstore.web.actions.OrderActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Account",
+      "org.mybatis.jpetstore.domain.LineItem",
+      "org.mybatis.jpetstore.domain.Order",
+      "org.mybatis.jpetstore.domain.Sequence",
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper",
+      "org.mybatis.jpetstore.service.AccountService",
+      "org.mybatis.jpetstore.service.OrderService",
+      "org.mybatis.jpetstore.web.actions.AccountActionBean"
+    ]
+  ],
+  "start": "teacher"
+}

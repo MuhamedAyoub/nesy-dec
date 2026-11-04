@@ -1,0 +1,60 @@
+...............s................FF..............FF..                     [100%]
+=================================== FAILURES ===================================
+______________________________ test_ppo_loop_runs ______________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-<user>/pytest-5/test_ppo_loop_runs0')
+
+    def test_ppo_loop_runs(tmp_path):
+        env = _make_toy_env()
+>       cfg = PPOConfig(
+            episodes=8, rollout_episodes=2, update_epochs=2,
+            minibatch_size=8, log_every=4, checkpoint_every=4, seed=0,
+        )
+E       TypeError: PPOConfig.__init__() got an unexpected keyword argument 'rollout_episodes'
+
+neurosymbolic/tests/test_rl_smoke.py:225: TypeError
+__________________________ test_greedy_decompose_runs __________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-<user>/pytest-5/test_greedy_decompose_runs0')
+
+    def test_greedy_decompose_runs(tmp_path):
+        env = _make_toy_env()
+>       cfg = PPOConfig(
+            episodes=4, rollout_episodes=2, update_epochs=1,
+            minibatch_size=4, log_every=4, checkpoint_every=4, seed=0,
+        )
+E       TypeError: PPOConfig.__init__() got an unexpected keyword argument 'rollout_episodes'
+
+neurosymbolic/tests/test_rl_smoke.py:240: TypeError
+________________________ test_pyx4_degrades_gracefully _________________________
+
+    def test_pyx4_degrades_gracefully():
+        """Pyx4 has no models / no must_link / no cannot_link in its input dump.
+        The generator should still produce valid triplets via cocite + same_role."""
+        facts = extract_facts(REPO / "results/px4/input", "px4")
+        triplets, stats = generate_for_app(REPO / "results/px4", facts, target_count=500)
+>       assert len(triplets) > 0
+E       assert 0 > 0
+E        +  where 0 = len([])
+
+neurosymbolic/tests/test_triplets.py:69: AssertionError
+_____________________ test_per_class_concentration_capped ______________________
+
+    def test_per_class_concentration_capped():
+        """No single class should dominate as positive — caps prevent overfitting
+        to popular hubs (e.g. SearchController in Pyx4)."""
+        from collections import Counter
+        facts = extract_facts(REPO / "results/px4/input", "px4")
+        triplets, _ = generate_for_app(REPO / "results/px4", facts, target_count=500)
+        pos_counts = Counter(t.positive for t in triplets)
+>       most_common, count = pos_counts.most_common(1)[0]
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       IndexError: list index out of range
+
+neurosymbolic/tests/test_triplets.py:83: IndexError
+=========================== short test summary info ============================
+FAILED neurosymbolic/tests/test_rl_smoke.py::test_ppo_loop_runs - TypeError: ...
+FAILED neurosymbolic/tests/test_rl_smoke.py::test_greedy_decompose_runs - Typ...
+FAILED neurosymbolic/tests/test_triplets.py::test_pyx4_degrades_gracefully - ...
+FAILED neurosymbolic/tests/test_triplets.py::test_per_class_concentration_capped
+4 failed, 47 passed, 1 skipped in 4.50s

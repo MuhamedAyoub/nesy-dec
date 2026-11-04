@@ -1,0 +1,52 @@
+
+=== daytrader7
+  jsf (12) x prims (50): 600 pairs; shared app supertypes: 0 []
+  jsf (12) x websocket (7): 84 pairs; shared app supertypes: 0 []
+  total pairs 684; conflicts with must-link 0
+    teacher                      violations   118 of 684 (17.3%)
+    unixcoder_ward_nesyrep       violations    53 of 684 (7.7%)
+    unixcoder_ward_pretrained    violations    12 of 684 (1.8%)
+    hierdec                      violations     0 of 684 (0.0%)
+    rldec_best_s42               violations    71 of 684 (10.4%)
+    rldec_cli_s42                violations   684 of 684 (100.0%)
+    graphrl_full_s42             violations   118 of 684 (17.3%)
+    rldec_best_s1                violations    34 of 684 (5.0%)
+    rldec_cli_s1                 violations   684 of 684 (100.0%)
+    graphrl_full_s1              violations   118 of 684 (17.3%)
+    rldec_best_s7                violations    21 of 684 (3.1%)
+    rldec_cli_s7                 violations   684 of 684 (100.0%)
+    graphrl_full_s7              violations   118 of 684 (17.3%)
+
+=== acmeair
+  morphia (13) x wxs (13): 169 pairs; shared app supertypes: 10 ['AirportCodeMapping', 'Booking', 'BookingService', 'Customer', 'CustomerAddress', 'CustomerService', 'CustomerSession', 'Flight']
+  total pairs 169; conflicts with must-link 0
+    teacher                      violations     2 of 169 (1.2%)
+    unixcoder_ward_nesyrep       violations    16 of 169 (9.5%)
+    unixcoder_ward_pretrained    violations    21 of 169 (12.4%)
+    hierdec                      violations    13 of 169 (7.7%)
+    rldec_best_s42               violations    24 of 169 (14.2%)
+    rldec_cli_s42                violations   169 of 169 (100.0%)
+    graphrl_full_s42             violations     2 of 169 (1.2%)
+    rldec_best_s1                violations    18 of 169 (10.7%)
+    rldec_cli_s1                 violations   169 of 169 (100.0%)
+    graphrl_full_s1              violations     2 of 169 (1.2%)
+    rldec_best_s7                violations    35 of 169 (20.7%)
+    rldec_cli_s7                 violations   169 of 169 (100.0%)
+    graphrl_full_s7              violations     2 of 169 (1.2%)
+
+=== lit-jpetstore
+  spring (16) x struts (22): 352 pairs; shared app supertypes: 0 []
+  total pairs 352; conflicts with must-link 0
+    teacher                      violations    10 of 352 (2.8%)
+    unixcoder_ward_nesyrep       violations    35 of 352 (9.9%)
+    unixcoder_ward_pretrained    violations   110 of 352 (31.2%)
+    hierdec                      violations    18 of 352 (5.1%)
+    rldec_best_s42               violations    48 of 352 (13.6%)
+    rldec_cli_s42                violations   352 of 352 (100.0%)
+    graphrl_full_s42             violations    10 of 352 (2.8%)
+    rldec_best_s1                violations    98 of 352 (27.8%)
+    rldec_cli_s1                 violations   352 of 352 (100.0%)
+    graphrl_full_s1              violations    10 of 352 (2.8%)
+    rldec_best_s7                violations    12 of 352 (3.4%)
+    rldec_cli_s7                 violations   352 of 352 (100.0%)
+    graphrl_full_s7              violations    10 of 352 (2.8%)

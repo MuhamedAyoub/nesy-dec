@@ -1,0 +1,896 @@
+{
+  "parameters": {
+    "alpha": 0.9,
+    "beta": 0.1,
+    "n_top": 8,
+    "min_cluster_size": 3,
+    "gamma": 0.1,
+    "mode": "hierarchical",
+    "resolver": "java-layered",
+    "graph": "<repo>/results_java/acmeair/layer_ablation/no_L3_graph.json"
+  },
+  "summary": {
+    "total_classes_original": 72,
+    "total_classes_active": 70,
+    "isolated_classes": 2,
+    "total_data_entities": 0,
+    "num_microservices": 12
+  },
+  "resolver_report": null,
+  "dependency_graph": {
+    "com.acmeair.AcmeAirConstants": {
+    },
+    "com.acmeair.config.AcmeAirConfiguration": {
+      "com.acmeair.service.ServiceLocator": 10.0,
+      "com.acmeair.service.BookingService": 3.0,
+      "com.acmeair.morphia.services.BookingServiceImpl": 0.5,
+      "com.acmeair.wxs.service.BookingServiceImpl": 0.5,
+      "com.acmeair.service.CustomerService": 4.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 1.0,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 1.0,
+      "com.acmeair.service.FlightService": 5.0,
+      "com.acmeair.morphia.services.FlightServiceImpl": 1.5,
+      "com.acmeair.wxs.service.FlightServiceImpl": 1.5,
+      "com.acmeair.config.AcmeAirConfiguration.ServiceData": 13.0
+    },
+    "com.acmeair.config.AcmeAirConfiguration.ServiceData": {
+    },
+    "com.acmeair.config.LoaderREST": {
+      "com.acmeair.loader.Loader": 3.0
+    },
+    "com.acmeair.entities.AirportCodeMapping": {
+    },
+    "com.acmeair.entities.Booking": {
+    },
+    "com.acmeair.entities.BookingPK": {
+    },
+    "com.acmeair.entities.Customer": {
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.entities.CustomerAddress": 1.0
+    },
+    "com.acmeair.entities.Customer.MemberShipStatus": {
+    },
+    "com.acmeair.entities.Customer.PhoneType": {
+    },
+    "com.acmeair.entities.CustomerAddress": {
+    },
+    "com.acmeair.entities.CustomerSession": {
+    },
+    "com.acmeair.entities.Flight": {
+      "com.acmeair.entities.FlightSegment": 1.0
+    },
+    "com.acmeair.entities.FlightPK": {
+    },
+    "com.acmeair.entities.FlightSegment": {
+    },
+    "com.acmeair.loader.CustomerLoader": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.CustomerService": 4.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 1.0,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 1.0
+    },
+    "com.acmeair.loader.FlightLoader": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.FlightService": 7.0,
+      "com.acmeair.morphia.services.FlightServiceImpl": 2.5,
+      "com.acmeair.wxs.service.FlightServiceImpl": 2.5,
+      "com.acmeair.entities.AirportCodeMapping": 4.0,
+      "com.acmeair.morphia.entities.AirportCodeMappingImpl": 1.5,
+      "com.acmeair.wxs.entities.AirportCodeMappingImpl": 1.5
+    },
+    "com.acmeair.loader.Loader": {
+      "com.acmeair.loader.FlightLoader": 2.0,
+      "com.acmeair.loader.CustomerLoader": 2.0
+    },
+    "com.acmeair.morphia.BigDecimalConverter": {
+    },
+    "com.acmeair.morphia.DatastoreFactory": {
+      "com.acmeair.entities.Booking": 1.0,
+      "com.acmeair.entities.Flight": 1.0,
+      "com.acmeair.entities.FlightSegment": 1.0
+    },
+    "com.acmeair.morphia.MorphiaConstants": {
+      "com.acmeair.AcmeAirConstants": 1.0
+    },
+    "com.acmeair.morphia.entities.AirportCodeMappingImpl": {
+      "com.acmeair.entities.AirportCodeMapping": 1.0
+    },
+    "com.acmeair.morphia.entities.BookingImpl": {
+      "com.acmeair.entities.Flight": 2.0,
+      "com.acmeair.morphia.entities.FlightImpl": 0.5,
+      "com.acmeair.wxs.entities.FlightImpl": 0.5,
+      "com.acmeair.entities.Customer": 2.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerImpl": 0.5,
+      "com.acmeair.entities.Booking": 1.0
+    },
+    "com.acmeair.morphia.entities.CustomerAddressImpl": {
+      "com.acmeair.entities.CustomerAddress": 1.0
+    },
+    "com.acmeair.morphia.entities.CustomerImpl": {
+      "com.acmeair.entities.CustomerAddress": 2.0,
+      "com.acmeair.morphia.entities.CustomerAddressImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerAddressImpl": 0.5,
+      "com.acmeair.entities.Customer": 1.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0
+    },
+    "com.acmeair.morphia.entities.CustomerSessionImpl": {
+      "com.acmeair.entities.CustomerSession": 1.0
+    },
+    "com.acmeair.morphia.entities.FlightImpl": {
+      "com.acmeair.entities.FlightSegment": 2.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 0.5,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 0.5,
+      "com.acmeair.entities.Flight": 1.0
+    },
+    "com.acmeair.morphia.entities.FlightSegmentImpl": {
+      "com.acmeair.entities.FlightSegment": 1.0
+    },
+    "com.acmeair.morphia.services.BookingServiceImpl": {
+      "com.acmeair.service.ServiceLocator": 4.0,
+      "com.acmeair.morphia.services.util.MongoConnectionManager": 2.0,
+      "com.acmeair.service.FlightService": 3.0,
+      "com.acmeair.morphia.services.FlightServiceImpl": 0.5,
+      "com.acmeair.wxs.service.FlightServiceImpl": 0.5,
+      "com.acmeair.service.CustomerService": 3.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 0.5,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 0.5,
+      "com.acmeair.service.KeyGenerator": 2.0,
+      "com.acmeair.entities.Booking": 2.0,
+      "com.acmeair.morphia.entities.BookingImpl": 5.5,
+      "com.acmeair.wxs.entities.BookingImpl": 0.5,
+      "com.acmeair.morphia.MorphiaConstants": 3.0,
+      "com.acmeair.service.BookingService": 1.0,
+      "com.acmeair.service.DataService": 1.0
+    },
+    "com.acmeair.morphia.services.CustomerServiceImpl": {
+      "com.acmeair.morphia.services.util.MongoConnectionManager": 2.0,
+      "com.acmeair.entities.Customer": 2.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 4.5,
+      "com.acmeair.wxs.entities.CustomerImpl": 0.5,
+      "com.acmeair.morphia.entities.CustomerAddressImpl": 1.0,
+      "com.acmeair.morphia.entities.CustomerSessionImpl": 4.0,
+      "com.acmeair.morphia.MorphiaConstants": 3.0,
+      "com.acmeair.service.CustomerService": 1.0,
+      "com.acmeair.service.DataService": 1.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.entities.CustomerAddress": 1.0,
+      "com.acmeair.entities.CustomerSession": 1.0
+    },
+    "com.acmeair.morphia.services.FlightServiceImpl": {
+      "com.acmeair.morphia.services.util.MongoConnectionManager": 2.0,
+      "com.acmeair.entities.FlightSegment": 3.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 5.0,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 1.0,
+      "com.acmeair.entities.Flight": 2.0,
+      "com.acmeair.morphia.entities.FlightImpl": 5.5,
+      "com.acmeair.wxs.entities.FlightImpl": 0.5,
+      "com.acmeair.service.KeyGenerator": 2.0,
+      "com.acmeair.morphia.entities.AirportCodeMappingImpl": 2.0,
+      "com.acmeair.morphia.MorphiaConstants": 3.0,
+      "com.acmeair.service.FlightService": 1.0,
+      "com.acmeair.service.DataService": 1.0,
+      "com.acmeair.entities.AirportCodeMapping": 1.0
+    },
+    "com.acmeair.morphia.services.util.MongoConnectionManager": {
+      "com.acmeair.morphia.BigDecimalConverter": 2.0,
+      "com.acmeair.morphia.MorphiaConstants": 7.0
+    },
+    "com.acmeair.service.BookingService": {
+      "com.acmeair.entities.Booking": 1.0
+    },
+    "com.acmeair.service.CustomerService": {
+      "com.acmeair.entities.Customer": 4.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 1.5,
+      "com.acmeair.wxs.entities.CustomerImpl": 1.5,
+      "com.acmeair.entities.CustomerSession": 2.0,
+      "com.acmeair.morphia.entities.CustomerSessionImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerSessionImpl": 0.5,
+      "com.acmeair.service.KeyGenerator": 2.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.entities.CustomerAddress": 1.0
+    },
+    "com.acmeair.service.DataService": {
+    },
+    "com.acmeair.service.FlightService": {
+      "com.acmeair.entities.FlightSegment": 3.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 1.0,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 1.0,
+      "com.acmeair.entities.Flight": 1.0,
+      "com.acmeair.entities.AirportCodeMapping": 1.0
+    },
+    "com.acmeair.service.KeyGenerator": {
+    },
+    "com.acmeair.service.ServiceLocator": {
+      "com.acmeair.service.DataService": 9.0,
+      "com.acmeair.service.CustomerService": 1.0
+    },
+    "com.acmeair.service.TransactionService": {
+    },
+    "com.acmeair.web.AcmeAirApp": {
+      "com.acmeair.web.BookingsREST": 1.0,
+      "com.acmeair.web.CustomerREST": 1.0,
+      "com.acmeair.web.FlightsREST": 1.0,
+      "com.acmeair.web.LoginREST": 1.0
+    },
+    "com.acmeair.web.AppConfig": {
+      "com.acmeair.config.LoaderREST": 1.0,
+      "com.acmeair.config.AcmeAirConfiguration": 1.0
+    },
+    "com.acmeair.web.BookingsREST": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.BookingService": 7.0,
+      "com.acmeair.morphia.services.BookingServiceImpl": 2.5,
+      "com.acmeair.wxs.service.BookingServiceImpl": 2.5,
+      "com.acmeair.web.dto.BookingReceiptInfo": 2.0,
+      "com.acmeair.web.dto.BookingInfo": 3.0
+    },
+    "com.acmeair.web.CustomerREST": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.CustomerService": 5.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 1.5,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 1.5,
+      "com.acmeair.web.dto.CustomerInfo": 14.0,
+      "com.acmeair.entities.Customer": 4.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 2.0,
+      "com.acmeair.wxs.entities.CustomerImpl": 2.0,
+      "com.acmeair.entities.CustomerAddress": 6.0,
+      "com.acmeair.morphia.entities.CustomerAddressImpl": 3.0,
+      "com.acmeair.wxs.entities.CustomerAddressImpl": 3.0,
+      "com.acmeair.web.dto.AddressInfo": 7.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.web.RESTCookieSessionFilter": 1.0
+    },
+    "com.acmeair.web.FlightsREST": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.FlightService": 6.0,
+      "com.acmeair.morphia.services.FlightServiceImpl": 2.0,
+      "com.acmeair.wxs.service.FlightServiceImpl": 2.0,
+      "com.acmeair.web.dto.TripLegInfo": 28.0,
+      "com.acmeair.web.dto.TripFlightOptions": 9.0
+    },
+    "com.acmeair.web.LoginREST": {
+      "com.acmeair.service.ServiceLocator": 2.0,
+      "com.acmeair.service.CustomerService": 5.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 1.5,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 1.5,
+      "com.acmeair.entities.CustomerSession": 1.0,
+      "com.acmeair.morphia.entities.CustomerSessionImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerSessionImpl": 0.5
+    },
+    "com.acmeair.web.RESTCookieSessionFilter": {
+      "com.acmeair.service.ServiceLocator": 4.0,
+      "com.acmeair.service.TransactionService": 3.0,
+      "com.acmeair.wxs.utils.WXSSessionManager": 1.0,
+      "com.acmeair.service.CustomerService": 3.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 0.5,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 0.5,
+      "com.acmeair.entities.CustomerSession": 1.0,
+      "com.acmeair.morphia.entities.CustomerSessionImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerSessionImpl": 0.5,
+      "com.acmeair.web.LoginREST": 1.0
+    },
+    "com.acmeair.web.dto.AddressInfo": {
+      "com.acmeair.entities.CustomerAddress": 7.0,
+      "com.acmeair.morphia.entities.CustomerAddressImpl": 3.0,
+      "com.acmeair.wxs.entities.CustomerAddressImpl": 3.0
+    },
+    "com.acmeair.web.dto.BookingInfo": {
+      "com.acmeair.entities.Booking": 5.0,
+      "com.acmeair.morphia.entities.BookingImpl": 2.0,
+      "com.acmeair.wxs.entities.BookingImpl": 2.0,
+      "com.acmeair.web.dto.BookingPKInfo": 2.0
+    },
+    "com.acmeair.web.dto.BookingPKInfo": {
+    },
+    "com.acmeair.web.dto.BookingReceiptInfo": {
+    },
+    "com.acmeair.web.dto.CustomerInfo": {
+      "com.acmeair.entities.Customer": 9.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 4.0,
+      "com.acmeair.wxs.entities.CustomerImpl": 4.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.web.dto.AddressInfo": 3.0
+    },
+    "com.acmeair.web.dto.FlightInfo": {
+      "com.acmeair.entities.Flight": 12.0,
+      "com.acmeair.morphia.entities.FlightImpl": 5.5,
+      "com.acmeair.wxs.entities.FlightImpl": 5.5,
+      "com.acmeair.web.dto.FlightSegmentInfo": 2.0,
+      "com.acmeair.web.dto.FlightPKInfo": 2.0
+    },
+    "com.acmeair.web.dto.FlightPKInfo": {
+    },
+    "com.acmeair.web.dto.FlightSegmentInfo": {
+      "com.acmeair.entities.FlightSegment": 5.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 2.0,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 2.0
+    },
+    "com.acmeair.web.dto.TripFlightOptions": {
+      "com.acmeair.web.dto.TripLegInfo": 1.0
+    },
+    "com.acmeair.web.dto.TripLegInfo": {
+      "com.acmeair.web.dto.FlightInfo": 2.0,
+      "com.acmeair.entities.Flight": 1.0
+    },
+    "com.acmeair.wxs.WXSConstants": {
+    },
+    "com.acmeair.wxs.entities.AirportCodeMappingImpl": {
+      "com.acmeair.entities.AirportCodeMapping": 1.0
+    },
+    "com.acmeair.wxs.entities.BookingImpl": {
+      "com.acmeair.entities.Customer": 3.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 1.0,
+      "com.acmeair.wxs.entities.CustomerImpl": 1.0,
+      "com.acmeair.wxs.entities.FlightImpl": 3.0,
+      "com.acmeair.wxs.entities.BookingPKImpl": 5.0,
+      "com.acmeair.entities.Flight": 3.0,
+      "com.acmeair.morphia.entities.FlightImpl": 1.0,
+      "com.acmeair.wxs.entities.FlightPKImpl": 2.0,
+      "com.acmeair.entities.Booking": 1.0
+    },
+    "com.acmeair.wxs.entities.BookingPKImpl": {
+      "com.acmeair.entities.BookingPK": 1.0
+    },
+    "com.acmeair.wxs.entities.CustomerAddressImpl": {
+      "com.acmeair.entities.CustomerAddress": 1.0
+    },
+    "com.acmeair.wxs.entities.CustomerImpl": {
+      "com.acmeair.entities.CustomerAddress": 2.0,
+      "com.acmeair.morphia.entities.CustomerAddressImpl": 0.5,
+      "com.acmeair.wxs.entities.CustomerAddressImpl": 0.5,
+      "com.acmeair.entities.Customer": 1.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0
+    },
+    "com.acmeair.wxs.entities.CustomerSessionImpl": {
+      "com.acmeair.entities.CustomerSession": 1.0
+    },
+    "com.acmeair.wxs.entities.FlightImpl": {
+      "com.acmeair.wxs.entities.FlightPKImpl": 6.0,
+      "com.acmeair.entities.FlightSegment": 2.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 0.5,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 0.5,
+      "com.acmeair.entities.Flight": 1.0
+    },
+    "com.acmeair.wxs.entities.FlightPKImpl": {
+      "com.acmeair.entities.FlightPK": 1.0
+    },
+    "com.acmeair.wxs.entities.FlightSegmentImpl": {
+      "com.acmeair.entities.FlightSegment": 1.0
+    },
+    "com.acmeair.wxs.service.BookingServiceImpl": {
+      "com.acmeair.service.ServiceLocator": 4.0,
+      "com.acmeair.wxs.utils.WXSSessionManager": 4.0,
+      "com.acmeair.service.FlightService": 3.0,
+      "com.acmeair.morphia.services.FlightServiceImpl": 0.5,
+      "com.acmeair.wxs.service.FlightServiceImpl": 0.5,
+      "com.acmeair.wxs.entities.FlightPKImpl": 4.0,
+      "com.acmeair.service.CustomerService": 3.0,
+      "com.acmeair.morphia.services.CustomerServiceImpl": 0.5,
+      "com.acmeair.wxs.service.CustomerServiceImpl": 0.5,
+      "com.acmeair.service.KeyGenerator": 2.0,
+      "com.acmeair.wxs.entities.BookingImpl": 4.0,
+      "com.acmeair.wxs.entities.BookingPKImpl": 4.0,
+      "com.acmeair.wxs.WXSConstants": 3.0,
+      "com.acmeair.service.BookingService": 2.0,
+      "com.acmeair.service.DataService": 1.0,
+      "com.acmeair.entities.Booking": 1.0
+    },
+    "com.acmeair.wxs.service.CustomerServiceImpl": {
+      "com.acmeair.wxs.utils.WXSSessionManager": 6.0,
+      "com.acmeair.entities.Customer": 3.0,
+      "com.acmeair.morphia.entities.CustomerImpl": 1.0,
+      "com.acmeair.wxs.entities.CustomerImpl": 2.0,
+      "com.acmeair.entities.CustomerSession": 3.0,
+      "com.acmeair.morphia.entities.CustomerSessionImpl": 1.0,
+      "com.acmeair.wxs.entities.CustomerSessionImpl": 2.0,
+      "com.acmeair.wxs.entities.CustomerAddressImpl": 1.0,
+      "com.acmeair.wxs.WXSConstants": 3.0,
+      "com.acmeair.service.BookingService": 1.0,
+      "com.acmeair.service.CustomerService": 1.0,
+      "com.acmeair.service.DataService": 1.0,
+      "com.acmeair.service.KeyGenerator": 1.0,
+      "com.acmeair.entities.Customer.MemberShipStatus": 1.0,
+      "com.acmeair.entities.Customer.PhoneType": 1.0,
+      "com.acmeair.entities.CustomerAddress": 1.0
+    },
+    "com.acmeair.wxs.service.FlightServiceImpl": {
+      "com.acmeair.wxs.utils.WXSSessionManager": 8.0,
+      "com.acmeair.wxs.entities.FlightImpl": 3.5,
+      "com.acmeair.entities.FlightSegment": 5.0,
+      "com.acmeair.morphia.entities.FlightSegmentImpl": 2.0,
+      "com.acmeair.wxs.entities.FlightSegmentImpl": 4.0,
+      "com.acmeair.entities.Flight": 4.0,
+      "com.acmeair.morphia.entities.FlightImpl": 1.5,
+      "com.acmeair.entities.AirportCodeMapping": 2.0,
+      "com.acmeair.morphia.entities.AirportCodeMappingImpl": 0.5,
+      "com.acmeair.wxs.entities.AirportCodeMappingImpl": 1.5,
+      "com.acmeair.service.KeyGenerator": 2.0,
+      "com.acmeair.wxs.WXSConstants": 3.0,
+      "com.acmeair.service.BookingService": 1.0,
+      "com.acmeair.service.FlightService": 1.0,
+      "com.acmeair.service.DataService": 1.0
+    },
+    "com.acmeair.wxs.utils.WXSSessionManager": {
+      "com.acmeair.wxs.WXSConstants": 4.0,
+      "com.acmeair.service.TransactionService": 1.0,
+      "com.acmeair.service.DataService": 1.0
+    }
+  },
+  "data_associations": {
+    "com.acmeair.AcmeAirConstants": [
+
+    ],
+    "com.acmeair.config.AcmeAirConfiguration": [
+
+    ],
+    "com.acmeair.config.AcmeAirConfiguration.ServiceData": [
+
+    ],
+    "com.acmeair.config.LoaderREST": [
+
+    ],
+    "com.acmeair.entities.AirportCodeMapping": [
+
+    ],
+    "com.acmeair.entities.Booking": [
+
+    ],
+    "com.acmeair.entities.BookingPK": [
+
+    ],
+    "com.acmeair.entities.Customer": [
+
+    ],
+    "com.acmeair.entities.Customer.MemberShipStatus": [
+
+    ],
+    "com.acmeair.entities.Customer.PhoneType": [
+
+    ],
+    "com.acmeair.entities.CustomerAddress": [
+
+    ],
+    "com.acmeair.entities.CustomerSession": [
+
+    ],
+    "com.acmeair.entities.Flight": [
+
+    ],
+    "com.acmeair.entities.FlightPK": [
+
+    ],
+    "com.acmeair.entities.FlightSegment": [
+
+    ],
+    "com.acmeair.loader.CustomerLoader": [
+
+    ],
+    "com.acmeair.loader.FlightLoader": [
+
+    ],
+    "com.acmeair.loader.Loader": [
+
+    ],
+    "com.acmeair.morphia.BigDecimalConverter": [
+
+    ],
+    "com.acmeair.morphia.DatastoreFactory": [
+
+    ],
+    "com.acmeair.morphia.MorphiaConstants": [
+
+    ],
+    "com.acmeair.morphia.entities.AirportCodeMappingImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.BookingImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.CustomerAddressImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.CustomerImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.CustomerSessionImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.FlightImpl": [
+
+    ],
+    "com.acmeair.morphia.entities.FlightSegmentImpl": [
+
+    ],
+    "com.acmeair.morphia.services.BookingServiceImpl": [
+
+    ],
+    "com.acmeair.morphia.services.CustomerServiceImpl": [
+
+    ],
+    "com.acmeair.morphia.services.FlightServiceImpl": [
+
+    ],
+    "com.acmeair.morphia.services.util.MongoConnectionManager": [
+
+    ],
+    "com.acmeair.service.BookingService": [
+
+    ],
+    "com.acmeair.service.CustomerService": [
+
+    ],
+    "com.acmeair.service.DataService": [
+
+    ],
+    "com.acmeair.service.FlightService": [
+
+    ],
+    "com.acmeair.service.KeyGenerator": [
+
+    ],
+    "com.acmeair.service.ServiceLocator": [
+
+    ],
+    "com.acmeair.service.TransactionService": [
+
+    ],
+    "com.acmeair.web.AcmeAirApp": [
+
+    ],
+    "com.acmeair.web.AppConfig": [
+
+    ],
+    "com.acmeair.web.BookingsREST": [
+
+    ],
+    "com.acmeair.web.CustomerREST": [
+
+    ],
+    "com.acmeair.web.FlightsREST": [
+
+    ],
+    "com.acmeair.web.LoginREST": [
+
+    ],
+    "com.acmeair.web.RESTCookieSessionFilter": [
+
+    ],
+    "com.acmeair.web.dto.AddressInfo": [
+
+    ],
+    "com.acmeair.web.dto.BookingInfo": [
+
+    ],
+    "com.acmeair.web.dto.BookingPKInfo": [
+
+    ],
+    "com.acmeair.web.dto.BookingReceiptInfo": [
+
+    ],
+    "com.acmeair.web.dto.CustomerInfo": [
+
+    ],
+    "com.acmeair.web.dto.FlightInfo": [
+
+    ],
+    "com.acmeair.web.dto.FlightPKInfo": [
+
+    ],
+    "com.acmeair.web.dto.FlightSegmentInfo": [
+
+    ],
+    "com.acmeair.web.dto.TripFlightOptions": [
+
+    ],
+    "com.acmeair.web.dto.TripLegInfo": [
+
+    ],
+    "com.acmeair.wxs.WXSConstants": [
+
+    ],
+    "com.acmeair.wxs.entities.AirportCodeMappingImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.BookingImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.BookingPKImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.CustomerAddressImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.CustomerImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.CustomerSessionImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.FlightImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.FlightPKImpl": [
+
+    ],
+    "com.acmeair.wxs.entities.FlightSegmentImpl": [
+
+    ],
+    "com.acmeair.wxs.service.BookingServiceImpl": [
+
+    ],
+    "com.acmeair.wxs.service.CustomerServiceImpl": [
+
+    ],
+    "com.acmeair.wxs.service.FlightServiceImpl": [
+
+    ],
+    "com.acmeair.wxs.utils.WXSSessionManager": [
+
+    ]
+  },
+  "clusters": [
+    {
+      "id": 1,
+      "name": "Cluster124",
+      "classes": [
+        "com.acmeair.wxs.entities.CustomerSessionImpl",
+        "com.acmeair.entities.Customer.MemberShipStatus",
+        "com.acmeair.web.LoginREST",
+        "com.acmeair.entities.Customer.PhoneType",
+        "com.acmeair.wxs.entities.CustomerImpl",
+        "com.acmeair.service.CustomerService",
+        "com.acmeair.entities.Customer",
+        "com.acmeair.web.CustomerREST",
+        "com.acmeair.web.dto.CustomerInfo"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cluster106",
+      "classes": [
+        "com.acmeair.morphia.entities.CustomerSessionImpl",
+        "com.acmeair.morphia.entities.CustomerImpl",
+        "com.acmeair.morphia.services.CustomerServiceImpl"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cluster127",
+      "classes": [
+        "com.acmeair.web.AppConfig",
+        "com.acmeair.wxs.entities.CustomerAddressImpl",
+        "com.acmeair.morphia.entities.CustomerAddressImpl",
+        "com.acmeair.entities.CustomerAddress",
+        "com.acmeair.web.dto.AddressInfo"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cluster120",
+      "classes": [
+        "com.acmeair.loader.CustomerLoader",
+        "com.acmeair.service.TransactionService",
+        "com.acmeair.web.RESTCookieSessionFilter",
+        "com.acmeair.config.AcmeAirConfiguration",
+        "com.acmeair.config.AcmeAirConfiguration.ServiceData",
+        "com.acmeair.service.DataService",
+        "com.acmeair.service.ServiceLocator",
+        "com.acmeair.config.LoaderREST",
+        "com.acmeair.loader.Loader"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cluster125",
+      "classes": [
+        "com.acmeair.entities.BookingPK",
+        "com.acmeair.entities.FlightSegment",
+        "com.acmeair.web.dto.FlightSegmentInfo",
+        "com.acmeair.morphia.entities.FlightSegmentImpl",
+        "com.acmeair.morphia.services.FlightServiceImpl"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cluster116",
+      "classes": [
+        "com.acmeair.morphia.DatastoreFactory",
+        "com.acmeair.web.dto.FlightPKInfo",
+        "com.acmeair.morphia.entities.FlightImpl",
+        "com.acmeair.entities.Flight",
+        "com.acmeair.web.dto.FlightInfo"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cluster119",
+      "classes": [
+        "com.acmeair.service.KeyGenerator",
+        "com.acmeair.wxs.entities.FlightImpl",
+        "com.acmeair.wxs.entities.FlightPKImpl",
+        "com.acmeair.wxs.service.BookingServiceImpl",
+        "com.acmeair.wxs.entities.BookingImpl",
+        "com.acmeair.wxs.entities.BookingPKImpl"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cluster118",
+      "classes": [
+        "com.acmeair.entities.CustomerSession",
+        "com.acmeair.wxs.entities.FlightSegmentImpl",
+        "com.acmeair.wxs.service.CustomerServiceImpl",
+        "com.acmeair.wxs.WXSConstants",
+        "com.acmeair.wxs.service.FlightServiceImpl",
+        "com.acmeair.wxs.utils.WXSSessionManager"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cluster123",
+      "classes": [
+        "com.acmeair.AcmeAirConstants",
+        "com.acmeair.morphia.BigDecimalConverter",
+        "com.acmeair.morphia.MorphiaConstants",
+        "com.acmeair.morphia.services.util.MongoConnectionManager"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cluster122",
+      "classes": [
+        "com.acmeair.web.AcmeAirApp",
+        "com.acmeair.wxs.entities.AirportCodeMappingImpl",
+        "com.acmeair.morphia.entities.AirportCodeMappingImpl",
+        "com.acmeair.entities.AirportCodeMapping",
+        "com.acmeair.loader.FlightLoader",
+        "com.acmeair.service.FlightService",
+        "com.acmeair.web.dto.TripFlightOptions",
+        "com.acmeair.web.FlightsREST",
+        "com.acmeair.web.dto.TripLegInfo"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cluster126",
+      "classes": [
+        "com.acmeair.entities.FlightPK",
+        "com.acmeair.web.dto.BookingReceiptInfo",
+        "com.acmeair.service.BookingService",
+        "com.acmeair.web.BookingsREST"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cluster121",
+      "classes": [
+        "com.acmeair.web.dto.BookingPKInfo",
+        "com.acmeair.morphia.entities.BookingImpl",
+        "com.acmeair.morphia.services.BookingServiceImpl",
+        "com.acmeair.entities.Booking",
+        "com.acmeair.web.dto.BookingInfo"
+      ]
+    }
+  ],
+  "cluster_metrics": [
+    {
+      "cluster_id": 1,
+      "num_classes": 9,
+      "intra_dependencies": 59.5,
+      "inter_dependencies": 52.5,
+      "f_struct": 0.53125,
+      "f_data": 0.0,
+      "f_quality": 0.478125
+    },
+    {
+      "cluster_id": 2,
+      "num_classes": 3,
+      "intra_dependencies": 8.5,
+      "inter_dependencies": 21.5,
+      "f_struct": 0.283333,
+      "f_data": 0.0,
+      "f_quality": 0.255
+    },
+    {
+      "cluster_id": 3,
+      "num_classes": 5,
+      "intra_dependencies": 15.0,
+      "inter_dependencies": 2.0,
+      "f_struct": 0.882353,
+      "f_data": 0.0,
+      "f_quality": 0.794118
+    },
+    {
+      "cluster_id": 4,
+      "num_classes": 9,
+      "intra_dependencies": 46.0,
+      "inter_dependencies": 35.0,
+      "f_struct": 0.567901,
+      "f_data": 0.0,
+      "f_quality": 0.511111
+    },
+    {
+      "cluster_id": 5,
+      "num_classes": 5,
+      "intra_dependencies": 16.0,
+      "inter_dependencies": 23.0,
+      "f_struct": 0.410256,
+      "f_data": 0.0,
+      "f_quality": 0.369231
+    },
+    {
+      "cluster_id": 6,
+      "num_classes": 5,
+      "intra_dependencies": 21.5,
+      "inter_dependencies": 13.5,
+      "f_struct": 0.614286,
+      "f_data": 0.0,
+      "f_quality": 0.552857
+    },
+    {
+      "cluster_id": 7,
+      "num_classes": 6,
+      "intra_dependencies": 30.0,
+      "inter_dependencies": 39.0,
+      "f_struct": 0.434783,
+      "f_data": 0.0,
+      "f_quality": 0.391304
+    },
+    {
+      "cluster_id": 8,
+      "num_classes": 6,
+      "intra_dependencies": 31.0,
+      "inter_dependencies": 45.0,
+      "f_struct": 0.407895,
+      "f_data": 0.0,
+      "f_quality": 0.367105
+    },
+    {
+      "cluster_id": 9,
+      "num_classes": 4,
+      "intra_dependencies": 10.0,
+      "inter_dependencies": 0,
+      "f_struct": 1.0,
+      "f_data": 0.0,
+      "f_quality": 0.9
+    },
+    {
+      "cluster_id": 10,
+      "num_classes": 9,
+      "intra_dependencies": 62.0,
+      "inter_dependencies": 25.0,
+      "f_struct": 0.712644,
+      "f_data": 0.0,
+      "f_quality": 0.641379
+    },
+    {
+      "cluster_id": 11,
+      "num_classes": 4,
+      "intra_dependencies": 9.0,
+      "inter_dependencies": 11.0,
+      "f_struct": 0.45,
+      "f_data": 0.0,
+      "f_quality": 0.405
+    },
+    {
+      "cluster_id": 12,
+      "num_classes": 5,
+      "intra_dependencies": 17.5,
+      "inter_dependencies": 29.5,
+      "f_struct": 0.37234,
+      "f_data": 0.0,
+      "f_quality": 0.335106
+    }
+  ],
+  "isolated_classes": [
+    "com.acmeair.morphia.BigIntegerConverter",
+    "com.acmeair.wxs.utils.MapPutAllAgent"
+  ]
+}

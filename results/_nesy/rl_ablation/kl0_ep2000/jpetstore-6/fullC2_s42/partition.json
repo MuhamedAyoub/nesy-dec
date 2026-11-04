@@ -1,0 +1,144 @@
+{
+  "method": "graphrl",
+  "app": "jpetstore-6",
+  "variant": "full+C2",
+  "seed": 42,
+  "smoke": false,
+  "ablation": "kl0_ep2000",
+  "config_hash": "77388628a0a9",
+  "seconds": 21.7,
+  "argv": [
+    "--app",
+    "jpetstore-6",
+    "--device",
+    "cuda",
+    "--num-envs",
+    "64",
+    "--episodes",
+    "2000",
+    "--reward-mode",
+    "zscore",
+    "--facts-path",
+    "<server>/<repo>/results_java/jpetstore-6/facts_nesy.json",
+    "--graph-exp",
+    "<server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json",
+    "--embeddings",
+    "<server>/<repo>/results_java/_nesy/encoder/train/embeddings/jpetstore-6.pt",
+    "--warmstart-rails",
+    "<server>/<repo>/results_java/jpetstore-6/exp_a0.9_b0.1_n8_java.json",
+    "--warmstart-epochs",
+    "800",
+    "--warmstart-lr",
+    "1e-3",
+    "--lr",
+    "1e-4",
+    "--seed",
+    "42",
+    "--kl-coef",
+    "0.5",
+    "--size-cap-factor",
+    "5.0",
+    "--log-every",
+    "300",
+    "--select-by-decode",
+    "--output-dir",
+    "<server>/<repo>/results_java/_nesy/rl_ablation/kl0_ep2000/jpetstore-6/fullC2_s42",
+    "--force-overwrite",
+    "--semantic-coef",
+    "1.0",
+    "--soft-affinity-coef",
+    "0.2",
+    "--noise-coef",
+    "0.1",
+    "--allow-outliers",
+    "--balance-coef",
+    "0.6",
+    "--kl-coef",
+    "0.2",
+    "--affinity-from-embeddings",
+    "--kl-coef",
+    "0.0"
+  ],
+  "partitions": [
+    [
+      "org.mybatis.jpetstore.domain.Account",
+      "org.mybatis.jpetstore.domain.Order",
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.service.AccountService",
+      "org.mybatis.jpetstore.web.actions.AccountActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+      "org.mybatis.jpetstore.web.actions.CartActionBean",
+      "org.mybatis.jpetstore.web.actions.OrderActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Product",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.service.CatalogService",
+      "org.mybatis.jpetstore.service.OrderService",
+      "org.mybatis.jpetstore.web.actions.CatalogActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Cart",
+      "org.mybatis.jpetstore.domain.CartItem",
+      "org.mybatis.jpetstore.domain.Category",
+      "org.mybatis.jpetstore.domain.Item",
+      "org.mybatis.jpetstore.domain.LineItem",
+      "org.mybatis.jpetstore.domain.Sequence",
+      "org.mybatis.jpetstore.mapper.SequenceMapper"
+    ]
+  ],
+  "raw_composite_on_G": {
+    "SM": 0.763499149659864,
+    "IFN": 4.25,
+    "ICP": 0.42731277533039647,
+    "NED": 0.25,
+    "Score": 0.09178077894153258
+  },
+  "final_policy_partitions": [
+    [
+      "org.mybatis.jpetstore.domain.Account",
+      "org.mybatis.jpetstore.domain.Order",
+      "org.mybatis.jpetstore.mapper.AccountMapper",
+      "org.mybatis.jpetstore.mapper.OrderMapper",
+      "org.mybatis.jpetstore.service.AccountService",
+      "org.mybatis.jpetstore.web.actions.AccountActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Product",
+      "org.mybatis.jpetstore.mapper.CategoryMapper",
+      "org.mybatis.jpetstore.mapper.ItemMapper",
+      "org.mybatis.jpetstore.mapper.ProductMapper",
+      "org.mybatis.jpetstore.service.CatalogService",
+      "org.mybatis.jpetstore.service.OrderService",
+      "org.mybatis.jpetstore.web.actions.CatalogActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Category",
+      "org.mybatis.jpetstore.web.actions.AbstractActionBean",
+      "org.mybatis.jpetstore.web.actions.CartActionBean",
+      "org.mybatis.jpetstore.web.actions.OrderActionBean"
+    ],
+    [
+      "org.mybatis.jpetstore.domain.Cart",
+      "org.mybatis.jpetstore.domain.CartItem",
+      "org.mybatis.jpetstore.domain.Item",
+      "org.mybatis.jpetstore.domain.LineItem",
+      "org.mybatis.jpetstore.domain.Sequence",
+      "org.mybatis.jpetstore.mapper.LineItemMapper",
+      "org.mybatis.jpetstore.mapper.SequenceMapper"
+    ]
+  ],
+  "final_policy_raw_composite_on_G": {
+    "SM": 0.7783801020408164,
+    "IFN": 4.25,
+    "ICP": 0.4185022026431718,
+    "NED": 0.25,
+    "Score": 0.10068968391321291
+  }
+}

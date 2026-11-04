@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Classpath-only project for the symbol solver on KimJongSung/jPetStore @bc3fe89.
+     It is not that project's build: it lists the library coordinates its pom.xml
+     declares, mapped to their Maven Central equivalents, because the declared
+     com.springsource.* bundles lived in the retired SpringSource EBR repository
+     and spring.version 3.1.1.BUILD-SNAPSHOT was never released. The mapping is
+     recorded in results_java/SUBJECTS.md. Nothing here is compiled. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nesydec.classpath</groupId>
+  <artifactId>lit-jpetstore-classpath</artifactId>
+  <version>0</version>
+  <packaging>pom</packaging>
+  <properties><spring.version>3.1.1.RELEASE</spring.version></properties>
+  <dependencies>
+    <dependency><groupId>commons-fileupload</groupId><artifactId>commons-fileupload</artifactId><version>1.2.1</version></dependency>
+    <dependency><groupId>struts</groupId><artifactId>struts</artifactId><version>1.2.9</version></dependency>
+    <dependency><groupId>javax.xml</groupId><artifactId>jaxrpc-api</artifactId><version>1.1</version></dependency>
+    <dependency><groupId>commons-dbcp</groupId><artifactId>commons-dbcp</artifactId><version>1.2.2</version></dependency>
+    <dependency><groupId>commons-io</groupId><artifactId>commons-io</artifactId><version>1.3.2</version></dependency>
+    <dependency><groupId>hsqldb</groupId><artifactId>hsqldb</artifactId><version>1.8.0.7</version></dependency>
+    <dependency><groupId>org.apache.tiles</groupId><artifactId>tiles-core</artifactId><version>2.2.0</version></dependency>
+    <dependency><groupId>org.apache.tiles</groupId><artifactId>tiles-jsp</artifactId><version>2.2.0</version></dependency>
+    <dependency><groupId>org.tuckey</groupId><artifactId>urlrewritefilter</artifactId><version>3.1.0</version></dependency>
+    <dependency><groupId>org.springframework</groupId><artifactId>spring-webmvc</artifactId><version>${spring.version}</version></dependency>
+    <dependency><groupId>org.springframework</groupId><artifactId>spring-orm</artifactId><version>${spring.version}</version></dependency>
+    <dependency><groupId>org.springframework</groupId><artifactId>spring-context-support</artifactId><version>${spring.version}</version></dependency>
+    <dependency><groupId>org.springframework</groupId><artifactId>spring-web</artifactId><version>${spring.version}</version></dependency>
+    <dependency><groupId>org.springframework.webflow</groupId><artifactId>spring-js</artifactId><version>2.0.7.RELEASE</version></dependency>
+    <dependency><groupId>org.apache.ibatis</groupId><artifactId>ibatis-sqlmap</artifactId><version>2.3.4.726</version></dependency>
+    <dependency><groupId>com.caucho</groupId><artifactId>hessian</artifactId><version>3.1.5</version></dependency>
+    <dependency><groupId>axis</groupId><artifactId>axis</artifactId><version>1.4</version></dependency>
+    <dependency><groupId>wsdl4j</groupId><artifactId>wsdl4j</artifactId><version>1.6.1</version></dependency>
+    <dependency><groupId>javax.servlet</groupId><artifactId>jstl</artifactId><version>1.2</version></dependency>
+    <dependency><groupId>org.aspectj</groupId><artifactId>aspectjweaver</artifactId><version>1.6.5</version></dependency>
+    <dependency><groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId><version>2.5</version></dependency>
+    <dependency><groupId>javax.servlet.jsp</groupId><artifactId>jsp-api</artifactId><version>2.1</version></dependency>
+    <dependency><groupId>javax.mail</groupId><artifactId>mail</artifactId><version>1.4.7</version></dependency>
+    <dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.6.6</version></dependency>
+  </dependencies>
+</project>

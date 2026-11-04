@@ -1,0 +1,119 @@
+{
+  "app": "daytrader7",
+  "class_nodes": 115,
+  "entities": [
+    "com.ibm.websphere.samples.daytrader.entities.AccountDataBean",
+    "com.ibm.websphere.samples.daytrader.entities.AccountProfileDataBean",
+    "com.ibm.websphere.samples.daytrader.entities.HoldingDataBean",
+    "com.ibm.websphere.samples.daytrader.entities.OrderDataBean",
+    "com.ibm.websphere.samples.daytrader.entities.QuoteDataBean"
+  ],
+  "call_sites": 3691,
+  "site_resolution": {
+    "external": 1907,
+    "J-L0": 1119,
+    "self": 616,
+    "J-L2": 7,
+    "J-L1": 40,
+    "refused": 2
+  },
+  "refused_by_reason": {
+    "lookup_nonliteral": 2
+  },
+  "sites_by_rule": {
+    "call_declared": 1119,
+    "jndi_ejb": 7,
+    "cha_n3+": 35,
+    "lookup_resource": 12,
+    "cha_n1": 3,
+    "cha_n2": 2,
+    "entity_class_literal": 23,
+    "jpa_named_query": 2
+  },
+  "creation_and_ref_sites": {
+    "creation": 81
+  },
+  "non_call_reference_sites": {
+    "field_ref": 105,
+    "class_literal": 30,
+    "inheritance": 8
+  },
+  "fact_pairs_by_rule": {
+    "jpa_assoc": 9,
+    "entity_class_literal": 6,
+    "jpa_named_query": 1,
+    "sql_table": 5,
+    "type_use": 80,
+    "annotation_use": 3
+  },
+  "weight_by_layer": {
+    "J-L0": 1383.0,
+    "J-L2": 7.0,
+    "J-L1": 32.1666,
+    "J-L3": 30.0,
+    "J-T": 83.0
+  },
+  "weight_share_by_layer": {
+    "J-L0": 0.9009,
+    "J-L2": 0.0046,
+    "J-L1": 0.021,
+    "J-L3": 0.0195,
+    "J-T": 0.0541
+  },
+  "weight_by_rule": {
+    "call_declared": 1119.0,
+    "jndi_ejb": 7.0,
+    "call_abstraction": 40.0,
+    "cha": 32.1666,
+    "creation": 81.0,
+    "field_ref": 105.0,
+    "class_literal": 30.0,
+    "inheritance": 8.0,
+    "jpa_assoc": 18.0,
+    "entity_class_literal": 6.0,
+    "jpa_named_query": 1.0,
+    "sql_table": 5.0,
+    "type_use": 80.0,
+    "annotation_use": 3.0
+  },
+  "pairs_by_layer": {
+    "J-L0": 260,
+    "J-L2": 6,
+    "J-L1": 19,
+    "J-L3": 20,
+    "J-T": 83
+  },
+  "edges": 299,
+  "call_edges": 254,
+  "isolated": [
+    "com.ibm.websphere.samples.daytrader.web.jsf.ExternalContextProducer",
+    "com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingCDIJSFBean",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketBinary",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketTextAsync",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketTextSync"
+  ],
+  "isolated_calls_graph": [
+    "com.ibm.websphere.samples.daytrader.util.WebSocketJMSMessage",
+    "com.ibm.websphere.samples.daytrader.web.jsf.ExternalContextProducer",
+    "com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingCDIJSFBean",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingInterceptor",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingInterceptorBinding",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketBinary",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketTextAsync",
+    "com.ibm.websphere.samples.daytrader.web.prims.PingWebSocketTextSync"
+  ],
+  "data_map_classes": 8,
+  "fanout_cap": 5
+}

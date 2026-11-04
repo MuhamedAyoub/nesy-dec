@@ -1,0 +1,18 @@
+{
+  "app": "daytrader7",
+  "triplets": 1500,
+  "target": 1500,
+  "seed": 42,
+  "pos_sources": {
+    "must_link": 309,
+    "cocite": 1062,
+    "shared_entity": 129
+  },
+  "neg_sources": {
+    "same_role": 450,
+    "random": 300,
+    "cannot_link": 750
+  },
+  "distinct_anchors": 78,
+  "active_classes": 104
+}

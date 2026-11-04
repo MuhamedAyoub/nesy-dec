@@ -1,0 +1,47 @@
+{
+  "jpetstore-6": {
+    "jpetstore-6 -> jpetstore-6": 55
+  },
+  "acmeair": {
+    "acmeair-common -> acmeair-common": 4,
+    "acmeair-loader -> acmeair-common": 1,
+    "acmeair-loader -> acmeair-loader": 2,
+    "acmeair-loader -> acmeair-services": 4,
+    "acmeair-loader -> acmeair-services-morphia": 3,
+    "acmeair-loader -> acmeair-services-wxs": 3,
+    "acmeair-services -> acmeair-common": 9,
+    "acmeair-services -> acmeair-services": 3,
+    "acmeair-services -> acmeair-services-morphia": 3,
+    "acmeair-services -> acmeair-services-wxs": 3,
+    "acmeair-services-morphia -> acmeair-common": 26,
+    "acmeair-services-morphia -> acmeair-services": 11,
+    "acmeair-services-morphia -> acmeair-services-morphia": 21,
+    "acmeair-services-morphia -> acmeair-services-wxs": 10,
+    "acmeair-services-wxs -> acmeair-common": 22,
+    "acmeair-services-wxs -> acmeair-services": 16,
+    "acmeair-services-wxs -> acmeair-services-morphia": 11,
+    "acmeair-services-wxs -> acmeair-services-wxs": 27,
+    "acmeair-webapp -> acmeair-common": 13,
+    "acmeair-webapp -> acmeair-loader": 1,
+    "acmeair-webapp -> acmeair-services": 15,
+    "acmeair-webapp -> acmeair-services-morphia": 17,
+    "acmeair-webapp -> acmeair-services-wxs": 18,
+    "acmeair-webapp -> acmeair-webapp": 21
+  },
+  "daytrader7": {
+    "daytrader-ee7-ejb -> daytrader-ee7-ejb": 111,
+    "daytrader-ee7-web -> daytrader-ee7-ejb": 146,
+    "daytrader-ee7-web -> daytrader-ee7-web": 42
+  },
+  "plantsbywebsphere": {
+    "sample.plantsbywebsphere -> sample.plantsbywebsphere": 101
+  },
+  "lit-jpetstore": {
+    "KimJongSung__jPetStore -> KimJongSung__jPetStore": 219
+  },
+  "lit-pbw": {
+    "PlantsByWebSphere -> PlantsByWebSphere": 77,
+    "PlantsByWebSphere -> pbw-lib": 21,
+    "pbw-lib -> pbw-lib": 2
+  }
+}

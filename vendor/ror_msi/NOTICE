@@ -1,0 +1,17 @@
+These files come from the RoR-MSI artifact (the companion replication package
+for the Rails static resolver and dual-objective clustering). They are the
+authors' own code and are released under the MIT License, like the rest of
+this repository (see ../../LICENSE).
+
+  evaluate.py               SM, IFN, ICP, NED and the composite Score (Eq. 5)
+  tools/ClassNode.rb        \
+  tools/MethodNode.rb        |
+  tools/ClassTypeEnum.rb     |  RoR-MSI's dual-objective clustering engine,
+  tools/helpers.rb           |  run by java_pipeline/teacher.rb on a Java graph
+  tools/DependencyAnalyzer.rb|  to produce the teacher partition
+  tools/ClusterEngine.rb     |
+  tools/Cluster.rb          /
+
+evaluate.py is byte-identical to the RoR-MSI copy, so line references such as
+evaluate.py:199-249 in results/*.md hold here. In tools/ClusterEngine.rb one
+comment was shortened, as in the RoR-MSI copy; the code is unchanged.

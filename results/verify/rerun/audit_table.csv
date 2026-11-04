@@ -1,0 +1,2 @@
+app,class_nodes,call_sites,edge_concrete,inherited,self,external,J1_sites,J1_abstractions_1impl,J1_abstractions_2plus,J2_injection_points,J2_spring_xml_app,J2_sites,J3_sites,J4_sites,J4_ifaces_no_impl,J4b_classlit_sites,J4b_classlit_missing,J4_jpa_assoc,J4_jpa_missing,J5_entry_points,J5_no_inbound,J6_sites,J6_share,J7_type_use_pairs,J7_without_call_edge,naive_edges,isolated
+jpetstore-6,24,250,106,10,22,85,0,0,1,13,0,46,0,27,7,0,0,0,0,4,2,0,0.0,42,16,38,1
